@@ -1,0 +1,100 @@
+{
+  "total_shared_textures": 7,
+  "total_blocks_using_shared_textures": 34,
+  "textures": [
+    {
+      "texture": "textures/blocks/ah.png",
+      "block_count": 17,
+      "blocks": [
+        "BlockAmmunition",
+        "BlockAutoBunker",
+        "BlockAutoEaster",
+        "BlockAutoTower",
+        "BlockExplosives",
+        "BlockFlagBox1",
+        "BlockFlagBox3",
+        "BlockFlagBox4",
+        "BlockFlagBox5",
+        "BlockFlagBox6",
+        "BlockFlagBox7",
+        "BlockGameStart",
+        "BlockJump",
+        "BlockOmegaArmor",
+        "BlockSigmaArmor",
+        "BlockSupplies",
+        "BlockWeapons"
+      ]
+    },
+    {
+      "texture": "textures/blocks/ai.png",
+      "block_count": 15,
+      "blocks": [
+        "BlockAmmunition",
+        "BlockAutoEaster",
+        "BlockAutoTower",
+        "BlockExplosives",
+        "BlockFlagBox1",
+        "BlockFlagBox3",
+        "BlockFlagBox4",
+        "BlockFlagBox5",
+        "BlockFlagBox6",
+        "BlockFlagBox7",
+        "BlockGameStart",
+        "BlockOmegaArmor",
+        "BlockSigmaArmor",
+        "BlockSupplies",
+        "BlockWeapons"
+      ]
+    },
+    {
+      "texture": "textures/blocks/ak.png",
+      "block_count": 9,
+      "blocks": [
+        "BlockAntimatterBomb",
+        "BlockCycle",
+        "BlockMeltDown",
+        "BlockNuclearBomb",
+        "BlockPlasmaExplosion",
+        "BlockTachyonBomb",
+        "BlockTheoreticalTsarBomba",
+        "BlockToxicGas",
+        "BlockTsarBomba"
+      ]
+    },
+    {
+      "texture": "textures/blocks/cf.png",
+      "block_count": 2,
+      "blocks": [
+        "BlockForceFieldNode",
+        "BlockReactive"
+      ]
+    },
+    {
+      "texture": "textures/blocks/cz.png",
+      "block_count": 3,
+      "blocks": [
+        "BlockAutoBarricade",
+        "BlockAutoForceField",
+        "BlockRhodesScaffold"
+      ]
+    },
+    {
+      "texture": "textures/blocks/da.png",
+      "block_count": 3,
+      "blocks": [
+        "BlockAutoBarricade",
+        "BlockAutoForceField",
+        "BlockRhodesScaffold"
+      ]
+    },
+    {
+      "texture": "textures/blocks/dh.png",
+      "block_count": 3,
+      "blocks": [
+        "BlockAutoMarioTrap",
+        "BlockAutoMineTrap",
+        "BlockAutoQuickSandTrap"
+      ]
+    }
+  ]
+}

@@ -32,7 +32,10 @@ for block in sorted(blocks, key=lambda x: x["class"]):
         files = []
 
         if texture:
-            files = sorted(texture_index.get((block["class"], texture), []))
+            files = sorted(
+                path for path in texture_index.get((block["class"], texture), [])
+                if path.startswith("textures/blocks/")
+            )
 
         registered[field] = {
             **info,

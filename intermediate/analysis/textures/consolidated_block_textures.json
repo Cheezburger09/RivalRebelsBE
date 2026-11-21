@@ -37,9 +37,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -48,9 +46,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -59,9 +55,7 @@
           "literal_texture": "RivalRebels:aa",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aa.png",
-            "textures/entity/aa.png",
-            "textures/items/aa.png"
+            "textures/blocks/aa.png"
           ],
           "texture_files_found": true
         },
@@ -70,9 +64,7 @@
           "literal_texture": "RivalRebels:aa",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aa.png",
-            "textures/entity/aa.png",
-            "textures/items/aa.png"
+            "textures/blocks/aa.png"
           ],
           "texture_files_found": true
         },
@@ -81,9 +73,7 @@
           "literal_texture": "RivalRebels:aa",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aa.png",
-            "textures/entity/aa.png",
-            "textures/items/aa.png"
+            "textures/blocks/aa.png"
           ],
           "texture_files_found": true
         },
@@ -92,9 +82,7 @@
           "literal_texture": "RivalRebels:aa",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aa.png",
-            "textures/entity/aa.png",
-            "textures/items/aa.png"
+            "textures/blocks/aa.png"
           ],
           "texture_files_found": true
         }
@@ -119,9 +107,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -236,9 +222,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -247,9 +231,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -258,8 +240,7 @@
           "literal_texture": "RivalRebels:bl",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bl.png",
-            "textures/entity/bl.png"
+            "textures/blocks/bl.png"
           ],
           "texture_files_found": true
         },
@@ -268,8 +249,7 @@
           "literal_texture": "RivalRebels:bl",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bl.png",
-            "textures/entity/bl.png"
+            "textures/blocks/bl.png"
           ],
           "texture_files_found": true
         },
@@ -278,8 +258,7 @@
           "literal_texture": "RivalRebels:bl",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bl.png",
-            "textures/entity/bl.png"
+            "textures/blocks/bl.png"
           ],
           "texture_files_found": true
         },
@@ -288,8 +267,7 @@
           "literal_texture": "RivalRebels:bl",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bl.png",
-            "textures/entity/bl.png"
+            "textures/blocks/bl.png"
           ],
           "texture_files_found": true
         }
@@ -324,9 +302,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -335,9 +311,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -346,9 +320,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -357,9 +329,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -368,9 +338,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -379,9 +347,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -736,9 +702,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -747,9 +711,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -820,8 +782,7 @@
           "literal_texture": "RivalRebels:ca",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ca.png",
-            "textures/entity/ca.png"
+            "textures/blocks/ca.png"
           ],
           "texture_files_found": true
         },
@@ -830,8 +791,7 @@
           "literal_texture": "RivalRebels:cc",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/cc.png",
-            "textures/entity/cc.png"
+            "textures/blocks/cc.png"
           ],
           "texture_files_found": true
         },
@@ -840,8 +800,7 @@
           "literal_texture": "RivalRebels:cb",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/cb.png",
-            "textures/entity/cb.png"
+            "textures/blocks/cb.png"
           ],
           "texture_files_found": true
         },
@@ -850,8 +809,7 @@
           "literal_texture": "RivalRebels:ca",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ca.png",
-            "textures/entity/ca.png"
+            "textures/blocks/ca.png"
           ],
           "texture_files_found": true
         },
@@ -860,8 +818,7 @@
           "literal_texture": "RivalRebels:ca",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ca.png",
-            "textures/entity/ca.png"
+            "textures/blocks/ca.png"
           ],
           "texture_files_found": true
         },
@@ -870,8 +827,7 @@
           "literal_texture": "RivalRebels:ca",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ca.png",
-            "textures/entity/ca.png"
+            "textures/blocks/ca.png"
           ],
           "texture_files_found": true
         }
@@ -896,9 +852,7 @@
           "literal_texture": "RivalRebels:as",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/as.png",
-            "textures/entity/as.png",
-            "textures/items/as.png"
+            "textures/blocks/as.png"
           ],
           "texture_files_found": true
         }
@@ -923,8 +877,7 @@
           "literal_texture": "RivalRebels:bn",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bn.png",
-            "textures/entity/bn.png"
+            "textures/blocks/bn.png"
           ],
           "texture_files_found": true
         }
@@ -949,8 +902,7 @@
           "literal_texture": "RivalRebels:by",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/by.png",
-            "textures/entity/by.png"
+            "textures/blocks/by.png"
           ],
           "texture_files_found": true
         }
@@ -1088,9 +1040,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -1125,9 +1075,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1136,9 +1084,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1147,9 +1093,7 @@
           "literal_texture": "RivalRebels:am",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/am.png",
-            "textures/entity/am.png",
-            "textures/items/am.png"
+            "textures/blocks/am.png"
           ],
           "texture_files_found": true
         },
@@ -1158,9 +1102,7 @@
           "literal_texture": "RivalRebels:am",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/am.png",
-            "textures/entity/am.png",
-            "textures/items/am.png"
+            "textures/blocks/am.png"
           ],
           "texture_files_found": true
         },
@@ -1169,9 +1111,7 @@
           "literal_texture": "RivalRebels:am",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/am.png",
-            "textures/entity/am.png",
-            "textures/items/am.png"
+            "textures/blocks/am.png"
           ],
           "texture_files_found": true
         },
@@ -1180,9 +1120,7 @@
           "literal_texture": "RivalRebels:am",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/am.png",
-            "textures/entity/am.png",
-            "textures/items/am.png"
+            "textures/blocks/am.png"
           ],
           "texture_files_found": true
         }
@@ -1242,9 +1180,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1253,9 +1189,7 @@
           "literal_texture": "RivalRebels:bi",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bi.png",
-            "textures/entity/bi.png",
-            "textures/items/bi.png"
+            "textures/blocks/bi.png"
           ],
           "texture_files_found": true
         },
@@ -1264,9 +1198,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1275,9 +1207,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1286,9 +1216,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1297,9 +1225,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -1334,9 +1260,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1345,9 +1269,7 @@
           "literal_texture": "RivalRebels:ar",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ar.png",
-            "textures/entity/ar.png",
-            "textures/items/ar.png"
+            "textures/blocks/ar.png"
           ],
           "texture_files_found": true
         },
@@ -1356,9 +1278,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1367,9 +1287,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1378,9 +1296,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1389,9 +1305,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -1426,9 +1340,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1437,9 +1349,7 @@
           "literal_texture": "RivalRebels:aw",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aw.png",
-            "textures/entity/aw.png",
-            "textures/items/aw.png"
+            "textures/blocks/aw.png"
           ],
           "texture_files_found": true
         },
@@ -1448,9 +1358,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1459,9 +1367,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1470,9 +1376,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1481,9 +1385,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -1518,9 +1420,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1529,9 +1429,7 @@
           "literal_texture": "RivalRebels:aq",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aq.png",
-            "textures/entity/aq.png",
-            "textures/items/aq.png"
+            "textures/blocks/aq.png"
           ],
           "texture_files_found": true
         },
@@ -1540,9 +1438,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1551,9 +1447,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1562,9 +1456,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1573,9 +1465,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -1610,9 +1500,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1621,9 +1509,7 @@
           "literal_texture": "RivalRebels:al",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/al.png",
-            "textures/entity/al.png",
-            "textures/items/al.png"
+            "textures/blocks/al.png"
           ],
           "texture_files_found": true
         },
@@ -1632,9 +1518,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1643,9 +1527,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1654,9 +1536,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1665,9 +1545,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -1702,9 +1580,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1713,8 +1589,7 @@
           "literal_texture": "RivalRebels:aj",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/aj.png",
-            "textures/entity/aj.png"
+            "textures/blocks/aj.png"
           ],
           "texture_files_found": true
         },
@@ -1723,9 +1598,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1734,9 +1607,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1745,9 +1616,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1756,9 +1625,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -1783,8 +1650,7 @@
           "literal_texture": "RivalRebels:an",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/an.png",
-            "textures/entity/an.png"
+            "textures/blocks/an.png"
           ],
           "texture_files_found": true
         }
@@ -1842,8 +1708,7 @@
           "literal_texture": "RivalRebels:cf",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/cf.png",
-            "textures/entity/cf.png"
+            "textures/blocks/cf.png"
           ],
           "texture_files_found": true
         },
@@ -1852,8 +1717,7 @@
           "literal_texture": "RivalRebels:cg",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/cg.png",
-            "textures/entity/cg.png"
+            "textures/blocks/cg.png"
           ],
           "texture_files_found": true
         },
@@ -1862,8 +1726,7 @@
           "literal_texture": "RivalRebels:cj",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/cj.png",
-            "textures/entity/cj.png"
+            "textures/blocks/cj.png"
           ],
           "texture_files_found": true
         },
@@ -1872,8 +1735,7 @@
           "literal_texture": "RivalRebels:ck",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ck.png",
-            "textures/entity/ck.png"
+            "textures/blocks/ck.png"
           ],
           "texture_files_found": true
         },
@@ -1917,9 +1779,7 @@
           "literal_texture": "RivalRebels:ao",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ao.png",
-            "textures/entity/ao.png",
-            "textures/items/ao.png"
+            "textures/blocks/ao.png"
           ],
           "texture_files_found": true
         },
@@ -1928,9 +1788,7 @@
           "literal_texture": "RivalRebels:ap",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ap.png",
-            "textures/entity/ap.png",
-            "textures/items/ap.png"
+            "textures/blocks/ap.png"
           ],
           "texture_files_found": true
         }
@@ -1965,9 +1823,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1976,9 +1832,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -1987,9 +1841,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -1998,9 +1850,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -2009,9 +1859,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -2020,9 +1868,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -2057,8 +1903,7 @@
           "literal_texture": "RivalRebels:br",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/br.png",
-            "textures/entity/br.png"
+            "textures/blocks/br.png"
           ],
           "texture_files_found": true
         },
@@ -2067,8 +1912,7 @@
           "literal_texture": "RivalRebels:bs",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bs.png",
-            "textures/entity/bs.png"
+            "textures/blocks/bs.png"
           ],
           "texture_files_found": true
         },
@@ -2077,8 +1921,7 @@
           "literal_texture": "RivalRebels:bt",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bt.png",
-            "textures/entity/bt.png"
+            "textures/blocks/bt.png"
           ],
           "texture_files_found": true
         },
@@ -2087,8 +1930,7 @@
           "literal_texture": "RivalRebels:bu",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bu.png",
-            "textures/entity/bu.png"
+            "textures/blocks/bu.png"
           ],
           "texture_files_found": true
         },
@@ -2097,8 +1939,7 @@
           "literal_texture": "RivalRebels:bv",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bv.png",
-            "textures/entity/bv.png"
+            "textures/blocks/bv.png"
           ],
           "texture_files_found": true
         },
@@ -2107,8 +1948,7 @@
           "literal_texture": "RivalRebels:bw",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bw.png",
-            "textures/entity/bw.png"
+            "textures/blocks/bw.png"
           ],
           "texture_files_found": true
         }
@@ -2143,9 +1983,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -2154,9 +1992,7 @@
           "literal_texture": "RivalRebels:au",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/au.png",
-            "textures/entity/au.png",
-            "textures/items/au.png"
+            "textures/blocks/au.png"
           ],
           "texture_files_found": true
         },
@@ -2165,9 +2001,7 @@
           "literal_texture": "RivalRebels:at",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/at.png",
-            "textures/entity/at.png",
-            "textures/items/at.png"
+            "textures/blocks/at.png"
           ],
           "texture_files_found": true
         },
@@ -2176,9 +2010,7 @@
           "literal_texture": "RivalRebels:at",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/at.png",
-            "textures/entity/at.png",
-            "textures/items/at.png"
+            "textures/blocks/at.png"
           ],
           "texture_files_found": true
         },
@@ -2187,9 +2019,7 @@
           "literal_texture": "RivalRebels:at",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/at.png",
-            "textures/entity/at.png",
-            "textures/items/at.png"
+            "textures/blocks/at.png"
           ],
           "texture_files_found": true
         },
@@ -2198,9 +2028,7 @@
           "literal_texture": "RivalRebels:at",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/at.png",
-            "textures/entity/at.png",
-            "textures/items/at.png"
+            "textures/blocks/at.png"
           ],
           "texture_files_found": true
         }
@@ -2263,9 +2091,7 @@
           "literal_texture": "RivalRebels:ad",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ad.png",
-            "textures/entity/ad.png",
-            "textures/items/ad.png"
+            "textures/blocks/ad.png"
           ],
           "texture_files_found": true
         }
@@ -2290,9 +2116,7 @@
           "literal_texture": "RivalRebels:av",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/av.png",
-            "textures/entity/av.png",
-            "textures/items/av.png"
+            "textures/blocks/av.png"
           ],
           "texture_files_found": true
         }
@@ -2330,9 +2154,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -2357,9 +2179,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -2384,9 +2204,7 @@
           "literal_texture": "RivalRebels:ax",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ax.png",
-            "textures/entity/ax.png",
-            "textures/items/ax.png"
+            "textures/blocks/ax.png"
           ],
           "texture_files_found": true
         }
@@ -2421,9 +2239,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -2432,9 +2248,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -2443,9 +2257,7 @@
           "literal_texture": "RivalRebels:az",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/az.png",
-            "textures/entity/az.png",
-            "textures/items/az.png"
+            "textures/blocks/az.png"
           ],
           "texture_files_found": true
         },
@@ -2454,9 +2266,7 @@
           "literal_texture": "RivalRebels:az",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/az.png",
-            "textures/entity/az.png",
-            "textures/items/az.png"
+            "textures/blocks/az.png"
           ],
           "texture_files_found": true
         },
@@ -2465,9 +2275,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -2476,9 +2284,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -2503,9 +2309,7 @@
           "literal_texture": "RivalRebels:ba",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ba.png",
-            "textures/entity/ba.png",
-            "textures/items/ba.png"
+            "textures/blocks/ba.png"
           ],
           "texture_files_found": true
         }
@@ -2554,9 +2358,7 @@
           "literal_texture": "RivalRebels:bb",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bb.png",
-            "textures/entity/bb.png",
-            "textures/items/bb.png"
+            "textures/blocks/bb.png"
           ],
           "texture_files_found": true
         },
@@ -2565,9 +2367,7 @@
           "literal_texture": "RivalRebels:bb",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bb.png",
-            "textures/entity/bb.png",
-            "textures/items/bb.png"
+            "textures/blocks/bb.png"
           ],
           "texture_files_found": true
         },
@@ -2576,9 +2376,7 @@
           "literal_texture": "RivalRebels:bb",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bb.png",
-            "textures/entity/bb.png",
-            "textures/items/bb.png"
+            "textures/blocks/bb.png"
           ],
           "texture_files_found": true
         },
@@ -2587,9 +2385,7 @@
           "literal_texture": "RivalRebels:bb",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bb.png",
-            "textures/entity/bb.png",
-            "textures/items/bb.png"
+            "textures/blocks/bb.png"
           ],
           "texture_files_found": true
         }
@@ -2627,9 +2423,7 @@
           "literal_texture": "RivalRebels:bh",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bh.png",
-            "textures/entity/bh.png",
-            "textures/items/bh.png"
+            "textures/blocks/bh.png"
           ],
           "texture_files_found": true
         },
@@ -2638,9 +2432,7 @@
           "literal_texture": "RivalRebels:bh",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bh.png",
-            "textures/entity/bh.png",
-            "textures/items/bh.png"
+            "textures/blocks/bh.png"
           ],
           "texture_files_found": true
         },
@@ -2649,9 +2441,7 @@
           "literal_texture": "RivalRebels:bg",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bg.png",
-            "textures/entity/bg.png",
-            "textures/items/bg.png"
+            "textures/blocks/bg.png"
           ],
           "texture_files_found": true
         },
@@ -2660,9 +2450,7 @@
           "literal_texture": "RivalRebels:bg",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bg.png",
-            "textures/entity/bg.png",
-            "textures/items/bg.png"
+            "textures/blocks/bg.png"
           ],
           "texture_files_found": true
         },
@@ -2671,9 +2459,7 @@
           "literal_texture": "RivalRebels:bg",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bg.png",
-            "textures/entity/bg.png",
-            "textures/items/bg.png"
+            "textures/blocks/bg.png"
           ],
           "texture_files_found": true
         },
@@ -2682,9 +2468,7 @@
           "literal_texture": "RivalRebels:bg",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bg.png",
-            "textures/entity/bg.png",
-            "textures/items/bg.png"
+            "textures/blocks/bg.png"
           ],
           "texture_files_found": true
         }
@@ -2709,9 +2493,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -2776,8 +2558,7 @@
           "literal_texture": "RivalRebels:cf",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/cf.png",
-            "textures/entity/cf.png"
+            "textures/blocks/cf.png"
           ],
           "texture_files_found": true
         },
@@ -2811,8 +2592,7 @@
           "literal_texture": "RivalRebels:bj",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bj.png",
-            "textures/entity/bj.png"
+            "textures/blocks/bj.png"
           ],
           "texture_files_found": true
         }
@@ -2872,9 +2652,7 @@
           "literal_texture": "RivalRebels:ag",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ag.png",
-            "textures/entity/ag.png",
-            "textures/items/ag.png"
+            "textures/blocks/ag.png"
           ],
           "texture_files_found": true
         },
@@ -2883,9 +2661,7 @@
           "literal_texture": "RivalRebels:ag",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ag.png",
-            "textures/entity/ag.png",
-            "textures/items/ag.png"
+            "textures/blocks/ag.png"
           ],
           "texture_files_found": true
         },
@@ -2894,9 +2670,7 @@
           "literal_texture": "RivalRebels:af",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/af.png",
-            "textures/entity/af.png",
-            "textures/items/af.png"
+            "textures/blocks/af.png"
           ],
           "texture_files_found": true
         },
@@ -2905,9 +2679,7 @@
           "literal_texture": "RivalRebels:af",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/af.png",
-            "textures/entity/af.png",
-            "textures/items/af.png"
+            "textures/blocks/af.png"
           ],
           "texture_files_found": true
         },
@@ -2916,9 +2688,7 @@
           "literal_texture": "RivalRebels:af",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/af.png",
-            "textures/entity/af.png",
-            "textures/items/af.png"
+            "textures/blocks/af.png"
           ],
           "texture_files_found": true
         },
@@ -2927,9 +2697,7 @@
           "literal_texture": "RivalRebels:af",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/af.png",
-            "textures/entity/af.png",
-            "textures/items/af.png"
+            "textures/blocks/af.png"
           ],
           "texture_files_found": true
         }
@@ -2955,8 +2723,7 @@
           "literal_texture": "RivalRebels:ci",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ci.png",
-            "textures/entity/ci.png"
+            "textures/blocks/ci.png"
           ],
           "texture_files_found": true
         },
@@ -2965,8 +2732,7 @@
           "literal_texture": "RivalRebels:ch",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ch.png",
-            "textures/entity/ch.png"
+            "textures/blocks/ch.png"
           ],
           "texture_files_found": true
         }
@@ -3081,9 +2847,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -3092,9 +2856,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -3103,8 +2865,7 @@
           "literal_texture": "RivalRebels:bo",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bo.png",
-            "textures/entity/bo.png"
+            "textures/blocks/bo.png"
           ],
           "texture_files_found": true
         },
@@ -3113,8 +2874,7 @@
           "literal_texture": "RivalRebels:bo",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bo.png",
-            "textures/entity/bo.png"
+            "textures/blocks/bo.png"
           ],
           "texture_files_found": true
         },
@@ -3123,9 +2883,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -3134,9 +2892,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         }
@@ -3161,8 +2917,7 @@
           "literal_texture": "RivalRebels:bp",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bp.png",
-            "textures/entity/bp.png"
+            "textures/blocks/bp.png"
           ],
           "texture_files_found": true
         }
@@ -3187,8 +2942,7 @@
           "literal_texture": "RivalRebels:bq",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bq.png",
-            "textures/entity/bq.png"
+            "textures/blocks/bq.png"
           ],
           "texture_files_found": true
         }
@@ -3213,8 +2967,7 @@
           "literal_texture": "RivalRebels:bx",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bx.png",
-            "textures/entity/bx.png"
+            "textures/blocks/bx.png"
           ],
           "texture_files_found": true
         }
@@ -3249,9 +3002,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -3260,9 +3011,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -3271,8 +3020,7 @@
           "literal_texture": "RivalRebels:bz",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bz.png",
-            "textures/entity/bz.png"
+            "textures/blocks/bz.png"
           ],
           "texture_files_found": true
         },
@@ -3281,8 +3029,7 @@
           "literal_texture": "RivalRebels:bz",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bz.png",
-            "textures/entity/bz.png"
+            "textures/blocks/bz.png"
           ],
           "texture_files_found": true
         },
@@ -3291,8 +3038,7 @@
           "literal_texture": "RivalRebels:bz",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bz.png",
-            "textures/entity/bz.png"
+            "textures/blocks/bz.png"
           ],
           "texture_files_found": true
         },
@@ -3301,8 +3047,7 @@
           "literal_texture": "RivalRebels:bz",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/bz.png",
-            "textures/entity/bz.png"
+            "textures/blocks/bz.png"
           ],
           "texture_files_found": true
         }
@@ -3327,9 +3072,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -3354,9 +3097,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -3391,9 +3132,7 @@
           "literal_texture": "RivalRebels:ac",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ac.png",
-            "textures/entity/ac.png",
-            "textures/items/ac.png"
+            "textures/blocks/ac.png"
           ],
           "texture_files_found": true
         },
@@ -3402,9 +3141,7 @@
           "literal_texture": "RivalRebels:ae",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ae.png",
-            "textures/entity/ae.png",
-            "textures/items/ae.png"
+            "textures/blocks/ae.png"
           ],
           "texture_files_found": true
         },
@@ -3413,9 +3150,7 @@
           "literal_texture": "RivalRebels:ac",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ac.png",
-            "textures/entity/ac.png",
-            "textures/items/ac.png"
+            "textures/blocks/ac.png"
           ],
           "texture_files_found": true
         },
@@ -3424,9 +3159,7 @@
           "literal_texture": "RivalRebels:ac",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ac.png",
-            "textures/entity/ac.png",
-            "textures/items/ac.png"
+            "textures/blocks/ac.png"
           ],
           "texture_files_found": true
         },
@@ -3435,9 +3168,7 @@
           "literal_texture": "RivalRebels:ab",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ab.png",
-            "textures/entity/ab.png",
-            "textures/items/ab.png"
+            "textures/blocks/ab.png"
           ],
           "texture_files_found": true
         },
@@ -3446,9 +3177,7 @@
           "literal_texture": "RivalRebels:ab",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ab.png",
-            "textures/entity/ab.png",
-            "textures/items/ab.png"
+            "textures/blocks/ab.png"
           ],
           "texture_files_found": true
         }
@@ -3473,9 +3202,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -3500,9 +3227,7 @@
           "literal_texture": "RivalRebels:ak",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ak.png",
-            "textures/entity/ak.png",
-            "textures/items/ak.png"
+            "textures/blocks/ak.png"
           ],
           "texture_files_found": true
         }
@@ -3537,9 +3262,7 @@
           "literal_texture": "RivalRebels:ah",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ah.png",
-            "textures/entity/ah.png",
-            "textures/items/ah.png"
+            "textures/blocks/ah.png"
           ],
           "texture_files_found": true
         },
@@ -3548,9 +3271,7 @@
           "literal_texture": "RivalRebels:ai",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ai.png",
-            "textures/entity/ai.png",
-            "textures/items/ai.png"
+            "textures/blocks/ai.png"
           ],
           "texture_files_found": true
         },
@@ -3559,8 +3280,7 @@
           "literal_texture": "RivalRebels:ce",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ce.png",
-            "textures/entity/ce.png"
+            "textures/blocks/ce.png"
           ],
           "texture_files_found": true
         },
@@ -3569,8 +3289,7 @@
           "literal_texture": "RivalRebels:ce",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ce.png",
-            "textures/entity/ce.png"
+            "textures/blocks/ce.png"
           ],
           "texture_files_found": true
         },
@@ -3579,8 +3298,7 @@
           "literal_texture": "RivalRebels:ce",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ce.png",
-            "textures/entity/ce.png"
+            "textures/blocks/ce.png"
           ],
           "texture_files_found": true
         },
@@ -3589,8 +3307,7 @@
           "literal_texture": "RivalRebels:ce",
           "dynamic": false,
           "texture_files": [
-            "textures/blocks/ce.png",
-            "textures/entity/ce.png"
+            "textures/blocks/ce.png"
           ],
           "texture_files_found": true
         }

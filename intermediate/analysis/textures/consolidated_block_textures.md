@@ -18,12 +18,12 @@
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png`, `textures/entity/aa.png`, `textures/items/aa.png` |
-| `icon4` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png`, `textures/entity/aa.png`, `textures/items/aa.png` |
-| `icon5` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png`, `textures/entity/aa.png`, `textures/items/aa.png` |
-| `icon6` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png`, `textures/entity/aa.png`, `textures/items/aa.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png` |
+| `icon4` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png` |
+| `icon5` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png` |
+| `icon6` | `"RivalRebels:aa"` | `RivalRebels:aa` | `textures/blocks/aa.png` |
 
 ### Lógica original de seleção
 
@@ -56,7 +56,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -115,12 +115,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon3` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png`, `textures/entity/bl.png` |
-| `icon4` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png`, `textures/entity/bl.png` |
-| `icon5` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png`, `textures/entity/bl.png` |
-| `icon6` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png`, `textures/entity/bl.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon3` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png` |
+| `icon4` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png` |
+| `icon5` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png` |
+| `icon6` | `"RivalRebels:bl"` | `RivalRebels:bl` | `textures/blocks/bl.png` |
 
 ### Lógica original de seleção
 
@@ -153,12 +153,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon4` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon4` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -343,8 +343,8 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
 | `icon3` | `"RivalRebels:cy"` | `RivalRebels:cy` | `textures/blocks/cy.png` |
 | `icon4` | `"RivalRebels:cy"` | `RivalRebels:cy` | `textures/blocks/cy.png` |
 | `icon5` | `"RivalRebels:cy"` | `RivalRebels:cy` | `textures/blocks/cy.png` |
@@ -381,12 +381,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png`, `textures/entity/ca.png` |
-| `icon2` | `"RivalRebels:cc"` | `RivalRebels:cc` | `textures/blocks/cc.png`, `textures/entity/cc.png` |
-| `icon3` | `"RivalRebels:cb"` | `RivalRebels:cb` | `textures/blocks/cb.png`, `textures/entity/cb.png` |
-| `icon4` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png`, `textures/entity/ca.png` |
-| `icon5` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png`, `textures/entity/ca.png` |
-| `icon6` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png`, `textures/entity/ca.png` |
+| `icon1` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png` |
+| `icon2` | `"RivalRebels:cc"` | `RivalRebels:cc` | `textures/blocks/cc.png` |
+| `icon3` | `"RivalRebels:cb"` | `RivalRebels:cb` | `textures/blocks/cb.png` |
+| `icon4` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png` |
+| `icon5` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png` |
+| `icon6` | `"RivalRebels:ca"` | `RivalRebels:ca` | `textures/blocks/ca.png` |
 
 ### Lógica original de seleção
 
@@ -419,7 +419,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:as"` | `RivalRebels:as` | `textures/blocks/as.png`, `textures/entity/as.png`, `textures/items/as.png` |
+| `icon` | `"RivalRebels:as"` | `RivalRebels:as` | `textures/blocks/as.png` |
 
 ### Lógica original de seleção
 
@@ -440,7 +440,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:bn"` | `RivalRebels:bn` | `textures/blocks/bn.png`, `textures/entity/bn.png` |
+| `icon` | `"RivalRebels:bn"` | `RivalRebels:bn` | `textures/blocks/bn.png` |
 
 ### Lógica original de seleção
 
@@ -461,7 +461,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:by"` | `RivalRebels:by` | `textures/blocks/by.png`, `textures/entity/by.png` |
+| `icon` | `"RivalRebels:by"` | `RivalRebels:by` | `textures/blocks/by.png` |
 
 ### Lógica original de seleção
 
@@ -529,7 +529,7 @@ if (meta == 1) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -550,12 +550,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png`, `textures/entity/am.png`, `textures/items/am.png` |
-| `icon4` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png`, `textures/entity/am.png`, `textures/items/am.png` |
-| `icon5` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png`, `textures/entity/am.png`, `textures/items/am.png` |
-| `icon6` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png`, `textures/entity/am.png`, `textures/items/am.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png` |
+| `icon4` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png` |
+| `icon5` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png` |
+| `icon6` | `"RivalRebels:am"` | `RivalRebels:am` | `textures/blocks/am.png` |
 
 ### Lógica original de seleção
 
@@ -611,12 +611,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:bi"` | `RivalRebels:bi` | `textures/blocks/bi.png`, `textures/entity/bi.png`, `textures/items/bi.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:bi"` | `RivalRebels:bi` | `textures/blocks/bi.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -649,12 +649,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ar"` | `RivalRebels:ar` | `textures/blocks/ar.png`, `textures/entity/ar.png`, `textures/items/ar.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ar"` | `RivalRebels:ar` | `textures/blocks/ar.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -687,12 +687,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:aw"` | `RivalRebels:aw` | `textures/blocks/aw.png`, `textures/entity/aw.png`, `textures/items/aw.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:aw"` | `RivalRebels:aw` | `textures/blocks/aw.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -725,12 +725,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:aq"` | `RivalRebels:aq` | `textures/blocks/aq.png`, `textures/entity/aq.png`, `textures/items/aq.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:aq"` | `RivalRebels:aq` | `textures/blocks/aq.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -763,12 +763,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:al"` | `RivalRebels:al` | `textures/blocks/al.png`, `textures/entity/al.png`, `textures/items/al.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:al"` | `RivalRebels:al` | `textures/blocks/al.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -801,12 +801,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:aj"` | `RivalRebels:aj` | `textures/blocks/aj.png`, `textures/entity/aj.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:aj"` | `RivalRebels:aj` | `textures/blocks/aj.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -839,7 +839,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:an"` | `RivalRebels:an` | `textures/blocks/an.png`, `textures/entity/an.png` |
+| `icon` | `"RivalRebels:an"` | `RivalRebels:an` | `textures/blocks/an.png` |
 
 ### Lógica original de seleção
 
@@ -881,10 +881,10 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:cf"` | `RivalRebels:cf` | `textures/blocks/cf.png`, `textures/entity/cf.png` |
-| `icon2` | `"RivalRebels:cg"` | `RivalRebels:cg` | `textures/blocks/cg.png`, `textures/entity/cg.png` |
-| `icontop1` | `"RivalRebels:cj"` | `RivalRebels:cj` | `textures/blocks/cj.png`, `textures/entity/cj.png` |
-| `icontop2` | `"RivalRebels:ck"` | `RivalRebels:ck` | `textures/blocks/ck.png`, `textures/entity/ck.png` |
+| `icon` | `"RivalRebels:cf"` | `RivalRebels:cf` | `textures/blocks/cf.png` |
+| `icon2` | `"RivalRebels:cg"` | `RivalRebels:cg` | `textures/blocks/cg.png` |
+| `icontop1` | `"RivalRebels:cj"` | `RivalRebels:cj` | `textures/blocks/cj.png` |
+| `icontop2` | `"RivalRebels:ck"` | `RivalRebels:ck` | `textures/blocks/ck.png` |
 | `icontop3` | `"RivalRebels:cl"` | `RivalRebels:cl` | `textures/blocks/cl.png` |
 | `icontop4` | `"RivalRebels:cm"` | `RivalRebels:cm` | `textures/blocks/cm.png` |
 
@@ -917,8 +917,8 @@ if (meta == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ao"` | `RivalRebels:ao` | `textures/blocks/ao.png`, `textures/entity/ao.png`, `textures/items/ao.png` |
-| `icon2` | `"RivalRebels:ap"` | `RivalRebels:ap` | `textures/blocks/ap.png`, `textures/entity/ap.png`, `textures/items/ap.png` |
+| `icon1` | `"RivalRebels:ao"` | `RivalRebels:ao` | `textures/blocks/ao.png` |
+| `icon2` | `"RivalRebels:ap"` | `RivalRebels:ap` | `textures/blocks/ap.png` |
 
 ### Lógica original de seleção
 
@@ -939,12 +939,12 @@ return side != 0 && side != 1 ? this.icon1 : this.icon2;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon3` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon4` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -977,12 +977,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:br"` | `RivalRebels:br` | `textures/blocks/br.png`, `textures/entity/br.png` |
-| `icon2` | `"RivalRebels:bs"` | `RivalRebels:bs` | `textures/blocks/bs.png`, `textures/entity/bs.png` |
-| `icon3` | `"RivalRebels:bt"` | `RivalRebels:bt` | `textures/blocks/bt.png`, `textures/entity/bt.png` |
-| `icon4` | `"RivalRebels:bu"` | `RivalRebels:bu` | `textures/blocks/bu.png`, `textures/entity/bu.png` |
-| `icon5` | `"RivalRebels:bv"` | `RivalRebels:bv` | `textures/blocks/bv.png`, `textures/entity/bv.png` |
-| `icon6` | `"RivalRebels:bw"` | `RivalRebels:bw` | `textures/blocks/bw.png`, `textures/entity/bw.png` |
+| `icon` | `"RivalRebels:br"` | `RivalRebels:br` | `textures/blocks/br.png` |
+| `icon2` | `"RivalRebels:bs"` | `RivalRebels:bs` | `textures/blocks/bs.png` |
+| `icon3` | `"RivalRebels:bt"` | `RivalRebels:bt` | `textures/blocks/bt.png` |
+| `icon4` | `"RivalRebels:bu"` | `RivalRebels:bu` | `textures/blocks/bu.png` |
+| `icon5` | `"RivalRebels:bv"` | `RivalRebels:bv` | `textures/blocks/bv.png` |
+| `icon6` | `"RivalRebels:bw"` | `RivalRebels:bw` | `textures/blocks/bw.png` |
 
 ### Lógica original de seleção
 
@@ -1015,12 +1015,12 @@ if (meta == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:au"` | `RivalRebels:au` | `textures/blocks/au.png`, `textures/entity/au.png`, `textures/items/au.png` |
-| `icon3` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png`, `textures/entity/at.png`, `textures/items/at.png` |
-| `icon4` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png`, `textures/entity/at.png`, `textures/items/at.png` |
-| `icon5` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png`, `textures/entity/at.png`, `textures/items/at.png` |
-| `icon6` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png`, `textures/entity/at.png`, `textures/items/at.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:au"` | `RivalRebels:au` | `textures/blocks/au.png` |
+| `icon3` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png` |
+| `icon4` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png` |
+| `icon5` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png` |
+| `icon6` | `"RivalRebels:at"` | `RivalRebels:at` | `textures/blocks/at.png` |
 
 ### Lógica original de seleção
 
@@ -1095,7 +1095,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ad"` | `RivalRebels:ad` | `textures/blocks/ad.png`, `textures/entity/ad.png`, `textures/items/ad.png` |
+| `icon` | `"RivalRebels:ad"` | `RivalRebels:ad` | `textures/blocks/ad.png` |
 
 ### Lógica original de seleção
 
@@ -1116,7 +1116,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:av"` | `RivalRebels:av` | `textures/blocks/av.png`, `textures/entity/av.png`, `textures/items/av.png` |
+| `icon` | `"RivalRebels:av"` | `RivalRebels:av` | `textures/blocks/av.png` |
 
 ### Lógica original de seleção
 
@@ -1158,7 +1158,7 @@ return this == RivalRebels.amario ? Blocks.field_150351_n.func_149691_a(side, me
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1179,7 +1179,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1200,7 +1200,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ax"` | `RivalRebels:ax` | `textures/blocks/ax.png`, `textures/entity/ax.png`, `textures/items/ax.png` |
+| `icon` | `"RivalRebels:ax"` | `RivalRebels:ax` | `textures/blocks/ax.png` |
 
 ### Lógica original de seleção
 
@@ -1221,12 +1221,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:az"` | `RivalRebels:az` | `textures/blocks/az.png`, `textures/entity/az.png`, `textures/items/az.png` |
-| `icon4` | `"RivalRebels:az"` | `RivalRebels:az` | `textures/blocks/az.png`, `textures/entity/az.png`, `textures/items/az.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:az"` | `RivalRebels:az` | `textures/blocks/az.png` |
+| `icon4` | `"RivalRebels:az"` | `RivalRebels:az` | `textures/blocks/az.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -1259,7 +1259,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ba"` | `RivalRebels:ba` | `textures/blocks/ba.png`, `textures/entity/ba.png`, `textures/items/ba.png` |
+| `icon` | `"RivalRebels:ba"` | `RivalRebels:ba` | `textures/blocks/ba.png` |
 
 ### Lógica original de seleção
 
@@ -1282,10 +1282,10 @@ return this.icon;
 |---|---|---|---|
 | `icon1` | `"RivalRebels:b" + this.type` | `Dinâmica` | — |
 | `icon2` | `"RivalRebels:b" + this.type` | `Dinâmica` | — |
-| `icon3` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png`, `textures/entity/bb.png`, `textures/items/bb.png` |
-| `icon4` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png`, `textures/entity/bb.png`, `textures/items/bb.png` |
-| `icon5` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png`, `textures/entity/bb.png`, `textures/items/bb.png` |
-| `icon6` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png`, `textures/entity/bb.png`, `textures/items/bb.png` |
+| `icon3` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png` |
+| `icon4` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png` |
+| `icon5` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png` |
+| `icon6` | `"RivalRebels:bb"` | `RivalRebels:bb` | `textures/blocks/bb.png` |
 
 ### Lógica original de seleção
 
@@ -1320,12 +1320,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:bh"` | `RivalRebels:bh` | `textures/blocks/bh.png`, `textures/entity/bh.png`, `textures/items/bh.png` |
-| `icon2` | `"RivalRebels:bh"` | `RivalRebels:bh` | `textures/blocks/bh.png`, `textures/entity/bh.png`, `textures/items/bh.png` |
-| `icon3` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png`, `textures/entity/bg.png`, `textures/items/bg.png` |
-| `icon4` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png`, `textures/entity/bg.png`, `textures/items/bg.png` |
-| `icon5` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png`, `textures/entity/bg.png`, `textures/items/bg.png` |
-| `icon6` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png`, `textures/entity/bg.png`, `textures/items/bg.png` |
+| `icon1` | `"RivalRebels:bh"` | `RivalRebels:bh` | `textures/blocks/bh.png` |
+| `icon2` | `"RivalRebels:bh"` | `RivalRebels:bh` | `textures/blocks/bh.png` |
+| `icon3` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png` |
+| `icon4` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png` |
+| `icon5` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png` |
+| `icon6` | `"RivalRebels:bg"` | `RivalRebels:bg` | `textures/blocks/bg.png` |
 
 ### Lógica original de seleção
 
@@ -1358,7 +1358,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1442,7 +1442,7 @@ return Blocks.field_150354_m.func_149691_a(side, meta);
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:cf"` | `RivalRebels:cf` | `textures/blocks/cf.png`, `textures/entity/cf.png` |
+| `icon` | `"RivalRebels:cf"` | `RivalRebels:cf` | `textures/blocks/cf.png` |
 | `icontop` | `"RivalRebels:cn"` | `RivalRebels:cn` | `textures/blocks/cn.png` |
 
 ### Lógica original de seleção
@@ -1464,7 +1464,7 @@ return side != 0 && side != 1 ? this.icon : this.icontop;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:bj"` | `RivalRebels:bj` | `textures/blocks/bj.png`, `textures/entity/bj.png` |
+| `icon` | `"RivalRebels:bj"` | `RivalRebels:bj` | `textures/blocks/bj.png` |
 
 ### Lógica original de seleção
 
@@ -1506,12 +1506,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ag"` | `RivalRebels:ag` | `textures/blocks/ag.png`, `textures/entity/ag.png`, `textures/items/ag.png` |
-| `icon2` | `"RivalRebels:ag"` | `RivalRebels:ag` | `textures/blocks/ag.png`, `textures/entity/ag.png`, `textures/items/ag.png` |
-| `icon3` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png`, `textures/entity/af.png`, `textures/items/af.png` |
-| `icon4` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png`, `textures/entity/af.png`, `textures/items/af.png` |
-| `icon5` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png`, `textures/entity/af.png`, `textures/items/af.png` |
-| `icon6` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png`, `textures/entity/af.png`, `textures/items/af.png` |
+| `icon1` | `"RivalRebels:ag"` | `RivalRebels:ag` | `textures/blocks/ag.png` |
+| `icon2` | `"RivalRebels:ag"` | `RivalRebels:ag` | `textures/blocks/ag.png` |
+| `icon3` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png` |
+| `icon4` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png` |
+| `icon5` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png` |
+| `icon6` | `"RivalRebels:af"` | `RivalRebels:af` | `textures/blocks/af.png` |
 
 ### Lógica original de seleção
 
@@ -1544,8 +1544,8 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ci"` | `RivalRebels:ci` | `textures/blocks/ci.png`, `textures/entity/ci.png` |
-| `icontop` | `"RivalRebels:ch"` | `RivalRebels:ch` | `textures/blocks/ch.png`, `textures/entity/ch.png` |
+| `icon` | `"RivalRebels:ci"` | `RivalRebels:ci` | `textures/blocks/ci.png` |
+| `icontop` | `"RivalRebels:ch"` | `RivalRebels:ch` | `textures/blocks/ch.png` |
 
 ### Lógica original de seleção
 
@@ -1604,12 +1604,12 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:bo"` | `RivalRebels:bo` | `textures/blocks/bo.png`, `textures/entity/bo.png` |
-| `icon4` | `"RivalRebels:bo"` | `RivalRebels:bo` | `textures/blocks/bo.png`, `textures/entity/bo.png` |
-| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:bo"` | `RivalRebels:bo` | `textures/blocks/bo.png` |
+| `icon4` | `"RivalRebels:bo"` | `RivalRebels:bo` | `textures/blocks/bo.png` |
+| `icon5` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon6` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
 
 ### Lógica original de seleção
 
@@ -1642,7 +1642,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:bp"` | `RivalRebels:bp` | `textures/blocks/bp.png`, `textures/entity/bp.png` |
+| `icon` | `"RivalRebels:bp"` | `RivalRebels:bp` | `textures/blocks/bp.png` |
 
 ### Lógica original de seleção
 
@@ -1663,7 +1663,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:bq"` | `RivalRebels:bq` | `textures/blocks/bq.png`, `textures/entity/bq.png` |
+| `icon` | `"RivalRebels:bq"` | `RivalRebels:bq` | `textures/blocks/bq.png` |
 
 ### Lógica original de seleção
 
@@ -1684,7 +1684,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:bx"` | `RivalRebels:bx` | `textures/blocks/bx.png`, `textures/entity/bx.png` |
+| `icon` | `"RivalRebels:bx"` | `RivalRebels:bx` | `textures/blocks/bx.png` |
 
 ### Lógica original de seleção
 
@@ -1705,12 +1705,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png`, `textures/entity/bz.png` |
-| `icon4` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png`, `textures/entity/bz.png` |
-| `icon5` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png`, `textures/entity/bz.png` |
-| `icon6` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png`, `textures/entity/bz.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png` |
+| `icon4` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png` |
+| `icon5` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png` |
+| `icon6` | `"RivalRebels:bz"` | `RivalRebels:bz` | `textures/blocks/bz.png` |
 
 ### Lógica original de seleção
 
@@ -1743,7 +1743,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1764,7 +1764,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1785,12 +1785,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ac"` | `RivalRebels:ac` | `textures/blocks/ac.png`, `textures/entity/ac.png`, `textures/items/ac.png` |
-| `icon2` | `"RivalRebels:ae"` | `RivalRebels:ae` | `textures/blocks/ae.png`, `textures/entity/ae.png`, `textures/items/ae.png` |
-| `icon3` | `"RivalRebels:ac"` | `RivalRebels:ac` | `textures/blocks/ac.png`, `textures/entity/ac.png`, `textures/items/ac.png` |
-| `icon4` | `"RivalRebels:ac"` | `RivalRebels:ac` | `textures/blocks/ac.png`, `textures/entity/ac.png`, `textures/items/ac.png` |
-| `icon5` | `"RivalRebels:ab"` | `RivalRebels:ab` | `textures/blocks/ab.png`, `textures/entity/ab.png`, `textures/items/ab.png` |
-| `icon6` | `"RivalRebels:ab"` | `RivalRebels:ab` | `textures/blocks/ab.png`, `textures/entity/ab.png`, `textures/items/ab.png` |
+| `icon1` | `"RivalRebels:ac"` | `RivalRebels:ac` | `textures/blocks/ac.png` |
+| `icon2` | `"RivalRebels:ae"` | `RivalRebels:ae` | `textures/blocks/ae.png` |
+| `icon3` | `"RivalRebels:ac"` | `RivalRebels:ac` | `textures/blocks/ac.png` |
+| `icon4` | `"RivalRebels:ac"` | `RivalRebels:ac` | `textures/blocks/ac.png` |
+| `icon5` | `"RivalRebels:ab"` | `RivalRebels:ab` | `textures/blocks/ab.png` |
+| `icon6` | `"RivalRebels:ab"` | `RivalRebels:ab` | `textures/blocks/ab.png` |
 
 ### Lógica original de seleção
 
@@ -1823,7 +1823,7 @@ if (side == 0) {
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1844,7 +1844,7 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png`, `textures/entity/ak.png`, `textures/items/ak.png` |
+| `icon` | `"RivalRebels:ak"` | `RivalRebels:ak` | `textures/blocks/ak.png` |
 
 ### Lógica original de seleção
 
@@ -1865,12 +1865,12 @@ return this.icon;
 
 | Campo | Expressão Java | Textura literal | Arquivos encontrados |
 |---|---|---|---|
-| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png`, `textures/entity/ah.png`, `textures/items/ah.png` |
-| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png`, `textures/entity/ai.png`, `textures/items/ai.png` |
-| `icon3` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png`, `textures/entity/ce.png` |
-| `icon4` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png`, `textures/entity/ce.png` |
-| `icon5` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png`, `textures/entity/ce.png` |
-| `icon6` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png`, `textures/entity/ce.png` |
+| `icon1` | `"RivalRebels:ah"` | `RivalRebels:ah` | `textures/blocks/ah.png` |
+| `icon2` | `"RivalRebels:ai"` | `RivalRebels:ai` | `textures/blocks/ai.png` |
+| `icon3` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png` |
+| `icon4` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png` |
+| `icon5` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png` |
+| `icon6` | `"RivalRebels:ce"` | `RivalRebels:ce` | `textures/blocks/ce.png` |
 
 ### Lógica original de seleção
 
