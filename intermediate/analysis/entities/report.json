@@ -1,0 +1,1556 @@
+{
+  "section": "entities",
+  "java_files_found": 60,
+  "classes_analyzed": 60,
+  "superclasses": {
+    "EntityThrowable": 10,
+    "EntityInanimate": 29,
+    "Entity": 4,
+    "EntityB83": 1,
+    "EntityFX": 2,
+    "EntityWeatherEffect": 1,
+    "EntityRhodesPiece": 10,
+    "EntityTsarBlast": 2,
+    "EntityLivingBase": 1
+  },
+  "entities": [
+    {
+      "class": "EntityAntimatterBomb",
+      "file": "assets/rivalrebels/common/entity/EntityAntimatterBomb.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderAntimatterBomb.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/tileentity/TileEntityAntimatterBomb.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityAntimatterBombBlast",
+      "file": "assets/rivalrebels/common/entity/EntityAntimatterBombBlast.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "pushAndHurtEntities",
+        "setTime",
+        "updateEntityList"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderAntimatterBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityAntimatterBomb.java",
+        "assets/rivalrebels/common/explosion/AntimatterBomb.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityB2Frag",
+      "file": "assets/rivalrebels/common/entity/EntityB2Frag.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70053_R",
+        "func_70067_L",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70097_a",
+        "func_70112_a",
+        "func_70114_g",
+        "getBytesString"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderB2Frag.java",
+        "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityB2Spirit",
+      "file": "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+      "superclass": "Entity",
+      "interfaces": [],
+      "methods": [
+        "dropNuke",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70097_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "startBombRun"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderB2Spirit.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityRaytrace.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall1.java",
+        "assets/rivalrebels/common/command/CommandConfig.java",
+        "assets/rivalrebels/common/packet/LaptopEngagePacket.java"
+      ],
+      "reference_count": 8
+    },
+    {
+      "class": "EntityB83",
+      "file": "assets/rivalrebels/common/entity/EntityB83.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderB83.java",
+        "assets/rivalrebels/common/entity/EntityB83NoShroom.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntitySeekB83.java",
+        "assets/rivalrebels/common/entity/EntityTachyonBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityAntimatterBombBlast.java",
+        "assets/rivalrebels/common/explosion/NuclearExplosion.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 11
+    },
+    {
+      "class": "EntityB83NoShroom",
+      "file": "assets/rivalrebels/common/entity/EntityB83NoShroom.java",
+      "superclass": "EntityB83",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70071_h_"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "EntityBlood",
+      "file": "assets/rivalrebels/common/entity/EntityBlood.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "setThrowableHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/common/block/BlockGore.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "EntityBloodFX",
+      "file": "assets/rivalrebels/common/entity/EntityBloodFX.java",
+      "superclass": "EntityFX",
+      "interfaces": [],
+      "methods": [
+        "func_70539_a"
+      ],
+      "references": [
+        "assets/rivalrebels/ClientProxy.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "EntityBomb",
+      "file": "assets/rivalrebels/common/entity/EntityBomb.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderBomb.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemRPG.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityCuchillo",
+      "file": "assets/rivalrebels/common/entity/EntityCuchillo.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70100_b_",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderCuchillo.java",
+        "assets/rivalrebels/common/item/weapon/ItemCuchillo.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityDebris",
+      "file": "assets/rivalrebels/common/entity/EntityDebris.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "die",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_85029_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderDebris.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/explosion/Explosion.java",
+        "assets/rivalrebels/common/packet/EntityDebrisPacket.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "EntityDocileFlameFX",
+      "file": "assets/rivalrebels/common/entity/EntityDocileFlameFX.java",
+      "superclass": "EntityFX",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70539_a"
+      ],
+      "references": [],
+      "reference_count": 0
+    },
+    {
+      "class": "EntityFlameBall",
+      "file": "assets/rivalrebels/common/entity/EntityFlameBall.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "fire",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70112_a",
+        "shouldRenderInPass"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderFlame.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/explosion/Explosion.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "EntityFlameBall1",
+      "file": "assets/rivalrebels/common/entity/EntityFlameBall1.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "fire",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70112_a",
+        "shouldRenderInPass"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderFlameRedBlue.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityFlameBall2",
+      "file": "assets/rivalrebels/common/entity/EntityFlameBall2.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "fire",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70112_a",
+        "shouldRenderInPass"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderFlameBlue.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityFlameBallGreen",
+      "file": "assets/rivalrebels/common/entity/EntityFlameBallGreen.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "fire",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70112_a",
+        "shouldRenderInPass"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderFlameBallGreen.java",
+        "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "EntityGasGrenade",
+      "file": "assets/rivalrebels/common/entity/EntityGasGrenade.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70016_h",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70056_a",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70241_g",
+        "func_70243_d",
+        "pop",
+        "setAnglesMotion",
+        "setArrowHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderGasGrenade.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemGasGrenade.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityGoo",
+      "file": "assets/rivalrebels/common/entity/EntityGoo.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "setThrowableHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/common/block/BlockGore.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "EntityGore",
+      "file": "assets/rivalrebels/common/entity/EntityGore.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "getBytesString",
+        "setAnglesMotion",
+        "setBiped",
+        "setDefault",
+        "setNoped",
+        "setOctoped",
+        "setQuadruped",
+        "setThrowableHeading",
+        "spawnBlood"
+      ],
+      "references": [
+        "assets/rivalrebels/CommonProxy.java",
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderGore.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityBloodFX.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java",
+        "assets/rivalrebels/common/entity/EntityBlood.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskOfficer.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRebel.java",
+        "assets/rivalrebels/common/entity/EntityGoo.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskLeader.java",
+        "assets/rivalrebels/common/packet/EntityGorePacket.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 15
+    },
+    {
+      "class": "EntityHackB83",
+      "file": "assets/rivalrebels/common/entity/EntityHackB83.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderHackB83.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntitySeekB83.java",
+        "assets/rivalrebels/common/entity/EntityTachyonBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityAntimatterBombBlast.java",
+        "assets/rivalrebels/common/explosion/NuclearExplosion.java",
+        "assets/rivalrebels/common/item/weapon/ItemHackM202.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 11
+    },
+    {
+      "class": "EntityHotPotato",
+      "file": "assets/rivalrebels/common/entity/EntityHotPotato.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderHotPotato.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/command/CommandHotPotato.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityInanimate",
+      "file": "assets/rivalrebels/common/entity/EntityInanimate.java",
+      "superclass": "Entity",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70088_a"
+      ],
+      "references": [
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityPlasmoid.java",
+        "assets/rivalrebels/common/entity/EntityLaptop.java",
+        "assets/rivalrebels/common/entity/EntityDebris.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java",
+        "assets/rivalrebels/common/entity/EntityRaytrace.java",
+        "assets/rivalrebels/common/entity/EntityCuchillo.java",
+        "assets/rivalrebels/common/entity/EntityNuclearBlast.java",
+        "assets/rivalrebels/common/entity/EntitySeekB83.java",
+        "assets/rivalrebels/common/entity/EntityGore.java",
+        "assets/rivalrebels/common/entity/EntityRocket.java",
+        "assets/rivalrebels/common/entity/EntityLightningLink.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall2.java",
+        "assets/rivalrebels/common/entity/EntityBlood.java",
+        "assets/rivalrebels/common/entity/EntityB2Frag.java",
+        "assets/rivalrebels/common/entity/EntityTachyonBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityGasGrenade.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskOfficer.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRebel.java",
+        "assets/rivalrebels/common/entity/EntityTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityGoo.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall1.java",
+        "assets/rivalrebels/common/entity/EntityPassiveFire.java",
+        "assets/rivalrebels/common/entity/EntityAntimatterBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityLaserLink.java",
+        "assets/rivalrebels/common/entity/EntityFlameBallGreen.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskLeader.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRegular.java"
+      ],
+      "reference_count": 30
+    },
+    {
+      "class": "EntityLaptop",
+      "file": "assets/rivalrebels/common/entity/EntityLaptop.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_130002_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70104_M",
+        "func_70114_g"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderLaptop.java",
+        "assets/rivalrebels/common/item/ItemLaptop.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "EntityLaserBurst",
+      "file": "assets/rivalrebels/common/entity/EntityLaserBurst.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "setAccurateHeading",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderLaserBurst.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityB2Frag.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemAstroBlaster.java"
+      ],
+      "reference_count": 9
+    },
+    {
+      "class": "EntityLaserLink",
+      "file": "assets/rivalrebels/common/entity/EntityLaserLink.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderLaserLink.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "EntityLightningBolt2",
+      "file": "assets/rivalrebels/common/entity/EntityLightningBolt2.java",
+      "superclass": "EntityWeatherEffect",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70088_a"
+      ],
+      "references": [
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderLightningBolt2.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "EntityLightningLink",
+      "file": "assets/rivalrebels/common/entity/EntityLightningLink.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderLightningLink.java",
+        "assets/rivalrebels/common/entity/EntityRaytrace.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall1.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityNuclearBlast",
+      "file": "assets/rivalrebels/common/entity/EntityNuclearBlast.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "pushAndHurtEntities"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderNuclearBlast.java",
+        "assets/rivalrebels/common/entity/EntityNuke.java",
+        "assets/rivalrebels/common/entity/EntityTachyonBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityAntimatterBombBlast.java",
+        "assets/rivalrebels/common/explosion/NuclearExplosion.java",
+        "assets/rivalrebels/common/tileentity/TileEntityMeltDown.java",
+        "assets/rivalrebels/common/tileentity/TileEntityPlasmaExplosion.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 11
+    },
+    {
+      "class": "EntityNuke",
+      "file": "assets/rivalrebels/common/entity/EntityNuke.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderNuke.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/tileentity/TileEntityNuclearBomb.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityPassiveFire",
+      "file": "assets/rivalrebels/common/entity/EntityPassiveFire.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70016_h",
+        "func_70037_a",
+        "func_70053_R",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70075_an",
+        "func_70088_a",
+        "func_70112_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "EntityPlasmoid",
+      "file": "assets/rivalrebels/common/entity/EntityPlasmoid.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "setAccurateHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderPlasmoid.java",
+        "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityB2Frag.java",
+        "assets/rivalrebels/common/tileentity/TileEntityMeltDown.java",
+        "assets/rivalrebels/common/tileentity/TileEntityPlasmaExplosion.java",
+        "assets/rivalrebels/common/item/weapon/ItemPlasmaCannon.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 10
+    },
+    {
+      "class": "EntityPropulsionFX",
+      "file": "assets/rivalrebels/common/entity/EntityPropulsionFX.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70016_h",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/common/entity/EntitySeekB83.java",
+        "assets/rivalrebels/common/entity/EntityRocket.java",
+        "assets/rivalrebels/common/entity/EntityHackB83.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityRaytrace",
+      "file": "assets/rivalrebels/common/entity/EntityRaytrace.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70088_a",
+        "setAnglesMotion",
+        "setArrowHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/item/weapon/ItemTesla.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "EntityRhodes",
+      "file": "assets/rivalrebels/common/entity/EntityRhodes.java",
+      "superclass": "Entity",
+      "interfaces": [],
+      "methods": [
+        "approach",
+        "atan2",
+        "breakBlocks",
+        "doAITick",
+        "doCollisions",
+        "doWalkingAnimation",
+        "findTarget",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70097_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "getName",
+        "getPriority",
+        "getbodyyaw",
+        "getheadpitch",
+        "getheadyaw",
+        "getleftarmpitch",
+        "getleftarmyaw",
+        "getleftshinpitch",
+        "getleftthighpitch",
+        "getrightarmpitch",
+        "getrightarmyaw",
+        "getrightshinpitch",
+        "getrightthighpitch",
+        "rayTraceBlocks",
+        "shootFlameAtBestTarget",
+        "shootLaserAtBestTarget",
+        "shootRocketsAtBestTarget"
+      ],
+      "references": [
+        "assets/rivalrebels/CommonProxy.java",
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/gui/RivalRebelsRenderOverlay.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodes.java",
+        "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+        "assets/rivalrebels/common/entity/EntityRaytrace.java",
+        "assets/rivalrebels/common/entity/EntitySphereBlast.java",
+        "assets/rivalrebels/common/entity/EntityTachyonBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityAntimatterBombBlast.java",
+        "assets/rivalrebels/common/explosion/NuclearExplosion.java",
+        "assets/rivalrebels/common/explosion/Explosion.java",
+        "assets/rivalrebels/common/command/CommandRobot.java",
+        "assets/rivalrebels/common/packet/RhodesJumpPacket.java",
+        "assets/rivalrebels/common/packet/RhodesPacket.java",
+        "assets/rivalrebels/common/round/RivalRebelsRound.java",
+        "assets/rivalrebels/common/tileentity/TileEntityMeltDown.java",
+        "assets/rivalrebels/common/tileentity/TileEntityPlasmaExplosion.java",
+        "assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReciever.java"
+      ],
+      "reference_count": 21
+    },
+    {
+      "class": "EntityRhodesHead",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesHead.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "func_70097_a",
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesHead.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesLeftLowerArm",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesLeftLowerArm.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesLeftLowerArm.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesLeftLowerLeg",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesLeftLowerLeg.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesLeftLowerLeg.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesLeftUpperArm",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesLeftUpperArm.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesLeftUpperArm.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesLeftUpperLeg",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesLeftUpperLeg.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesLeftUpperLeg.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesPiece",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesPiece.java",
+      "superclass": "Entity",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70097_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/common/entity/EntityRhodesLeftLowerLeg.java",
+        "assets/rivalrebels/common/entity/EntityRhodesTorso.java",
+        "assets/rivalrebels/common/entity/EntityRhodesRightLowerArm.java",
+        "assets/rivalrebels/common/entity/EntityRhodesLeftUpperLeg.java",
+        "assets/rivalrebels/common/entity/EntityRhodesRightUpperArm.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityRhodesLeftLowerArm.java",
+        "assets/rivalrebels/common/entity/EntityRhodesRightLowerLeg.java",
+        "assets/rivalrebels/common/entity/EntityRhodesHead.java",
+        "assets/rivalrebels/common/entity/EntityRhodesLeftUpperArm.java",
+        "assets/rivalrebels/common/entity/EntityRhodesRightUpperLeg.java",
+        "assets/rivalrebels/common/packet/RhodesPiecePacket.java"
+      ],
+      "reference_count": 12
+    },
+    {
+      "class": "EntityRhodesRightLowerArm",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesRightLowerArm.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesRightLowerArm.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesRightLowerLeg",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesRightLowerLeg.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesRightLowerLeg.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesRightUpperArm",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesRightUpperArm.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesRightUpperArm.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesRightUpperLeg",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesRightUpperLeg.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesRightUpperLeg.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRhodesTorso",
+      "file": "assets/rivalrebels/common/entity/EntityRhodesTorso.java",
+      "superclass": "EntityRhodesPiece",
+      "interfaces": [],
+      "methods": [
+        "getMaxAge"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRhodesTorso.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityLaserBurst.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityRocket",
+      "file": "assets/rivalrebels/common/entity/EntityRocket.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [
+        "IProjectile"
+      ],
+      "methods": [
+        "explode",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "func_70186_c",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRocket.java",
+        "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/entity/EntityB2Frag.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemRPG.java"
+      ],
+      "reference_count": 8
+    },
+    {
+      "class": "EntityRoddiskLeader",
+      "file": "assets/rivalrebels/common/entity/EntityRoddiskLeader.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_130002_c",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "setHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRoddiskLeader.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRegular.java",
+        "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+        "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+        "assets/rivalrebels/common/item/weapon/ItemRodDisk.java"
+      ],
+      "reference_count": 8
+    },
+    {
+      "class": "EntityRoddiskOfficer",
+      "file": "assets/rivalrebels/common/entity/EntityRoddiskOfficer.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_130002_c",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "setHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRoddiskOfficer.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskLeader.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRegular.java",
+        "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+        "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+        "assets/rivalrebels/common/item/weapon/ItemRodDisk.java"
+      ],
+      "reference_count": 9
+    },
+    {
+      "class": "EntityRoddiskRebel",
+      "file": "assets/rivalrebels/common/entity/EntityRoddiskRebel.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_130002_c",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "setHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRoddiskRebel.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskOfficer.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskLeader.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRegular.java",
+        "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+        "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemRodDisk.java"
+      ],
+      "reference_count": 11
+    },
+    {
+      "class": "EntityRoddiskRegular",
+      "file": "assets/rivalrebels/common/entity/EntityRoddiskRegular.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_130002_c",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "setHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRoddiskRegular.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskOfficer.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskRebel.java",
+        "assets/rivalrebels/common/entity/EntityRoddiskLeader.java",
+        "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+        "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+        "assets/rivalrebels/common/item/weapon/ItemRodDisk.java"
+      ],
+      "reference_count": 10
+    },
+    {
+      "class": "EntityRoddiskRep",
+      "file": "assets/rivalrebels/common/entity/EntityRoddiskRep.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_130002_c",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70046_E",
+        "func_70067_L",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70104_M",
+        "func_70112_a",
+        "func_70114_g",
+        "setHeading"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderRoddiskRep.java",
+        "assets/rivalrebels/common/item/weapon/ItemRodDisk.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "EntitySeekB83",
+      "file": "assets/rivalrebels/common/entity/EntitySeekB83.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [
+        "IProjectile"
+      ],
+      "methods": [
+        "explode",
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "func_70186_c"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderSeeker.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+        "assets/rivalrebels/common/item/weapon/ItemSeekM202.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntitySphereBlast",
+      "file": "assets/rivalrebels/common/entity/EntitySphereBlast.java",
+      "superclass": "EntityTsarBlast",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "pushAndHurtEntities"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderSphereBlast.java",
+        "assets/rivalrebels/common/entity/EntityB83NoShroom.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "EntityTachyonBomb",
+      "file": "assets/rivalrebels/common/entity/EntityTachyonBomb.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderTachyonBomb.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/tileentity/TileEntityTachyonBomb.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityTachyonBombBlast",
+      "file": "assets/rivalrebels/common/entity/EntityTachyonBombBlast.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "pushAndHurtEntities",
+        "setTime",
+        "updateEntityList"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderTachyonBombBlast.java",
+        "assets/rivalrebels/common/entity/EntityTachyonBomb.java",
+        "assets/rivalrebels/common/explosion/TachyonBomb.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "EntityTarget",
+      "file": "assets/rivalrebels/common/entity/EntityTarget.java",
+      "superclass": "EntityLivingBase",
+      "interfaces": [],
+      "methods": [
+        "func_70014_b",
+        "func_70035_c",
+        "func_70037_a",
+        "func_70062_b",
+        "func_70071_h_",
+        "func_70097_a",
+        "func_70694_bm",
+        "func_71124_b"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "EntityTheoreticalTsar",
+      "file": "assets/rivalrebels/common/entity/EntityTheoreticalTsar.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderTheoreticalTsar.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/tileentity/TileEntityTheoreticalTsarBomba.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityTheoreticalTsarBlast",
+      "file": "assets/rivalrebels/common/entity/EntityTheoreticalTsarBlast.java",
+      "superclass": "EntityTsarBlast",
+      "interfaces": [],
+      "methods": [],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/common/entity/EntityTheoreticalTsar.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "EntityTsar",
+      "file": "assets/rivalrebels/common/entity/EntityTsar.java",
+      "superclass": "EntityThrowable",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70071_h_",
+        "func_70112_a",
+        "func_70184_a",
+        "func_70185_h",
+        "setAnglesMotion"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderTsar.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/tileentity/TileEntityTsarBomba.java",
+        "assets/rivalrebels/common/item/weapon/ItemRoda.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "EntityTsarBlast",
+      "file": "assets/rivalrebels/common/entity/EntityTsarBlast.java",
+      "superclass": "EntityInanimate",
+      "interfaces": [],
+      "methods": [
+        "func_70013_c",
+        "func_70014_b",
+        "func_70037_a",
+        "func_70070_b",
+        "func_70071_h_",
+        "func_70088_a",
+        "func_70112_a",
+        "pushAndHurtEntities",
+        "setTime",
+        "updateEntityList"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/renderentity/RenderTheoreticalTsarBlast.java",
+        "assets/rivalrebels/client/renderentity/RenderTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityTheoreticalTsarBlast.java",
+        "assets/rivalrebels/common/entity/EntityNuclearBlast.java",
+        "assets/rivalrebels/common/entity/EntityB83.java",
+        "assets/rivalrebels/common/entity/EntitySphereBlast.java",
+        "assets/rivalrebels/common/entity/EntityHackB83.java",
+        "assets/rivalrebels/common/entity/EntityTsar.java",
+        "assets/rivalrebels/common/entity/EntityHotPotato.java",
+        "assets/rivalrebels/common/explosion/TsarBomba.java",
+        "assets/rivalrebels/common/explosion/NuclearExplosion.java",
+        "assets/rivalrebels/common/tileentity/TileEntityPlasmaExplosion.java"
+      ],
+      "reference_count": 14
+    }
+  ]
+}

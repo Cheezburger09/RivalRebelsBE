@@ -1,0 +1,828 @@
+[
+  {
+    "identifier": "ItemArmorCamo",
+    "path": "textures/armors/a.png",
+    "origin": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+    "line": 42,
+    "exists": true
+  },
+  {
+    "identifier": "ItemArmorCamo",
+    "path": "textures/armors/b.png",
+    "origin": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+    "line": 44,
+    "exists": true
+  },
+  {
+    "identifier": "ItemArmorCamo",
+    "path": "textures/armors/c.png",
+    "origin": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+    "line": 36,
+    "exists": true
+  },
+  {
+    "identifier": "ItemArmorCamo",
+    "path": "textures/armors/d.png",
+    "origin": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+    "line": 38,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/e.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 74,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/f.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 106,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/g.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 66,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/h.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 98,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/i.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 58,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/j.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 90,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/k.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 72,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/l.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 50,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/m.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 82,
+    "exists": true
+  },
+  {
+    "identifier": "ItemClassArmor",
+    "path": "textures/armors/n.png",
+    "origin": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "line": 104,
+    "exists": true
+  },
+  {
+    "identifier": "ItemTrollHelmet",
+    "path": "textures/armors/o.png",
+    "origin": "assets/rivalrebels/common/item/ItemTrollHelmet.java",
+    "line": 23,
+    "exists": true
+  },
+  {
+    "identifier": "btcrate",
+    "path": "textures/blocks/ah.png",
+    "origin": "RivalRebels.java",
+    "line": 949,
+    "exists": true
+  },
+  {
+    "identifier": "btnukebottom",
+    "path": "textures/blocks/ax.png",
+    "origin": "RivalRebels.java",
+    "line": 951,
+    "exists": true
+  },
+  {
+    "identifier": "btnuketop",
+    "path": "textures/blocks/ay.png",
+    "origin": "RivalRebels.java",
+    "line": 950,
+    "exists": true
+  },
+  {
+    "identifier": "btsplash1",
+    "path": "textures/blocks/br.png",
+    "origin": "RivalRebels.java",
+    "line": 953,
+    "exists": true
+  },
+  {
+    "identifier": "btsplash2",
+    "path": "textures/blocks/bs.png",
+    "origin": "RivalRebels.java",
+    "line": 954,
+    "exists": true
+  },
+  {
+    "identifier": "btsplash3",
+    "path": "textures/blocks/bt.png",
+    "origin": "RivalRebels.java",
+    "line": 955,
+    "exists": true
+  },
+  {
+    "identifier": "btsplash4",
+    "path": "textures/blocks/bu.png",
+    "origin": "RivalRebels.java",
+    "line": 956,
+    "exists": true
+  },
+  {
+    "identifier": "btsplash5",
+    "path": "textures/blocks/bv.png",
+    "origin": "RivalRebels.java",
+    "line": 957,
+    "exists": true
+  },
+  {
+    "identifier": "btsplash6",
+    "path": "textures/blocks/bw.png",
+    "origin": "RivalRebels.java",
+    "line": 958,
+    "exists": true
+  },
+  {
+    "identifier": "btsteel",
+    "path": "textures/blocks/bx.png",
+    "origin": "RivalRebels.java",
+    "line": 952,
+    "exists": true
+  },
+  {
+    "identifier": "etomegaobj",
+    "path": "textures/entity/aa.png",
+    "origin": "RivalRebels.java",
+    "line": 894,
+    "exists": true
+  },
+  {
+    "identifier": "etsigmaobj",
+    "path": "textures/entity/ab.png",
+    "origin": "RivalRebels.java",
+    "line": 895,
+    "exists": true
+  },
+  {
+    "identifier": "etloader",
+    "path": "textures/entity/ac.png",
+    "origin": "RivalRebels.java",
+    "line": 893,
+    "exists": true
+  },
+  {
+    "identifier": "etreactor",
+    "path": "textures/entity/ad.png",
+    "origin": "RivalRebels.java",
+    "line": 902,
+    "exists": true
+  },
+  {
+    "identifier": "etnuke",
+    "path": "textures/entity/ae.png",
+    "origin": "RivalRebels.java",
+    "line": 909,
+    "exists": true
+  },
+  {
+    "identifier": "ettsarshell",
+    "path": "textures/entity/af.png",
+    "origin": "RivalRebels.java",
+    "line": 906,
+    "exists": true
+  },
+  {
+    "identifier": "ettsarfins",
+    "path": "textures/entity/ag.png",
+    "origin": "RivalRebels.java",
+    "line": 907,
+    "exists": true
+  },
+  {
+    "identifier": "etlaptop",
+    "path": "textures/entity/ah.png",
+    "origin": "RivalRebels.java",
+    "line": 903,
+    "exists": true
+  },
+  {
+    "identifier": "etscreen",
+    "path": "textures/entity/ai.png",
+    "origin": "RivalRebels.java",
+    "line": 905,
+    "exists": true
+  },
+  {
+    "identifier": "etubuntu",
+    "path": "textures/entity/aj.png",
+    "origin": "RivalRebels.java",
+    "line": 904,
+    "exists": true
+  },
+  {
+    "identifier": "etradiation",
+    "path": "textures/entity/ak.png",
+    "origin": "RivalRebels.java",
+    "line": 910,
+    "exists": true
+  },
+  {
+    "identifier": "ettsarflame",
+    "path": "textures/entity/al.png",
+    "origin": "RivalRebels.java",
+    "line": 908,
+    "exists": true
+  },
+  {
+    "identifier": "ettroll",
+    "path": "textures/entity/am.png",
+    "origin": "RivalRebels.java",
+    "line": 901,
+    "exists": true
+  },
+  {
+    "identifier": "etradrod",
+    "path": "textures/entity/an.png",
+    "origin": "RivalRebels.java",
+    "line": 898,
+    "exists": true
+  },
+  {
+    "identifier": "ethydrod",
+    "path": "textures/entity/ao.png",
+    "origin": "RivalRebels.java",
+    "line": 897,
+    "exists": true
+  },
+  {
+    "identifier": "etredrod",
+    "path": "textures/entity/ap.png",
+    "origin": "RivalRebels.java",
+    "line": 899,
+    "exists": true
+  },
+  {
+    "identifier": "etemptyrod",
+    "path": "textures/entity/aq.png",
+    "origin": "RivalRebels.java",
+    "line": 900,
+    "exists": true
+  },
+  {
+    "identifier": "etfire",
+    "path": "textures/entity/ar.png",
+    "origin": "RivalRebels.java",
+    "line": 889,
+    "exists": true
+  },
+  {
+    "identifier": "etflame",
+    "path": "textures/entity/as.png",
+    "origin": "RivalRebels.java",
+    "line": 890,
+    "exists": true
+  },
+  {
+    "identifier": "etblood",
+    "path": "textures/entity/at.png",
+    "origin": "RivalRebels.java",
+    "line": 914,
+    "exists": true
+  },
+  {
+    "identifier": "etgoo",
+    "path": "textures/entity/au.png",
+    "origin": "RivalRebels.java",
+    "line": 915,
+    "exists": true
+  },
+  {
+    "identifier": "eteinstenbarrel",
+    "path": "textures/entity/av.png",
+    "origin": "RivalRebels.java",
+    "line": 911,
+    "exists": true
+  },
+  {
+    "identifier": "eteinstenback",
+    "path": "textures/entity/aw.png",
+    "origin": "RivalRebels.java",
+    "line": 912,
+    "exists": true
+  },
+  {
+    "identifier": "eteinstenhandle",
+    "path": "textures/entity/ax.png",
+    "origin": "RivalRebels.java",
+    "line": 913,
+    "exists": true
+  },
+  {
+    "identifier": "etplasmacannon",
+    "path": "textures/entity/ay.png",
+    "origin": "RivalRebels.java",
+    "line": 896,
+    "exists": true
+  },
+  {
+    "identifier": "etrocket",
+    "path": "textures/entity/az.png",
+    "origin": "RivalRebels.java",
+    "line": 888,
+    "exists": true
+  },
+  {
+    "identifier": "etdisk0",
+    "path": "textures/entity/ba.png",
+    "origin": "RivalRebels.java",
+    "line": 884,
+    "exists": true
+  },
+  {
+    "identifier": "etdisk1",
+    "path": "textures/entity/bb.png",
+    "origin": "RivalRebels.java",
+    "line": 885,
+    "exists": true
+  },
+  {
+    "identifier": "etdisk2",
+    "path": "textures/entity/bc.png",
+    "origin": "RivalRebels.java",
+    "line": 886,
+    "exists": true
+  },
+  {
+    "identifier": "etdisk3",
+    "path": "textures/entity/bd.png",
+    "origin": "RivalRebels.java",
+    "line": 887,
+    "exists": true
+  },
+  {
+    "identifier": "etknife",
+    "path": "textures/entity/be.png",
+    "origin": "RivalRebels.java",
+    "line": 892,
+    "exists": true
+  },
+  {
+    "identifier": "etgasgrenade",
+    "path": "textures/entity/bf.png",
+    "origin": "RivalRebels.java",
+    "line": 891,
+    "exists": true
+  },
+  {
+    "identifier": "etrocketlauncherhandle",
+    "path": "textures/entity/bg.png",
+    "origin": "RivalRebels.java",
+    "line": 917,
+    "exists": true
+  },
+  {
+    "identifier": "etrocketlauncherbody",
+    "path": "textures/entity/bh.png",
+    "origin": "RivalRebels.java",
+    "line": 916,
+    "exists": true
+  },
+  {
+    "identifier": "etrocketlaunchertube",
+    "path": "textures/entity/bi.png",
+    "origin": "RivalRebels.java",
+    "line": 918,
+    "exists": true
+  },
+  {
+    "identifier": "etbinoculars",
+    "path": "textures/entity/bj.png",
+    "origin": "RivalRebels.java",
+    "line": 919,
+    "exists": true
+  },
+  {
+    "identifier": "etelectrode",
+    "path": "textures/entity/bk.png",
+    "origin": "RivalRebels.java",
+    "line": 920,
+    "exists": true
+  },
+  {
+    "identifier": "etb83",
+    "path": "textures/entity/bl.png",
+    "origin": "RivalRebels.java",
+    "line": 921,
+    "exists": true
+  },
+  {
+    "identifier": "etb2spirit",
+    "path": "textures/entity/bm.png",
+    "origin": "RivalRebels.java",
+    "line": 922,
+    "exists": true
+  },
+  {
+    "identifier": "etrust",
+    "path": "textures/entity/bn.png",
+    "origin": "RivalRebels.java",
+    "line": 923,
+    "exists": true
+  },
+  {
+    "identifier": "etreciever",
+    "path": "textures/entity/bo.png",
+    "origin": "RivalRebels.java",
+    "line": 924,
+    "exists": true
+  },
+  {
+    "identifier": "etbooster",
+    "path": "textures/entity/booster.png",
+    "origin": "RivalRebels.java",
+    "line": 946,
+    "exists": true
+  },
+  {
+    "identifier": "ettesla",
+    "path": "textures/entity/bp.png",
+    "origin": "RivalRebels.java",
+    "line": 925,
+    "exists": true
+  },
+  {
+    "identifier": "etbattery",
+    "path": "textures/entity/bq.png",
+    "origin": "RivalRebels.java",
+    "line": 926,
+    "exists": true
+  },
+  {
+    "identifier": "ettube",
+    "path": "textures/entity/br.png",
+    "origin": "RivalRebels.java",
+    "line": 927,
+    "exists": true
+  },
+  {
+    "identifier": "etadsdragon",
+    "path": "textures/entity/bs.png",
+    "origin": "RivalRebels.java",
+    "line": 928,
+    "exists": true
+  },
+  {
+    "identifier": "etflamethrower",
+    "path": "textures/entity/bt.png",
+    "origin": "RivalRebels.java",
+    "line": 929,
+    "exists": true
+  },
+  {
+    "identifier": "etflamecone",
+    "path": "textures/entity/bu.png",
+    "origin": "RivalRebels.java",
+    "line": 930,
+    "exists": true
+  },
+  {
+    "identifier": "etflameball",
+    "path": "textures/entity/bv.png",
+    "origin": "RivalRebels.java",
+    "line": 931,
+    "exists": true
+  },
+  {
+    "identifier": "etflameblue",
+    "path": "textures/entity/bw.png",
+    "origin": "RivalRebels.java",
+    "line": 932,
+    "exists": true
+  },
+  {
+    "identifier": "etflamebluered",
+    "path": "textures/entity/bx.png",
+    "origin": "RivalRebels.java",
+    "line": 933,
+    "exists": true
+  },
+  {
+    "identifier": "ethack202",
+    "path": "textures/entity/by.png",
+    "origin": "RivalRebels.java",
+    "line": 934,
+    "exists": true
+  },
+  {
+    "identifier": "etseek202",
+    "path": "textures/entity/bz.png",
+    "origin": "RivalRebels.java",
+    "line": 935,
+    "exists": true
+  },
+  {
+    "identifier": "etrocketseek202",
+    "path": "textures/entity/ca.png",
+    "origin": "RivalRebels.java",
+    "line": 936,
+    "exists": true
+  },
+  {
+    "identifier": "etrocketseekhandle202",
+    "path": "textures/entity/cb.png",
+    "origin": "RivalRebels.java",
+    "line": 937,
+    "exists": true
+  },
+  {
+    "identifier": "etrocketseektube202",
+    "path": "textures/entity/cc.png",
+    "origin": "RivalRebels.java",
+    "line": 938,
+    "exists": true
+  },
+  {
+    "identifier": "ettheoreticaltsarshell1",
+    "path": "textures/entity/cd.png",
+    "origin": "RivalRebels.java",
+    "line": 939,
+    "exists": true
+  },
+  {
+    "identifier": "ettheoreticaltsarshell2",
+    "path": "textures/entity/ce.png",
+    "origin": "RivalRebels.java",
+    "line": 940,
+    "exists": true
+  },
+  {
+    "identifier": "etblacktsar",
+    "path": "textures/entity/cf.png",
+    "origin": "RivalRebels.java",
+    "line": 941,
+    "exists": true
+  },
+  {
+    "identifier": "etwacknuke",
+    "path": "textures/entity/cg.png",
+    "origin": "RivalRebels.java",
+    "line": 942,
+    "exists": true
+  },
+  {
+    "identifier": "etflameballgreen",
+    "path": "textures/entity/ch.png",
+    "origin": "RivalRebels.java",
+    "line": 943,
+    "exists": true
+  },
+  {
+    "identifier": "etantimatterbomb",
+    "path": "textures/entity/ci.png",
+    "origin": "RivalRebels.java",
+    "line": 944,
+    "exists": true
+  },
+  {
+    "identifier": "etantimatterblast",
+    "path": "textures/entity/cj.png",
+    "origin": "RivalRebels.java",
+    "line": 947,
+    "exists": true
+  },
+  {
+    "identifier": "ettachyonbomb",
+    "path": "textures/entity/ck.png",
+    "origin": "RivalRebels.java",
+    "line": 948,
+    "exists": true
+  },
+  {
+    "identifier": "ettupolev",
+    "path": "textures/entity/tupolev.png",
+    "origin": "RivalRebels.java",
+    "line": 945,
+    "exists": true
+  },
+  {
+    "identifier": "guitbutton",
+    "path": "textures/gui/a.png",
+    "origin": "RivalRebels.java",
+    "line": 857,
+    "exists": true
+  },
+  {
+    "identifier": "guitspawn",
+    "path": "textures/gui/b.png",
+    "origin": "RivalRebels.java",
+    "line": 858,
+    "exists": true
+  },
+  {
+    "identifier": "guitclass",
+    "path": "textures/gui/c.png",
+    "origin": "RivalRebels.java",
+    "line": 859,
+    "exists": true
+  },
+  {
+    "identifier": "guitrebel",
+    "path": "textures/gui/d.png",
+    "origin": "RivalRebels.java",
+    "line": 860,
+    "exists": true
+  },
+  {
+    "identifier": "guitnuker",
+    "path": "textures/gui/e.png",
+    "origin": "RivalRebels.java",
+    "line": 861,
+    "exists": true
+  },
+  {
+    "identifier": "guitintel",
+    "path": "textures/gui/f.png",
+    "origin": "RivalRebels.java",
+    "line": 862,
+    "exists": true
+  },
+  {
+    "identifier": "guithacker",
+    "path": "textures/gui/g.png",
+    "origin": "RivalRebels.java",
+    "line": 863,
+    "exists": true
+  },
+  {
+    "identifier": "guitrivalrebels",
+    "path": "textures/gui/h.png",
+    "origin": "RivalRebels.java",
+    "line": 864,
+    "exists": true
+  },
+  {
+    "identifier": "guitloader",
+    "path": "textures/gui/i.png",
+    "origin": "RivalRebels.java",
+    "line": 865,
+    "exists": true
+  },
+  {
+    "identifier": "guitnuke",
+    "path": "textures/gui/j.png",
+    "origin": "RivalRebels.java",
+    "line": 866,
+    "exists": true
+  },
+  {
+    "identifier": "guittsar",
+    "path": "textures/gui/k.png",
+    "origin": "RivalRebels.java",
+    "line": 867,
+    "exists": true
+  },
+  {
+    "identifier": "guitwarning0",
+    "path": "textures/gui/l.png",
+    "origin": "RivalRebels.java",
+    "line": 868,
+    "exists": true
+  },
+  {
+    "identifier": "guitwarning1",
+    "path": "textures/gui/m.png",
+    "origin": "RivalRebels.java",
+    "line": 869,
+    "exists": true
+  },
+  {
+    "identifier": "guittokamak",
+    "path": "textures/gui/n.png",
+    "origin": "RivalRebels.java",
+    "line": 870,
+    "exists": true
+  },
+  {
+    "identifier": "guibinoculars",
+    "path": "textures/gui/o.png",
+    "origin": "RivalRebels.java",
+    "line": 871,
+    "exists": true
+  },
+  {
+    "identifier": "guibinocularsoverlay",
+    "path": "textures/gui/p.png",
+    "origin": "RivalRebels.java",
+    "line": 872,
+    "exists": true
+  },
+  {
+    "identifier": "guilaptopnuke",
+    "path": "textures/gui/q.png",
+    "origin": "RivalRebels.java",
+    "line": 873,
+    "exists": true
+  },
+  {
+    "identifier": "guitesla",
+    "path": "textures/gui/r.png",
+    "origin": "RivalRebels.java",
+    "line": 874,
+    "exists": true
+  },
+  {
+    "identifier": "guirhodeshelp",
+    "path": "textures/gui/rhodes-gui_help.png",
+    "origin": "RivalRebels.java",
+    "line": 879,
+    "exists": true
+  },
+  {
+    "identifier": "guirhodesline",
+    "path": "textures/gui/rhodes-gui_line.png",
+    "origin": "RivalRebels.java",
+    "line": 877,
+    "exists": true
+  },
+  {
+    "identifier": "guirhodesout",
+    "path": "textures/gui/rhodes-gui_out.png",
+    "origin": "RivalRebels.java",
+    "line": 878,
+    "exists": true
+  },
+  {
+    "identifier": "guitray",
+    "path": "textures/gui/s.png",
+    "origin": "RivalRebels.java",
+    "line": 875,
+    "exists": true
+  },
+  {
+    "identifier": "guiflamethrower",
+    "path": "textures/gui/u.png",
+    "origin": "RivalRebels.java",
+    "line": 876,
+    "exists": true
+  },
+  {
+    "identifier": "guicarpet",
+    "path": "textures/gui/v.png",
+    "origin": "RivalRebels.java",
+    "line": 880,
+    "exists": true
+  },
+  {
+    "identifier": "guitheoreticaltsar",
+    "path": "textures/gui/w.png",
+    "origin": "RivalRebels.java",
+    "line": 881,
+    "exists": true
+  },
+  {
+    "identifier": "guitantimatterbomb",
+    "path": "textures/gui/x.png",
+    "origin": "RivalRebels.java",
+    "line": 882,
+    "exists": true
+  },
+  {
+    "identifier": "guitachyonbomb",
+    "path": "textures/gui/y.png",
+    "origin": "RivalRebels.java",
+    "line": 883,
+    "exists": true
+  },
+  {
+    "identifier": "ittaskb83",
+    "path": "textures/items/bc.png",
+    "origin": "RivalRebels.java",
+    "line": 959,
+    "exists": true
+  }
+]

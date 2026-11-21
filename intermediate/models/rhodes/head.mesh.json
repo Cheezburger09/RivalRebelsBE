@@ -1,0 +1,2063 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "head.obj",
+  "vertices": [
+    [
+      0.0,
+      -0.55751,
+      -2.550003
+    ],
+    [
+      0.0,
+      0.55751,
+      -2.550003
+    ],
+    [
+      1.275,
+      -0.55751,
+      -2.208368
+    ],
+    [
+      1.275,
+      0.55751,
+      -2.208368
+    ],
+    [
+      2.208365,
+      -0.55751,
+      -1.275003
+    ],
+    [
+      2.208365,
+      0.55751,
+      -1.275003
+    ],
+    [
+      2.55,
+      -0.55751,
+      -3e-06
+    ],
+    [
+      2.55,
+      0.55751,
+      -3e-06
+    ],
+    [
+      2.208365,
+      -0.55751,
+      1.274998
+    ],
+    [
+      2.208365,
+      0.55751,
+      1.274998
+    ],
+    [
+      1.275,
+      -0.55751,
+      2.208362
+    ],
+    [
+      1.275,
+      0.55751,
+      2.208362
+    ],
+    [
+      0.0,
+      -0.55751,
+      2.549997
+    ],
+    [
+      0.0,
+      0.55751,
+      2.549997
+    ],
+    [
+      -1.274999,
+      -0.55751,
+      2.208363
+    ],
+    [
+      -1.274999,
+      0.55751,
+      2.208363
+    ],
+    [
+      -2.208364,
+      -0.55751,
+      1.274998
+    ],
+    [
+      -2.208364,
+      0.55751,
+      1.274998
+    ],
+    [
+      -2.55,
+      -0.55751,
+      -2e-06
+    ],
+    [
+      -2.55,
+      0.55751,
+      -2e-06
+    ],
+    [
+      -2.208366,
+      -0.55751,
+      -1.275002
+    ],
+    [
+      -2.208366,
+      0.55751,
+      -1.275002
+    ],
+    [
+      -1.275002,
+      -0.55751,
+      -2.208367
+    ],
+    [
+      -1.275002,
+      0.55751,
+      -2.208367
+    ],
+    [
+      -1.686701,
+      1.071012,
+      -0.973819
+    ],
+    [
+      -1.686701,
+      -1.071012,
+      -0.973819
+    ],
+    [
+      -1.6867,
+      1.071012,
+      0.973815
+    ],
+    [
+      -1.6867,
+      -1.071012,
+      0.973815
+    ],
+    [
+      1e-06,
+      1.071012,
+      1.947632
+    ],
+    [
+      1e-06,
+      -1.071012,
+      1.947632
+    ],
+    [
+      1.686701,
+      1.071012,
+      0.973815
+    ],
+    [
+      1.686701,
+      -1.071012,
+      0.973815
+    ],
+    [
+      1.686701,
+      1.071012,
+      -0.97382
+    ],
+    [
+      1.686701,
+      -1.071012,
+      -0.97382
+    ],
+    [
+      0.0,
+      1.071012,
+      -1.947638
+    ],
+    [
+      0.0,
+      -1.071012,
+      -1.947637
+    ]
+  ],
+  "uvs": [
+    [
+      0.466338,
+      0.996306
+    ],
+    [
+      0.427842,
+      0.996293
+    ],
+    [
+      0.427853,
+      0.963774
+    ],
+    [
+      0.389347,
+      0.996279
+    ],
+    [
+      0.389358,
+      0.963761
+    ],
+    [
+      0.350851,
+      0.996266
+    ],
+    [
+      0.350862,
+      0.963748
+    ],
+    [
+      0.312356,
+      0.996253
+    ],
+    [
+      0.312367,
+      0.963735
+    ],
+    [
+      0.27386,
+      0.99624
+    ],
+    [
+      0.273872,
+      0.963721
+    ],
+    [
+      0.235365,
+      0.996226
+    ],
+    [
+      0.235376,
+      0.963708
+    ],
+    [
+      0.196869,
+      0.996213
+    ],
+    [
+      0.196881,
+      0.963695
+    ],
+    [
+      0.158374,
+      0.9962
+    ],
+    [
+      0.158385,
+      0.963682
+    ],
+    [
+      0.119878,
+      0.996187
+    ],
+    [
+      0.119889,
+      0.963668
+    ],
+    [
+      0.081383,
+      0.996173
+    ],
+    [
+      0.081394,
+      0.963655
+    ],
+    [
+      0.084514,
+      0.958786
+    ],
+    [
+      0.045006,
+      0.948532
+    ],
+    [
+      0.084513,
+      0.935272
+    ],
+    [
+      0.042887,
+      0.99616
+    ],
+    [
+      0.004391,
+      0.996147
+    ],
+    [
+      0.004403,
+      0.963629
+    ],
+    [
+      0.042898,
+      0.963642
+    ],
+    [
+      0.286963,
+      0.948447
+    ],
+    [
+      0.247457,
+      0.935188
+    ],
+    [
+      0.295626,
+      0.908002
+    ],
+    [
+      0.132139,
+      0.852776
+    ],
+    [
+      0.132682,
+      0.908085
+    ],
+    [
+      0.08451,
+      0.824654
+    ],
+    [
+      0.123867,
+      0.811933
+    ],
+    [
+      0.295086,
+      0.852693
+    ],
+    [
+      0.326322,
+      0.880278
+    ],
+    [
+      0.247456,
+      0.958702
+    ],
+    [
+      0.016518,
+      0.841022
+    ],
+    [
+      0.045152,
+      0.811935
+    ],
+    [
+      0.036882,
+      0.852779
+    ],
+    [
+      0.036343,
+      0.908088
+    ],
+    [
+      0.199829,
+      0.852692
+    ],
+    [
+      0.247458,
+      0.82457
+    ],
+    [
+      0.286815,
+      0.81185
+    ],
+    [
+      0.466349,
+      0.963788
+    ],
+    [
+      0.315835,
+      0.91967
+    ],
+    [
+      0.179465,
+      0.840935
+    ],
+    [
+      0.2081,
+      0.811849
+    ],
+    [
+      0.163376,
+      0.88036
+    ],
+    [
+      0.152891,
+      0.919752
+    ],
+    [
+      0.124021,
+      0.94853
+    ],
+    [
+      0.005647,
+      0.880364
+    ],
+    [
+      0.016134,
+      0.919756
+    ],
+    [
+      0.247458,
+      0.801235
+    ],
+    [
+      0.084509,
+      0.801319
+    ],
+    [
+      0.152502,
+      0.841018
+    ],
+    [
+      0.179079,
+      0.919669
+    ],
+    [
+      0.168593,
+      0.880276
+    ],
+    [
+      0.199287,
+      0.908001
+    ],
+    [
+      0.31545,
+      0.840936
+    ],
+    [
+      0.20795,
+      0.948447
+    ]
+  ],
+  "normals": [
+    [
+      0.0,
+      0.3948,
+      -0.9187
+    ],
+    [
+      0.4504,
+      0.4343,
+      -0.7801
+    ],
+    [
+      0.4504,
+      -0.4343,
+      -0.7801
+    ],
+    [
+      0.7956,
+      0.3948,
+      -0.4594
+    ],
+    [
+      0.7956,
+      -0.3948,
+      -0.4594
+    ],
+    [
+      0.9008,
+      0.4343,
+      0.0
+    ],
+    [
+      0.9008,
+      -0.4343,
+      0.0
+    ],
+    [
+      0.7956,
+      0.3948,
+      0.4594
+    ],
+    [
+      0.7956,
+      -0.3948,
+      0.4594
+    ],
+    [
+      0.4504,
+      0.4343,
+      0.7801
+    ],
+    [
+      0.4504,
+      -0.4343,
+      0.7801
+    ],
+    [
+      0.0,
+      0.3948,
+      0.9187
+    ],
+    [
+      0.0,
+      -0.3948,
+      0.9187
+    ],
+    [
+      -0.4504,
+      0.4343,
+      0.7801
+    ],
+    [
+      -0.4504,
+      -0.4343,
+      0.7801
+    ],
+    [
+      -0.7956,
+      0.3948,
+      0.4594
+    ],
+    [
+      -0.7956,
+      -0.3948,
+      0.4594
+    ],
+    [
+      -0.9008,
+      0.4343,
+      0.0
+    ],
+    [
+      -0.9008,
+      -0.4343,
+      0.0
+    ],
+    [
+      -0.7956,
+      0.3948,
+      -0.4594
+    ],
+    [
+      -0.7956,
+      -0.3948,
+      -0.4594
+    ],
+    [
+      -0.4504,
+      0.4343,
+      -0.7801
+    ],
+    [
+      0.0,
+      0.9209,
+      -0.3898
+    ],
+    [
+      0.0,
+      -0.3948,
+      -0.9187
+    ],
+    [
+      -0.4504,
+      -0.4343,
+      -0.7801
+    ],
+    [
+      0.0,
+      -0.9209,
+      -0.3898
+    ],
+    [
+      -0.3376,
+      -0.9209,
+      -0.1949
+    ],
+    [
+      0.3376,
+      0.9209,
+      0.1949
+    ],
+    [
+      0.3376,
+      0.9209,
+      -0.1949
+    ],
+    [
+      0.0,
+      0.9209,
+      0.3898
+    ],
+    [
+      -0.3376,
+      -0.9209,
+      0.1949
+    ],
+    [
+      -0.3376,
+      0.9209,
+      0.1949
+    ],
+    [
+      -0.3376,
+      0.9209,
+      -0.1949
+    ],
+    [
+      0.3376,
+      -0.9209,
+      0.1949
+    ],
+    [
+      0.0,
+      -0.9209,
+      0.3898
+    ],
+    [
+      0.3376,
+      -0.9209,
+      -0.1949
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 3,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 2
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 3,
+          "normal": 3
+        },
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 4
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 3,
+          "normal": 3
+        },
+        {
+          "vertex": 7,
+          "uv": 5,
+          "normal": 5
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 6
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 5,
+          "normal": 5
+        },
+        {
+          "vertex": 9,
+          "uv": 7,
+          "normal": 7
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 8
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 7,
+          "normal": 7
+        },
+        {
+          "vertex": 11,
+          "uv": 9,
+          "normal": 9
+        },
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 10
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 9,
+          "normal": 9
+        },
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 11
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 12
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 11
+        },
+        {
+          "vertex": 15,
+          "uv": 13,
+          "normal": 13
+        },
+        {
+          "vertex": 14,
+          "uv": 14,
+          "normal": 14
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 15,
+          "uv": 13,
+          "normal": 13
+        },
+        {
+          "vertex": 17,
+          "uv": 15,
+          "normal": 15
+        },
+        {
+          "vertex": 16,
+          "uv": 16,
+          "normal": 16
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 15,
+          "normal": 15
+        },
+        {
+          "vertex": 19,
+          "uv": 17,
+          "normal": 17
+        },
+        {
+          "vertex": 18,
+          "uv": 18,
+          "normal": 18
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 17,
+          "normal": 17
+        },
+        {
+          "vertex": 21,
+          "uv": 19,
+          "normal": 19
+        },
+        {
+          "vertex": 20,
+          "uv": 20,
+          "normal": 20
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 21,
+          "normal": 0
+        },
+        {
+          "vertex": 23,
+          "uv": 22,
+          "normal": 21
+        },
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 24,
+          "normal": 21
+        },
+        {
+          "vertex": 1,
+          "uv": 25,
+          "normal": 0
+        },
+        {
+          "vertex": 0,
+          "uv": 26,
+          "normal": 23
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 19,
+          "normal": 19
+        },
+        {
+          "vertex": 23,
+          "uv": 24,
+          "normal": 21
+        },
+        {
+          "vertex": 22,
+          "uv": 27,
+          "normal": 24
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 28,
+          "normal": 24
+        },
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        },
+        {
+          "vertex": 25,
+          "uv": 30,
+          "normal": 26
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        },
+        {
+          "vertex": 32,
+          "uv": 32,
+          "normal": 28
+        },
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        },
+        {
+          "vertex": 28,
+          "uv": 33,
+          "normal": 29
+        },
+        {
+          "vertex": 11,
+          "uv": 34,
+          "normal": 9
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 30,
+          "normal": 26
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        },
+        {
+          "vertex": 18,
+          "uv": 36,
+          "normal": 18
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 28,
+          "normal": 24
+        },
+        {
+          "vertex": 0,
+          "uv": 37,
+          "normal": 23
+        },
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 38,
+          "normal": 15
+        },
+        {
+          "vertex": 15,
+          "uv": 39,
+          "normal": 13
+        },
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        },
+        {
+          "vertex": 24,
+          "uv": 41,
+          "normal": 32
+        },
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        },
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 34
+        },
+        {
+          "vertex": 14,
+          "uv": 44,
+          "normal": 14
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 45,
+          "normal": 23
+        },
+        {
+          "vertex": 1,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 2
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 2
+        },
+        {
+          "vertex": 3,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 4
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 4
+        },
+        {
+          "vertex": 5,
+          "uv": 3,
+          "normal": 3
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 6
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 6
+        },
+        {
+          "vertex": 7,
+          "uv": 5,
+          "normal": 5
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 8
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 8
+        },
+        {
+          "vertex": 9,
+          "uv": 7,
+          "normal": 7
+        },
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 10
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 10
+        },
+        {
+          "vertex": 11,
+          "uv": 9,
+          "normal": 9
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 12
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 12
+        },
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 11
+        },
+        {
+          "vertex": 14,
+          "uv": 14,
+          "normal": 14
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 14,
+          "normal": 14
+        },
+        {
+          "vertex": 15,
+          "uv": 13,
+          "normal": 13
+        },
+        {
+          "vertex": 16,
+          "uv": 16,
+          "normal": 16
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 16,
+          "normal": 16
+        },
+        {
+          "vertex": 17,
+          "uv": 15,
+          "normal": 15
+        },
+        {
+          "vertex": 18,
+          "uv": 18,
+          "normal": 18
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 18,
+          "normal": 18
+        },
+        {
+          "vertex": 19,
+          "uv": 17,
+          "normal": 17
+        },
+        {
+          "vertex": 20,
+          "uv": 20,
+          "normal": 20
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 27,
+          "normal": 24
+        },
+        {
+          "vertex": 23,
+          "uv": 24,
+          "normal": 21
+        },
+        {
+          "vertex": 0,
+          "uv": 26,
+          "normal": 23
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 20,
+          "normal": 20
+        },
+        {
+          "vertex": 21,
+          "uv": 19,
+          "normal": 19
+        },
+        {
+          "vertex": 22,
+          "uv": 27,
+          "normal": 24
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 46,
+          "normal": 20
+        },
+        {
+          "vertex": 22,
+          "uv": 28,
+          "normal": 24
+        },
+        {
+          "vertex": 25,
+          "uv": 30,
+          "normal": 26
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 47,
+          "normal": 8
+        },
+        {
+          "vertex": 10,
+          "uv": 48,
+          "normal": 10
+        },
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 49,
+          "normal": 5
+        },
+        {
+          "vertex": 5,
+          "uv": 50,
+          "normal": 3
+        },
+        {
+          "vertex": 32,
+          "uv": 32,
+          "normal": 28
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 51,
+          "normal": 1
+        },
+        {
+          "vertex": 1,
+          "uv": 21,
+          "normal": 0
+        },
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 52,
+          "normal": 17
+        },
+        {
+          "vertex": 17,
+          "uv": 38,
+          "normal": 15
+        },
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 22,
+          "normal": 21
+        },
+        {
+          "vertex": 21,
+          "uv": 53,
+          "normal": 19
+        },
+        {
+          "vertex": 24,
+          "uv": 41,
+          "normal": 32
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 54,
+          "normal": 12
+        },
+        {
+          "vertex": 14,
+          "uv": 44,
+          "normal": 14
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 34
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 22,
+          "normal": 21
+        },
+        {
+          "vertex": 24,
+          "uv": 41,
+          "normal": 32
+        },
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 15,
+          "uv": 39,
+          "normal": 13
+        },
+        {
+          "vertex": 13,
+          "uv": 55,
+          "normal": 11
+        },
+        {
+          "vertex": 28,
+          "uv": 33,
+          "normal": 29
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 50,
+          "normal": 3
+        },
+        {
+          "vertex": 3,
+          "uv": 51,
+          "normal": 1
+        },
+        {
+          "vertex": 32,
+          "uv": 32,
+          "normal": 28
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        },
+        {
+          "vertex": 15,
+          "uv": 39,
+          "normal": 13
+        },
+        {
+          "vertex": 28,
+          "uv": 33,
+          "normal": 29
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 51,
+          "normal": 1
+        },
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        },
+        {
+          "vertex": 32,
+          "uv": 32,
+          "normal": 28
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        },
+        {
+          "vertex": 34,
+          "uv": 23,
+          "normal": 22
+        },
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 53,
+          "normal": 19
+        },
+        {
+          "vertex": 19,
+          "uv": 52,
+          "normal": 17
+        },
+        {
+          "vertex": 24,
+          "uv": 41,
+          "normal": 32
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 34,
+          "normal": 9
+        },
+        {
+          "vertex": 9,
+          "uv": 56,
+          "normal": 7
+        },
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        },
+        {
+          "vertex": 25,
+          "uv": 30,
+          "normal": 26
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        },
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 34
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 57,
+          "normal": 4
+        },
+        {
+          "vertex": 6,
+          "uv": 58,
+          "normal": 6
+        },
+        {
+          "vertex": 33,
+          "uv": 59,
+          "normal": 35
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 48,
+          "normal": 10
+        },
+        {
+          "vertex": 12,
+          "uv": 54,
+          "normal": 12
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 34
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        },
+        {
+          "vertex": 33,
+          "uv": 59,
+          "normal": 35
+        },
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 60,
+          "normal": 16
+        },
+        {
+          "vertex": 18,
+          "uv": 36,
+          "normal": 18
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 37,
+          "normal": 23
+        },
+        {
+          "vertex": 2,
+          "uv": 61,
+          "normal": 2
+        },
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 52,
+          "normal": 17
+        },
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        },
+        {
+          "vertex": 24,
+          "uv": 41,
+          "normal": 32
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 40,
+          "normal": 31
+        },
+        {
+          "vertex": 28,
+          "uv": 33,
+          "normal": 29
+        },
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 28,
+          "uv": 33,
+          "normal": 29
+        },
+        {
+          "vertex": 13,
+          "uv": 55,
+          "normal": 11
+        },
+        {
+          "vertex": 11,
+          "uv": 34,
+          "normal": 9
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 49,
+          "normal": 5
+        },
+        {
+          "vertex": 32,
+          "uv": 32,
+          "normal": 28
+        },
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 56,
+          "normal": 7
+        },
+        {
+          "vertex": 7,
+          "uv": 49,
+          "normal": 5
+        },
+        {
+          "vertex": 30,
+          "uv": 31,
+          "normal": 27
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 46,
+          "normal": 20
+        },
+        {
+          "vertex": 25,
+          "uv": 30,
+          "normal": 26
+        },
+        {
+          "vertex": 18,
+          "uv": 36,
+          "normal": 18
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 60,
+          "normal": 16
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 30
+        },
+        {
+          "vertex": 14,
+          "uv": 44,
+          "normal": 14
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 47,
+          "normal": 8
+        },
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        },
+        {
+          "vertex": 6,
+          "uv": 58,
+          "normal": 6
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        },
+        {
+          "vertex": 10,
+          "uv": 48,
+          "normal": 10
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 34
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 58,
+          "normal": 6
+        },
+        {
+          "vertex": 31,
+          "uv": 42,
+          "normal": 33
+        },
+        {
+          "vertex": 33,
+          "uv": 59,
+          "normal": 35
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 57,
+          "normal": 4
+        },
+        {
+          "vertex": 33,
+          "uv": 59,
+          "normal": 35
+        },
+        {
+          "vertex": 2,
+          "uv": 61,
+          "normal": 2
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 61,
+          "normal": 2
+        },
+        {
+          "vertex": 33,
+          "uv": 59,
+          "normal": 35
+        },
+        {
+          "vertex": 35,
+          "uv": 29,
+          "normal": 25
+        }
+      ],
+      "object": null,
+      "material": null
+    }
+  ],
+  "objects": [],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -2.55,
+      -1.071012,
+      -2.550003
+    ],
+    "max": [
+      2.55,
+      1.071012,
+      2.549997
+    ]
+  }
+}

@@ -1,0 +1,788 @@
+[
+  {
+    "texture": "textures/armors/a.png",
+    "classes": [
+      "common/item/ItemArmorCamo.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/b.png",
+    "classes": [
+      "common/item/ItemArmorCamo.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/c.png",
+    "classes": [
+      "common/item/ItemArmorCamo.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/d.png",
+    "classes": [
+      "common/item/ItemArmorCamo.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/e.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/f.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/g.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/h.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/i.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/j.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/k.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/l.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/m.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/n.png",
+    "classes": [
+      "common/item/ItemClassArmor.class"
+    ]
+  },
+  {
+    "texture": "textures/armors/o.png",
+    "classes": [
+      "common/item/ItemTrollHelmet.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/ah.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/ax.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/ay.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/br.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/bs.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/bt.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/bu.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/bv.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/bw.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/blocks/bx.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/aa.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ab.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ac.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ad.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ae.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/af.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ag.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ah.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ai.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/aj.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ak.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/al.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/am.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/an.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ao.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ap.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/aq.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ar.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/as.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/at.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/au.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/av.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/aw.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ax.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ay.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/az.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ba.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bb.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bc.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bd.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/be.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bf.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bg.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bh.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bi.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bj.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bk.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bl.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bm.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bn.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bo.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/booster.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bp.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bq.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/br.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bs.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bt.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bu.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bv.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bw.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bx.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/by.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/bz.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ca.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/cb.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/cc.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/cd.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ce.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/cf.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/cg.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ch.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ci.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/cj.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ck.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/creeper/creeper.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/enderman/enderman.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/flame.png",
+    "classes": [
+      "client/renderentity/RenderRhodes.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/ghast/ghast.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/rhodes.png",
+    "classes": [
+      "client/renderentity/RenderRhodes.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/skeleton/skeleton.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/slime/magmacube.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/slime/slime.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/spider/cave_spider.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/spider/spider.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/steve.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/tupolev.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/zombie/zombie.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/entity/zombie_pigman.png",
+    "classes": [
+      "client/renderentity/RenderGore.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/a.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/b.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/c.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/d.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/e.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/f.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/g.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/h.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/i.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/j.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/k.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/l.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/m.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/n.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/o.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/p.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/q.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/r.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/rhodes-gui_help.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/rhodes-gui_line.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/rhodes-gui_out.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/s.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/u.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/v.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/w.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/x.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/gui/y.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  },
+  {
+    "texture": "textures/items/bc.png",
+    "classes": [
+      "RivalRebels.class"
+    ]
+  }
+]

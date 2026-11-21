@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Rival Rebels BP",
+    "description": "Behavior Pack - Rival Rebels Port",
+    "uuid": "2f85e3a1-42a7-4c65-8b12-91e3b9d5a701",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "58a31d72-9b46-4f03-a812-7e6c2d9f5013",
+      "version": [1, 0, 0]
+    }
+  ]
+}

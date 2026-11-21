@@ -1,0 +1,3221 @@
+[
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 184,
+    "arguments": [
+      "EntityGasGrenade.class",
+      "new RenderGasGrenade()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 185,
+    "arguments": [
+      "EntityPropulsionFX.class",
+      "new RenderBullet(\"fire\")"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 186,
+    "arguments": [
+      "EntityPassiveFire.class",
+      "new RenderBullet(\"fire\")"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 187,
+    "arguments": [
+      "EntityCuchillo.class",
+      "new RenderCuchillo()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 188,
+    "arguments": [
+      "EntityFlameBall.class",
+      "new RenderFlame()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 189,
+    "arguments": [
+      "EntityFlameBall1.class",
+      "new RenderFlameRedBlue()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 190,
+    "arguments": [
+      "EntityFlameBall2.class",
+      "new RenderFlameBlue()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 191,
+    "arguments": [
+      "EntityRocket.class",
+      "new RenderRocket()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 192,
+    "arguments": [
+      "EntityPlasmoid.class",
+      "new RenderPlasmoid()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 193,
+    "arguments": [
+      "EntityLightningLink.class",
+      "new RenderLightningLink()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 194,
+    "arguments": [
+      "EntityNuclearBlast.class",
+      "new RenderNuclearBlast()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 195,
+    "arguments": [
+      "EntityLightningBolt2.class",
+      "new RenderLightningBolt2()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 196,
+    "arguments": [
+      "EntityLaptop.class",
+      "new RenderLaptop()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 197,
+    "arguments": [
+      "EntityRoddiskRegular.class",
+      "new RenderRoddiskRegular()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 198,
+    "arguments": [
+      "EntityRoddiskRebel.class",
+      "new RenderRoddiskRebel()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 199,
+    "arguments": [
+      "EntityRoddiskOfficer.class",
+      "new RenderRoddiskOfficer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 200,
+    "arguments": [
+      "EntityRoddiskLeader.class",
+      "new RenderRoddiskLeader()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 201,
+    "arguments": [
+      "EntityTsarBlast.class",
+      "new RenderTsarBlast()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 202,
+    "arguments": [
+      "EntityLaserLink.class",
+      "new RenderLaserLink()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 203,
+    "arguments": [
+      "EntityGore.class",
+      "new RenderGore()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 204,
+    "arguments": [
+      "EntityBlood.class",
+      "new RenderBlood()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 205,
+    "arguments": [
+      "EntityGoo.class",
+      "new RenderGoo()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 206,
+    "arguments": [
+      "EntityLaserBurst.class",
+      "new RenderLaserBurst()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 207,
+    "arguments": [
+      "EntityB83.class",
+      "new RenderB83()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 208,
+    "arguments": [
+      "EntityB2Spirit.class",
+      "new RenderB2Spirit()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 209,
+    "arguments": [
+      "EntityB2Frag.class",
+      "new RenderB2Frag()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 210,
+    "arguments": [
+      "EntityDebris.class",
+      "new RenderDebris()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 211,
+    "arguments": [
+      "EntityHackB83.class",
+      "new RenderHackB83()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 212,
+    "arguments": [
+      "EntitySeekB83.class",
+      "new RenderSeeker()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 213,
+    "arguments": [
+      "EntityRhodes.class",
+      "new RenderRhodes()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 214,
+    "arguments": [
+      "EntityRhodesHead.class",
+      "new RenderRhodesHead()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 215,
+    "arguments": [
+      "EntityRhodesTorso.class",
+      "new RenderRhodesTorso()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 216,
+    "arguments": [
+      "EntityRhodesLeftUpperArm.class",
+      "new RenderRhodesLeftUpperArm()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 217,
+    "arguments": [
+      "EntityRhodesRightUpperArm.class",
+      "new RenderRhodesRightUpperArm()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 218,
+    "arguments": [
+      "EntityRhodesLeftLowerArm.class",
+      "new RenderRhodesLeftLowerArm()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 219,
+    "arguments": [
+      "EntityRhodesRightLowerArm.class",
+      "new RenderRhodesRightLowerArm()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 220,
+    "arguments": [
+      "EntityRhodesLeftUpperLeg.class",
+      "new RenderRhodesLeftUpperLeg()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 221,
+    "arguments": [
+      "EntityRhodesRightUpperLeg.class",
+      "new RenderRhodesRightUpperLeg()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 222,
+    "arguments": [
+      "EntityRhodesLeftLowerLeg.class",
+      "new RenderRhodesLeftLowerLeg()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 223,
+    "arguments": [
+      "EntityRhodesRightLowerLeg.class",
+      "new RenderRhodesRightLowerLeg()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 224,
+    "arguments": [
+      "EntityB83NoShroom.class",
+      "new RenderB83()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 225,
+    "arguments": [
+      "EntitySphereBlast.class",
+      "new RenderSphereBlast()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 226,
+    "arguments": [
+      "EntityNuke.class",
+      "new RenderNuke()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 227,
+    "arguments": [
+      "EntityTsar.class",
+      "new RenderTsar()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 228,
+    "arguments": [
+      "EntityRoddiskRep.class",
+      "new RenderRoddiskRep()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 229,
+    "arguments": [
+      "EntityHotPotato.class",
+      "new RenderHotPotato()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 230,
+    "arguments": [
+      "EntityBomb.class",
+      "new RenderBomb()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 231,
+    "arguments": [
+      "EntityTheoreticalTsar.class",
+      "new RenderTheoreticalTsar()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 232,
+    "arguments": [
+      "EntityTheoreticalTsarBlast.class",
+      "new RenderTheoreticalTsarBlast()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 233,
+    "arguments": [
+      "EntityFlameBallGreen.class",
+      "new RenderFlameBallGreen()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 234,
+    "arguments": [
+      "EntityAntimatterBomb.class",
+      "new RenderAntimatterBomb()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 235,
+    "arguments": [
+      "EntityAntimatterBombBlast.class",
+      "new RenderAntimatterBombBlast()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 236,
+    "arguments": [
+      "EntityTachyonBomb.class",
+      "new RenderTachyonBomb()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/ClientProxy.java",
+    "method": "registerEntityRenderingHandler",
+    "line": 237,
+    "arguments": [
+      "EntityTachyonBombBlast.class",
+      "new RenderTachyonBombBlast()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1151,
+    "arguments": [
+      "amario",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1152,
+    "arguments": [
+      "aquicksand",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1153,
+    "arguments": [
+      "barricade",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1154,
+    "arguments": [
+      "tower",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1155,
+    "arguments": [
+      "easteregg",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1156,
+    "arguments": [
+      "bunker",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1157,
+    "arguments": [
+      "flag1",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1158,
+    "arguments": [
+      "flag2",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1159,
+    "arguments": [
+      "flag3",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1160,
+    "arguments": [
+      "flag4",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1161,
+    "arguments": [
+      "flag5",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1162,
+    "arguments": [
+      "flag6",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1163,
+    "arguments": [
+      "flag7",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1164,
+    "arguments": [
+      "flagbox1",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1165,
+    "arguments": [
+      "flagbox5",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1166,
+    "arguments": [
+      "flagbox6",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1167,
+    "arguments": [
+      "flagbox3",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1168,
+    "arguments": [
+      "flagbox4",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1169,
+    "arguments": [
+      "flagbox7",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1170,
+    "arguments": [
+      "smartcamo",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1171,
+    "arguments": [
+      "camo1",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1172,
+    "arguments": [
+      "camo2",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1173,
+    "arguments": [
+      "camo3",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1174,
+    "arguments": [
+      "steel",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1175,
+    "arguments": [
+      "sigmaarmor",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1176,
+    "arguments": [
+      "omegaarmor",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1177,
+    "arguments": [
+      "weapons",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1178,
+    "arguments": [
+      "ammunition",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1179,
+    "arguments": [
+      "explosives",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1180,
+    "arguments": [
+      "supplies",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1181,
+    "arguments": [
+      "mario",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1182,
+    "arguments": [
+      "jump",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1183,
+    "arguments": [
+      "quicksand",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1184,
+    "arguments": [
+      "landmine",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1185,
+    "arguments": [
+      "remotecharge",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1186,
+    "arguments": [
+      "timedbomb",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1187,
+    "arguments": [
+      "flare",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1188,
+    "arguments": [
+      "light",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1189,
+    "arguments": [
+      "cycle",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1190,
+    "arguments": [
+      "light2",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1191,
+    "arguments": [
+      "toxicgas",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1192,
+    "arguments": [
+      "fshield",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1193,
+    "arguments": [
+      "gamestart",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1194,
+    "arguments": [
+      "breadbox",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1195,
+    "arguments": [
+      "alandmine",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1196,
+    "arguments": [
+      "nuclearBomb",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1197,
+    "arguments": [
+      "nukeCrateTop",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1198,
+    "arguments": [
+      "nukeCrateBottom",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1199,
+    "arguments": [
+      "radioactivedirt",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1200,
+    "arguments": [
+      "radioactivesand",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1201,
+    "arguments": [
+      "plasmaexplosion",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1202,
+    "arguments": [
+      "reactor",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1203,
+    "arguments": [
+      "loader",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1204,
+    "arguments": [
+      "omegaobj",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1205,
+    "arguments": [
+      "sigmaobj",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1206,
+    "arguments": [
+      "petrifiedwood",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1207,
+    "arguments": [
+      "petrifiedstone1",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1208,
+    "arguments": [
+      "petrifiedstone2",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1209,
+    "arguments": [
+      "petrifiedstone3",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1210,
+    "arguments": [
+      "petrifiedstone4",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1211,
+    "arguments": [
+      "tsarbombablock",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1212,
+    "arguments": [
+      "forcefieldnode",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1213,
+    "arguments": [
+      "reactive",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1214,
+    "arguments": [
+      "ffreciever",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1215,
+    "arguments": [
+      "bastion",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1216,
+    "arguments": [
+      "conduit",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1217,
+    "arguments": [
+      "controller",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1218,
+    "arguments": [
+      "mariotrap",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1219,
+    "arguments": [
+      "minetrap",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1220,
+    "arguments": [
+      "quicksandtrap",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1221,
+    "arguments": [
+      "forcefield",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1222,
+    "arguments": [
+      "meltdown",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1223,
+    "arguments": [
+      "buildrhodes",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1224,
+    "arguments": [
+      "rhodesactivator",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1225,
+    "arguments": [
+      "theoreticaltsarbombablock",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1226,
+    "arguments": [
+      "antimatterbombblock",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerBlock",
+    "line": 1227,
+    "arguments": [
+      "tachyonbombblock",
+      "\"rivalrebelsblock\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerGuiHandler",
+    "line": 1475,
+    "arguments": [
+      "this",
+      "new RivalRebelsGuiHandler()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1265,
+    "arguments": [
+      "rpg",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1266,
+    "arguments": [
+      "flamethrower",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1267,
+    "arguments": [
+      "tesla",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1268,
+    "arguments": [
+      "rocket",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1269,
+    "arguments": [
+      "fuel",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1270,
+    "arguments": [
+      "battery",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1271,
+    "arguments": [
+      "pliers",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1272,
+    "arguments": [
+      "armyshovel",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1273,
+    "arguments": [
+      "knife",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1274,
+    "arguments": [
+      "gasgrenade",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1275,
+    "arguments": [
+      "safepill",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1276,
+    "arguments": [
+      "expill",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1277,
+    "arguments": [
+      "remote",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1278,
+    "arguments": [
+      "fuse",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1279,
+    "arguments": [
+      "nuclearelement",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1280,
+    "arguments": [
+      "hydrod",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1281,
+    "arguments": [
+      "plasmacannon",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1282,
+    "arguments": [
+      "roddisk",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1283,
+    "arguments": [
+      "antenna",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1284,
+    "arguments": [
+      "einsten",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1285,
+    "arguments": [
+      "redrod",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1286,
+    "arguments": [
+      "emptyrod",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1287,
+    "arguments": [
+      "binoculars",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1288,
+    "arguments": [
+      "core1",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1289,
+    "arguments": [
+      "core2",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1290,
+    "arguments": [
+      "core3",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1291,
+    "arguments": [
+      "chip",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1292,
+    "arguments": [
+      "roda",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1293,
+    "arguments": [
+      "trollmask",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1294,
+    "arguments": [
+      "hackm202",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1295,
+    "arguments": [
+      "seekm202",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1296,
+    "arguments": [
+      "camera",
+      "\"rivalrebelsitem\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1352,
+    "arguments": [
+      "orebelhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1353,
+    "arguments": [
+      "orebelchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1354,
+    "arguments": [
+      "orebelpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1355,
+    "arguments": [
+      "orebelboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1356,
+    "arguments": [
+      "onukerhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1357,
+    "arguments": [
+      "onukerchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1358,
+    "arguments": [
+      "onukerpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1359,
+    "arguments": [
+      "onukerboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1360,
+    "arguments": [
+      "ointelhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1361,
+    "arguments": [
+      "ointelchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1362,
+    "arguments": [
+      "ointelpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1363,
+    "arguments": [
+      "ointelboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1364,
+    "arguments": [
+      "ohackerhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1365,
+    "arguments": [
+      "ohackerchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1366,
+    "arguments": [
+      "ohackerpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1367,
+    "arguments": [
+      "ohackerboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1368,
+    "arguments": [
+      "srebelhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1369,
+    "arguments": [
+      "srebelchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1370,
+    "arguments": [
+      "srebelpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1371,
+    "arguments": [
+      "srebelboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1372,
+    "arguments": [
+      "snukerhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1373,
+    "arguments": [
+      "snukerchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1374,
+    "arguments": [
+      "snukerpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1375,
+    "arguments": [
+      "snukerboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1376,
+    "arguments": [
+      "sintelhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1377,
+    "arguments": [
+      "sintelchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1378,
+    "arguments": [
+      "sintelpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1379,
+    "arguments": [
+      "sintelboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1380,
+    "arguments": [
+      "shackerhelmet",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1381,
+    "arguments": [
+      "shackerchest",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1382,
+    "arguments": [
+      "shackerpants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1383,
+    "arguments": [
+      "shackerboots",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1384,
+    "arguments": [
+      "camohat",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1385,
+    "arguments": [
+      "camoshirt",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1386,
+    "arguments": [
+      "camopants",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1387,
+    "arguments": [
+      "camoshoes",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1388,
+    "arguments": [
+      "camohat2",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1389,
+    "arguments": [
+      "camoshirt2",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1390,
+    "arguments": [
+      "camopants2",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItem",
+    "line": 1391,
+    "arguments": [
+      "camoshoes2",
+      "\"rivalrebelsarmor\" + nextNum++"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 969,
+    "arguments": [
+      "roddisk",
+      "new RodDiskRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 970,
+    "arguments": [
+      "plasmacannon",
+      "new PlasmaCannonRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 971,
+    "arguments": [
+      "einsten",
+      "new AstroBlasterRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 972,
+    "arguments": [
+      "hydrod",
+      "new HydrogenRodRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 973,
+    "arguments": [
+      "redrod",
+      "new RedstoneRodRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 974,
+    "arguments": [
+      "nuclearelement",
+      "new NuclearRodRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 975,
+    "arguments": [
+      "emptyrod",
+      "new EmptyRodRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 976,
+    "arguments": [
+      "reactor.func_149650_a(1, null, 1)",
+      "new ReactorRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 977,
+    "arguments": [
+      "loader.func_149650_a(1, null, 1)",
+      "new LoaderRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 978,
+    "arguments": [
+      "controller.func_149650_a(1, null, 1)",
+      "new LaptopRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 979,
+    "arguments": [
+      "rpg",
+      "new RocketLauncherRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 980,
+    "arguments": [
+      "binoculars",
+      "new BinocularsRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 981,
+    "arguments": [
+      "tesla",
+      "new TeslaRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 982,
+    "arguments": [
+      "battery",
+      "new BatteryRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 983,
+    "arguments": [
+      "flamethrower",
+      "new FlamethrowerRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 984,
+    "arguments": [
+      "fuel",
+      "new GasRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 985,
+    "arguments": [
+      "roda",
+      "new RodaRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 986,
+    "arguments": [
+      "hackm202",
+      "new HackRocketLauncherRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 987,
+    "arguments": [
+      "seekm202",
+      "new SeekRocketLauncherRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerItemRenderer",
+    "line": 988,
+    "arguments": [
+      "rocket",
+      "new RocketRenderer()"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1417,
+    "arguments": [
+      "EntityGasGrenade.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1418,
+    "arguments": [
+      "EntityCuchillo.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1419,
+    "arguments": [
+      "EntityPropulsionFX.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "9",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1420,
+    "arguments": [
+      "EntityPassiveFire.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "9",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1421,
+    "arguments": [
+      "EntityRocket.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1422,
+    "arguments": [
+      "EntityPlasmoid.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "400",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1423,
+    "arguments": [
+      "EntityRaytrace.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1424,
+    "arguments": [
+      "EntityLightningLink.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1425,
+    "arguments": [
+      "EntityNuclearBlast.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1426,
+    "arguments": [
+      "EntityFlameBall.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1427,
+    "arguments": [
+      "EntityFlameBall1.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1428,
+    "arguments": [
+      "EntityFlameBall2.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1429,
+    "arguments": [
+      "EntityLaptop.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1430,
+    "arguments": [
+      "EntityRoddiskRegular.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1431,
+    "arguments": [
+      "EntityRoddiskRebel.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1432,
+    "arguments": [
+      "EntityRoddiskOfficer.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1433,
+    "arguments": [
+      "EntityRoddiskLeader.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1434,
+    "arguments": [
+      "EntityTsarBlast.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1435,
+    "arguments": [
+      "EntityLaserLink.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1436,
+    "arguments": [
+      "EntityGore.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1437,
+    "arguments": [
+      "EntityBlood.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "4",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1438,
+    "arguments": [
+      "EntityGoo.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "4",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1439,
+    "arguments": [
+      "EntityLaserBurst.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "400",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1440,
+    "arguments": [
+      "EntityB83.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1441,
+    "arguments": [
+      "EntityB2Spirit.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "400",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1442,
+    "arguments": [
+      "EntityB2Frag.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1443,
+    "arguments": [
+      "EntityDebris.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "3",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1444,
+    "arguments": [
+      "EntityHackB83.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1445,
+    "arguments": [
+      "EntitySeekB83.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1446,
+    "arguments": [
+      "EntityRhodes.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "400",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1447,
+    "arguments": [
+      "EntityRhodesHead.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1448,
+    "arguments": [
+      "EntityRhodesTorso.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1449,
+    "arguments": [
+      "EntityRhodesLeftUpperArm.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1450,
+    "arguments": [
+      "EntityRhodesRightUpperArm.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1451,
+    "arguments": [
+      "EntityRhodesLeftLowerArm.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1452,
+    "arguments": [
+      "EntityRhodesRightLowerArm.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1453,
+    "arguments": [
+      "EntityRhodesLeftUpperLeg.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1454,
+    "arguments": [
+      "EntityRhodesRightUpperLeg.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1455,
+    "arguments": [
+      "EntityRhodesLeftLowerLeg.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1456,
+    "arguments": [
+      "EntityRhodesRightLowerLeg.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1457,
+    "arguments": [
+      "EntityTarget.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1458,
+    "arguments": [
+      "EntityB83NoShroom.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1459,
+    "arguments": [
+      "EntitySphereBlast.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1460,
+    "arguments": [
+      "EntityNuke.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1461,
+    "arguments": [
+      "EntityTsar.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1462,
+    "arguments": [
+      "EntityRoddiskRep.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1463,
+    "arguments": [
+      "EntityHotPotato.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1464,
+    "arguments": [
+      "EntityBomb.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1465,
+    "arguments": [
+      "EntityTheoreticalTsar.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1466,
+    "arguments": [
+      "EntityTheoreticalTsarBlast.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1467,
+    "arguments": [
+      "EntityFlameBallGreen.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1468,
+    "arguments": [
+      "EntityAntimatterBomb.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1469,
+    "arguments": [
+      "EntityAntimatterBombBlast.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1470,
+    "arguments": [
+      "EntityTachyonBombBlast.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerModEntity",
+    "line": 1471,
+    "arguments": [
+      "EntityTachyonBomb.class",
+      "\"rivalrebelsentity\" + ++nextNum",
+      "nextNum",
+      "this",
+      "250",
+      "1",
+      "true"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1396,
+    "arguments": [
+      "TileEntityNukeCrate.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1397,
+    "arguments": [
+      "TileEntityJumpBlock.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1398,
+    "arguments": [
+      "TileEntityNuclearBomb.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1399,
+    "arguments": [
+      "TileEntityPlasmaExplosion.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1400,
+    "arguments": [
+      "TileEntityReactor.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1401,
+    "arguments": [
+      "TileEntityLoader.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1402,
+    "arguments": [
+      "TileEntityOmegaObjective.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1403,
+    "arguments": [
+      "TileEntitySigmaObjective.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1404,
+    "arguments": [
+      "TileEntityTsarBomba.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1405,
+    "arguments": [
+      "TileEntityForceFieldNode.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1406,
+    "arguments": [
+      "TileEntityGore.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1407,
+    "arguments": [
+      "TileEntityConduit.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1408,
+    "arguments": [
+      "TileEntityLaptop.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1409,
+    "arguments": [
+      "TileEntityReciever.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1410,
+    "arguments": [
+      "TileEntityReactive.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1411,
+    "arguments": [
+      "TileEntityMeltDown.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1412,
+    "arguments": [
+      "TileEntityRhodesActivator.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1413,
+    "arguments": [
+      "TileEntityTheoreticalTsarBomba.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1414,
+    "arguments": [
+      "TileEntityAntimatterBomb.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/RivalRebels.java",
+    "method": "registerTileEntity",
+    "line": 1415,
+    "arguments": [
+      "TileEntityTachyonBomb.class",
+      "\"rivalrebelstileentity\" + ++nextNum"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 14,
+    "arguments": [
+      "EntityGorePacket.Handler.class",
+      "EntityGorePacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 15,
+    "arguments": [
+      "EntityDebrisPacket.Handler.class",
+      "EntityDebrisPacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 16,
+    "arguments": [
+      "ItemUpdate.Handler.class",
+      "ItemUpdate.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 17,
+    "arguments": [
+      "RivalRebelsRound.Handler.class",
+      "RivalRebelsRound.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 18,
+    "arguments": [
+      "RivalRebelsPlayerList.Handler.class",
+      "RivalRebelsPlayerList.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 19,
+    "arguments": [
+      "GuiSpawnPacket.Handler.class",
+      "GuiSpawnPacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 20,
+    "arguments": [
+      "JoinTeamPacket.Handler.class",
+      "JoinTeamPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 21,
+    "arguments": [
+      "ResetPacket.Handler.class",
+      "ResetPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 22,
+    "arguments": [
+      "TextPacket.Handler.class",
+      "TextPacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 23,
+    "arguments": [
+      "InspectPacket.Handler.class",
+      "InspectPacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 24,
+    "arguments": [
+      "ModListPacket.Handler.class",
+      "ModListPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 25,
+    "arguments": [
+      "VotePacket.Handler.class",
+      "VotePacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 26,
+    "arguments": [
+      "LaptopButtonPacket.Handler.class",
+      "LaptopButtonPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 27,
+    "arguments": [
+      "LaptopRefreshPacket.Handler.class",
+      "LaptopRefreshPacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 28,
+    "arguments": [
+      "LaptopEngagePacket.Handler.class",
+      "LaptopEngagePacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 29,
+    "arguments": [
+      "ReactorGUIPacket.Handler.class",
+      "ReactorGUIPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 30,
+    "arguments": [
+      "ReactorUpdatePacket.Handler.class",
+      "ReactorUpdatePacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 31,
+    "arguments": [
+      "ADSClosePacket.Handler.class",
+      "ADSClosePacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 32,
+    "arguments": [
+      "ADSWeaponPacket.Handler.class",
+      "ADSWeaponPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 33,
+    "arguments": [
+      "ADSUpdatePacket.Handler.class",
+      "ADSUpdatePacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 34,
+    "arguments": [
+      "RhodesPacket.Handler.class",
+      "RhodesPacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 35,
+    "arguments": [
+      "RhodesJumpPacket.Handler.class",
+      "RhodesJumpPacket.class",
+      "packetCount++",
+      "Side.SERVER"
+    ]
+  },
+  {
+    "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+    "method": "registerMessage",
+    "line": 36,
+    "arguments": [
+      "RhodesPiecePacket.Handler.class",
+      "RhodesPiecePacket.class",
+      "packetCount++",
+      "Side.CLIENT"
+    ]
+  }
+]

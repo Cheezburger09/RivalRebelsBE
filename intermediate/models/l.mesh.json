@@ -1,0 +1,833 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "l.obj",
+  "vertices": [
+    [
+      0.0,
+      0.61421,
+      -0.308808
+    ],
+    [
+      2.0,
+      0.614208,
+      -0.308809
+    ],
+    [
+      0.0,
+      0.30881,
+      -0.614208
+    ],
+    [
+      2.0,
+      0.308809,
+      -0.61421
+    ],
+    [
+      0.0,
+      -0.308808,
+      -0.614208
+    ],
+    [
+      2.0,
+      -0.30881,
+      -0.61421
+    ],
+    [
+      0.0,
+      -0.614208,
+      -0.308809
+    ],
+    [
+      2.0,
+      -0.61421,
+      -0.30881
+    ],
+    [
+      0.0,
+      -0.614208,
+      0.308809
+    ],
+    [
+      2.0,
+      -0.61421,
+      0.308808
+    ],
+    [
+      0.0,
+      -0.308809,
+      0.61421
+    ],
+    [
+      2.0,
+      -0.30881,
+      0.614208
+    ],
+    [
+      0.0,
+      0.308809,
+      0.61421
+    ],
+    [
+      2.0,
+      0.308808,
+      0.614208
+    ],
+    [
+      0.0,
+      0.614209,
+      0.30881
+    ],
+    [
+      2.0,
+      0.614208,
+      0.308809
+    ]
+  ],
+  "uvs": [
+    [
+      0.0,
+      0.37037
+    ],
+    [
+      2.0,
+      0.37037
+    ],
+    [
+      2.0,
+      0.555556
+    ],
+    [
+      2.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.555556
+    ],
+    [
+      1.0,
+      0.888889
+    ],
+    [
+      1.0,
+      0.666667
+    ],
+    [
+      0.75,
+      1.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.666667
+    ],
+    [
+      0.25,
+      0.555556
+    ],
+    [
+      0.75,
+      0.555556
+    ],
+    [
+      0.25,
+      1.0
+    ],
+    [
+      0.0,
+      0.888889
+    ]
+  ],
+  "normals": [
+    [
+      0.0,
+      0.707107,
+      -0.707107
+    ],
+    [
+      -1e-06,
+      1e-06,
+      -1.0
+    ],
+    [
+      -1e-06,
+      -0.707106,
+      -0.707107
+    ],
+    [
+      -1e-06,
+      -1.0,
+      -1e-06
+    ],
+    [
+      0.0,
+      -0.707107,
+      0.707107
+    ],
+    [
+      1e-06,
+      -0.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1e-06,
+      -1e-06
+    ],
+    [
+      1e-06,
+      1.0,
+      1e-06
+    ],
+    [
+      1e-06,
+      0.707106,
+      0.707107
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.707107,
+      -0.707106
+    ],
+    [
+      -1e-06,
+      -1.0,
+      -0.0
+    ],
+    [
+      -0.0,
+      -0.707107,
+      0.707106
+    ],
+    [
+      1.0,
+      1e-06,
+      -0.0
+    ],
+    [
+      1.0,
+      -1e-06,
+      -0.0
+    ],
+    [
+      1.0,
+      0.0,
+      -1e-06
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 3,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 0,
+          "normal": 1
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 1,
+          "normal": 2
+        },
+        {
+          "vertex": 7,
+          "uv": 2,
+          "normal": 2
+        },
+        {
+          "vertex": 6,
+          "uv": 4,
+          "normal": 2
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 3,
+          "normal": 3
+        },
+        {
+          "vertex": 9,
+          "uv": 1,
+          "normal": 3
+        },
+        {
+          "vertex": 8,
+          "uv": 0,
+          "normal": 3
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 1,
+          "normal": 4
+        },
+        {
+          "vertex": 11,
+          "uv": 2,
+          "normal": 4
+        },
+        {
+          "vertex": 10,
+          "uv": 4,
+          "normal": 4
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 3,
+          "normal": 5
+        },
+        {
+          "vertex": 13,
+          "uv": 1,
+          "normal": 5
+        },
+        {
+          "vertex": 12,
+          "uv": 0,
+          "normal": 5
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 6
+        },
+        {
+          "vertex": 3,
+          "uv": 6,
+          "normal": 6
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 6
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 8,
+          "normal": 7
+        },
+        {
+          "vertex": 15,
+          "uv": 3,
+          "normal": 7
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 7
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 1,
+          "normal": 8
+        },
+        {
+          "vertex": 15,
+          "uv": 2,
+          "normal": 8
+        },
+        {
+          "vertex": 14,
+          "uv": 4,
+          "normal": 8
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 9,
+          "normal": 9
+        },
+        {
+          "vertex": 14,
+          "uv": 10,
+          "normal": 9
+        },
+        {
+          "vertex": 0,
+          "uv": 11,
+          "normal": 9
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 4,
+          "normal": 10
+        },
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 10
+        },
+        {
+          "vertex": 3,
+          "uv": 2,
+          "normal": 10
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 8,
+          "normal": 1
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 0,
+          "normal": 1
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 0,
+          "normal": 2
+        },
+        {
+          "vertex": 5,
+          "uv": 1,
+          "normal": 2
+        },
+        {
+          "vertex": 6,
+          "uv": 4,
+          "normal": 2
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 8,
+          "normal": 11
+        },
+        {
+          "vertex": 7,
+          "uv": 3,
+          "normal": 11
+        },
+        {
+          "vertex": 8,
+          "uv": 0,
+          "normal": 11
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 0,
+          "normal": 12
+        },
+        {
+          "vertex": 9,
+          "uv": 1,
+          "normal": 12
+        },
+        {
+          "vertex": 10,
+          "uv": 4,
+          "normal": 12
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 8,
+          "normal": 5
+        },
+        {
+          "vertex": 11,
+          "uv": 3,
+          "normal": 5
+        },
+        {
+          "vertex": 12,
+          "uv": 0,
+          "normal": 5
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 11,
+          "normal": 13
+        },
+        {
+          "vertex": 13,
+          "uv": 9,
+          "normal": 13
+        },
+        {
+          "vertex": 3,
+          "uv": 6,
+          "normal": 13
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 11,
+          "normal": 14
+        },
+        {
+          "vertex": 15,
+          "uv": 10,
+          "normal": 14
+        },
+        {
+          "vertex": 13,
+          "uv": 9,
+          "normal": 14
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 12,
+          "normal": 15
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 15
+        },
+        {
+          "vertex": 11,
+          "uv": 13,
+          "normal": 15
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 7
+        },
+        {
+          "vertex": 14,
+          "uv": 8,
+          "normal": 7
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 7
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 6,
+          "normal": 14
+        },
+        {
+          "vertex": 13,
+          "uv": 9,
+          "normal": 14
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 14
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 15
+        },
+        {
+          "vertex": 13,
+          "uv": 9,
+          "normal": 15
+        },
+        {
+          "vertex": 11,
+          "uv": 13,
+          "normal": 15
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 0,
+          "normal": 8
+        },
+        {
+          "vertex": 13,
+          "uv": 1,
+          "normal": 8
+        },
+        {
+          "vertex": 14,
+          "uv": 4,
+          "normal": 8
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 6,
+          "normal": 9
+        },
+        {
+          "vertex": 6,
+          "uv": 7,
+          "normal": 9
+        },
+        {
+          "vertex": 0,
+          "uv": 11,
+          "normal": 9
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 6,
+          "normal": 9
+        },
+        {
+          "vertex": 4,
+          "uv": 5,
+          "normal": 9
+        },
+        {
+          "vertex": 6,
+          "uv": 7,
+          "normal": 9
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 7,
+          "normal": 9
+        },
+        {
+          "vertex": 8,
+          "uv": 12,
+          "normal": 9
+        },
+        {
+          "vertex": 10,
+          "uv": 13,
+          "normal": 9
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 7,
+          "normal": 9
+        },
+        {
+          "vertex": 10,
+          "uv": 13,
+          "normal": 9
+        },
+        {
+          "vertex": 12,
+          "uv": 9,
+          "normal": 9
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 7,
+          "normal": 9
+        },
+        {
+          "vertex": 12,
+          "uv": 9,
+          "normal": 9
+        },
+        {
+          "vertex": 0,
+          "uv": 11,
+          "normal": 9
+        }
+      ],
+      "object": "Tube",
+      "material": null
+    }
+  ],
+  "objects": [
+    "Tube"
+  ],
+  "materials": [],
+  "bounds": {
+    "min": [
+      0.0,
+      -0.61421,
+      -0.61421
+    ],
+    "max": [
+      2.0,
+      0.61421,
+      0.61421
+    ]
+  }
+}

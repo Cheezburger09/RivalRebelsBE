@@ -1,0 +1,988 @@
+[
+  {
+    "file": "RivalRebels.java",
+    "matches": {
+      "texture_string": [
+        "rivalrebels:textures/gui/a.png",
+        "rivalrebels:textures/gui/b.png",
+        "rivalrebels:textures/gui/c.png",
+        "rivalrebels:textures/gui/d.png",
+        "rivalrebels:textures/gui/e.png",
+        "rivalrebels:textures/gui/f.png",
+        "rivalrebels:textures/gui/g.png",
+        "rivalrebels:textures/gui/h.png",
+        "rivalrebels:textures/gui/i.png",
+        "rivalrebels:textures/gui/j.png",
+        "rivalrebels:textures/gui/k.png",
+        "rivalrebels:textures/gui/l.png",
+        "rivalrebels:textures/gui/m.png",
+        "rivalrebels:textures/gui/n.png",
+        "rivalrebels:textures/gui/o.png",
+        "rivalrebels:textures/gui/p.png",
+        "rivalrebels:textures/gui/q.png",
+        "rivalrebels:textures/gui/r.png",
+        "rivalrebels:textures/gui/s.png",
+        "rivalrebels:textures/gui/u.png",
+        "rivalrebels:textures/gui/rhodes-gui_line.png",
+        "rivalrebels:textures/gui/rhodes-gui_out.png",
+        "rivalrebels:textures/gui/rhodes-gui_help.png",
+        "rivalrebels:textures/gui/v.png",
+        "rivalrebels:textures/gui/w.png",
+        "rivalrebels:textures/gui/x.png",
+        "rivalrebels:textures/gui/y.png",
+        "rivalrebels:textures/entity/ba.png",
+        "rivalrebels:textures/entity/bb.png",
+        "rivalrebels:textures/entity/bc.png",
+        "rivalrebels:textures/entity/bd.png",
+        "rivalrebels:textures/entity/az.png",
+        "rivalrebels:textures/entity/ar.png",
+        "rivalrebels:textures/entity/as.png",
+        "rivalrebels:textures/entity/bf.png",
+        "rivalrebels:textures/entity/be.png",
+        "rivalrebels:textures/entity/ac.png",
+        "rivalrebels:textures/entity/aa.png",
+        "rivalrebels:textures/entity/ab.png",
+        "rivalrebels:textures/entity/ay.png",
+        "rivalrebels:textures/entity/ao.png",
+        "rivalrebels:textures/entity/an.png",
+        "rivalrebels:textures/entity/ap.png",
+        "rivalrebels:textures/entity/aq.png",
+        "rivalrebels:textures/entity/am.png",
+        "rivalrebels:textures/entity/ad.png",
+        "rivalrebels:textures/entity/ah.png",
+        "rivalrebels:textures/entity/aj.png",
+        "rivalrebels:textures/entity/ai.png",
+        "rivalrebels:textures/entity/af.png",
+        "rivalrebels:textures/entity/ag.png",
+        "rivalrebels:textures/entity/al.png",
+        "rivalrebels:textures/entity/ae.png",
+        "rivalrebels:textures/entity/ak.png",
+        "rivalrebels:textures/entity/av.png",
+        "rivalrebels:textures/entity/aw.png",
+        "rivalrebels:textures/entity/ax.png",
+        "rivalrebels:textures/entity/at.png",
+        "rivalrebels:textures/entity/au.png",
+        "rivalrebels:textures/entity/bh.png",
+        "rivalrebels:textures/entity/bg.png",
+        "rivalrebels:textures/entity/bi.png",
+        "rivalrebels:textures/entity/bj.png",
+        "rivalrebels:textures/entity/bk.png",
+        "rivalrebels:textures/entity/bl.png",
+        "rivalrebels:textures/entity/bm.png",
+        "rivalrebels:textures/entity/bn.png",
+        "rivalrebels:textures/entity/bo.png",
+        "rivalrebels:textures/entity/bp.png",
+        "rivalrebels:textures/entity/bq.png",
+        "rivalrebels:textures/entity/br.png",
+        "rivalrebels:textures/entity/bs.png",
+        "rivalrebels:textures/entity/bt.png",
+        "rivalrebels:textures/entity/bu.png",
+        "rivalrebels:textures/entity/bv.png",
+        "rivalrebels:textures/entity/bw.png",
+        "rivalrebels:textures/entity/bx.png",
+        "rivalrebels:textures/entity/by.png",
+        "rivalrebels:textures/entity/bz.png",
+        "rivalrebels:textures/entity/ca.png",
+        "rivalrebels:textures/entity/cb.png",
+        "rivalrebels:textures/entity/cc.png",
+        "rivalrebels:textures/entity/cd.png",
+        "rivalrebels:textures/entity/ce.png",
+        "rivalrebels:textures/entity/cf.png",
+        "rivalrebels:textures/entity/cg.png",
+        "rivalrebels:textures/entity/ch.png",
+        "rivalrebels:textures/entity/ci.png",
+        "rivalrebels:textures/entity/tupolev.png",
+        "rivalrebels:textures/entity/booster.png",
+        "rivalrebels:textures/entity/cj.png",
+        "rivalrebels:textures/entity/ck.png",
+        "rivalrebels:textures/blocks/ah.png",
+        "rivalrebels:textures/blocks/ay.png",
+        "rivalrebels:textures/blocks/ax.png",
+        "rivalrebels:textures/blocks/bx.png",
+        "rivalrebels:textures/blocks/br.png",
+        "rivalrebels:textures/blocks/bs.png",
+        "rivalrebels:textures/blocks/bt.png",
+        "rivalrebels:textures/blocks/bu.png",
+        "rivalrebels:textures/blocks/bv.png",
+        "rivalrebels:textures/blocks/bw.png",
+        "rivalrebels:textures/items/bc.png"
+      ],
+      "icon_string": [
+        "Measured in blocks.",
+        "rhodesBlockBreak",
+        "Measured in blocks. Nuclear bomb just adds the specified number to its calculation.",
+        "Measured in ticks of existence. Tesla is in blocks.",
+        "rivalrebels:textures/gui/a.png",
+        "rivalrebels:textures/gui/b.png",
+        "rivalrebels:textures/gui/c.png",
+        "rivalrebels:textures/gui/d.png",
+        "rivalrebels:textures/gui/e.png",
+        "rivalrebels:textures/gui/f.png",
+        "rivalrebels:textures/gui/g.png",
+        "rivalrebels:textures/gui/h.png",
+        "rivalrebels:textures/gui/i.png",
+        "rivalrebels:textures/gui/j.png",
+        "rivalrebels:textures/gui/k.png",
+        "rivalrebels:textures/gui/l.png",
+        "rivalrebels:textures/gui/m.png",
+        "rivalrebels:textures/gui/n.png",
+        "rivalrebels:textures/gui/o.png",
+        "rivalrebels:textures/gui/p.png",
+        "rivalrebels:textures/gui/q.png",
+        "rivalrebels:textures/gui/r.png",
+        "rivalrebels:textures/gui/s.png",
+        "rivalrebels:textures/gui/u.png",
+        "rivalrebels:textures/gui/rhodes-gui_line.png",
+        "rivalrebels:textures/gui/rhodes-gui_out.png",
+        "rivalrebels:textures/gui/rhodes-gui_help.png",
+        "rivalrebels:textures/gui/v.png",
+        "rivalrebels:textures/gui/w.png",
+        "rivalrebels:textures/gui/x.png",
+        "rivalrebels:textures/gui/y.png",
+        "rivalrebels:textures/entity/ba.png",
+        "rivalrebels:textures/entity/bb.png",
+        "rivalrebels:textures/entity/bc.png",
+        "rivalrebels:textures/entity/bd.png",
+        "rivalrebels:textures/entity/az.png",
+        "rivalrebels:textures/entity/ar.png",
+        "rivalrebels:textures/entity/as.png",
+        "rivalrebels:textures/entity/bf.png",
+        "rivalrebels:textures/entity/be.png",
+        "rivalrebels:textures/entity/ac.png",
+        "rivalrebels:textures/entity/aa.png",
+        "rivalrebels:textures/entity/ab.png",
+        "rivalrebels:textures/entity/ay.png",
+        "rivalrebels:textures/entity/ao.png",
+        "rivalrebels:textures/entity/an.png",
+        "rivalrebels:textures/entity/ap.png",
+        "rivalrebels:textures/entity/aq.png",
+        "rivalrebels:textures/entity/am.png",
+        "rivalrebels:textures/entity/ad.png",
+        "rivalrebels:textures/entity/ah.png",
+        "rivalrebels:textures/entity/aj.png",
+        "rivalrebels:textures/entity/ai.png",
+        "rivalrebels:textures/entity/af.png",
+        "rivalrebels:textures/entity/ag.png",
+        "rivalrebels:textures/entity/al.png",
+        "rivalrebels:textures/entity/ae.png",
+        "rivalrebels:textures/entity/ak.png",
+        "rivalrebels:textures/entity/av.png",
+        "rivalrebels:textures/entity/aw.png",
+        "rivalrebels:textures/entity/ax.png",
+        "rivalrebels:textures/entity/at.png",
+        "rivalrebels:textures/entity/au.png",
+        "rivalrebels:textures/entity/bh.png",
+        "rivalrebels:textures/entity/bg.png",
+        "rivalrebels:textures/entity/bi.png",
+        "rivalrebels:textures/entity/bj.png",
+        "rivalrebels:textures/entity/bk.png",
+        "rivalrebels:textures/entity/bl.png",
+        "rivalrebels:textures/entity/bm.png",
+        "rivalrebels:textures/entity/bn.png",
+        "rivalrebels:textures/entity/bo.png",
+        "rivalrebels:textures/entity/bp.png",
+        "rivalrebels:textures/entity/bq.png",
+        "rivalrebels:textures/entity/br.png",
+        "rivalrebels:textures/entity/bs.png",
+        "rivalrebels:textures/entity/bt.png",
+        "rivalrebels:textures/entity/bu.png",
+        "rivalrebels:textures/entity/bv.png",
+        "rivalrebels:textures/entity/bw.png",
+        "rivalrebels:textures/entity/bx.png",
+        "rivalrebels:textures/entity/by.png",
+        "rivalrebels:textures/entity/bz.png",
+        "rivalrebels:textures/entity/ca.png",
+        "rivalrebels:textures/entity/cb.png",
+        "rivalrebels:textures/entity/cc.png",
+        "rivalrebels:textures/entity/cd.png",
+        "rivalrebels:textures/entity/ce.png",
+        "rivalrebels:textures/entity/cf.png",
+        "rivalrebels:textures/entity/cg.png",
+        "rivalrebels:textures/entity/ch.png",
+        "rivalrebels:textures/entity/ci.png",
+        "rivalrebels:textures/entity/tupolev.png",
+        "rivalrebels:textures/entity/booster.png",
+        "rivalrebels:textures/entity/cj.png",
+        "rivalrebels:textures/entity/ck.png",
+        "rivalrebels:textures/blocks/ah.png",
+        "rivalrebels:textures/blocks/ay.png",
+        "rivalrebels:textures/blocks/ax.png",
+        "rivalrebels:textures/blocks/bx.png",
+        "rivalrebels:textures/blocks/br.png",
+        "rivalrebels:textures/blocks/bs.png",
+        "rivalrebels:textures/blocks/bt.png",
+        "rivalrebels:textures/blocks/bu.png",
+        "rivalrebels:textures/blocks/bv.png",
+        "rivalrebels:textures/blocks/bw.png",
+        "rivalrebels:textures/items/bc.png",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.block.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebels.blocks.",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsblock",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitems",
+        "rivalrebelsitems",
+        "rivalrebelsitems",
+        "rivalrebelsitems",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem",
+        "rivalrebelsitem"
+      ],
+      "resource_location": [
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/gui/GuiClass.java",
+    "matches": {
+      "icon_string": [
+        " + itemstack.field_77994_a, X + 17 - this.field_146289_q.func_78256_a("
+      ]
+    }
+  },
+  {
+    "file": "client/gui/RivalRebelsRenderOverlay.java",
+    "matches": {
+      "texture_string": [
+        "textures/",
+        ".png"
+      ],
+      "icon_string": [
+        "textures/",
+        " + ItemBinoculars.tx + ",
+        " + ItemBinoculars.ty + ",
+        " + ItemBinoculars.tz + "
+      ],
+      "resource_location": [
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/gui/GuiReactor.java",
+    "matches": {
+      "texture_string": [
+        "Minecraft:textures/blocks/",
+        ".png",
+        "Minecraft:textures/blocks/",
+        ".png",
+        "Minecraft:textures/blocks/",
+        ".png",
+        "RivalRebels:textures/blocks/",
+        ".png",
+        "RivalRebels:textures/blocks/",
+        ".png",
+        "RivalRebels:textures/blocks/",
+        ".png"
+      ],
+      "icon_string": [
+        "Minecraft:textures/blocks/",
+        "Minecraft:textures/blocks/",
+        "Minecraft:textures/blocks/",
+        "RivalRebels:textures/blocks/",
+        "RivalRebels:textures/blocks/",
+        "RivalRebels:textures/blocks/"
+      ],
+      "resource_location": [
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/renderentity/RenderNuke.java",
+    "matches": {
+      "resource_location": [
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/renderentity/RenderAntimatterBomb.java",
+    "matches": {
+      "resource_location": [
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/renderentity/RenderTachyonBomb.java",
+    "matches": {
+      "resource_location": [
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/renderentity/RenderGore.java",
+    "matches": {
+      "texture_string": [
+        "textures/entity/steve.png",
+        "textures/entity/creeper/creeper.png",
+        "textures/entity/enderman/enderman.png",
+        "textures/entity/ghast/ghast.png",
+        "textures/entity/skeleton/skeleton.png",
+        "textures/entity/slime/slime.png",
+        "textures/entity/slime/magmacube.png",
+        "textures/entity/spider/spider.png",
+        "textures/entity/spider/cave_spider.png",
+        "textures/entity/zombie_pigman.png",
+        "textures/entity/zombie/zombie.png"
+      ],
+      "icon_string": [
+        "textures/entity/steve.png",
+        "textures/entity/creeper/creeper.png",
+        "textures/entity/enderman/enderman.png",
+        "textures/entity/ghast/ghast.png",
+        "textures/entity/skeleton/skeleton.png",
+        "textures/entity/slime/slime.png",
+        "textures/entity/slime/magmacube.png",
+        "textures/entity/spider/spider.png",
+        "textures/entity/spider/cave_spider.png",
+        "textures/entity/zombie_pigman.png",
+        "textures/entity/zombie/zombie.png"
+      ],
+      "resource_location": [
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "client/renderentity/RenderRhodes.java",
+    "matches": {
+      "texture_string": [
+        "textures/entity/rhodes.png",
+        "textures/entity/flame.png",
+        "textures/",
+        ".png"
+      ],
+      "icon_string": [
+        "blocks/",
+        "items/",
+        "textures/entity/rhodes.png",
+        "textures/entity/flame.png",
+        "textures/"
+      ],
+      "resource_location": [
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation(",
+        "new ResourceLocation("
+      ]
+    }
+  },
+  {
+    "file": "common/core/RivalRebelsTranslations.java",
+    "matches": {
+      "icon_string": [
+        "Jump Block",
+        "Item Lader"
+      ]
+    }
+  },
+  {
+    "file": "common/entity/EntityDebris.java",
+    "matches": {
+      "icon_string": [
+        "Immitating block ID",
+        "Immitating block data"
+      ]
+    }
+  },
+  {
+    "file": "common/item/ItemClassArmor.java",
+    "matches": {
+      "texture_string": [
+        "rivalrebels:textures/armors/l.png",
+        "rivalrebels:textures/armors/l.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/l.png",
+        "rivalrebels:textures/armors/i.png",
+        "rivalrebels:textures/armors/i.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/i.png",
+        "rivalrebels:textures/armors/g.png",
+        "rivalrebels:textures/armors/g.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/g.png",
+        "rivalrebels:textures/armors/e.png",
+        "rivalrebels:textures/armors/e.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/e.png",
+        "rivalrebels:textures/armors/m.png",
+        "rivalrebels:textures/armors/m.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/m.png",
+        "rivalrebels:textures/armors/j.png",
+        "rivalrebels:textures/armors/j.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/j.png",
+        "rivalrebels:textures/armors/h.png",
+        "rivalrebels:textures/armors/h.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/h.png",
+        "rivalrebels:textures/armors/f.png",
+        "rivalrebels:textures/armors/f.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/f.png"
+      ],
+      "icon_string": [
+        "rivalrebels:textures/armors/l.png",
+        "rivalrebels:textures/armors/l.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/l.png",
+        "rivalrebels:textures/armors/i.png",
+        "rivalrebels:textures/armors/i.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/i.png",
+        "rivalrebels:textures/armors/g.png",
+        "rivalrebels:textures/armors/g.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/g.png",
+        "rivalrebels:textures/armors/e.png",
+        "rivalrebels:textures/armors/e.png",
+        "rivalrebels:textures/armors/k.png",
+        "rivalrebels:textures/armors/e.png",
+        "rivalrebels:textures/armors/m.png",
+        "rivalrebels:textures/armors/m.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/m.png",
+        "rivalrebels:textures/armors/j.png",
+        "rivalrebels:textures/armors/j.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/j.png",
+        "rivalrebels:textures/armors/h.png",
+        "rivalrebels:textures/armors/h.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/h.png",
+        "rivalrebels:textures/armors/f.png",
+        "rivalrebels:textures/armors/f.png",
+        "rivalrebels:textures/armors/n.png",
+        "rivalrebels:textures/armors/f.png"
+      ]
+    }
+  },
+  {
+    "file": "common/item/ItemTrollHelmet.java",
+    "matches": {
+      "texture_string": [
+        "rivalrebels:textures/armors/o.png"
+      ],
+      "icon_string": [
+        "rivalrebels:textures/armors/o.png"
+      ]
+    }
+  },
+  {
+    "file": "common/item/ItemArmorCamo.java",
+    "matches": {
+      "texture_string": [
+        "rivalrebels:textures/armors/c.png",
+        "rivalrebels:textures/armors/d.png",
+        "rivalrebels:textures/armors/a.png",
+        "rivalrebels:textures/armors/b.png"
+      ],
+      "icon_string": [
+        "rivalrebels:textures/armors/c.png",
+        "rivalrebels:textures/armors/d.png",
+        "rivalrebels:textures/armors/a.png",
+        "rivalrebels:textures/armors/b.png"
+      ]
+    }
+  },
+  {
+    "file": "common/item/ItemPliers.java",
+    "matches": {
+      "icon_string": [
+        " + Integer.toString(this.i * 100 / block.time) + "
+      ]
+    }
+  },
+  {
+    "file": "common/command/CommandHotPotato.java",
+    "matches": {
+      "icon_string": [
+        "§cPlace a jump block and use pliers on it to set the hot potato drop point."
+      ]
+    }
+  },
+  {
+    "file": "common/command/CommandConfig.java",
+    "matches": {
+      "icon_string": [
+        ", ItemRoda.entities) + "
+      ]
+    }
+  },
+  {
+    "file": "common/command/CommandRobot.java",
+    "matches": {
+      "icon_string": [
+        "§cUsage: /rrrobot spawn <blocks high>",
+        "blocks/",
+        "items/",
+        "§cUsage: /rrrobot logo [flags|blocks|items|entity]/{texturename}",
+        "§cOpen up the jar and see for yourself which textures are available!",
+        "items/",
+        "blocks/"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityTsarBomba.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityOmegaObjective.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityTheoreticalTsarBomba.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityLaptop.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityAntimatterBomb.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntitySigmaObjective.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityReciever.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityTachyonBomb.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityNuclearBomb.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityLoadBase.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/tileentity/TileEntityLoader.java",
+    "matches": {
+      "icon_string": [
+        "Items",
+        "Items"
+      ]
+    }
+  },
+  {
+    "file": "common/block/crate/BlockSupplies.java",
+    "matches": {
+      "icon_string": [
+        ". §9(Ideal for special blocks.)",
+        ". §9(Modular item container.)"
+      ]
+    }
+  },
+  {
+    "file": "common/item/weapon/ItemRoda.java",
+    "matches": {
+      "icon_string": [
+        "oreblocks",
+        "blocks",
+        ", item.field_77990_d.func_74762_e(",
+        ", item.field_77990_d.func_74762_e("
+      ]
+    }
+  }
+]

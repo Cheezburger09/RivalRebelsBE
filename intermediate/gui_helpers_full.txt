@@ -1,0 +1,609 @@
+
+========== GuiCustomButton ==========
+package assets.rivalrebels.client.guihelper;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+
+@SideOnly(Side.CLIENT)
+public class GuiCustomButton extends net.minecraft.client.gui.GuiButton {
+   Rectangle bbox;
+   Vector tbox;
+   ResourceLocation resloc;
+   boolean toggleable;
+   public boolean isPressed = false;
+   public boolean wasPressed = false;
+   public boolean mouseDown = false;
+
+   public GuiCustomButton(int id, Rectangle rec, ResourceLocation rl, Vector uv, boolean isToggle) {
+      super(id, rec.xMin, rec.yMin, rec.xMax - rec.xMin, rec.yMax - rec.yMin, "");
+      this.bbox = rec;
+      this.tbox = uv;
+      this.resloc = rl;
+      this.toggleable = isToggle;
+   }
+
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      boolean current = Mouse.isButtonDown(0) && this.bbox.isVecInside(new Vector(par2, par3));
+      this.wasPressed = false;
+      if (this.toggleable && current && !this.mouseDown) {
+         this.mouseDown = true;
+         this.isPressed = !this.isPressed;
+         this.wasPressed = true;
+      } else if (this.toggleable && !current) {
+         this.mouseDown = false;
+      } else if (!this.toggleable && current) {
+         this.isPressed = true;
+      } else if (!this.toggleable && !current) {
+         this.isPressed = false;
+      }
+
+      if (this.isPressed) {
+         par1Minecraft.field_71446_o.func_110577_a(this.resloc);
+         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+         this.func_73729_b(this.bbox.xMin, this.bbox.yMin, this.tbox.x, this.tbox.y, this.bbox.xMax - this.bbox.xMin, this.bbox.yMax - this.bbox.yMin);
+      }
+   }
+}
+
+========== GuiButton ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.RivalRebels;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.FontRenderer;
+import net.minecraft.util.StatCollector;
+import org.lwjgl.opengl.GL11;
+
+@SideOnly(Side.CLIENT)
+public class GuiButton extends net.minecraft.client.gui.GuiButton {
+   public GuiButton(int par1, int par2, int par3, String par4Str) {
+      this(par1, par2, par3, 60, 11, par4Str);
+   }
+
+   public GuiButton(int par1, int par2, int par3, int par4, int par5, String par6Str) {
+      super(par1, par2, par3, par4, par5, par6Str);
+   }
+
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      if (this.field_146125_m) {
+         FontRenderer fontrenderer = par1Minecraft.field_71466_p;
+         par1Minecraft.field_71446_o.func_110577_a(RivalRebels.guitbutton);
+         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+         this.field_146123_n = par2 >= this.field_146128_h
+            && par3 >= this.field_146129_i
+            && par2 < this.field_146128_h + this.field_146120_f
+            && par3 < this.field_146129_i + this.field_146121_g;
+         int k = this.func_146114_a(this.field_146123_n);
+         this.func_73729_b(this.field_146128_h, this.field_146129_i, 5, k * 11, this.field_146120_f, this.field_146121_g);
+         this.func_146119_b(par1Minecraft, par2, par3);
+         int l = 16777215;
+         if (!this.field_146124_l) {
+            l = 13421772;
+         } else if (this.field_146123_n) {
+            l = 8972543;
+         }
+
+         this.func_73732_a(
+            fontrenderer,
+            StatCollector.func_74838_a(this.field_146126_j),
+            this.field_146128_h + this.field_146120_f / 2,
+            this.field_146129_i + (this.field_146121_g - 7) / 2,
+            l
+         );
+      }
+   }
+}
+
+========== GuiDial ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.RivalRebels;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+
+@SideOnly(Side.CLIENT)
+public class GuiDial extends GuiButton {
+   protected int degree;
+   protected int maxdegreelimit = 360;
+   protected int mindegreelimit = 0;
+   protected boolean pressed;
+
+   public GuiDial(int id, int x, int y, int minDegree, int maxDegree, int startDegree, boolean respectLimits, String par6Str) {
+      super(id, x, y, 11, 11, par6Str);
+      if (respectLimits) {
+         this.maxdegreelimit = maxDegree;
+         this.mindegreelimit = minDegree;
+      }
+
+      this.degree = startDegree;
+   }
+
+   @Override
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      this.func_146119_b(par1Minecraft, par2, par3);
+      if (this.degree > this.maxdegreelimit) {
+         this.degree = this.maxdegreelimit;
+      }
+
+      if (this.degree < this.mindegreelimit) {
+         this.degree = this.mindegreelimit;
+      }
+
+      par1Minecraft.field_71446_o.func_110577_a(RivalRebels.guitbutton);
+      GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+      int state = 0;
+      if (this.pressed || this.func_146116_c(par1Minecraft, par2, par3)) {
+         state = 11;
+      }
+
+      GL11.glPushMatrix();
+      GL11.glTranslatef(this.field_146128_h + this.field_146120_f / 2.0F, this.field_146129_i + this.field_146121_g / 2.0F, 0.0F);
+      GL11.glRotatef(this.degree, 0.0F, 0.0F, 1.0F);
+      GL11.glTranslatef(-(this.field_146128_h + this.field_146120_f / 2.0F), -(this.field_146129_i + this.field_146121_g / 2.0F), 0.0F);
+      this.func_73729_b(this.field_146128_h, this.field_146129_i, 65, state, this.field_146120_f, this.field_146121_g);
+      GL11.glPopMatrix();
+   }
+
+   protected void func_146119_b(Minecraft par1Minecraft, int par2, int par3) {
+      if (Mouse.isButtonDown(0)) {
+         if (this.func_146116_c(par1Minecraft, par2, par3)) {
+            this.pressed = true;
+         }
+
+         if (this.pressed) {
+            this.degree = (
+                  (int)(
+                        Math.atan2(this.field_146129_i - par3 + this.field_146121_g / 2, this.field_146128_h - par2 + this.field_146120_f / 2)
+                           * 180.0
+                           / Math.PI
+                     )
+                     + 270
+               )
+               % 360;
+         }
+      } else {
+         this.pressed = false;
+      }
+   }
+
+   public void func_146118_a(int par2, int par3) {
+      this.pressed = false;
+   }
+
+   public int getDegree() {
+      return this.degree;
+   }
+
+   public boolean func_146116_c(Minecraft par1Minecraft, int par2, int par3) {
+      return this.field_146124_l
+         && this.field_146125_m
+         && Math.sqrt(
+               (this.field_146128_h - par2 + this.field_146120_f / 2.0F) * (this.field_146128_h - par2 + this.field_146120_f / 2.0F)
+                  + (this.field_146129_i - par3 + this.field_146121_g / 2.0F) * (this.field_146129_i - par3 + this.field_146121_g / 2.0F)
+            )
+            <= this.field_146120_f / 2.0F;
+   }
+}
+
+========== GuiKnob ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.RivalRebels;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+
+@SideOnly(Side.CLIENT)
+public class GuiKnob extends GuiButton {
+   protected int degree;
+   protected int maxdegreelimit = 360;
+   protected int mindegreelimit = 0;
+   protected boolean pressed;
+
+   public GuiKnob(int id, int x, int y, int minDegree, int maxDegree, int startDegree, boolean respectLimits, String par6Str) {
+      super(id, x, y, 36, 36, par6Str);
+      if (respectLimits) {
+         this.maxdegreelimit = maxDegree;
+         this.mindegreelimit = minDegree;
+      }
+
+      this.degree = startDegree;
+   }
+
+   @Override
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      this.func_146119_b(par1Minecraft, par2, par3);
+      if (this.degree > this.maxdegreelimit) {
+         this.degree = this.maxdegreelimit;
+      }
+
+      if (this.degree < this.mindegreelimit) {
+         this.degree = this.mindegreelimit;
+      }
+
+      par1Minecraft.field_71446_o.func_110577_a(RivalRebels.guitbutton);
+      GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+      int state = 0;
+      if (this.pressed || this.func_146116_c(par1Minecraft, par2, par3)) {
+         state = 36;
+      }
+
+      GL11.glPushMatrix();
+      GL11.glTranslatef(this.field_146128_h + this.field_146120_f / 2.0F, this.field_146129_i + this.field_146121_g / 2.0F, 0.0F);
+      GL11.glRotatef(this.degree, 0.0F, 0.0F, 1.0F);
+      GL11.glTranslatef(-(this.field_146128_h + this.field_146120_f / 2.0F), -(this.field_146129_i + this.field_146121_g / 2.0F), 0.0F);
+      this.func_73729_b(this.field_146128_h, this.field_146129_i, 76 + state, 0, this.field_146120_f, this.field_146121_g);
+      GL11.glPopMatrix();
+   }
+
+   protected void func_146119_b(Minecraft par1Minecraft, int par2, int par3) {
+      if (Mouse.isButtonDown(0)) {
+         if (this.func_146116_c(par1Minecraft, par2, par3)) {
+            this.pressed = true;
+         }
+
+         if (this.pressed) {
+            this.degree = (
+                     (int)(
+                           Math.atan2(this.field_146129_i - par3 + this.field_146121_g / 2, this.field_146128_h - par2 + this.field_146120_f / 2)
+                              * 180.0
+                              / Math.PI
+                        )
+                        + 450
+                  )
+                  % 360
+               - 180;
+         }
+      } else {
+         this.pressed = false;
+         float movement = -Mouse.getDWheel() * 0.375F;
+         this.degree = (int)(this.degree + movement);
+      }
+   }
+
+   public void func_146118_a(int par2, int par3) {
+      this.pressed = false;
+   }
+
+   public int getDegree() {
+      return this.degree;
+   }
+
+   public boolean func_146116_c(Minecraft par1Minecraft, int par2, int par3) {
+      return this.field_146124_l
+         && this.field_146125_m
+         && Math.sqrt(
+               (this.field_146128_h - par2 + this.field_146120_f / 2.0F) * (this.field_146128_h - par2 + this.field_146120_f / 2.0F)
+                  + (this.field_146129_i - par3 + this.field_146121_g / 2.0F) * (this.field_146129_i - par3 + this.field_146121_g / 2.0F)
+            )
+            <= this.field_146120_f / 2.0F;
+   }
+}
+
+========== GuiFTKnob ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.RivalRebels;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+
+@SideOnly(Side.CLIENT)
+public class GuiFTKnob extends GuiButton {
+   protected int mode;
+   protected boolean pressed;
+
+   public GuiFTKnob(int id, int x, int y, int minDegree, int maxDegree, int startDegree, boolean respectLimits, String par6Str) {
+      super(id, x, y, 36, 36, par6Str);
+      this.mode = startDegree;
+   }
+
+   @Override
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      this.func_146119_b(par1Minecraft, par2, par3);
+      if (this.mode > 2) {
+         this.mode = 2;
+      }
+
+      if (this.mode < 0) {
+         this.mode = 0;
+      }
+
+      par1Minecraft.field_71446_o.func_110577_a(RivalRebels.guitbutton);
+      GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+      int state = 0;
+      if (this.pressed || this.func_146116_c(par1Minecraft, par2, par3)) {
+         state = 36;
+      }
+
+      GL11.glPushMatrix();
+      GL11.glTranslatef(this.field_146128_h + this.field_146120_f / 2.0F, this.field_146129_i + this.field_146121_g / 2.0F, 0.0F);
+      GL11.glRotatef(this.mode * 90 - 90, 0.0F, 0.0F, 1.0F);
+      GL11.glTranslatef(-(this.field_146128_h + this.field_146120_f / 2.0F), -(this.field_146129_i + this.field_146121_g / 2.0F), 0.0F);
+      this.func_73729_b(this.field_146128_h, this.field_146129_i, 76 + state, 0, this.field_146120_f, this.field_146121_g);
+      GL11.glPopMatrix();
+   }
+
+   protected void func_146119_b(Minecraft par1Minecraft, int par2, int par3) {
+      if (Mouse.isButtonDown(0)) {
+         if (this.func_146116_c(par1Minecraft, par2, par3)) {
+            this.pressed = true;
+         }
+
+         if (this.pressed) {
+            this.mode = (
+                  (
+                           (int)(
+                                 Math.atan2(this.field_146129_i - par3 + this.field_146121_g / 2, this.field_146128_h - par2 + this.field_146120_f / 2)
+                                    * 180.0
+                                    / Math.PI
+                              )
+                              + 450
+                        )
+                        % 360
+                     - 45
+               )
+               / 90;
+         }
+      } else {
+         this.pressed = false;
+         int move = Mouse.getDWheel();
+         this.mode += move > 0 ? -1 : (move < 0 ? 1 : 0);
+
+         while (this.mode < 0) {
+            this.mode += 3;
+         }
+
+         this.mode %= 3;
+      }
+   }
+
+   public void func_146118_a(int par2, int par3) {
+      this.pressed = false;
+   }
+
+   public int getDegree() {
+      return this.mode;
+   }
+
+   public boolean func_146116_c(Minecraft par1Minecraft, int par2, int par3) {
+      return this.field_146124_l
+         && this.field_146125_m
+         && Math.sqrt(
+               (this.field_146128_h - par2 + this.field_146120_f / 2.0F) * (this.field_146128_h - par2 + this.field_146120_f / 2.0F)
+                  + (this.field_146129_i - par3 + this.field_146121_g / 2.0F) * (this.field_146129_i - par3 + this.field_146121_g / 2.0F)
+            )
+            <= this.field_146120_f / 2.0F;
+   }
+}
+
+========== GuiRotor ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.RivalRebels;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+
+@SideOnly(Side.CLIENT)
+public class GuiRotor extends GuiButton {
+   protected int degree;
+   protected boolean pressed;
+
+   public GuiRotor(int id, int x, int y, int yawLimit, String par6Str) {
+      super(id, x, y, 32, 32, par6Str);
+      this.degree = yawLimit / 2;
+   }
+
+   @Override
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      this.func_146119_b(par1Minecraft, par2, par3);
+      par1Minecraft.field_71446_o.func_110577_a(RivalRebels.guitray);
+      GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+      GL11.glPushMatrix();
+      int deg = this.degree % 180;
+      if (this.degree >= 180) {
+         deg = 180 - deg;
+      }
+
+      if (deg < 22) {
+         deg = 22;
+      }
+
+      this.degree = deg;
+      this.func_73729_b(this.field_146128_h, this.field_146129_i, 224, 66, this.field_146120_f, this.field_146121_g * deg / 180);
+      this.func_73732_a(
+         par1Minecraft.field_71466_p, deg * 2 + "°", this.field_146128_h + this.field_146120_f / 2, this.field_146129_i + this.field_146121_g / 2 - 4, 16777215
+      );
+      GL11.glPopMatrix();
+   }
+
+   protected void func_146119_b(Minecraft par1Minecraft, int par2, int par3) {
+      if (Mouse.isButtonDown(0)) {
+         if (this.func_146116_c(par1Minecraft, par2, par3)) {
+            this.pressed = true;
+         }
+
+         if (this.pressed) {
+            this.degree = (
+                  (int)(
+                        Math.atan2(this.field_146129_i - par3 + this.field_146121_g / 2, this.field_146128_h - par2 + this.field_146120_f / 2)
+                           * 180.0
+                           / Math.PI
+                     )
+                     + 270
+               )
+               % 360;
+         }
+      } else {
+         this.pressed = false;
+      }
+   }
+
+   public void func_146118_a(int par2, int par3) {
+      this.pressed = false;
+   }
+
+   public int getDegree() {
+      return this.degree;
+   }
+
+   public boolean func_146116_c(Minecraft par1Minecraft, int par2, int par3) {
+      return this.field_146124_l
+         && this.field_146125_m
+         && Math.sqrt(
+               (this.field_146128_h - par2 + this.field_146120_f / 2.0F) * (this.field_146128_h - par2 + this.field_146120_f / 2.0F)
+                  + (this.field_146129_i - par3 + this.field_146121_g / 2.0F) * (this.field_146129_i - par3 + this.field_146121_g / 2.0F)
+            )
+            <= this.field_146120_f / 2.0F;
+   }
+}
+
+========== GuiScroll ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.RivalRebels;
+import net.minecraft.client.Minecraft;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GL11;
+
+public class GuiScroll extends net.minecraft.client.gui.GuiButton {
+   public int limit;
+   public int scroll;
+   public boolean pressed = false;
+
+   public GuiScroll(int par1, int par2, int par3, int par4) {
+      super(par1, par2, par3, 5, 11, "");
+      this.limit = par4;
+      this.pressed = false;
+   }
+
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      this.func_146119_b(par1Minecraft, par2, par3);
+      if (this.scroll > this.limit) {
+         this.scroll = this.limit;
+      }
+
+      if (this.scroll < 0) {
+         this.scroll = 0;
+      }
+
+      par1Minecraft.field_71446_o.func_110577_a(RivalRebels.guitbutton);
+      GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+      int state = 0;
+      if (this.pressed || this.func_146116_c(par1Minecraft, par2, par3)) {
+         state = 11;
+      }
+
+      this.func_73729_b(this.field_146128_h, this.field_146129_i + this.scroll, 0, state, this.field_146120_f, this.field_146121_g);
+   }
+
+   protected void func_146119_b(Minecraft par1Minecraft, int par2, int par3) {
+      if (Mouse.isButtonDown(0)) {
+         if (this.func_146116_c(par1Minecraft, par2, par3)) {
+            this.pressed = true;
+         }
+
+         if (this.pressed) {
+            this.scroll = par3 - this.field_146129_i - 5;
+         }
+      } else {
+         this.pressed = false;
+      }
+   }
+
+   public void func_146118_a(int par2, int par3) {
+      this.pressed = false;
+   }
+
+   public int getScroll() {
+      return this.scroll;
+   }
+
+   public boolean func_146116_c(Minecraft par1Minecraft, int par2, int par3) {
+      return this.field_146124_l
+         && this.field_146125_m
+         && par2 >= this.field_146128_h
+         && par3 >= this.field_146129_i
+         && par2 < this.field_146128_h + this.field_146120_f
+         && par3 < this.field_146129_i + this.limit + this.field_146121_g;
+   }
+}
+
+========== GuiDropdownOption ==========
+package assets.rivalrebels.client.guihelper;
+
+import assets.rivalrebels.client.gui.GuiTray;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.client.Minecraft;
+import net.minecraft.util.StatCollector;
+import org.lwjgl.input.Mouse;
+
+@SideOnly(Side.CLIENT)
+public class GuiDropdownOption extends net.minecraft.client.gui.GuiButton {
+   Rectangle bbox;
+   public boolean isPressed = false;
+   public boolean mouseDown = false;
+   public String text = "";
+   public GuiTray t;
+
+   public GuiDropdownOption(int id, Vector p, int l, int n, String text, GuiTray tray) {
+      super(id, p.x, p.y + n * 10, l, (n + 1) * 10, text);
+      this.bbox = new Rectangle(p.x, p.y + n * 10, l, (n + 1) * 10);
+      this.text = text;
+      this.t = tray;
+   }
+
+   public void func_146112_a(Minecraft par1Minecraft, int par2, int par3) {
+      boolean inside = this.bbox.isVecInside(new Vector(par2, par3));
+      boolean current = Mouse.isButtonDown(0) && inside;
+      boolean on = this.t.r.hasWepReqs();
+      if (current && !this.mouseDown && on) {
+         this.isPressed = !this.isPressed;
+      }
+
+      int color = 10066329;
+      if (on) {
+         int team = 0;
+         if (this.t.r.chestContents[6] != null && this.t.r.chestContents[6].field_77990_d != null) {
+            team = this.t.r.chestContents[6].field_77990_d.func_74762_e("team");
+         }
+
+         if (team == 0) {
+            color = 16777045;
+         }
+
+         if (team == 1) {
+            color = 5635925;
+         }
+
+         if (team == 2) {
+            color = 5592575;
+         }
+      }
+
+      if (inside && on) {
+         color = 16777215;
+      }
+
+      this.func_73731_b(Minecraft.func_71410_x().field_71466_p, StatCollector.func_74838_a(this.text), this.bbox.xMin + 1, this.bbox.yMin + 1, color);
+      this.mouseDown = current;
+   }
+}

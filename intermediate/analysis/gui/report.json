@@ -1,0 +1,596 @@
+{
+  "section": "gui",
+  "classes_analyzed": 28,
+  "categories": {
+    "gui": 18,
+    "guihelper": 10
+  },
+  "superclasses": {
+    "GuiContainer": 9,
+    "GuiScreen": 8,
+    "[sem superclass]": 3,
+    "net.minecraft.client.gui.GuiButton": 4,
+    "GuiButton": 4
+  },
+  "total_buttons": 10,
+  "total_draw_calls": 21,
+  "classes": [
+    {
+      "class": "GuiAntimatterBomb",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiAntimatterBomb.java",
+      "textures": [
+        "guitantimatterbomb"
+      ],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 206
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "x, y, 0, 0, this.field_146999_f, this.field_147000_g"
+      ],
+      "draw_call_count": 1,
+      "containers": [
+        "ContainerAntimatterBomb"
+      ]
+    },
+    {
+      "class": "GuiClass",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiClass.java",
+      "textures": [
+        "guitclass"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [
+        "0, this.posX + 188, this.posY + 102, 60, 11, \"RivalRebels.class.next\"",
+        "1, this.posX + 188, this.posY + 119, 60, 11, \"RivalRebels.class.done\""
+      ],
+      "button_count": 2,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiFlameThrower",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiFlameThrower.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiLaptop",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiLaptop.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 206
+        }
+      ],
+      "buttons": [
+        "0, x + 131, y + 89, 16, 16, \"\""
+      ],
+      "button_count": 1,
+      "draw_calls": [
+        "131, 89, 239, 9, 16, 16",
+        "131, 89, 131, 89, 16, 16",
+        "x, y, 0, 0, this.field_146999_f, this.field_147000_g",
+        "x + 135, y + 79, 248, 0, 8, 8"
+      ],
+      "draw_call_count": 4,
+      "containers": [
+        "ContainerLaptop"
+      ]
+    },
+    {
+      "class": "GuiLoader",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiLoader.java",
+      "textures": [
+        "guitloader"
+      ],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "width",
+          "value": 256
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146294_l / 2 - 128, this.field_146295_m / 2 - 103, 0, 0, 256, 210"
+      ],
+      "draw_call_count": 1,
+      "containers": [
+        "ContainerLoader"
+      ]
+    },
+    {
+      "class": "GuiNextBattle",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiNextBattle.java",
+      "textures": [
+        "guitwarning0",
+        "guitwarning1"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [
+        "0, this.posX + 66, this.posY + 203, 60, 11, \"RivalRebels.nextbattle.yes\"",
+        "1, this.posX + 128, this.posY + 203, 60, 11, \"RivalRebels.nextbattle.no\""
+      ],
+      "button_count": 2,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiNuclearBomb",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiNuclearBomb.java",
+      "textures": [
+        "guitnuke"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "x, y, 0, 0, this.field_146999_f, 81",
+        "x, y + 81, 0, 81, this.field_146999_f, this.field_147000_g - 81"
+      ],
+      "draw_call_count": 2,
+      "containers": [
+        "ContainerNuclearBomb"
+      ]
+    },
+    {
+      "class": "GuiOmegaWin",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiOmegaWin.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiOptiFineWarning",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiOptiFineWarning.java",
+      "textures": [
+        "guitwarning0",
+        "guitwarning1"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [
+        "0, this.posX + 96, this.posY + 203, 60, 11, \"RivalRebels.class.done\""
+      ],
+      "button_count": 1,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiReactor",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiReactor.java",
+      "textures": [
+        "guittokamak",
+        "textures/blocks/"
+      ],
+      "resource_locations": [
+        "lsidepath",
+        "rsidepath",
+        "toppath"
+      ],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 200
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146294_l / 2 - 89, this.field_146295_m / 2 - 103, 0, 0, 212, 208"
+      ],
+      "draw_call_count": 1,
+      "containers": [
+        "ContainerReactor"
+      ]
+    },
+    {
+      "class": "GuiSigmaWin",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiSigmaWin.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiSpawn",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiSpawn.java",
+      "textures": [
+        "guitspawn"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [
+        "0, this.posX + 188, this.posY + 102, 60, 11, \"RivalRebels.spawn.class\"",
+        "1, this.posX + 188, this.posY + 119, 60, 11, \"RivalRebels.spawn.reset\"",
+        "2, this.posX + 35, this.posY + 237, 60, 11, \"RivalRebels.spawn.joinomega\"",
+        "3, this.posX + 160, this.posY + 237, 60, 11, \"RivalRebels.spawn.joinsigma\""
+      ],
+      "button_count": 4,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiTachyonBomb",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiTachyonBomb.java",
+      "textures": [
+        "guitachyonbomb"
+      ],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 206
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "x, y, 0, 0, this.field_146999_f, this.field_147000_g"
+      ],
+      "draw_call_count": 1,
+      "containers": [
+        "ContainerTachyonBomb"
+      ]
+    },
+    {
+      "class": "GuiTesla",
+      "superclass": "GuiScreen",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiTesla.java",
+      "textures": [
+        "guitesla"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiTheoreticalTsar",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiTheoreticalTsar.java",
+      "textures": [
+        "guitheoreticaltsar"
+      ],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 206
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "x, y, 0, 0, this.field_146999_f, this.field_147000_g"
+      ],
+      "draw_call_count": 1,
+      "containers": [
+        "ContainerTheoreticalTsar"
+      ]
+    },
+    {
+      "class": "GuiTray",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiTray.java",
+      "textures": [
+        "guitray"
+      ],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 206
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "x, y, 0, 0, this.field_146999_f, this.field_147000_g",
+        "x + 104, y + 68, 248, 0, 8, 8"
+      ],
+      "draw_call_count": 2,
+      "containers": [
+        "ContainerReciever"
+      ]
+    },
+    {
+      "class": "GuiTsar",
+      "superclass": "GuiContainer",
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/GuiTsar.java",
+      "textures": [
+        "guittsar"
+      ],
+      "resource_locations": [],
+      "dimensions": [
+        {
+          "property": "height",
+          "value": 206
+        }
+      ],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "x, y, 0, 0, this.field_146999_f, this.field_147000_g"
+      ],
+      "draw_call_count": 1,
+      "containers": [
+        "ContainerTsar"
+      ]
+    },
+    {
+      "class": "RivalRebelsRenderOverlay",
+      "superclass": null,
+      "interfaces": [],
+      "category": "gui",
+      "file": "assets/rivalrebels/client/gui/RivalRebelsRenderOverlay.java",
+      "textures": [],
+      "resource_locations": [
+        "\"rivalrebels\", \"textures/\" + RenderRhodes.texfolders[rhodes.itexfolder] + rhodes.itexloc + \".png\""
+      ],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiButton",
+      "superclass": "net.minecraft.client.gui.GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiButton.java",
+      "textures": [
+        "guitbutton"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146128_h, this.field_146129_i, 5, k * 11, this.field_146120_f, this.field_146121_g"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "GuiCustomButton",
+      "superclass": "net.minecraft.client.gui.GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiCustomButton.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.bbox.xMin, this.bbox.yMin, this.tbox.x, this.tbox.y, this.bbox.xMax - this.bbox.xMin, this.bbox.yMax - this.bbox.yMin"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "GuiDial",
+      "superclass": "GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiDial.java",
+      "textures": [
+        "guitbutton"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146128_h, this.field_146129_i, 65, state, this.field_146120_f, this.field_146121_g"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "GuiDropdownOption",
+      "superclass": "net.minecraft.client.gui.GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiDropdownOption.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "GuiFTKnob",
+      "superclass": "GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiFTKnob.java",
+      "textures": [
+        "guitbutton"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146128_h, this.field_146129_i, 76 + state, 0, this.field_146120_f, this.field_146121_g"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "GuiKnob",
+      "superclass": "GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiKnob.java",
+      "textures": [
+        "guitbutton"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146128_h, this.field_146129_i, 76 + state, 0, this.field_146120_f, this.field_146121_g"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "GuiRotor",
+      "superclass": "GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiRotor.java",
+      "textures": [
+        "guitray"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146128_h, this.field_146129_i, 224, 66, this.field_146120_f, this.field_146121_g * deg / 180"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "GuiScroll",
+      "superclass": "net.minecraft.client.gui.GuiButton",
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/GuiScroll.java",
+      "textures": [
+        "guitbutton"
+      ],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [
+        "this.field_146128_h, this.field_146129_i + this.scroll, 0, state, this.field_146120_f, this.field_146121_g"
+      ],
+      "draw_call_count": 1,
+      "containers": []
+    },
+    {
+      "class": "Rectangle",
+      "superclass": null,
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/Rectangle.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    },
+    {
+      "class": "Vector",
+      "superclass": null,
+      "interfaces": [],
+      "category": "guihelper",
+      "file": "assets/rivalrebels/client/guihelper/Vector.java",
+      "textures": [],
+      "resource_locations": [],
+      "dimensions": [],
+      "buttons": [],
+      "button_count": 0,
+      "draw_calls": [],
+      "draw_call_count": 0,
+      "containers": []
+    }
+  ]
+}

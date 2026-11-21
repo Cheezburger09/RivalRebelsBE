@@ -1,0 +1,414 @@
+[
+  {
+    "field": "guitbutton",
+    "texture": "textures/gui/a.png"
+  },
+  {
+    "field": "guitspawn",
+    "texture": "textures/gui/b.png"
+  },
+  {
+    "field": "guitclass",
+    "texture": "textures/gui/c.png"
+  },
+  {
+    "field": "guitrebel",
+    "texture": "textures/gui/d.png"
+  },
+  {
+    "field": "guitnuker",
+    "texture": "textures/gui/e.png"
+  },
+  {
+    "field": "guitintel",
+    "texture": "textures/gui/f.png"
+  },
+  {
+    "field": "guithacker",
+    "texture": "textures/gui/g.png"
+  },
+  {
+    "field": "guitrivalrebels",
+    "texture": "textures/gui/h.png"
+  },
+  {
+    "field": "guitloader",
+    "texture": "textures/gui/i.png"
+  },
+  {
+    "field": "guitnuke",
+    "texture": "textures/gui/j.png"
+  },
+  {
+    "field": "guittsar",
+    "texture": "textures/gui/k.png"
+  },
+  {
+    "field": "guitwarning0",
+    "texture": "textures/gui/l.png"
+  },
+  {
+    "field": "guitwarning1",
+    "texture": "textures/gui/m.png"
+  },
+  {
+    "field": "guittokamak",
+    "texture": "textures/gui/n.png"
+  },
+  {
+    "field": "guibinoculars",
+    "texture": "textures/gui/o.png"
+  },
+  {
+    "field": "guibinocularsoverlay",
+    "texture": "textures/gui/p.png"
+  },
+  {
+    "field": "guilaptopnuke",
+    "texture": "textures/gui/q.png"
+  },
+  {
+    "field": "guitesla",
+    "texture": "textures/gui/r.png"
+  },
+  {
+    "field": "guitray",
+    "texture": "textures/gui/s.png"
+  },
+  {
+    "field": "guiflamethrower",
+    "texture": "textures/gui/u.png"
+  },
+  {
+    "field": "guirhodesline",
+    "texture": "textures/gui/rhodes-gui_line.png"
+  },
+  {
+    "field": "guirhodesout",
+    "texture": "textures/gui/rhodes-gui_out.png"
+  },
+  {
+    "field": "guirhodeshelp",
+    "texture": "textures/gui/rhodes-gui_help.png"
+  },
+  {
+    "field": "guicarpet",
+    "texture": "textures/gui/v.png"
+  },
+  {
+    "field": "guitheoreticaltsar",
+    "texture": "textures/gui/w.png"
+  },
+  {
+    "field": "guitantimatterbomb",
+    "texture": "textures/gui/x.png"
+  },
+  {
+    "field": "guitachyonbomb",
+    "texture": "textures/gui/y.png"
+  },
+  {
+    "field": "etdisk0",
+    "texture": "textures/entity/ba.png"
+  },
+  {
+    "field": "etdisk1",
+    "texture": "textures/entity/bb.png"
+  },
+  {
+    "field": "etdisk2",
+    "texture": "textures/entity/bc.png"
+  },
+  {
+    "field": "etdisk3",
+    "texture": "textures/entity/bd.png"
+  },
+  {
+    "field": "etrocket",
+    "texture": "textures/entity/az.png"
+  },
+  {
+    "field": "etfire",
+    "texture": "textures/entity/ar.png"
+  },
+  {
+    "field": "etflame",
+    "texture": "textures/entity/as.png"
+  },
+  {
+    "field": "etgasgrenade",
+    "texture": "textures/entity/bf.png"
+  },
+  {
+    "field": "etknife",
+    "texture": "textures/entity/be.png"
+  },
+  {
+    "field": "etloader",
+    "texture": "textures/entity/ac.png"
+  },
+  {
+    "field": "etomegaobj",
+    "texture": "textures/entity/aa.png"
+  },
+  {
+    "field": "etsigmaobj",
+    "texture": "textures/entity/ab.png"
+  },
+  {
+    "field": "etplasmacannon",
+    "texture": "textures/entity/ay.png"
+  },
+  {
+    "field": "ethydrod",
+    "texture": "textures/entity/ao.png"
+  },
+  {
+    "field": "etradrod",
+    "texture": "textures/entity/an.png"
+  },
+  {
+    "field": "etredrod",
+    "texture": "textures/entity/ap.png"
+  },
+  {
+    "field": "etemptyrod",
+    "texture": "textures/entity/aq.png"
+  },
+  {
+    "field": "ettroll",
+    "texture": "textures/entity/am.png"
+  },
+  {
+    "field": "etreactor",
+    "texture": "textures/entity/ad.png"
+  },
+  {
+    "field": "etlaptop",
+    "texture": "textures/entity/ah.png"
+  },
+  {
+    "field": "etubuntu",
+    "texture": "textures/entity/aj.png"
+  },
+  {
+    "field": "etscreen",
+    "texture": "textures/entity/ai.png"
+  },
+  {
+    "field": "ettsarshell",
+    "texture": "textures/entity/af.png"
+  },
+  {
+    "field": "ettsarfins",
+    "texture": "textures/entity/ag.png"
+  },
+  {
+    "field": "ettsarflame",
+    "texture": "textures/entity/al.png"
+  },
+  {
+    "field": "etnuke",
+    "texture": "textures/entity/ae.png"
+  },
+  {
+    "field": "etradiation",
+    "texture": "textures/entity/ak.png"
+  },
+  {
+    "field": "eteinstenbarrel",
+    "texture": "textures/entity/av.png"
+  },
+  {
+    "field": "eteinstenback",
+    "texture": "textures/entity/aw.png"
+  },
+  {
+    "field": "eteinstenhandle",
+    "texture": "textures/entity/ax.png"
+  },
+  {
+    "field": "etblood",
+    "texture": "textures/entity/at.png"
+  },
+  {
+    "field": "etgoo",
+    "texture": "textures/entity/au.png"
+  },
+  {
+    "field": "etrocketlauncherbody",
+    "texture": "textures/entity/bh.png"
+  },
+  {
+    "field": "etrocketlauncherhandle",
+    "texture": "textures/entity/bg.png"
+  },
+  {
+    "field": "etrocketlaunchertube",
+    "texture": "textures/entity/bi.png"
+  },
+  {
+    "field": "etbinoculars",
+    "texture": "textures/entity/bj.png"
+  },
+  {
+    "field": "etelectrode",
+    "texture": "textures/entity/bk.png"
+  },
+  {
+    "field": "etb83",
+    "texture": "textures/entity/bl.png"
+  },
+  {
+    "field": "etb2spirit",
+    "texture": "textures/entity/bm.png"
+  },
+  {
+    "field": "etrust",
+    "texture": "textures/entity/bn.png"
+  },
+  {
+    "field": "etreciever",
+    "texture": "textures/entity/bo.png"
+  },
+  {
+    "field": "ettesla",
+    "texture": "textures/entity/bp.png"
+  },
+  {
+    "field": "etbattery",
+    "texture": "textures/entity/bq.png"
+  },
+  {
+    "field": "ettube",
+    "texture": "textures/entity/br.png"
+  },
+  {
+    "field": "etadsdragon",
+    "texture": "textures/entity/bs.png"
+  },
+  {
+    "field": "etflamethrower",
+    "texture": "textures/entity/bt.png"
+  },
+  {
+    "field": "etflamecone",
+    "texture": "textures/entity/bu.png"
+  },
+  {
+    "field": "etflameball",
+    "texture": "textures/entity/bv.png"
+  },
+  {
+    "field": "etflameblue",
+    "texture": "textures/entity/bw.png"
+  },
+  {
+    "field": "etflamebluered",
+    "texture": "textures/entity/bx.png"
+  },
+  {
+    "field": "ethack202",
+    "texture": "textures/entity/by.png"
+  },
+  {
+    "field": "etseek202",
+    "texture": "textures/entity/bz.png"
+  },
+  {
+    "field": "etrocketseek202",
+    "texture": "textures/entity/ca.png"
+  },
+  {
+    "field": "etrocketseekhandle202",
+    "texture": "textures/entity/cb.png"
+  },
+  {
+    "field": "etrocketseektube202",
+    "texture": "textures/entity/cc.png"
+  },
+  {
+    "field": "ettheoreticaltsarshell1",
+    "texture": "textures/entity/cd.png"
+  },
+  {
+    "field": "ettheoreticaltsarshell2",
+    "texture": "textures/entity/ce.png"
+  },
+  {
+    "field": "etblacktsar",
+    "texture": "textures/entity/cf.png"
+  },
+  {
+    "field": "etwacknuke",
+    "texture": "textures/entity/cg.png"
+  },
+  {
+    "field": "etflameballgreen",
+    "texture": "textures/entity/ch.png"
+  },
+  {
+    "field": "etantimatterbomb",
+    "texture": "textures/entity/ci.png"
+  },
+  {
+    "field": "ettupolev",
+    "texture": "textures/entity/tupolev.png"
+  },
+  {
+    "field": "etbooster",
+    "texture": "textures/entity/booster.png"
+  },
+  {
+    "field": "etantimatterblast",
+    "texture": "textures/entity/cj.png"
+  },
+  {
+    "field": "ettachyonbomb",
+    "texture": "textures/entity/ck.png"
+  },
+  {
+    "field": "btcrate",
+    "texture": "textures/blocks/ah.png"
+  },
+  {
+    "field": "btnuketop",
+    "texture": "textures/blocks/ay.png"
+  },
+  {
+    "field": "btnukebottom",
+    "texture": "textures/blocks/ax.png"
+  },
+  {
+    "field": "btsteel",
+    "texture": "textures/blocks/bx.png"
+  },
+  {
+    "field": "btsplash1",
+    "texture": "textures/blocks/br.png"
+  },
+  {
+    "field": "btsplash2",
+    "texture": "textures/blocks/bs.png"
+  },
+  {
+    "field": "btsplash3",
+    "texture": "textures/blocks/bt.png"
+  },
+  {
+    "field": "btsplash4",
+    "texture": "textures/blocks/bu.png"
+  },
+  {
+    "field": "btsplash5",
+    "texture": "textures/blocks/bv.png"
+  },
+  {
+    "field": "btsplash6",
+    "texture": "textures/blocks/bw.png"
+  },
+  {
+    "field": "ittaskb83",
+    "texture": "textures/items/bc.png"
+  }
+]

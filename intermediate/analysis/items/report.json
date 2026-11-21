@@ -1,0 +1,636 @@
+{
+  "section": "items",
+  "java_files_found": 37,
+  "classes_analyzed": 37,
+  "superclasses": {
+    "Item": 17,
+    "ItemArmor": 4,
+    "ItemCore": 3,
+    "ItemTool": 10,
+    "ItemRod": 3
+  },
+  "classes": [
+    {
+      "class": "ItemAntenna",
+      "file": "assets/rivalrebels/common/item/ItemAntenna.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/container/ContainerTheoreticalTsar.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "ItemArmorCamo",
+      "file": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+      "superclass": "ItemArmor",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a",
+        "getArmorTexture"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemBattery",
+      "file": "assets/rivalrebels/common/item/ItemBattery.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerReciever.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "ItemChip",
+      "file": "assets/rivalrebels/common/item/ItemChip.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77624_a",
+        "func_77663_a",
+        "func_94581_a",
+        "onItemUseFirst"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java",
+        "assets/rivalrebels/common/container/ContainerReciever.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/container/ContainerNuclearBomb.java",
+        "assets/rivalrebels/common/container/ContainerTheoreticalTsar.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java",
+        "assets/rivalrebels/common/block/machine/BlockForceFieldNode.java"
+      ],
+      "reference_count": 9
+    },
+    {
+      "class": "ItemClassArmor",
+      "file": "assets/rivalrebels/common/item/ItemClassArmor.java",
+      "superclass": "ItemArmor",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a",
+        "getArmorTexture"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemCore",
+      "file": "assets/rivalrebels/common/item/ItemCore.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [],
+      "references": [
+        "assets/rivalrebels/client/gui/GuiReactor.java",
+        "assets/rivalrebels/common/container/ContainerReactor.java",
+        "assets/rivalrebels/common/item/ItemCoreTungsten.java",
+        "assets/rivalrebels/common/item/ItemCoreTitanium.java",
+        "assets/rivalrebels/common/item/ItemCoreCopper.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "ItemCoreCopper",
+      "file": "assets/rivalrebels/common/item/ItemCoreCopper.java",
+      "superclass": "ItemCore",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemCoreTitanium",
+      "file": "assets/rivalrebels/common/item/ItemCoreTitanium.java",
+      "superclass": "ItemCore",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemCoreTungsten",
+      "file": "assets/rivalrebels/common/item/ItemCoreTungsten.java",
+      "superclass": "ItemCore",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemExPill",
+      "file": "assets/rivalrebels/common/item/ItemExPill.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemFuel",
+      "file": "assets/rivalrebels/common/item/ItemFuel.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77662_d",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerReciever.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "ItemFuse",
+      "file": "assets/rivalrebels/common/item/ItemFuse.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/container/ContainerNuclearBomb.java",
+        "assets/rivalrebels/common/container/ContainerTheoreticalTsar.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "ItemLaptop",
+      "file": "assets/rivalrebels/common/item/ItemLaptop.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77648_a",
+        "func_94581_a"
+      ],
+      "references": [],
+      "reference_count": 0
+    },
+    {
+      "class": "ItemPliers",
+      "file": "assets/rivalrebels/common/item/ItemPliers.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a",
+        "onItemUseFirst"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRemote",
+      "file": "assets/rivalrebels/common/item/ItemRemote.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77659_a",
+        "func_94581_a",
+        "onItemUseFirst"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRocket",
+      "file": "assets/rivalrebels/common/item/ItemRocket.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRod",
+      "file": "assets/rivalrebels/common/item/ItemRod.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77616_k",
+        "func_77645_m"
+      ],
+      "references": [
+        "assets/rivalrebels/client/gui/GuiReactor.java",
+        "assets/rivalrebels/common/container/ContainerReactor.java",
+        "assets/rivalrebels/common/item/ItemRodHydrogen.java",
+        "assets/rivalrebels/common/item/ItemRodNuclear.java",
+        "assets/rivalrebels/common/item/ItemRodRedstone.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java",
+        "assets/rivalrebels/common/tileentity/TileEntityLoader.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "ItemRodEmpty",
+      "file": "assets/rivalrebels/common/item/ItemRodEmpty.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRodHydrogen",
+      "file": "assets/rivalrebels/common/item/ItemRodHydrogen.java",
+      "superclass": "ItemRod",
+      "interfaces": [],
+      "methods": [
+        "func_77616_k",
+        "func_77645_m",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "ItemRodNuclear",
+      "file": "assets/rivalrebels/common/item/ItemRodNuclear.java",
+      "superclass": "ItemRod",
+      "interfaces": [],
+      "methods": [
+        "func_77663_a",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/container/ContainerNuclearBomb.java",
+        "assets/rivalrebels/common/container/ContainerTheoreticalTsar.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java"
+      ],
+      "reference_count": 8
+    },
+    {
+      "class": "ItemRodRedstone",
+      "file": "assets/rivalrebels/common/item/ItemRodRedstone.java",
+      "superclass": "ItemRod",
+      "interfaces": [],
+      "methods": [
+        "func_77616_k",
+        "func_77645_m",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "ItemSafePill",
+      "file": "assets/rivalrebels/common/item/ItemSafePill.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemTrollHelmet",
+      "file": "assets/rivalrebels/common/item/ItemTrollHelmet.java",
+      "superclass": "ItemArmor",
+      "interfaces": [],
+      "methods": [
+        "func_77648_a",
+        "func_94581_a",
+        "getArmorTexture"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemArmyShovel",
+      "file": "assets/rivalrebels/common/item/weapon/ItemArmyShovel.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "canHarvestBlock",
+        "func_77645_m",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemAstroBlaster",
+      "file": "assets/rivalrebels/common/item/weapon/ItemAstroBlaster.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77615_a",
+        "func_77619_b",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_94581_a",
+        "onUsingTick"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemBinoculars",
+      "file": "assets/rivalrebels/common/item/weapon/ItemBinoculars.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "add",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_77663_a",
+        "func_94581_a",
+        "isMousePressed",
+        "remove"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/client/gui/RivalRebelsRenderOverlay.java",
+        "assets/rivalrebels/common/tileentity/TileEntityLaptop.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "ItemCamera",
+      "file": "assets/rivalrebels/common/item/weapon/ItemCamera.java",
+      "superclass": "ItemArmor",
+      "interfaces": [],
+      "methods": [
+        "func_94581_a",
+        "onArmorTick"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemCuchillo",
+      "file": "assets/rivalrebels/common/item/weapon/ItemCuchillo.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77615_a",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemFlameThrower",
+      "file": "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_77663_a",
+        "func_94581_a",
+        "getMode",
+        "onUsingTick",
+        "openGui"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/packet/ItemUpdate.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "ItemGasGrenade",
+      "file": "assets/rivalrebels/common/item/weapon/ItemGasGrenade.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77615_a",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_94581_a",
+        "onUsingTick"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemHackM202",
+      "file": "assets/rivalrebels/common/item/weapon/ItemHackM202.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77619_b",
+        "func_77659_a",
+        "func_77662_d",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemPlasmaCannon",
+      "file": "assets/rivalrebels/common/item/weapon/ItemPlasmaCannon.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77615_a",
+        "func_77619_b",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRPG",
+      "file": "assets/rivalrebels/common/item/weapon/ItemRPG.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRodDisk",
+      "file": "assets/rivalrebels/common/item/weapon/ItemRodDisk.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77615_a",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemRoda",
+      "file": "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+      "superclass": "Item",
+      "interfaces": [],
+      "methods": [
+        "func_77659_a",
+        "func_77662_d",
+        "func_77663_a",
+        "func_94581_a",
+        "onLeftClickEntity",
+        "spawn"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/entity/EntityB2Spirit.java",
+        "assets/rivalrebels/common/command/CommandConfig.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReciever.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "ItemSeekM202",
+      "file": "assets/rivalrebels/common/item/weapon/ItemSeekM202.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_94581_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "ItemTesla",
+      "file": "assets/rivalrebels/common/item/weapon/ItemTesla.java",
+      "superclass": "ItemTool",
+      "interfaces": [],
+      "methods": [
+        "func_77619_b",
+        "func_77626_a",
+        "func_77659_a",
+        "func_77661_b",
+        "func_77662_d",
+        "func_77663_a",
+        "func_94581_a",
+        "getDegree",
+        "onUsingTick"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/client/gui/GuiTesla.java",
+        "assets/rivalrebels/common/packet/ItemUpdate.java"
+      ],
+      "reference_count": 3
+    }
+  ]
+}

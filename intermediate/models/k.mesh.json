@@ -1,0 +1,2451 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "k.obj",
+  "vertices": [
+    [
+      0.236766,
+      0.938727,
+      1.516693
+    ],
+    [
+      0.236766,
+      0.938727,
+      0.880097
+    ],
+    [
+      0.236766,
+      0.826313,
+      0.880097
+    ],
+    [
+      0.236766,
+      0.826313,
+      1.516693
+    ],
+    [
+      -0.883629,
+      0.938726,
+      1.516693
+    ],
+    [
+      -0.883629,
+      0.938726,
+      0.880097
+    ],
+    [
+      0.883629,
+      0.938726,
+      -0.880097
+    ],
+    [
+      -0.883629,
+      0.938726,
+      -0.880097
+    ],
+    [
+      0.883628,
+      0.938726,
+      0.880098
+    ],
+    [
+      0.236766,
+      0.938727,
+      -0.880097
+    ],
+    [
+      0.236766,
+      0.938727,
+      -1.516693
+    ],
+    [
+      -0.883629,
+      0.938726,
+      -1.516693
+    ],
+    [
+      0.883629,
+      -0.599634,
+      -1.516693
+    ],
+    [
+      0.883629,
+      -0.599634,
+      1.516693
+    ],
+    [
+      -0.883629,
+      -0.599634,
+      1.516693
+    ],
+    [
+      -0.883628,
+      -0.599634,
+      -1.516694
+    ],
+    [
+      0.883629,
+      0.826312,
+      -0.880097
+    ],
+    [
+      0.883628,
+      0.826312,
+      1.516694
+    ],
+    [
+      0.236766,
+      0.826313,
+      -1.516693
+    ],
+    [
+      0.883629,
+      0.826312,
+      -1.516693
+    ],
+    [
+      0.883629,
+      0.826312,
+      0.880097
+    ],
+    [
+      0.236766,
+      0.826313,
+      -0.880097
+    ],
+    [
+      0.555247,
+      0.826313,
+      -1.012886
+    ],
+    [
+      0.389745,
+      0.826313,
+      -1.108438
+    ],
+    [
+      0.389745,
+      0.826313,
+      -1.299543
+    ],
+    [
+      0.720749,
+      0.826312,
+      -1.108438
+    ],
+    [
+      0.720749,
+      0.826312,
+      -1.299543
+    ],
+    [
+      0.555247,
+      0.826313,
+      -1.395095
+    ],
+    [
+      0.555247,
+      0.826313,
+      1.392939
+    ],
+    [
+      0.720749,
+      0.826312,
+      1.297386
+    ],
+    [
+      0.720749,
+      0.826312,
+      1.106281
+    ],
+    [
+      0.389745,
+      0.826313,
+      1.297386
+    ],
+    [
+      0.720749,
+      1.009896,
+      1.106281
+    ],
+    [
+      0.720749,
+      1.009896,
+      1.297386
+    ],
+    [
+      0.555247,
+      0.826313,
+      1.010729
+    ],
+    [
+      0.555247,
+      1.009896,
+      1.392939
+    ],
+    [
+      0.389745,
+      0.826313,
+      1.106282
+    ],
+    [
+      0.389745,
+      1.009896,
+      1.297386
+    ],
+    [
+      0.555247,
+      1.009896,
+      1.010729
+    ],
+    [
+      0.389745,
+      1.009896,
+      1.106282
+    ],
+    [
+      0.720749,
+      1.009896,
+      -1.299543
+    ],
+    [
+      0.555247,
+      1.009896,
+      -1.395095
+    ],
+    [
+      0.389745,
+      1.009896,
+      -1.299543
+    ],
+    [
+      0.720749,
+      1.009896,
+      -1.108438
+    ],
+    [
+      0.389745,
+      1.009896,
+      -1.108438
+    ],
+    [
+      0.555247,
+      1.009896,
+      -1.012886
+    ]
+  ],
+  "uvs": [
+    [
+      0.771233,
+      1e-06
+    ],
+    [
+      0.771233,
+      0.209863
+    ],
+    [
+      0.375,
+      0.790137
+    ],
+    [
+      0.771233,
+      1.0
+    ],
+    [
+      0.375,
+      1.000001
+    ],
+    [
+      0.771233,
+      0.790137
+    ],
+    [
+      1.0,
+      0.790137
+    ],
+    [
+      0.375,
+      0.209863
+    ],
+    [
+      1.0,
+      0.209863
+    ],
+    [
+      0.375,
+      1e-06
+    ],
+    [
+      0.0,
+      0.350001
+    ],
+    [
+      0.0,
+      0.675001
+    ],
+    [
+      0.375,
+      0.675001
+    ],
+    [
+      0.23774,
+      0.324426
+    ],
+    [
+      0.375,
+      0.324425
+    ],
+    [
+      0.375,
+      2e-06
+    ],
+    [
+      0.0,
+      2e-06
+    ],
+    [
+      0.884012,
+      0.959913
+    ],
+    [
+      0.943177,
+      0.928413
+    ],
+    [
+      1.0,
+      1.0
+    ],
+    [
+      0.826316,
+      0.928413
+    ],
+    [
+      0.943946,
+      0.865413
+    ],
+    [
+      0.884453,
+      0.833913
+    ],
+    [
+      0.82728,
+      0.865413
+    ],
+    [
+      0.884434,
+      0.166799
+    ],
+    [
+      0.943918,
+      0.135299
+    ],
+    [
+      0.943827,
+      0.072298
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.884376,
+      0.040798
+    ],
+    [
+      0.375,
+      0.976252
+    ],
+    [
+      0.296301,
+      0.976252
+    ],
+    [
+      0.078699,
+      0.976252
+    ],
+    [
+      0.0,
+      0.976252
+    ],
+    [
+      0.827131,
+      0.072298
+    ],
+    [
+      0.827244,
+      0.135298
+    ],
+    [
+      0.296302,
+      1.000001
+    ],
+    [
+      0.078699,
+      1.000001
+    ],
+    [
+      0.0,
+      1.000001
+    ],
+    [
+      0.23774,
+      0.350002
+    ],
+    [
+      0.296301,
+      1.000001
+    ],
+    [
+      0.375,
+      0.350001
+    ]
+  ],
+  "normals": [
+    [
+      1.0,
+      2e-06,
+      0.0
+    ],
+    [
+      -1e-06,
+      1.0,
+      0.0
+    ],
+    [
+      -0.0,
+      0.241601,
+      0.970376
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      2e-06,
+      1.0,
+      0.0
+    ],
+    [
+      -1e-06,
+      1.0,
+      -1e-06
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      2e-06,
+      1e-06,
+      -1.0
+    ],
+    [
+      -0.0,
+      -1e-06,
+      1.0
+    ],
+    [
+      1e-06,
+      1.0,
+      -1e-06
+    ],
+    [
+      2e-06,
+      1.0,
+      -1e-06
+    ],
+    [
+      1e-06,
+      1.0,
+      0.0
+    ],
+    [
+      2e-06,
+      1.0,
+      1e-06
+    ],
+    [
+      1.0,
+      -0.0,
+      1e-06
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.499999,
+      0.0,
+      -0.866026
+    ],
+    [
+      0.500001,
+      0.0,
+      0.866025
+    ],
+    [
+      -0.5,
+      0.0,
+      0.866025
+    ],
+    [
+      -0.5,
+      0.0,
+      -0.866025
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.5,
+      0.0,
+      -0.866026
+    ],
+    [
+      0.499999,
+      0.0,
+      0.866026
+    ],
+    [
+      -0.5,
+      0.0,
+      0.866026
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      -0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -2e-06,
+      2e-06,
+      1.0
+    ],
+    [
+      0.0,
+      1e-06,
+      1.0
+    ],
+    [
+      1.0,
+      -3e-06,
+      -2e-06
+    ],
+    [
+      1.0,
+      4e-06,
+      1e-06
+    ],
+    [
+      0.500001,
+      0.0,
+      -0.866025
+    ],
+    [
+      -0.500001,
+      0.0,
+      -0.866025
+    ],
+    [
+      0.5,
+      0.0,
+      -0.866025
+    ],
+    [
+      0.5,
+      0.0,
+      0.866026
+    ],
+    [
+      -0.499999,
+      0.0,
+      -0.866026
+    ],
+    [
+      1e-06,
+      4e-06,
+      -1.0
+    ],
+    [
+      -1e-06,
+      -5e-06,
+      1.0
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 0
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 2,
+          "normal": 1
+        },
+        {
+          "vertex": 10,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 11,
+          "uv": 4,
+          "normal": 1
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 2,
+          "normal": 1
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 1
+        },
+        {
+          "vertex": 10,
+          "uv": 3,
+          "normal": 1
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 2,
+          "normal": 2
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 2
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 2
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 7,
+          "normal": 3
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 3
+        },
+        {
+          "vertex": 7,
+          "uv": 2,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 4
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 4
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 4
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 7,
+          "normal": 5
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 5
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 5
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 9,
+          "normal": 1
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 7,
+          "normal": 1
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 1
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 9,
+          "normal": 1
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 10,
+          "normal": 6
+        },
+        {
+          "vertex": 14,
+          "uv": 11,
+          "normal": 6
+        },
+        {
+          "vertex": 15,
+          "uv": 12,
+          "normal": 6
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 13,
+          "normal": 7
+        },
+        {
+          "vertex": 19,
+          "uv": 14,
+          "normal": 7
+        },
+        {
+          "vertex": 12,
+          "uv": 15,
+          "normal": 7
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 16,
+          "normal": 8
+        },
+        {
+          "vertex": 13,
+          "uv": 15,
+          "normal": 8
+        },
+        {
+          "vertex": 17,
+          "uv": 14,
+          "normal": 8
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 17,
+          "normal": 9
+        },
+        {
+          "vertex": 26,
+          "uv": 18,
+          "normal": 9
+        },
+        {
+          "vertex": 19,
+          "uv": 19,
+          "normal": 9
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 19,
+          "normal": 4
+        },
+        {
+          "vertex": 18,
+          "uv": 3,
+          "normal": 4
+        },
+        {
+          "vertex": 27,
+          "uv": 17,
+          "normal": 4
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 3,
+          "normal": 10
+        },
+        {
+          "vertex": 24,
+          "uv": 20,
+          "normal": 10
+        },
+        {
+          "vertex": 27,
+          "uv": 17,
+          "normal": 10
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 6,
+          "normal": 11
+        },
+        {
+          "vertex": 19,
+          "uv": 19,
+          "normal": 11
+        },
+        {
+          "vertex": 26,
+          "uv": 18,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 21,
+          "normal": 11
+        },
+        {
+          "vertex": 22,
+          "uv": 22,
+          "normal": 11
+        },
+        {
+          "vertex": 16,
+          "uv": 6,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 5,
+          "normal": 4
+        },
+        {
+          "vertex": 23,
+          "uv": 23,
+          "normal": 4
+        },
+        {
+          "vertex": 24,
+          "uv": 20,
+          "normal": 4
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 22,
+          "normal": 12
+        },
+        {
+          "vertex": 21,
+          "uv": 5,
+          "normal": 12
+        },
+        {
+          "vertex": 16,
+          "uv": 6,
+          "normal": 12
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 5,
+          "normal": 12
+        },
+        {
+          "vertex": 22,
+          "uv": 22,
+          "normal": 12
+        },
+        {
+          "vertex": 23,
+          "uv": 23,
+          "normal": 12
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 34,
+          "uv": 24,
+          "normal": 11
+        },
+        {
+          "vertex": 30,
+          "uv": 25,
+          "normal": 11
+        },
+        {
+          "vertex": 20,
+          "uv": 8,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 11
+        },
+        {
+          "vertex": 17,
+          "uv": 27,
+          "normal": 11
+        },
+        {
+          "vertex": 20,
+          "uv": 8,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 11
+        },
+        {
+          "vertex": 28,
+          "uv": 28,
+          "normal": 11
+        },
+        {
+          "vertex": 17,
+          "uv": 27,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 29,
+          "normal": 13
+        },
+        {
+          "vertex": 16,
+          "uv": 30,
+          "normal": 13
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 13
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 14
+        },
+        {
+          "vertex": 16,
+          "uv": 30,
+          "normal": 14
+        },
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 31,
+          "normal": 13
+        },
+        {
+          "vertex": 17,
+          "uv": 32,
+          "normal": 13
+        },
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 13
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 38,
+          "uv": 24,
+          "normal": 15
+        },
+        {
+          "vertex": 32,
+          "uv": 25,
+          "normal": 15
+        },
+        {
+          "vertex": 30,
+          "uv": 25,
+          "normal": 15
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 14
+        },
+        {
+          "vertex": 30,
+          "uv": 25,
+          "normal": 14
+        },
+        {
+          "vertex": 32,
+          "uv": 25,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 35,
+          "uv": 28,
+          "normal": 16
+        },
+        {
+          "vertex": 28,
+          "uv": 28,
+          "normal": 16
+        },
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 16
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 37,
+          "uv": 33,
+          "normal": 17
+        },
+        {
+          "vertex": 31,
+          "uv": 33,
+          "normal": 17
+        },
+        {
+          "vertex": 28,
+          "uv": 28,
+          "normal": 17
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 25,
+          "normal": 3
+        },
+        {
+          "vertex": 38,
+          "uv": 24,
+          "normal": 3
+        },
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 25,
+          "normal": 3
+        },
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 3
+        },
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 3
+        },
+        {
+          "vertex": 37,
+          "uv": 33,
+          "normal": 3
+        },
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 37,
+          "uv": 33,
+          "normal": 3
+        },
+        {
+          "vertex": 35,
+          "uv": 28,
+          "normal": 3
+        },
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 18
+        },
+        {
+          "vertex": 38,
+          "uv": 24,
+          "normal": 18
+        },
+        {
+          "vertex": 34,
+          "uv": 24,
+          "normal": 18
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 19
+        },
+        {
+          "vertex": 36,
+          "uv": 34,
+          "normal": 19
+        },
+        {
+          "vertex": 31,
+          "uv": 33,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 41,
+          "uv": 17,
+          "normal": 20
+        },
+        {
+          "vertex": 40,
+          "uv": 18,
+          "normal": 20
+        },
+        {
+          "vertex": 26,
+          "uv": 18,
+          "normal": 20
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 40,
+          "uv": 18,
+          "normal": 14
+        },
+        {
+          "vertex": 43,
+          "uv": 21,
+          "normal": 14
+        },
+        {
+          "vertex": 25,
+          "uv": 21,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 45,
+          "uv": 22,
+          "normal": 21
+        },
+        {
+          "vertex": 22,
+          "uv": 22,
+          "normal": 21
+        },
+        {
+          "vertex": 25,
+          "uv": 21,
+          "normal": 21
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 44,
+          "uv": 23,
+          "normal": 22
+        },
+        {
+          "vertex": 23,
+          "uv": 23,
+          "normal": 22
+        },
+        {
+          "vertex": 22,
+          "uv": 22,
+          "normal": 22
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 40,
+          "uv": 18,
+          "normal": 3
+        },
+        {
+          "vertex": 41,
+          "uv": 17,
+          "normal": 3
+        },
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 40,
+          "uv": 18,
+          "normal": 3
+        },
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 3
+        },
+        {
+          "vertex": 43,
+          "uv": 21,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 3
+        },
+        {
+          "vertex": 44,
+          "uv": 23,
+          "normal": 3
+        },
+        {
+          "vertex": 43,
+          "uv": 21,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 44,
+          "uv": 23,
+          "normal": 3
+        },
+        {
+          "vertex": 45,
+          "uv": 22,
+          "normal": 3
+        },
+        {
+          "vertex": 43,
+          "uv": 21,
+          "normal": 3
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 18
+        },
+        {
+          "vertex": 41,
+          "uv": 17,
+          "normal": 18
+        },
+        {
+          "vertex": 27,
+          "uv": 17,
+          "normal": 18
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 19
+        },
+        {
+          "vertex": 24,
+          "uv": 20,
+          "normal": 19
+        },
+        {
+          "vertex": 23,
+          "uv": 23,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 4,
+          "normal": 19
+        },
+        {
+          "vertex": 15,
+          "uv": 12,
+          "normal": 19
+        },
+        {
+          "vertex": 14,
+          "uv": 11,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 4,
+          "normal": 19
+        },
+        {
+          "vertex": 14,
+          "uv": 11,
+          "normal": 19
+        },
+        {
+          "vertex": 7,
+          "uv": 35,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 11,
+          "normal": 19
+        },
+        {
+          "vertex": 5,
+          "uv": 36,
+          "normal": 19
+        },
+        {
+          "vertex": 7,
+          "uv": 35,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 11,
+          "normal": 19
+        },
+        {
+          "vertex": 4,
+          "uv": 37,
+          "normal": 19
+        },
+        {
+          "vertex": 5,
+          "uv": 36,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 10,
+          "normal": 23
+        },
+        {
+          "vertex": 12,
+          "uv": 15,
+          "normal": 23
+        },
+        {
+          "vertex": 15,
+          "uv": 16,
+          "normal": 23
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 10,
+          "normal": 23
+        },
+        {
+          "vertex": 18,
+          "uv": 13,
+          "normal": 23
+        },
+        {
+          "vertex": 12,
+          "uv": 15,
+          "normal": 23
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 10,
+          "normal": 23
+        },
+        {
+          "vertex": 10,
+          "uv": 38,
+          "normal": 23
+        },
+        {
+          "vertex": 18,
+          "uv": 13,
+          "normal": 23
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 13,
+          "normal": 24
+        },
+        {
+          "vertex": 0,
+          "uv": 38,
+          "normal": 24
+        },
+        {
+          "vertex": 4,
+          "uv": 10,
+          "normal": 24
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 16,
+          "normal": 24
+        },
+        {
+          "vertex": 3,
+          "uv": 13,
+          "normal": 24
+        },
+        {
+          "vertex": 4,
+          "uv": 10,
+          "normal": 24
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 16,
+          "normal": 25
+        },
+        {
+          "vertex": 17,
+          "uv": 14,
+          "normal": 25
+        },
+        {
+          "vertex": 3,
+          "uv": 13,
+          "normal": 25
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 3,
+          "normal": 0
+        },
+        {
+          "vertex": 10,
+          "uv": 3,
+          "normal": 0
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 0
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 6,
+          "normal": 23
+        },
+        {
+          "vertex": 21,
+          "uv": 5,
+          "normal": 23
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 23
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 8,
+          "normal": 10
+        },
+        {
+          "vertex": 2,
+          "uv": 1,
+          "normal": 10
+        },
+        {
+          "vertex": 34,
+          "uv": 24,
+          "normal": 10
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 1,
+          "normal": 10
+        },
+        {
+          "vertex": 36,
+          "uv": 34,
+          "normal": 10
+        },
+        {
+          "vertex": 34,
+          "uv": 24,
+          "normal": 10
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 1,
+          "normal": 4
+        },
+        {
+          "vertex": 3,
+          "uv": 0,
+          "normal": 4
+        },
+        {
+          "vertex": 31,
+          "uv": 33,
+          "normal": 4
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 28,
+          "uv": 28,
+          "normal": 10
+        },
+        {
+          "vertex": 3,
+          "uv": 0,
+          "normal": 10
+        },
+        {
+          "vertex": 17,
+          "uv": 27,
+          "normal": 10
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 0,
+          "normal": 10
+        },
+        {
+          "vertex": 28,
+          "uv": 28,
+          "normal": 10
+        },
+        {
+          "vertex": 31,
+          "uv": 33,
+          "normal": 10
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 26
+        },
+        {
+          "vertex": 2,
+          "uv": 1,
+          "normal": 26
+        },
+        {
+          "vertex": 20,
+          "uv": 8,
+          "normal": 26
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 27
+        },
+        {
+          "vertex": 16,
+          "uv": 30,
+          "normal": 27
+        },
+        {
+          "vertex": 6,
+          "uv": 39,
+          "normal": 27
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 31,
+          "normal": 28
+        },
+        {
+          "vertex": 6,
+          "uv": 39,
+          "normal": 28
+        },
+        {
+          "vertex": 8,
+          "uv": 36,
+          "normal": 28
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 31,
+          "normal": 14
+        },
+        {
+          "vertex": 13,
+          "uv": 11,
+          "normal": 14
+        },
+        {
+          "vertex": 6,
+          "uv": 39,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 14
+        },
+        {
+          "vertex": 3,
+          "uv": 0,
+          "normal": 14
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 40,
+          "normal": 6
+        },
+        {
+          "vertex": 13,
+          "uv": 10,
+          "normal": 6
+        },
+        {
+          "vertex": 15,
+          "uv": 12,
+          "normal": 6
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 21,
+          "normal": 11
+        },
+        {
+          "vertex": 16,
+          "uv": 6,
+          "normal": 11
+        },
+        {
+          "vertex": 26,
+          "uv": 18,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 3,
+          "normal": 4
+        },
+        {
+          "vertex": 21,
+          "uv": 5,
+          "normal": 4
+        },
+        {
+          "vertex": 24,
+          "uv": 20,
+          "normal": 4
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 25,
+          "normal": 11
+        },
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 11
+        },
+        {
+          "vertex": 20,
+          "uv": 8,
+          "normal": 11
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 34,
+          "uv": 24,
+          "normal": 29
+        },
+        {
+          "vertex": 38,
+          "uv": 24,
+          "normal": 29
+        },
+        {
+          "vertex": 30,
+          "uv": 25,
+          "normal": 29
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 14
+        },
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 14
+        },
+        {
+          "vertex": 32,
+          "uv": 25,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 21
+        },
+        {
+          "vertex": 35,
+          "uv": 28,
+          "normal": 21
+        },
+        {
+          "vertex": 29,
+          "uv": 26,
+          "normal": 21
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 35,
+          "uv": 28,
+          "normal": 17
+        },
+        {
+          "vertex": 37,
+          "uv": 33,
+          "normal": 17
+        },
+        {
+          "vertex": 28,
+          "uv": 28,
+          "normal": 17
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 36,
+          "uv": 34,
+          "normal": 30
+        },
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 30
+        },
+        {
+          "vertex": 34,
+          "uv": 24,
+          "normal": 30
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 37,
+          "uv": 33,
+          "normal": 19
+        },
+        {
+          "vertex": 39,
+          "uv": 34,
+          "normal": 19
+        },
+        {
+          "vertex": 31,
+          "uv": 33,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 17,
+          "normal": 31
+        },
+        {
+          "vertex": 41,
+          "uv": 17,
+          "normal": 31
+        },
+        {
+          "vertex": 26,
+          "uv": 18,
+          "normal": 31
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 18,
+          "normal": 14
+        },
+        {
+          "vertex": 40,
+          "uv": 18,
+          "normal": 14
+        },
+        {
+          "vertex": 25,
+          "uv": 21,
+          "normal": 14
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 43,
+          "uv": 21,
+          "normal": 32
+        },
+        {
+          "vertex": 45,
+          "uv": 22,
+          "normal": 32
+        },
+        {
+          "vertex": 25,
+          "uv": 21,
+          "normal": 32
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 45,
+          "uv": 22,
+          "normal": 17
+        },
+        {
+          "vertex": 44,
+          "uv": 23,
+          "normal": 17
+        },
+        {
+          "vertex": 22,
+          "uv": 22,
+          "normal": 17
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 20,
+          "normal": 33
+        },
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 33
+        },
+        {
+          "vertex": 27,
+          "uv": 17,
+          "normal": 33
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 44,
+          "uv": 23,
+          "normal": 19
+        },
+        {
+          "vertex": 42,
+          "uv": 20,
+          "normal": 19
+        },
+        {
+          "vertex": 23,
+          "uv": 23,
+          "normal": 19
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 5,
+          "normal": 0
+        },
+        {
+          "vertex": 18,
+          "uv": 3,
+          "normal": 0
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 0
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 34
+        },
+        {
+          "vertex": 16,
+          "uv": 6,
+          "normal": 34
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 34
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 36,
+          "uv": 34,
+          "normal": 4
+        },
+        {
+          "vertex": 2,
+          "uv": 1,
+          "normal": 4
+        },
+        {
+          "vertex": 31,
+          "uv": 33,
+          "normal": 4
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 35
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 35
+        },
+        {
+          "vertex": 20,
+          "uv": 8,
+          "normal": 35
+        }
+      ],
+      "object": "Battery",
+      "material": null
+    }
+  ],
+  "objects": [
+    "Battery"
+  ],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -0.883629,
+      -0.599634,
+      -1.516694
+    ],
+    "max": [
+      0.883629,
+      1.009896,
+      1.516694
+    ]
+  }
+}

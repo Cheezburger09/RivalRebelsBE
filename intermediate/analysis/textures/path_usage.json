@@ -1,0 +1,2218 @@
+[
+  {
+    "path": "textures/armors/a.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemArmorCamo.java",
+        "line": 42,
+        "context": "return \"rivalrebels:textures/armors/a.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/b.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemArmorCamo.java",
+        "line": 44,
+        "context": "return itemstack.func_77973_b() == RivalRebels.camopants2 ? \"rivalrebels:textures/armors/b.png\" : null;"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/c.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemArmorCamo.java",
+        "line": 36,
+        "context": "return \"rivalrebels:textures/armors/c.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/d.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemArmorCamo.java",
+        "line": 38,
+        "context": "return \"rivalrebels:textures/armors/d.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/e.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 68,
+        "context": "return \"rivalrebels:textures/armors/e.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 70,
+        "context": "return \"rivalrebels:textures/armors/e.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 74,
+        "context": "return \"rivalrebels:textures/armors/e.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/f.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 100,
+        "context": "return \"rivalrebels:textures/armors/f.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 102,
+        "context": "return \"rivalrebels:textures/armors/f.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 106,
+        "context": "return itemstack == RivalRebels.shackerboots ? \"rivalrebels:textures/armors/f.png\" : \"\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/g.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 60,
+        "context": "return \"rivalrebels:textures/armors/g.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 62,
+        "context": "return \"rivalrebels:textures/armors/g.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 66,
+        "context": "return \"rivalrebels:textures/armors/g.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/h.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 92,
+        "context": "return \"rivalrebels:textures/armors/h.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 94,
+        "context": "return \"rivalrebels:textures/armors/h.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 98,
+        "context": "return \"rivalrebels:textures/armors/h.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/i.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 52,
+        "context": "return \"rivalrebels:textures/armors/i.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 54,
+        "context": "return \"rivalrebels:textures/armors/i.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 58,
+        "context": "return \"rivalrebels:textures/armors/i.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/j.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 84,
+        "context": "return \"rivalrebels:textures/armors/j.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 86,
+        "context": "return \"rivalrebels:textures/armors/j.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 90,
+        "context": "return \"rivalrebels:textures/armors/j.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/k.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 48,
+        "context": "return \"rivalrebels:textures/armors/k.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 56,
+        "context": "return \"rivalrebels:textures/armors/k.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 64,
+        "context": "return \"rivalrebels:textures/armors/k.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 72,
+        "context": "return \"rivalrebels:textures/armors/k.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/l.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 44,
+        "context": "return \"rivalrebels:textures/armors/l.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 46,
+        "context": "return \"rivalrebels:textures/armors/l.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 50,
+        "context": "return \"rivalrebels:textures/armors/l.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/m.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 76,
+        "context": "return \"rivalrebels:textures/armors/m.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 78,
+        "context": "return \"rivalrebels:textures/armors/m.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 82,
+        "context": "return \"rivalrebels:textures/armors/m.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/n.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 80,
+        "context": "return \"rivalrebels:textures/armors/n.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 88,
+        "context": "return \"rivalrebels:textures/armors/n.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 96,
+        "context": "return \"rivalrebels:textures/armors/n.png\";"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemClassArmor.java",
+        "line": 104,
+        "context": "return \"rivalrebels:textures/armors/n.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/armors/o.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/common/item/ItemTrollHelmet.java",
+        "line": 23,
+        "context": "return \"rivalrebels:textures/armors/o.png\";"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/aa.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ab.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ac.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ad.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ae.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/af.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ag.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ah.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 949,
+        "context": "btcrate = new ResourceLocation(\"rivalrebels:textures/blocks/ah.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/ai.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/aj.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ak.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/al.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/am.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/an.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ao.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ap.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/aq.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ar.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/as.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/at.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/au.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/av.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/aw.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ax.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 951,
+        "context": "btnukebottom = new ResourceLocation(\"rivalrebels:textures/blocks/ax.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/ay.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 950,
+        "context": "btnuketop = new ResourceLocation(\"rivalrebels:textures/blocks/ay.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/az.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ba.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bd.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/be.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bf.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bg.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bi.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bj.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bk.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bl.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bm.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bn.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bo.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bq.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/br.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 953,
+        "context": "btsplash1 = new ResourceLocation(\"rivalrebels:textures/blocks/br.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/bs.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 954,
+        "context": "btsplash2 = new ResourceLocation(\"rivalrebels:textures/blocks/bs.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/bt.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 955,
+        "context": "btsplash3 = new ResourceLocation(\"rivalrebels:textures/blocks/bt.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/bu.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 956,
+        "context": "btsplash4 = new ResourceLocation(\"rivalrebels:textures/blocks/bu.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/bv.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 957,
+        "context": "btsplash5 = new ResourceLocation(\"rivalrebels:textures/blocks/bv.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/bw.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 958,
+        "context": "btsplash6 = new ResourceLocation(\"rivalrebels:textures/blocks/bw.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/bx.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 952,
+        "context": "btsteel = new ResourceLocation(\"rivalrebels:textures/blocks/bx.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/blocks/by.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/bz.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ca.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cd.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ce.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cf.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cg.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ch.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ci.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cj.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ck.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cl.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cm.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cn.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/co.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cq.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cr.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cs.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/ct.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cu.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cv.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cw.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cx.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cy.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/cz.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/da.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/db.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/dc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/dd.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/de.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/df.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/dg.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/dh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/di.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/dj.png",
+    "matches": []
+  },
+  {
+    "path": "textures/blocks/dk.png",
+    "matches": []
+  },
+  {
+    "path": "textures/entity/aa.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 894,
+        "context": "etomegaobj = new ResourceLocation(\"rivalrebels:textures/entity/aa.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ab.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 895,
+        "context": "etsigmaobj = new ResourceLocation(\"rivalrebels:textures/entity/ab.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ac.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 893,
+        "context": "etloader = new ResourceLocation(\"rivalrebels:textures/entity/ac.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ad.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 902,
+        "context": "etreactor = new ResourceLocation(\"rivalrebels:textures/entity/ad.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ae.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 909,
+        "context": "etnuke = new ResourceLocation(\"rivalrebels:textures/entity/ae.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/af.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 906,
+        "context": "ettsarshell = new ResourceLocation(\"rivalrebels:textures/entity/af.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ag.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 907,
+        "context": "ettsarfins = new ResourceLocation(\"rivalrebels:textures/entity/ag.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ah.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 903,
+        "context": "etlaptop = new ResourceLocation(\"rivalrebels:textures/entity/ah.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ai.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 905,
+        "context": "etscreen = new ResourceLocation(\"rivalrebels:textures/entity/ai.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/aj.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 904,
+        "context": "etubuntu = new ResourceLocation(\"rivalrebels:textures/entity/aj.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ak.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 910,
+        "context": "etradiation = new ResourceLocation(\"rivalrebels:textures/entity/ak.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/al.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 908,
+        "context": "ettsarflame = new ResourceLocation(\"rivalrebels:textures/entity/al.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/am.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 901,
+        "context": "ettroll = new ResourceLocation(\"rivalrebels:textures/entity/am.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/an.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 898,
+        "context": "etradrod = new ResourceLocation(\"rivalrebels:textures/entity/an.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ao.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 897,
+        "context": "ethydrod = new ResourceLocation(\"rivalrebels:textures/entity/ao.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ap.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 899,
+        "context": "etredrod = new ResourceLocation(\"rivalrebels:textures/entity/ap.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/aq.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 900,
+        "context": "etemptyrod = new ResourceLocation(\"rivalrebels:textures/entity/aq.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ar.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 889,
+        "context": "etfire = new ResourceLocation(\"rivalrebels:textures/entity/ar.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/as.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 890,
+        "context": "etflame = new ResourceLocation(\"rivalrebels:textures/entity/as.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/at.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 914,
+        "context": "etblood = new ResourceLocation(\"rivalrebels:textures/entity/at.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/au.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 915,
+        "context": "etgoo = new ResourceLocation(\"rivalrebels:textures/entity/au.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/av.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 911,
+        "context": "eteinstenbarrel = new ResourceLocation(\"rivalrebels:textures/entity/av.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/aw.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 912,
+        "context": "eteinstenback = new ResourceLocation(\"rivalrebels:textures/entity/aw.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ax.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 913,
+        "context": "eteinstenhandle = new ResourceLocation(\"rivalrebels:textures/entity/ax.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ay.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 896,
+        "context": "etplasmacannon = new ResourceLocation(\"rivalrebels:textures/entity/ay.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/az.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 888,
+        "context": "etrocket = new ResourceLocation(\"rivalrebels:textures/entity/az.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ba.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 884,
+        "context": "etdisk0 = new ResourceLocation(\"rivalrebels:textures/entity/ba.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bb.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 885,
+        "context": "etdisk1 = new ResourceLocation(\"rivalrebels:textures/entity/bb.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bc.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 886,
+        "context": "etdisk2 = new ResourceLocation(\"rivalrebels:textures/entity/bc.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bd.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 887,
+        "context": "etdisk3 = new ResourceLocation(\"rivalrebels:textures/entity/bd.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/be.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 892,
+        "context": "etknife = new ResourceLocation(\"rivalrebels:textures/entity/be.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bf.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 891,
+        "context": "etgasgrenade = new ResourceLocation(\"rivalrebels:textures/entity/bf.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bg.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 917,
+        "context": "etrocketlauncherhandle = new ResourceLocation(\"rivalrebels:textures/entity/bg.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bh.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 916,
+        "context": "etrocketlauncherbody = new ResourceLocation(\"rivalrebels:textures/entity/bh.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bi.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 918,
+        "context": "etrocketlaunchertube = new ResourceLocation(\"rivalrebels:textures/entity/bi.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bj.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 919,
+        "context": "etbinoculars = new ResourceLocation(\"rivalrebels:textures/entity/bj.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bk.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 920,
+        "context": "etelectrode = new ResourceLocation(\"rivalrebels:textures/entity/bk.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bl.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 921,
+        "context": "etb83 = new ResourceLocation(\"rivalrebels:textures/entity/bl.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bm.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 922,
+        "context": "etb2spirit = new ResourceLocation(\"rivalrebels:textures/entity/bm.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bn.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 923,
+        "context": "etrust = new ResourceLocation(\"rivalrebels:textures/entity/bn.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bo.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 924,
+        "context": "etreciever = new ResourceLocation(\"rivalrebels:textures/entity/bo.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/booster.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 946,
+        "context": "etbooster = new ResourceLocation(\"rivalrebels:textures/entity/booster.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bp.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 925,
+        "context": "ettesla = new ResourceLocation(\"rivalrebels:textures/entity/bp.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bq.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 926,
+        "context": "etbattery = new ResourceLocation(\"rivalrebels:textures/entity/bq.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/br.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 927,
+        "context": "ettube = new ResourceLocation(\"rivalrebels:textures/entity/br.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bs.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 928,
+        "context": "etadsdragon = new ResourceLocation(\"rivalrebels:textures/entity/bs.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bt.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 929,
+        "context": "etflamethrower = new ResourceLocation(\"rivalrebels:textures/entity/bt.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bu.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 930,
+        "context": "etflamecone = new ResourceLocation(\"rivalrebels:textures/entity/bu.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bv.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 931,
+        "context": "etflameball = new ResourceLocation(\"rivalrebels:textures/entity/bv.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bw.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 932,
+        "context": "etflameblue = new ResourceLocation(\"rivalrebels:textures/entity/bw.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bx.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 933,
+        "context": "etflamebluered = new ResourceLocation(\"rivalrebels:textures/entity/bx.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/by.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 934,
+        "context": "ethack202 = new ResourceLocation(\"rivalrebels:textures/entity/by.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/bz.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 935,
+        "context": "etseek202 = new ResourceLocation(\"rivalrebels:textures/entity/bz.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ca.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 936,
+        "context": "etrocketseek202 = new ResourceLocation(\"rivalrebels:textures/entity/ca.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/cb.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 937,
+        "context": "etrocketseekhandle202 = new ResourceLocation(\"rivalrebels:textures/entity/cb.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/cc.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 938,
+        "context": "etrocketseektube202 = new ResourceLocation(\"rivalrebels:textures/entity/cc.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/cd.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 939,
+        "context": "ettheoreticaltsarshell1 = new ResourceLocation(\"rivalrebels:textures/entity/cd.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ce.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 940,
+        "context": "ettheoreticaltsarshell2 = new ResourceLocation(\"rivalrebels:textures/entity/ce.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/cf.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 941,
+        "context": "etblacktsar = new ResourceLocation(\"rivalrebels:textures/entity/cf.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/cg.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 942,
+        "context": "etwacknuke = new ResourceLocation(\"rivalrebels:textures/entity/cg.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ch.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 943,
+        "context": "etflameballgreen = new ResourceLocation(\"rivalrebels:textures/entity/ch.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ci.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 944,
+        "context": "etantimatterbomb = new ResourceLocation(\"rivalrebels:textures/entity/ci.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/cj.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 947,
+        "context": "etantimatterblast = new ResourceLocation(\"rivalrebels:textures/entity/cj.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/ck.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 948,
+        "context": "ettachyonbomb = new ResourceLocation(\"rivalrebels:textures/entity/ck.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/flame.png",
+    "matches": [
+      {
+        "file": "source/assets/rivalrebels/models/s.mtl",
+        "line": 11,
+        "context": "map_Kd /Users/atlas/Desktop/Projects/Rival Rebels Mod/forge-1.7.10-10.13.4.1614-1.7.10-src/src/main/resources/assets/rivalrebels/textures/entity/flame.png"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/models/s.mtl",
+        "line": 11,
+        "context": "map_Kd /Users/atlas/Desktop/Projects/Rival Rebels Mod/forge-1.7.10-10.13.4.1614-1.7.10-src/src/main/resources/assets/rivalrebels/textures/entity/flame.png"
+      },
+      {
+        "file": "decompiled/assets/rivalrebels/client/renderentity/RenderRhodes.java",
+        "line": 105,
+        "context": "flametex = new ResourceLocation(\"rivalrebels\", \"textures/entity/flame.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/rhodes.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/client/renderentity/RenderRhodes.java",
+        "line": 104,
+        "context": "texture = new ResourceLocation(\"rivalrebels\", \"textures/entity/rhodes.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/entity/tupolev.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 945,
+        "context": "ettupolev = new ResourceLocation(\"rivalrebels:textures/entity/tupolev.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/flags/alex.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/alien.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/argentina.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/australia.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/austria.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/blender.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/brazil.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/brigadier.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/canada.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/captain.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/cat.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/china.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/colonel.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/confirm.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/czech.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/deadb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/deadg.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/deadw.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/deal.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/dealdoge.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/doge.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/dyfe.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/estonia.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/finland.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/firstlt.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/france.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/gengen.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/germany.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/gitgud.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/guyfawkes.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/hacker.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/hbm.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/holland.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/hungary.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/indonesia.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/intel.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/italy.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/japan.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/lt.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/ltgeneral.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/majgen.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/major.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/malinoiz.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/mexico.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/nasa.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/nuker.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/philippin.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/poland.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/private.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/rebel.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/rhodes.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/rodol.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/romania.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/russia.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/safrica.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/saudi.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/sgt.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/skorea.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/smile.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/spain.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/stealth.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/sweden.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/taiwan.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/thailand.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/turkey.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/ubuntu.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/uk.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/usa.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/varely.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/venezuela.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/vietnam.png",
+    "matches": []
+  },
+  {
+    "path": "textures/flags/yemen.png",
+    "matches": []
+  },
+  {
+    "path": "textures/gui/a.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 857,
+        "context": "guitbutton = new ResourceLocation(\"rivalrebels:textures/gui/a.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/b.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 858,
+        "context": "guitspawn = new ResourceLocation(\"rivalrebels:textures/gui/b.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/c.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 859,
+        "context": "guitclass = new ResourceLocation(\"rivalrebels:textures/gui/c.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/d.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 860,
+        "context": "guitrebel = new ResourceLocation(\"rivalrebels:textures/gui/d.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/e.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 861,
+        "context": "guitnuker = new ResourceLocation(\"rivalrebels:textures/gui/e.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/f.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 862,
+        "context": "guitintel = new ResourceLocation(\"rivalrebels:textures/gui/f.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/g.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 863,
+        "context": "guithacker = new ResourceLocation(\"rivalrebels:textures/gui/g.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/h.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 864,
+        "context": "guitrivalrebels = new ResourceLocation(\"rivalrebels:textures/gui/h.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/i.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 865,
+        "context": "guitloader = new ResourceLocation(\"rivalrebels:textures/gui/i.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/j.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 866,
+        "context": "guitnuke = new ResourceLocation(\"rivalrebels:textures/gui/j.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/k.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 867,
+        "context": "guittsar = new ResourceLocation(\"rivalrebels:textures/gui/k.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/l.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 868,
+        "context": "guitwarning0 = new ResourceLocation(\"rivalrebels:textures/gui/l.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/m.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 869,
+        "context": "guitwarning1 = new ResourceLocation(\"rivalrebels:textures/gui/m.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/n.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 870,
+        "context": "guittokamak = new ResourceLocation(\"rivalrebels:textures/gui/n.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/o.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 871,
+        "context": "guibinoculars = new ResourceLocation(\"rivalrebels:textures/gui/o.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/p.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 872,
+        "context": "guibinocularsoverlay = new ResourceLocation(\"rivalrebels:textures/gui/p.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/q.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 873,
+        "context": "guilaptopnuke = new ResourceLocation(\"rivalrebels:textures/gui/q.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/r.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 874,
+        "context": "guitesla = new ResourceLocation(\"rivalrebels:textures/gui/r.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/rhodes-gui_help.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 879,
+        "context": "guirhodeshelp = new ResourceLocation(\"rivalrebels:textures/gui/rhodes-gui_help.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/rhodes-gui_line.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 877,
+        "context": "guirhodesline = new ResourceLocation(\"rivalrebels:textures/gui/rhodes-gui_line.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/rhodes-gui_out.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 878,
+        "context": "guirhodesout = new ResourceLocation(\"rivalrebels:textures/gui/rhodes-gui_out.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/s.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 875,
+        "context": "guitray = new ResourceLocation(\"rivalrebels:textures/gui/s.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/t.png",
+    "matches": []
+  },
+  {
+    "path": "textures/gui/u.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 876,
+        "context": "guiflamethrower = new ResourceLocation(\"rivalrebels:textures/gui/u.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/v.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 880,
+        "context": "guicarpet = new ResourceLocation(\"rivalrebels:textures/gui/v.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/w.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 881,
+        "context": "guitheoreticaltsar = new ResourceLocation(\"rivalrebels:textures/gui/w.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/x.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 882,
+        "context": "guitantimatterbomb = new ResourceLocation(\"rivalrebels:textures/gui/x.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/gui/y.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 883,
+        "context": "guitachyonbomb = new ResourceLocation(\"rivalrebels:textures/gui/y.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/items/aa.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ab.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ac.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ad.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ae.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/af.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ag.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ah.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ai.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ak.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/al.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/am.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ao.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ap.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/aq.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ar.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/as.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/at.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/au.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/av.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/aw.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ax.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ay.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/az.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ba.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/bb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/bc.png",
+    "matches": [
+      {
+        "file": "decompiled/assets/rivalrebels/RivalRebels.java",
+        "line": 959,
+        "context": "ittaskb83 = new ResourceLocation(\"rivalrebels:textures/items/bc.png\");"
+      }
+    ]
+  },
+  {
+    "path": "textures/items/bd.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/be.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/bf.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/bg.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/bh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/bi.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hob.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hoc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hoh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hop.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hsb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hsc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hsh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/hsp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/iob.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ioc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ioh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/iop.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/isb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/isc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ish.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/isp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/nob.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/noc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/noh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/nop.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/nsb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/nsc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/nsh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/nsp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ob.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/oh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/op.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/ov.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/rob.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/roc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/roh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/rop.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/rsb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/rsc.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/rsh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/rsp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/sb.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/sh.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/sp.png",
+    "matches": []
+  },
+  {
+    "path": "textures/items/sv.png",
+    "matches": []
+  }
+]

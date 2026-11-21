@@ -1,0 +1,710 @@
+{
+  "section": "tileentities",
+  "java_files_found": 24,
+  "classes_analyzed": 23,
+  "superclasses": {
+    "TileEntity": 18,
+    "TileEntityMachineBase": 4,
+    "[sem superclass]": 1
+  },
+  "tileentities": [
+    {
+      "class": "TileEntityAntimatterBomb",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityAntimatterBomb.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145836_u",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityAntimatterBombRenderer.java",
+        "assets/rivalrebels/client/gui/GuiAntimatterBomb.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "TileEntityConduit",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityConduit.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/block/BlockConduit.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "TileEntityForceFieldNode",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityForceFieldNode.java",
+      "superclass": "TileEntityMachineBase",
+      "interfaces": [],
+      "methods": [
+        "func_145833_n",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145845_h",
+        "getRenderBoundingBox",
+        "placeBlockCarefully",
+        "powered",
+        "turnOff"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityForceFieldNodeRenderer.java",
+        "assets/rivalrebels/common/block/machine/BlockForceFieldNode.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "TileEntityGore",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityGore.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "func_145839_a",
+        "func_145841_b",
+        "func_145845_h"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityGoreRenderer.java",
+        "assets/rivalrebels/common/block/BlockGore.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "TileEntityJumpBlock",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityJumpBlock.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "canUpdate",
+        "func_145839_a",
+        "func_145841_b"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityJumpBlockRenderer.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "TileEntityLaptop",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityLaptop.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "hasChips",
+        "isReady",
+        "onGoButtonPressed",
+        "refreshTasks"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityLaptopRenderer.java",
+        "assets/rivalrebels/client/gui/GuiLaptop.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java",
+        "assets/rivalrebels/common/packet/LaptopRefreshPacket.java",
+        "assets/rivalrebels/common/packet/LaptopButtonPacket.java",
+        "assets/rivalrebels/common/packet/LaptopEngagePacket.java",
+        "assets/rivalrebels/common/block/machine/BlockLaptop.java",
+        "assets/rivalrebels/common/item/weapon/ItemBinoculars.java"
+      ],
+      "reference_count": 11
+    },
+    {
+      "class": "TileEntityList",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityList.java",
+      "superclass": null,
+      "interfaces": [],
+      "methods": [
+        "add",
+        "clear",
+        "get",
+        "getArray",
+        "getFFSize",
+        "getSize",
+        "remove",
+        "toString"
+      ],
+      "references": [
+        "assets/rivalrebels/common/packet/ReactorUpdatePacket.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java",
+        "assets/rivalrebels/common/tileentity/TileEntityLoader.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "TileEntityLoadBase",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityLoadBase.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "add",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145845_h",
+        "remove"
+      ],
+      "references": [],
+      "reference_count": 0
+    },
+    {
+      "class": "TileEntityLoader",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityLoader.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityLoaderRenderer.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/tileentity/TileEntityLoadBase.java",
+        "assets/rivalrebels/common/block/machine/BlockLoader.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "TileEntityMachineBase",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityMachineBase.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "func_145839_a",
+        "func_145841_b",
+        "func_145843_s",
+        "func_145845_h",
+        "powered"
+      ],
+      "references": [
+        "assets/rivalrebels/client/tileentityrender/TileEntityReactorRenderer.java",
+        "assets/rivalrebels/common/packet/ReactorUpdatePacket.java",
+        "assets/rivalrebels/common/tileentity/TileEntityForceFieldNode.java",
+        "assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java",
+        "assets/rivalrebels/common/tileentity/TileEntityList.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReciever.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactive.java",
+        "assets/rivalrebels/common/block/machine/BlockReactor.java"
+      ],
+      "reference_count": 9
+    },
+    {
+      "class": "TileEntityMeltDown",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityMeltDown.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "func_145833_n",
+        "func_145845_h",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityMeltdownRenderer.java",
+        "assets/rivalrebels/common/block/BlockMeltDown.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "TileEntityNuclearBomb",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityNuclearBomb.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145836_u",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityNuclearBombRenderer.java",
+        "assets/rivalrebels/client/gui/GuiNuclearBomb.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/container/ContainerNuclearBomb.java",
+        "assets/rivalrebels/common/block/trap/BlockNuclearBomb.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "TileEntityNukeCrate",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityNukeCrate.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "func_145839_a",
+        "func_145841_b",
+        "func_145845_h"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityNukeCrateRenderer.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/block/crate/BlockNukeCrate.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "TileEntityOmegaObjective",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityOmegaObjective.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory",
+        "ICommandSender"
+      ],
+      "methods": [
+        "func_130014_f_",
+        "func_145747_a",
+        "func_145748_c_",
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70003_b",
+        "func_70005_c_",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_82114_b",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityOmegaObjectiveRenderer.java",
+        "assets/rivalrebels/common/block/machine/BlockOmegaObjective.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "TileEntityPlasmaExplosion",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityPlasmaExplosion.java",
+      "superclass": "TileEntity",
+      "interfaces": [],
+      "methods": [
+        "func_145833_n",
+        "func_145845_h",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityPlasmaExplosionRenderer.java",
+        "assets/rivalrebels/common/block/BlockPlasmaExplosion.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "TileEntityReactive",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityReactive.java",
+      "superclass": "TileEntityMachineBase",
+      "interfaces": [],
+      "methods": [
+        "powered"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/packet/ReactorUpdatePacket.java",
+        "assets/rivalrebels/common/tileentity/TileEntityList.java",
+        "assets/rivalrebels/common/tileentity/TileEntityReactor.java",
+        "assets/rivalrebels/common/block/BlockReactive.java"
+      ],
+      "reference_count": 5
+    },
+    {
+      "class": "TileEntityReactor",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityReactor.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "ejectCore",
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getPower",
+        "getRenderBoundingBox",
+        "meltDown",
+        "toggleOn"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityReactorRenderer.java",
+        "assets/rivalrebels/client/gui/GuiReactor.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/container/ContainerReactor.java",
+        "assets/rivalrebels/common/packet/ReactorUpdatePacket.java",
+        "assets/rivalrebels/common/packet/ReactorGUIPacket.java",
+        "assets/rivalrebels/common/tileentity/TileEntityMachineBase.java",
+        "assets/rivalrebels/common/tileentity/TileEntityLoader.java",
+        "assets/rivalrebels/common/block/machine/BlockReactor.java"
+      ],
+      "reference_count": 12
+    },
+    {
+      "class": "TileEntityReciever",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityReciever.java",
+      "superclass": "TileEntityMachineBase",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "canSee",
+        "canTarget",
+        "consumeBattery",
+        "convertBatteryToEnergy",
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getBaseRotation",
+        "getPitchTo",
+        "getRenderBoundingBox",
+        "getTarget",
+        "getYawTo",
+        "hasAmmo",
+        "hasBattery",
+        "hasWepReqs",
+        "isValidTarget",
+        "lookAt",
+        "powered",
+        "setWep",
+        "updateDirection",
+        "useAmmo"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityRecieverRenderer.java",
+        "assets/rivalrebels/client/gui/GuiTray.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall2.java",
+        "assets/rivalrebels/common/entity/EntityFlameBall1.java",
+        "assets/rivalrebels/common/entity/EntityFlameBallGreen.java",
+        "assets/rivalrebels/common/container/ContainerReciever.java",
+        "assets/rivalrebels/common/command/CommandConfig.java",
+        "assets/rivalrebels/common/packet/ADSUpdatePacket.java",
+        "assets/rivalrebels/common/packet/ADSClosePacket.java",
+        "assets/rivalrebels/common/packet/ADSWeaponPacket.java",
+        "assets/rivalrebels/common/tileentity/TileEntityLoader.java",
+        "assets/rivalrebels/common/block/machine/BlockReciever.java"
+      ],
+      "reference_count": 16
+    },
+    {
+      "class": "TileEntityRhodesActivator",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java",
+      "superclass": "TileEntityMachineBase",
+      "interfaces": [],
+      "methods": [
+        "powered"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/entity/EntityRhodes.java",
+        "assets/rivalrebels/common/block/machine/BlockRhodesActivator.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "TileEntitySigmaObjective",
+      "file": "assets/rivalrebels/common/tileentity/TileEntitySigmaObjective.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory",
+        "ICommandSender"
+      ],
+      "methods": [
+        "closeChest",
+        "func_130014_f_",
+        "func_145747_a",
+        "func_145748_c_",
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70003_b",
+        "func_70005_c_",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_82114_b",
+        "func_94041_b",
+        "getRenderBoundingBox",
+        "openChest"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntitySigmaObjectiveRenderer.java",
+        "assets/rivalrebels/common/block/machine/BlockSigmaObjective.java"
+      ],
+      "reference_count": 4
+    },
+    {
+      "class": "TileEntityTachyonBomb",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityTachyonBomb.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145836_u",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityTachyonBombRenderer.java",
+        "assets/rivalrebels/client/gui/GuiTachyonBomb.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/block/trap/BlockTachyonBomb.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "TileEntityTheoreticalTsarBomba",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityTheoreticalTsarBomba.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145836_u",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityTheoreticalTsarBombaRenderer.java",
+        "assets/rivalrebels/client/gui/GuiTheoreticalTsar.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/container/ContainerTheoreticalTsar.java",
+        "assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java"
+      ],
+      "reference_count": 7
+    },
+    {
+      "class": "TileEntityTsarBomba",
+      "file": "assets/rivalrebels/common/tileentity/TileEntityTsarBomba.java",
+      "superclass": "TileEntity",
+      "interfaces": [
+        "IInventory"
+      ],
+      "methods": [
+        "func_145818_k_",
+        "func_145825_b",
+        "func_145833_n",
+        "func_145836_u",
+        "func_145839_a",
+        "func_145841_b",
+        "func_145842_c",
+        "func_145843_s",
+        "func_145845_h",
+        "func_70295_k_",
+        "func_70297_j_",
+        "func_70298_a",
+        "func_70299_a",
+        "func_70300_a",
+        "func_70301_a",
+        "func_70302_i_",
+        "func_70304_b",
+        "func_70305_f",
+        "func_94041_b",
+        "getRenderBoundingBox"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/ClientProxy.java",
+        "assets/rivalrebels/client/tileentityrender/TileEntityTsarBombaRenderer.java",
+        "assets/rivalrebels/client/gui/GuiTsar.java",
+        "assets/rivalrebels/common/core/RivalRebelsGuiHandler.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java",
+        "assets/rivalrebels/common/block/trap/BlockTsarBomba.java"
+      ],
+      "reference_count": 7
+    }
+  ]
+}

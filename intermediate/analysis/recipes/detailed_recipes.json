@@ -1,0 +1,696 @@
+[
+  {
+    "index": 1,
+    "line": 11,
+    "result_expression": "RivalRebels.fuel, 16",
+    "pattern_rows": [
+      "DS",
+      "GC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.fuel, 16),\n         new Object[]{\"DS\", \"GC\", 'C', Blocks.field_150347_e, 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n, 'D', Blocks.field_150346_d}\n      )"
+  },
+  {
+    "index": 2,
+    "line": 15,
+    "result_expression": "RivalRebels.rocket, 16",
+    "pattern_rows": [
+      "SC",
+      "DG"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.rocket, 16),\n         new Object[]{\"SC\", \"DG\", 'C', Blocks.field_150347_e, 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n, 'D', Blocks.field_150346_d}\n      )"
+  },
+  {
+    "index": 3,
+    "line": 19,
+    "result_expression": "RivalRebels.battery, 4",
+    "pattern_rows": [
+      "CG",
+      "SD"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.battery, 4),\n         new Object[]{\"CG\", \"SD\", 'C', Blocks.field_150347_e, 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n, 'D', Blocks.field_150346_d}\n      )"
+  },
+  {
+    "index": 4,
+    "line": 23,
+    "result_expression": "RivalRebels.gasgrenade, 6",
+    "pattern_rows": [
+      "GD",
+      "CS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.gasgrenade, 6),\n         new Object[]{\"GD\", \"CS\", 'C', Blocks.field_150347_e, 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n, 'D', Blocks.field_150346_d}\n      )"
+  },
+  {
+    "index": 5,
+    "line": 27,
+    "result_expression": "RivalRebels.easteregg, 1",
+    "pattern_rows": [
+      "DD",
+      "CC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.easteregg, 1), new Object[]{\"DD\", \"CC\", 'C', Blocks.field_150347_e, 'D', Blocks.field_150346_d})"
+  },
+  {
+    "index": 6,
+    "line": 28,
+    "result_expression": "RivalRebels.sigmaarmor, 1",
+    "pattern_rows": [
+      "SSC",
+      "SPB",
+      "SSD"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.sigmaarmor, 1),\n         new Object[]{\n            \"SSC\",\n            \"SPB\",\n            \"SSD\",\n            'C',\n            Blocks.field_150347_e,\n            'S',\n            RivalRebels.steel,\n            'P',\n            RivalRebels.pliers,\n            'D',\n            Blocks.field_150346_d,\n            'B',\n            Items.field_151103_aS\n         }\n      )"
+  },
+  {
+    "index": 7,
+    "line": 46,
+    "result_expression": "RivalRebels.omegaarmor, 1",
+    "pattern_rows": [
+      "SSD",
+      "SPB",
+      "SSC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.omegaarmor, 1),\n         new Object[]{\n            \"SSD\",\n            \"SPB\",\n            \"SSC\",\n            'C',\n            Blocks.field_150347_e,\n            'S',\n            RivalRebels.steel,\n            'P',\n            RivalRebels.pliers,\n            'D',\n            Blocks.field_150346_d,\n            'B',\n            Items.field_151103_aS\n         }\n      )"
+  },
+  {
+    "index": 8,
+    "line": 64,
+    "result_expression": "RivalRebels.flagbox1, 1",
+    "pattern_rows": [
+      "W",
+      "P"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.flagbox1, 1), new Object[]{\"W\", \"P\", 'W', Blocks.field_150325_L, 'P', RivalRebels.pliers})"
+  },
+  {
+    "index": 9,
+    "line": 65,
+    "result_expression": "RivalRebels.flagbox3, 1",
+    "pattern_rows": [
+      "P",
+      "W"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.flagbox3, 1), new Object[]{\"P\", \"W\", 'W', Blocks.field_150325_L, 'P', RivalRebels.pliers})"
+  },
+  {
+    "index": 10,
+    "line": 66,
+    "result_expression": "RivalRebels.armyshovel, 1",
+    "pattern_rows": [
+      "CD",
+      "SG"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.armyshovel, 1),\n         new Object[]{\"CD\", \"SG\", 'C', Blocks.field_150347_e, 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n, 'D', Blocks.field_150346_d}\n      )"
+  },
+  {
+    "index": 11,
+    "line": 70,
+    "result_expression": "RivalRebels.amario, 16",
+    "pattern_rows": [
+      "SS",
+      "GG"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.amario, 16), new Object[]{\"SS\", \"GG\", 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n})"
+  },
+  {
+    "index": 12,
+    "line": 71,
+    "result_expression": "RivalRebels.aquicksand, 16",
+    "pattern_rows": [
+      "SS",
+      "DD"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.aquicksand, 16), new Object[]{\"SS\", \"DD\", 'S', Blocks.field_150354_m, 'D', Blocks.field_150346_d})"
+  },
+  {
+    "index": 13,
+    "line": 72,
+    "result_expression": "RivalRebels.jump, 8",
+    "pattern_rows": [
+      "CC",
+      "DD"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.jump, 8), new Object[]{\"CC\", \"DD\", 'C', Blocks.field_150347_e, 'D', Blocks.field_150346_d})"
+  },
+  {
+    "index": 14,
+    "line": 73,
+    "result_expression": "RivalRebels.steel, 16",
+    "pattern_rows": [
+      "CC",
+      "CC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.steel, 16), new Object[]{\"CC\", \"CC\", 'C', Blocks.field_150347_e})"
+  },
+  {
+    "index": 15,
+    "line": 74,
+    "result_expression": "RivalRebels.smartcamo, 16",
+    "pattern_rows": [
+      "SCS",
+      "CPC",
+      "SCS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.smartcamo, 16),\n         new Object[]{\"SCS\", \"CPC\", \"SCS\", 'C', Blocks.field_150347_e, 'S', RivalRebels.steel, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 16,
+    "line": 78,
+    "result_expression": "RivalRebels.pliers, 1",
+    "pattern_rows": [
+      " C",
+      "C "
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.pliers, 1), new Object[]{\" C\", \"C \", 'C', Blocks.field_150347_e})"
+  },
+  {
+    "index": 17,
+    "line": 79,
+    "result_expression": "RivalRebels.roda, 1",
+    "pattern_rows": [
+      "IN",
+      "IH",
+      "IR"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.roda, 1),\n         new Object[]{\"IN\", \"IH\", \"IR\", 'I', Items.field_151042_j, 'N', RivalRebels.nuclearelement, 'H', RivalRebels.hydrod, 'R', RivalRebels.redrod}\n      )"
+  },
+  {
+    "index": 18,
+    "line": 83,
+    "result_expression": "RivalRebels.knife, 5",
+    "pattern_rows": [
+      "CG",
+      "GC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.knife, 5), new Object[]{\"CG\", \"GC\", 'C', Blocks.field_150347_e, 'G', Blocks.field_150351_n})"
+  },
+  {
+    "index": 19,
+    "line": 84,
+    "result_expression": "RivalRebels.trollmask, 8",
+    "pattern_rows": [
+      "SS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.trollmask, 8), new Object[]{\"SS\", 'S', Blocks.field_150354_m})"
+  },
+  {
+    "index": 20,
+    "line": 85,
+    "result_expression": "RivalRebels.cycle, 1",
+    "pattern_rows": [
+      "TT",
+      "TT"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.cycle, 1), new Object[]{\"TT\", \"TT\", 'T', RivalRebels.trollmask})"
+  },
+  {
+    "index": 21,
+    "line": 86,
+    "result_expression": "RivalRebels.tower, 2",
+    "pattern_rows": [
+      "SS",
+      "SJ"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.tower, 2), new Object[]{\"SS\", \"SJ\", 'S', RivalRebels.steel, 'J', RivalRebels.jump})"
+  },
+  {
+    "index": 22,
+    "line": 87,
+    "result_expression": "RivalRebels.barricade, 1",
+    "pattern_rows": [
+      "SSS",
+      "LPL",
+      "RCR"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.barricade, 1),\n         new Object[]{\n            \"SSS\",\n            \"LPL\",\n            \"RCR\",\n            'L',\n            RivalRebels.binoculars,\n            'P',\n            RivalRebels.pliers,\n            'S',\n            RivalRebels.supplies,\n            'R',\n            RivalRebels.reactive,\n            'C',\n            RivalRebels.conduit\n         }\n      )"
+  },
+  {
+    "index": 23,
+    "line": 105,
+    "result_expression": "RivalRebels.timedbomb, 1",
+    "pattern_rows": [
+      "FB",
+      "RP"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.timedbomb, 1),\n         new Object[]{\"FB\", \"RP\", 'P', RivalRebels.pliers, 'B', RivalRebels.battery, 'R', RivalRebels.rocket, 'F', RivalRebels.fuel}\n      )"
+  },
+  {
+    "index": 24,
+    "line": 109,
+    "result_expression": "RivalRebels.remotecharge, 4",
+    "pattern_rows": [
+      "GB",
+      "RF"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.remotecharge, 4),\n         new Object[]{\"GB\", \"RF\", 'G', RivalRebels.gasgrenade, 'B', RivalRebels.battery, 'R', RivalRebels.rocket, 'F', RivalRebels.fuel}\n      )"
+  },
+  {
+    "index": 25,
+    "line": 113,
+    "result_expression": "RivalRebels.remote, 1",
+    "pattern_rows": [
+      "BF",
+      "RP"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.remote, 1),\n         new Object[]{\"BF\", \"RP\", 'P', RivalRebels.pliers, 'B', RivalRebels.battery, 'R', RivalRebels.rocket, 'F', RivalRebels.fuel}\n      )"
+  },
+  {
+    "index": 26,
+    "line": 117,
+    "result_expression": "RivalRebels.alandmine, 16",
+    "pattern_rows": [
+      "DB",
+      "RP"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.alandmine, 16),\n         new Object[]{\"DB\", \"RP\", 'D', Blocks.field_150346_d, 'B', RivalRebels.battery, 'P', RivalRebels.pliers, 'R', RivalRebels.rocket}\n      )"
+  },
+  {
+    "index": 27,
+    "line": 121,
+    "result_expression": "RivalRebels.flare, 8",
+    "pattern_rows": [
+      "FD",
+      "RD"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.flare, 8), new Object[]{\"FD\", \"RD\", 'F', RivalRebels.fuel, 'D', Blocks.field_150346_d, 'R', RivalRebels.rocket}\n      )"
+  },
+  {
+    "index": 28,
+    "line": 124,
+    "result_expression": "RivalRebels.nukeCrateTop, 1",
+    "pattern_rows": [
+      " SS",
+      "SP ",
+      " SS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.nukeCrateTop, 1), new Object[]{\" SS\", \"SP \", \" SS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers})"
+  },
+  {
+    "index": 29,
+    "line": 125,
+    "result_expression": "RivalRebels.nukeCrateBottom, 1",
+    "pattern_rows": [
+      "SS ",
+      "SP ",
+      "SS "
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.nukeCrateBottom, 1), new Object[]{\"SS \", \"SP \", \"SS \", 'S', RivalRebels.steel, 'P', RivalRebels.pliers})"
+  },
+  {
+    "index": 30,
+    "line": 126,
+    "result_expression": "RivalRebels.fuse, 1",
+    "pattern_rows": [
+      "BP",
+      "SP"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.fuse, 1), new Object[]{\"BP\", \"SP\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'B', RivalRebels.battery}\n      )"
+  },
+  {
+    "index": 31,
+    "line": 129,
+    "result_expression": "RivalRebels.rpg, 1",
+    "pattern_rows": [
+      "RRR",
+      "BP ",
+      "SSS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.rpg, 1),\n         new Object[]{\"RRR\", \"BP \", \"SSS\", 'S', RivalRebels.steel, 'R', RivalRebels.rocket, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 32,
+    "line": 133,
+    "result_expression": "RivalRebels.flamethrower, 1",
+    "pattern_rows": [
+      "FFF",
+      "BP ",
+      "SSS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.flamethrower, 1),\n         new Object[]{\"FFF\", \"BP \", \"SSS\", 'S', RivalRebels.steel, 'F', RivalRebels.fuel, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 33,
+    "line": 137,
+    "result_expression": "RivalRebels.tesla, 1",
+    "pattern_rows": [
+      "BBB",
+      "BP ",
+      "SSS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.tesla, 1), new Object[]{\"BBB\", \"BP \", \"SSS\", 'B', RivalRebels.battery, 'S', RivalRebels.steel, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 34,
+    "line": 140,
+    "result_expression": "RivalRebels.plasmacannon, 1",
+    "pattern_rows": [
+      "HHH",
+      "BP ",
+      "SSS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.plasmacannon, 1),\n         new Object[]{\"HHH\", \"BP \", \"SSS\", 'S', RivalRebels.steel, 'H', RivalRebels.hydrod, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 35,
+    "line": 144,
+    "result_expression": "RivalRebels.einsten, 1",
+    "pattern_rows": [
+      "HHH",
+      "BP ",
+      "SSS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.einsten, 1),\n         new Object[]{\"HHH\", \"BP \", \"SSS\", 'S', RivalRebels.steel, 'H', RivalRebels.redrod, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 36,
+    "line": 148,
+    "result_expression": "RivalRebels.roddisk, 1",
+    "pattern_rows": [
+      "HPB"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.roddisk, 1), new Object[]{\"HPB\", 'H', RivalRebels.hydrod, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 37,
+    "line": 151,
+    "result_expression": "RivalRebels.hydrod, 1",
+    "pattern_rows": [
+      "W",
+      "S"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.hydrod, 1), new Object[]{\"W\", \"S\", 'S', RivalRebels.emptyrod, 'W', Items.field_151131_as})"
+  },
+  {
+    "index": 38,
+    "line": 152,
+    "result_expression": "RivalRebels.redrod, 1",
+    "pattern_rows": [
+      "W",
+      "S"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.redrod, 1), new Object[]{\"W\", \"S\", 'S', RivalRebels.emptyrod, 'W', Items.field_151137_ax})"
+  },
+  {
+    "index": 39,
+    "line": 153,
+    "result_expression": "RivalRebels.emptyrod, 4",
+    "pattern_rows": [
+      "SPS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(new ItemStack(RivalRebels.emptyrod, 4), new Object[]{\"SPS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers})"
+  },
+  {
+    "index": 40,
+    "line": 154,
+    "result_expression": "RivalRebels.expill, 4",
+    "pattern_rows": [
+      "STG",
+      " BR",
+      "F W"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.expill, 4),\n         new Object[]{\n            \"STG\",\n            \" BR\",\n            \"F W\",\n            'S',\n            Items.field_151014_N,\n            'T',\n            RivalRebels.trollmask,\n            'G',\n            RivalRebels.gasgrenade,\n            'B',\n            Items.field_151117_aB,\n            'R',\n            RivalRebels.rocket,\n            'F',\n            RivalRebels.fuel,\n            'W',\n            Items.field_151131_as\n         }\n      )"
+  },
+  {
+    "index": 41,
+    "line": 176,
+    "result_expression": "RivalRebels.safepill, 4",
+    "pattern_rows": [
+      "S  ",
+      " B ",
+      "F W"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.safepill, 4),\n         new Object[]{\"S  \", \" B \", \"F W\", 'S', Items.field_151014_N, 'B', Items.field_151117_aB, 'F', RivalRebels.fuel, 'W', Items.field_151131_as}\n      )"
+  },
+  {
+    "index": 42,
+    "line": 180,
+    "result_expression": "RivalRebels.breadbox, 1",
+    "pattern_rows": [
+      " S",
+      "GP",
+      " B"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.breadbox, 1),\n         new Object[]{\" S\", \"GP\", \" B\", 'G', Items.field_151014_N, 'S', RivalRebels.steel, 'B', Items.field_151131_as, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 43,
+    "line": 184,
+    "result_expression": "RivalRebels.loader, 1",
+    "pattern_rows": [
+      "SBS",
+      "SPS",
+      "SBS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.loader, 1), new Object[]{\"SBS\", \"SPS\", \"SBS\", 'S', RivalRebels.steel, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}\n      )"
+  },
+  {
+    "index": 44,
+    "line": 187,
+    "result_expression": "RivalRebels.ammunition, 1",
+    "pattern_rows": [
+      "SFS",
+      "FPF",
+      "SFS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.ammunition, 1),\n         new Object[]{\"SFS\", \"FPF\", \"SFS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'F', RivalRebels.emptyrod}\n      )"
+  },
+  {
+    "index": 45,
+    "line": 191,
+    "result_expression": "RivalRebels.supplies, 1",
+    "pattern_rows": [
+      "SRS",
+      "APB",
+      "SLS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.supplies, 1),\n         new Object[]{\n            \"SRS\",\n            \"APB\",\n            \"SLS\",\n            'S',\n            RivalRebels.steel,\n            'P',\n            RivalRebels.pliers,\n            'R',\n            RivalRebels.remote,\n            'L',\n            RivalRebels.loader,\n            'A',\n            RivalRebels.antenna,\n            'B',\n            RivalRebels.battery\n         }\n      )"
+  },
+  {
+    "index": 46,
+    "line": 211,
+    "result_expression": "RivalRebels.explosives, 1",
+    "pattern_rows": [
+      "SFS",
+      "GPG",
+      "SFS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.explosives, 1),\n         new Object[]{\"SFS\", \"GPG\", \"SFS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'F', RivalRebels.flare, 'G', RivalRebels.gasgrenade}\n      )"
+  },
+  {
+    "index": 47,
+    "line": 215,
+    "result_expression": "RivalRebels.weapons, 1",
+    "pattern_rows": [
+      "SFS",
+      "BPB",
+      "SFS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.weapons, 1),\n         new Object[]{\"SFS\", \"BPB\", \"SFS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'B', RivalRebels.ammunition, 'F', RivalRebels.battery}\n      )"
+  },
+  {
+    "index": 48,
+    "line": 219,
+    "result_expression": "RivalRebels.antenna, 1",
+    "pattern_rows": [
+      "RB",
+      "SP"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.antenna, 1),\n         new Object[]{\"RB\", \"SP\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'B', RivalRebels.battery, 'R', RivalRebels.remote}\n      )"
+  },
+  {
+    "index": 49,
+    "line": 223,
+    "result_expression": "RivalRebels.hackm202, 1",
+    "pattern_rows": [
+      "HFR",
+      " P ",
+      "EMA"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.hackm202, 1),\n         new Object[]{\n            \"HFR\",\n            \" P \",\n            \"EMA\",\n            'H',\n            RivalRebels.hydrod,\n            'P',\n            RivalRebels.pliers,\n            'A',\n            RivalRebels.ammunition,\n            'R',\n            RivalRebels.nuclearelement,\n            'M',\n            RivalRebels.rpg,\n            'E',\n            RivalRebels.explosives,\n            'F',\n            RivalRebels.fuse\n         }\n      )"
+  },
+  {
+    "index": 50,
+    "line": 245,
+    "result_expression": "RivalRebels.seekm202, 1",
+    "pattern_rows": [
+      "RRR",
+      "BPQ",
+      "SMS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.seekm202, 1),\n         new Object[]{\n            \"RRR\",\n            \"BPQ\",\n            \"SMS\",\n            'S',\n            RivalRebels.steel,\n            'R',\n            RivalRebels.antenna,\n            'B',\n            RivalRebels.battery,\n            'P',\n            RivalRebels.pliers,\n            'Q',\n            RivalRebels.remote,\n            'M',\n            RivalRebels.rpg\n         }\n      )"
+  },
+  {
+    "index": 51,
+    "line": 265,
+    "result_expression": "RivalRebels.chip, 1",
+    "pattern_rows": [
+      " RA",
+      "TPB",
+      "TLB"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.chip, 1),\n         new Object[]{\n            \" RA\",\n            \"TPB\",\n            \"TLB\",\n            'T',\n            RivalRebels.breadbox,\n            'P',\n            RivalRebels.pliers,\n            'B',\n            RivalRebels.battery,\n            'R',\n            RivalRebels.remote,\n            'L',\n            RivalRebels.loader,\n            'A',\n            RivalRebels.antenna\n         }\n      )"
+  },
+  {
+    "index": 52,
+    "line": 285,
+    "result_expression": "RivalRebels.bunker, 1",
+    "pattern_rows": [
+      "CSC",
+      "SPS",
+      "CSC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.bunker, 1), new Object[]{\"CSC\", \"SPS\", \"CSC\", 'C', RivalRebels.smartcamo, 'P', RivalRebels.pliers, 'S', RivalRebels.conduit}\n      )"
+  },
+  {
+    "index": 53,
+    "line": 288,
+    "result_expression": "RivalRebels.binoculars, 1",
+    "pattern_rows": [
+      " RA",
+      "CPB",
+      " SS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.binoculars, 1),\n         new Object[]{\n            \" RA\",\n            \"CPB\",\n            \" SS\",\n            'S',\n            RivalRebels.steel,\n            'P',\n            RivalRebels.pliers,\n            'B',\n            RivalRebels.battery,\n            'R',\n            RivalRebels.remote,\n            'C',\n            RivalRebels.chip,\n            'A',\n            RivalRebels.antenna\n         }\n      )"
+  },
+  {
+    "index": 54,
+    "line": 308,
+    "result_expression": "RivalRebels.controller, 1",
+    "pattern_rows": [
+      " RA",
+      "CPB",
+      " SB"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.controller, 1),\n         new Object[]{\n            \" RA\",\n            \"CPB\",\n            \" SB\",\n            'S',\n            RivalRebels.steel,\n            'P',\n            RivalRebels.pliers,\n            'B',\n            RivalRebels.battery,\n            'R',\n            RivalRebels.remote,\n            'C',\n            RivalRebels.chip,\n            'A',\n            RivalRebels.antenna\n         }\n      )"
+  },
+  {
+    "index": 55,
+    "line": 328,
+    "result_expression": "RivalRebels.bastion, 1",
+    "pattern_rows": [
+      "RRR",
+      "CPC",
+      "RRR"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.bastion, 1), new Object[]{\"RRR\", \"CPC\", \"RRR\", 'R', RivalRebels.reactive, 'P', RivalRebels.pliers, 'C', RivalRebels.conduit}\n      )"
+  },
+  {
+    "index": 56,
+    "line": 331,
+    "result_expression": "RivalRebels.forcefieldnode, 2",
+    "pattern_rows": [
+      "RCR",
+      "HPC",
+      "RCR"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.forcefieldnode, 2),\n         new Object[]{\"RCR\", \"HPC\", \"RCR\", 'R', RivalRebels.reactive, 'P', RivalRebels.pliers, 'C', RivalRebels.conduit, 'H', RivalRebels.chip}\n      )"
+  },
+  {
+    "index": 57,
+    "line": 335,
+    "result_expression": "RivalRebels.reactive, 4",
+    "pattern_rows": [
+      "CDC",
+      "DBD",
+      "CDC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.reactive, 4),\n         new Object[]{\"CDC\", \"DBD\", \"CDC\", 'S', RivalRebels.steel, 'H', RivalRebels.battery, 'D', RivalRebels.conduit, 'C', RivalRebels.smartcamo}\n      )"
+  },
+  {
+    "index": 58,
+    "line": 339,
+    "result_expression": "RivalRebels.conduit, 16",
+    "pattern_rows": [
+      "CEC",
+      "EBE",
+      "CEC"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.conduit, 16), new Object[]{\"CEC\", \"EBE\", \"CEC\", 'B', RivalRebels.redrod, 'E', RivalRebels.emptyrod, 'C', RivalRebels.steel}\n      )"
+  },
+  {
+    "index": 59,
+    "line": 342,
+    "result_expression": "RivalRebels.core1, 1",
+    "pattern_rows": [
+      " DS",
+      "CPD",
+      " DS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.core1, 1),\n         new Object[]{\" DS\", \"CPD\", \" DS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'C', RivalRebels.chip, 'D', RivalRebels.conduit}\n      )"
+  },
+  {
+    "index": 60,
+    "line": 346,
+    "result_expression": "RivalRebels.core2, 1",
+    "pattern_rows": [
+      " DS",
+      "CP1",
+      " DS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.core2, 1),\n         new Object[]{\n            \" DS\", \"CP1\", \" DS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'C', RivalRebels.chip, 'D', RivalRebels.conduit, '1', RivalRebels.core1\n         }\n      )"
+  },
+  {
+    "index": 61,
+    "line": 352,
+    "result_expression": "RivalRebels.core3, 1",
+    "pattern_rows": [
+      " DS",
+      "CP2",
+      " DS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.core3, 1),\n         new Object[]{\n            \" DS\", \"CP2\", \" DS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'C', RivalRebels.chip, 'D', RivalRebels.conduit, '2', RivalRebels.core2\n         }\n      )"
+  },
+  {
+    "index": 62,
+    "line": 358,
+    "result_expression": "RivalRebels.minetrap, 2",
+    "pattern_rows": [
+      "SDS",
+      "DPD",
+      "SDS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.minetrap, 2),\n         new Object[]{\"SDS\", \"DPD\", \"SDS\", 'S', RivalRebels.alandmine, 'P', RivalRebels.pliers, 'D', RivalRebels.conduit}\n      )"
+  },
+  {
+    "index": 63,
+    "line": 362,
+    "result_expression": "RivalRebels.quicksandtrap, 2",
+    "pattern_rows": [
+      "SDS",
+      "DPD",
+      "SDS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.quicksandtrap, 2),\n         new Object[]{\"SDS\", \"DPD\", \"SDS\", 'S', RivalRebels.aquicksand, 'P', RivalRebels.pliers, 'D', RivalRebels.conduit}\n      )"
+  },
+  {
+    "index": 64,
+    "line": 366,
+    "result_expression": "RivalRebels.mariotrap, 2",
+    "pattern_rows": [
+      "SDS",
+      "DPD",
+      "SDS"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.mariotrap, 2), new Object[]{\"SDS\", \"DPD\", \"SDS\", 'S', RivalRebels.amario, 'P', RivalRebels.pliers, 'D', RivalRebels.conduit}\n      )"
+  },
+  {
+    "index": 65,
+    "line": 369,
+    "result_expression": "RivalRebels.ffreciever, 2",
+    "pattern_rows": [
+      "LPS",
+      "RCR"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.ffreciever, 2),\n         new Object[]{\n            \"LPS\", \"RCR\", 'L', RivalRebels.binoculars, 'P', RivalRebels.pliers, 'S', RivalRebels.supplies, 'R', RivalRebels.reactive, 'C', RivalRebels.conduit\n         }\n      )"
+  },
+  {
+    "index": 66,
+    "line": 375,
+    "result_expression": "RivalRebels.buildrhodes, 2",
+    "pattern_rows": [
+      "SAS",
+      "CPT",
+      "RLB"
+    ],
+    "raw_call": "GameRegistry.addRecipe(\n         new ItemStack(RivalRebels.buildrhodes, 2),\n         new Object[]{\n            \"SAS\",\n            \"CPT\",\n            \"RLB\",\n            'B',\n            RivalRebels.binoculars,\n            'P',\n            RivalRebels.pliers,\n            'S',\n            RivalRebels.supplies,\n            'A',\n            RivalRebels.antenna,\n            'C',\n            RivalRebels.chip,\n            'T',\n            RivalRebels.core3,\n            'R',\n            RivalRebels.controller,\n            'L',\n            RivalRebels.loader\n         }\n      )"
+  }
+]

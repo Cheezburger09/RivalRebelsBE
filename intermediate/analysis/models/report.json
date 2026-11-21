@@ -1,0 +1,1364 @@
+{
+  "section": "models",
+  "obj_files_found": 41,
+  "mtl_files_found": 1,
+  "total_vertices": 6021,
+  "total_faces": 10514,
+  "total_triangles": 10514,
+  "models_without_uv": [
+    "assets/rivalrebels/models/rhodes/laser.obj"
+  ],
+  "models_with_missing_uv": [
+    "assets/rivalrebels/models/rhodes/laser.obj"
+  ],
+  "models_with_invalid_indices": [],
+  "models": [
+    {
+      "file": "assets/rivalrebels/models/a.obj",
+      "vertices": 40,
+      "uv_coordinates": 65,
+      "normals": 65,
+      "faces": 73,
+      "triangles_after_fan_triangulation": 73,
+      "face_sizes": {
+        "3": 73
+      },
+      "objects": [
+        "electrode"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.900666,
+          -5.95872,
+          -0.947167
+        ],
+        "max": [
+          0.900964,
+          0.823208,
+          0.947167
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/b.obj",
+      "vertices": 142,
+      "uv_coordinates": 311,
+      "normals": 247,
+      "faces": 280,
+      "triangles_after_fan_triangulation": 280,
+      "face_sizes": {
+        "3": 280
+      },
+      "objects": [
+        "binocular"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.733346,
+          -0.306609,
+          -0.999648
+        ],
+        "max": [
+          0.569784,
+          0.40786,
+          0.783236
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/booster.obj",
+      "vertices": 620,
+      "uv_coordinates": 683,
+      "normals": 538,
+      "faces": 1220,
+      "triangles_after_fan_triangulation": 1220,
+      "face_sizes": {
+        "3": 1220
+      },
+      "objects": [
+        "polySur157.002"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -7.287621,
+          -25.341766,
+          -4.287703
+        ],
+        "max": [
+          7.235403,
+          17.400936,
+          3.470953
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/c.obj",
+      "vertices": 184,
+      "uv_coordinates": 228,
+      "normals": 247,
+      "faces": 308,
+      "triangles_after_fan_triangulation": 308,
+      "face_sizes": {
+        "3": 308
+      },
+      "objects": [
+        "b83"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.910142,
+          -0.518053,
+          -0.491648
+        ],
+        "max": [
+          1.839505,
+          0.5003,
+          0.516916
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/d.obj",
+      "vertices": 217,
+      "uv_coordinates": 272,
+      "normals": 436,
+      "faces": 446,
+      "triangles_after_fan_triangulation": 446,
+      "face_sizes": {
+        "3": 446
+      },
+      "objects": [
+        "b2spirit"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -11.741247,
+          -0.928629,
+          -4.941096
+        ],
+        "max": [
+          11.747536,
+          1.05043,
+          4.948027
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/e.obj",
+      "vertices": 24,
+      "uv_coordinates": 40,
+      "normals": 44,
+      "faces": 44,
+      "triangles_after_fan_triangulation": 44,
+      "face_sizes": {
+        "3": 44
+      },
+      "objects": [
+        "roda"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.713649,
+          -1.276676,
+          -0.188766
+        ],
+        "max": [
+          0.057821,
+          4.469385,
+          0.184111
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/f.obj",
+      "vertices": 143,
+      "uv_coordinates": 218,
+      "normals": 288,
+      "faces": 290,
+      "triangles_after_fan_triangulation": 290,
+      "face_sizes": {
+        "3": 290
+      },
+      "objects": [
+        "b2side1"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -3.319944,
+          -0.894316,
+          -4.941096
+        ],
+        "max": [
+          9.247536,
+          1.05043,
+          4.948027
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/g.obj",
+      "vertices": 162,
+      "uv_coordinates": 240,
+      "normals": 326,
+      "faces": 328,
+      "triangles_after_fan_triangulation": 328,
+      "face_sizes": {
+        "3": 328
+      },
+      "objects": [
+        "b2side2"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -9.241249,
+          -0.928629,
+          -4.941095
+        ],
+        "max": [
+          3.933651,
+          1.046063,
+          4.384104
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/h.obj",
+      "vertices": 34,
+      "uv_coordinates": 74,
+      "normals": 35,
+      "faces": 64,
+      "triangles_after_fan_triangulation": 64,
+      "face_sizes": {
+        "3": 64
+      },
+      "objects": [
+        "Reciever"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          2.5,
+          1.0,
+          1.000001
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/i.obj",
+      "vertices": 324,
+      "uv_coordinates": 433,
+      "normals": 442,
+      "faces": 660,
+      "triangles_after_fan_triangulation": 660,
+      "face_sizes": {
+        "3": 660
+      },
+      "objects": [
+        "Tesla"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.024065,
+          -2.300551,
+          -6.523475
+        ],
+        "max": [
+          1.050735,
+          3.120819,
+          6.430282
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/j.obj",
+      "vertices": 80,
+      "uv_coordinates": 116,
+      "normals": 72,
+      "faces": 156,
+      "triangles_after_fan_triangulation": 156,
+      "face_sizes": {
+        "3": 156
+      },
+      "objects": [
+        "Dynamo"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.778339,
+          -0.943902,
+          -0.952427
+        ],
+        "max": [
+          1.778339,
+          0.926945,
+          0.918419
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/k.obj",
+      "vertices": 46,
+      "uv_coordinates": 41,
+      "normals": 36,
+      "faces": 88,
+      "triangles_after_fan_triangulation": 88,
+      "face_sizes": {
+        "3": 88
+      },
+      "objects": [
+        "Battery"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.883629,
+          -0.599634,
+          -1.516694
+        ],
+        "max": [
+          0.883629,
+          1.009896,
+          1.516694
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/l.obj",
+      "vertices": 16,
+      "uv_coordinates": 14,
+      "normals": 16,
+      "faces": 28,
+      "triangles_after_fan_triangulation": 28,
+      "face_sizes": {
+        "3": 28
+      },
+      "objects": [
+        "Tube"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          0.0,
+          -0.61421,
+          -0.61421
+        ],
+        "max": [
+          2.0,
+          0.61421,
+          0.61421
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/m.obj",
+      "vertices": 50,
+      "uv_coordinates": 78,
+      "normals": 27,
+      "faces": 90,
+      "triangles_after_fan_triangulation": 90,
+      "face_sizes": {
+        "3": 90
+      },
+      "objects": [
+        "m"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          0.0,
+          -7.0,
+          -6.0
+        ],
+        "max": [
+          34.0,
+          12.0,
+          6.0
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/n.obj",
+      "vertices": 400,
+      "uv_coordinates": 609,
+      "normals": 533,
+      "faces": 766,
+      "triangles_after_fan_triangulation": 766,
+      "face_sizes": {
+        "3": 766
+      },
+      "objects": [
+        "FlameThrower"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.463576,
+          -3.47203,
+          -6.266855
+        ],
+        "max": [
+          1.380301,
+          1.605565,
+          3.971357
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/o.obj",
+      "vertices": 76,
+      "uv_coordinates": 143,
+      "normals": 113,
+      "faces": 140,
+      "triangles_after_fan_triangulation": 140,
+      "face_sizes": {
+        "3": 140
+      },
+      "objects": [
+        "Gas"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.831717,
+          -0.783141,
+          -2.530577
+        ],
+        "max": [
+          0.831717,
+          0.798883,
+          2.958881
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/p.obj",
+      "vertices": 34,
+      "uv_coordinates": 68,
+      "normals": 38,
+      "faces": 64,
+      "triangles_after_fan_triangulation": 64,
+      "face_sizes": {
+        "3": 64
+      },
+      "objects": [
+        "Tray"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.75,
+          0.0,
+          -1.875
+        ],
+        "max": [
+          0.75,
+          0.476635,
+          0.0
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/q.obj",
+      "vertices": 76,
+      "uv_coordinates": 80,
+      "normals": 78,
+      "faces": 134,
+      "triangles_after_fan_triangulation": 134,
+      "face_sizes": {
+        "3": 134
+      },
+      "objects": [
+        "TrayArm"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.693121,
+          -0.662467,
+          -0.512511
+        ],
+        "max": [
+          0.693121,
+          0.149186,
+          0.512514
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/r.obj",
+      "vertices": 190,
+      "uv_coordinates": 250,
+      "normals": 222,
+      "faces": 337,
+      "triangles_after_fan_triangulation": 337,
+      "face_sizes": {
+        "3": 337
+      },
+      "objects": [
+        "Dragon"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.478294,
+          -0.26948,
+          -1.153432
+        ],
+        "max": [
+          0.478294,
+          0.408982,
+          0.638066
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/ffhead.obj",
+      "vertices": 36,
+      "uv_coordinates": 62,
+      "normals": 36,
+      "faces": 68,
+      "triangles_after_fan_triangulation": 68,
+      "face_sizes": {
+        "3": 68
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -2.640075,
+          -1.163102,
+          -2.641876
+        ],
+        "max": [
+          2.640075,
+          1.163102,
+          2.64187
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/fflowerarm.obj",
+      "vertices": 56,
+      "uv_coordinates": 86,
+      "normals": 58,
+      "faces": 72,
+      "triangles_after_fan_triangulation": 72,
+      "face_sizes": {
+        "3": 72
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.503493,
+          -7.348283,
+          -1.385452
+        ],
+        "max": [
+          1.692131,
+          0.856257,
+          1.381323
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/ffshin.obj",
+      "vertices": 119,
+      "uv_coordinates": 149,
+      "normals": 119,
+      "faces": 205,
+      "triangles_after_fan_triangulation": 205,
+      "face_sizes": {
+        "3": 205
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          1.09063,
+          -8.432814,
+          -1.932244
+        ],
+        "max": [
+          5.906723,
+          1.027341,
+          5.690959
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/ffthigh.obj",
+      "vertices": 84,
+      "uv_coordinates": 139,
+      "normals": 86,
+      "faces": 146,
+      "triangles_after_fan_triangulation": 146,
+      "face_sizes": {
+        "3": 146
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          1.004314,
+          -8.201007,
+          -2.779918
+        ],
+        "max": [
+          5.691881,
+          1.272181,
+          2.12241
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/fftorso.obj",
+      "vertices": 330,
+      "uv_coordinates": 374,
+      "normals": 316,
+      "faces": 524,
+      "triangles_after_fan_triangulation": 524,
+      "face_sizes": {
+        "3": 524
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -8.090765,
+          -8.761032,
+          -2.591013
+        ],
+        "max": [
+          8.090765,
+          7.319994,
+          2.798806
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/ffupperarm.obj",
+      "vertices": 24,
+      "uv_coordinates": 44,
+      "normals": 24,
+      "faces": 40,
+      "triangles_after_fan_triangulation": 40,
+      "face_sizes": {
+        "3": 40
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.103862,
+          -2.3037,
+          -1.272066
+        ],
+        "max": [
+          1.103863,
+          2.232435,
+          1.26793
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/flag.obj",
+      "vertices": 8,
+      "uv_coordinates": 4,
+      "normals": 2,
+      "faces": 4,
+      "triangles_after_fan_triangulation": 4,
+      "face_sizes": {
+        "3": 4
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -8.04,
+          3.404936,
+          -1.425
+        ],
+        "max": [
+          8.04,
+          6.159936,
+          1.425
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/flame.obj",
+      "vertices": 20,
+      "uv_coordinates": 4,
+      "normals": 10,
+      "faces": 20,
+      "triangles_after_fan_triangulation": 20,
+      "face_sizes": {
+        "3": 20
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          2.013653,
+          -9.438555,
+          1.199576
+        ],
+        "max": [
+          3.31413,
+          -6.563949,
+          2.514333
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/flamethrower.obj",
+      "vertices": 25,
+      "uv_coordinates": 34,
+      "normals": 17,
+      "faces": 29,
+      "triangles_after_fan_triangulation": 29,
+      "face_sizes": {
+        "3": 29
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.293249,
+          -9.56705,
+          -0.901058
+        ],
+        "max": [
+          0.260229,
+          -7.28771,
+          0.970802
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/head.obj",
+      "vertices": 36,
+      "uv_coordinates": 62,
+      "normals": 36,
+      "faces": 68,
+      "triangles_after_fan_triangulation": 68,
+      "face_sizes": {
+        "3": 68
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -2.55,
+          -1.071012,
+          -2.550003
+        ],
+        "max": [
+          2.55,
+          1.071012,
+          2.549997
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/laser.obj",
+      "vertices": 8,
+      "uv_coordinates": 0,
+      "normals": 4,
+      "faces": 8,
+      "triangles_after_fan_triangulation": 8,
+      "face_sizes": {
+        "3": 8
+      },
+      "objects": [
+        "laser"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 8,
+      "corners_missing_uv": 24,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.660644,
+          0.110065,
+          2.208363
+        ],
+        "max": [
+          0.660648,
+          0.633271,
+          70.070251
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/lowerarm.obj",
+      "vertices": 88,
+      "uv_coordinates": 96,
+      "normals": 63,
+      "faces": 90,
+      "triangles_after_fan_triangulation": 90,
+      "face_sizes": {
+        "3": 90
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.431756,
+          -7.28771,
+          -1.300006
+        ],
+        "max": [
+          1.6934,
+          0.76977,
+          1.295879
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/rocketlauncher.obj",
+      "vertices": 12,
+      "uv_coordinates": 18,
+      "normals": 12,
+      "faces": 16,
+      "triangles_after_fan_triangulation": 16,
+      "face_sizes": {
+        "3": 16
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.303558,
+          -8.140937,
+          -1.003015
+        ],
+        "max": [
+          1.322494,
+          -7.28771,
+          0.998887
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/shin.obj",
+      "vertices": 119,
+      "uv_coordinates": 150,
+      "normals": 119,
+      "faces": 205,
+      "triangles_after_fan_triangulation": 205,
+      "face_sizes": {
+        "3": 205
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          1.186769,
+          -8.335016,
+          -1.851897
+        ],
+        "max": [
+          5.815655,
+          0.949705,
+          5.610615
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/thigh.obj",
+      "vertices": 108,
+      "uv_coordinates": 143,
+      "normals": 84,
+      "faces": 158,
+      "triangles_after_fan_triangulation": 158,
+      "face_sizes": {
+        "3": 158
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          1.100139,
+          -8.123386,
+          -2.702296
+        ],
+        "max": [
+          5.600139,
+          1.200011,
+          2.452988
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/torso.obj",
+      "vertices": 362,
+      "uv_coordinates": 378,
+      "normals": 289,
+      "faces": 540,
+      "triangles_after_fan_triangulation": 540,
+      "face_sizes": {
+        "3": 540
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -8.0,
+          -8.689307,
+          -2.500001
+        ],
+        "max": [
+          8.0,
+          7.232436,
+          2.699999
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/rhodes/upperarm.obj",
+      "vertices": 24,
+      "uv_coordinates": 44,
+      "normals": 24,
+      "faces": 40,
+      "triangles_after_fan_triangulation": 40,
+      "face_sizes": {
+        "3": 40
+      },
+      "objects": [],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.013249,
+          -2.23243,
+          -1.17207
+        ],
+        "max": [
+          1.01325,
+          2.232435,
+          1.17207
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/s.obj",
+      "vertices": 24,
+      "uv_coordinates": 14,
+      "normals": 12,
+      "faces": 24,
+      "triangles_after_fan_triangulation": 24,
+      "face_sizes": {
+        "3": 24
+      },
+      "objects": [
+        "b2spirit.001"
+      ],
+      "groups": [],
+      "materials": [
+        "None"
+      ],
+      "material_libraries": [
+        "s.mtl"
+      ],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -2.006753,
+          0.104894,
+          -3.326048
+        ],
+        "max": [
+          2.013042,
+          0.454429,
+          -1.736849
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/shuttle.obj",
+      "vertices": 479,
+      "uv_coordinates": 479,
+      "normals": 910,
+      "faces": 912,
+      "triangles_after_fan_triangulation": 912,
+      "face_sizes": {
+        "3": 912
+      },
+      "objects": [
+        "pCylinder4.002"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -4.883604,
+          -0.275269,
+          -6.241156
+        ],
+        "max": [
+          4.85633,
+          3.695466,
+          7.459405
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/t.obj",
+      "vertices": 129,
+      "uv_coordinates": 232,
+      "normals": 83,
+      "faces": 230,
+      "triangles_after_fan_triangulation": 230,
+      "face_sizes": {
+        "3": 230
+      },
+      "objects": [
+        "bomb"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -1.124628,
+          -1.0,
+          -1.0
+        ],
+        "max": [
+          1.124628,
+          1.82094,
+          3.625319
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/tupolev.obj",
+      "vertices": 879,
+      "uv_coordinates": 1404,
+      "normals": 719,
+      "faces": 1449,
+      "triangles_after_fan_triangulation": 1449,
+      "face_sizes": {
+        "3": 1449
+      },
+      "objects": [
+        "DrawCall_0291"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -25.420729,
+          -1.209227,
+          -32.923782
+        ],
+        "max": [
+          25.693001,
+          9.401956,
+          17.148224
+        ]
+      }
+    },
+    {
+      "file": "assets/rivalrebels/models/wacknuke.obj",
+      "vertices": 193,
+      "uv_coordinates": 200,
+      "normals": 82,
+      "faces": 150,
+      "triangles_after_fan_triangulation": 150,
+      "face_sizes": {
+        "3": 150
+      },
+      "objects": [
+        "Cylinder"
+      ],
+      "groups": [],
+      "materials": [],
+      "material_libraries": [],
+      "faces_missing_uv": 0,
+      "corners_missing_uv": 0,
+      "invalid_indices": [],
+      "bounds": {
+        "min": [
+          -0.459198,
+          -0.459198,
+          -2.255736
+        ],
+        "max": [
+          0.459198,
+          0.459198,
+          1.937266
+        ]
+      }
+    }
+  ],
+  "material_files": [
+    {
+      "file": "assets/rivalrebels/models/s.mtl",
+      "materials": [
+        {
+          "name": "None",
+          "properties": [
+            {
+              "property": "Ns",
+              "values": [
+                "0"
+              ]
+            },
+            {
+              "property": "Ka",
+              "values": [
+                "0.000000",
+                "0.000000",
+                "0.000000"
+              ]
+            },
+            {
+              "property": "Kd",
+              "values": [
+                "0.8",
+                "0.8",
+                "0.8"
+              ]
+            },
+            {
+              "property": "Ks",
+              "values": [
+                "0.8",
+                "0.8",
+                "0.8"
+              ]
+            },
+            {
+              "property": "d",
+              "values": [
+                "1"
+              ]
+            },
+            {
+              "property": "illum",
+              "values": [
+                "2"
+              ]
+            },
+            {
+              "property": "map_Kd",
+              "values": [
+                "/Users/atlas/Desktop/Projects/Rival",
+                "Rebels",
+                "Mod/forge-1.7.10-10.13.4.1614-1.7.10-src/src/main/resources/assets/rivalrebels/textures/entity/flame.png"
+              ]
+            }
+          ]
+        }
+      ],
+      "material_count": 1
+    }
+  ]
+}

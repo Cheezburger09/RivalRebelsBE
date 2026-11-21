@@ -1,0 +1,2010 @@
+[
+  {
+    "category": "item",
+    "class": "ItemRocket",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemRocket.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ar"
+  },
+  {
+    "category": "item",
+    "class": "ItemCoreTungsten",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemCoreTungsten.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:az"
+  },
+  {
+    "category": "item",
+    "class": "ItemFuse",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemFuse.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ag"
+  },
+  {
+    "category": "item",
+    "class": "ItemRemote",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemRemote.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:am"
+  },
+  {
+    "category": "item",
+    "class": "ItemChip",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemChip.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bd"
+  },
+  {
+    "category": "item",
+    "class": "ItemAntenna",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemAntenna.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aa"
+  },
+  {
+    "category": "item",
+    "class": "ItemCoreTitanium",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemCoreTitanium.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ba"
+  },
+  {
+    "category": "item",
+    "class": "ItemRodEmpty",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemRodEmpty.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:at"
+  },
+  {
+    "category": "item",
+    "class": "ItemSafePill",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemSafePill.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "item",
+    "class": "ItemTrollHelmet",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemTrollHelmet.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bf"
+  },
+  {
+    "category": "item",
+    "class": "ItemExPill",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemExPill.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "item",
+    "class": "ItemRodHydrogen",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemRodHydrogen.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:au"
+  },
+  {
+    "category": "item",
+    "class": "ItemRodNuclear",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemRodNuclear.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:av"
+  },
+  {
+    "category": "item",
+    "class": "ItemLaptop",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemLaptop.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aj"
+  },
+  {
+    "category": "item",
+    "class": "ItemPliers",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemPliers.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ap"
+  },
+  {
+    "category": "item",
+    "class": "ItemCoreCopper",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemCoreCopper.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ay"
+  },
+  {
+    "category": "item",
+    "class": "ItemRodRedstone",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemRodRedstone.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:al"
+  },
+  {
+    "category": "item",
+    "class": "ItemFuel",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemFuel.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:af"
+  },
+  {
+    "category": "item",
+    "class": "ItemBattery",
+    "file": "decompiled/assets/rivalrebels/common/item/ItemBattery.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ac"
+  },
+  {
+    "category": "block",
+    "class": "BlockSteel",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockSteel.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bx"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceShield",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockForceShield.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ao"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceShield",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockForceShield.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ap"
+  },
+  {
+    "category": "block",
+    "class": "BlockCycle",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCycle.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockLight",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockLight.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ad"
+  },
+  {
+    "category": "block",
+    "class": "BlockSmartCamo",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bq"
+  },
+  {
+    "category": "block",
+    "class": "BlockReactive",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockReactive.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cf"
+  },
+  {
+    "category": "block",
+    "class": "BlockReactive",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockReactive.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cn"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:co"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cp"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cq"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cr"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cs"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ct"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cu"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cv"
+  },
+  {
+    "category": "block",
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cw"
+  },
+  {
+    "category": "block",
+    "class": "BlockCamo3",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCamo3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:by"
+  },
+  {
+    "category": "block",
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:br"
+  },
+  {
+    "category": "block",
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bs"
+  },
+  {
+    "category": "block",
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bt"
+  },
+  {
+    "category": "block",
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bu"
+  },
+  {
+    "category": "block",
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bv"
+  },
+  {
+    "category": "block",
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bw"
+  },
+  {
+    "category": "block",
+    "class": "BlockMeltDown",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockMeltDown.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockCamo1",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCamo1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:as"
+  },
+  {
+    "category": "block",
+    "class": "BlockCamo2",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCamo2.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bn"
+  },
+  {
+    "category": "block",
+    "class": "BlockPlasmaExplosion",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cz"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:da"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cx"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cx"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cx"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cx"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cz"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:da"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:db"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:db"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:db"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:db"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dh"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dh"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dg"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dg"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dg"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dg"
+  },
+  {
+    "category": "block",
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cz"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:da"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dk"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dk"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dk"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dk"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bl"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bl"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bl"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bl"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cy"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cy"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cy"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cy"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dh"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dh"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:de"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:de"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:de"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:de"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dh"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dh"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:df"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:df"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:df"
+  },
+  {
+    "category": "block",
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:df"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedStone",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bb"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedStone",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bb"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedStone",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bb"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedStone",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bb"
+  },
+  {
+    "category": "block",
+    "class": "BlockToxicGas",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:au"
+  },
+  {
+    "category": "block",
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:at"
+  },
+  {
+    "category": "block",
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:at"
+  },
+  {
+    "category": "block",
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:at"
+  },
+  {
+    "category": "block",
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:at"
+  },
+  {
+    "category": "block",
+    "class": "BlockTsarBomba",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockAntimatterBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockTachyonBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockNuclearBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockTheoreticalTsarBomba",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ak"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlare",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:an"
+  },
+  {
+    "category": "block",
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ag"
+  },
+  {
+    "category": "block",
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ag"
+  },
+  {
+    "category": "block",
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:af"
+  },
+  {
+    "category": "block",
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:af"
+  },
+  {
+    "category": "block",
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:af"
+  },
+  {
+    "category": "block",
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:af"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bh"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bh"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bg"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bg"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bg"
+  },
+  {
+    "category": "block",
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bg"
+  },
+  {
+    "category": "block",
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ac"
+  },
+  {
+    "category": "block",
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ae"
+  },
+  {
+    "category": "block",
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ac"
+  },
+  {
+    "category": "block",
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ac"
+  },
+  {
+    "category": "block",
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ab"
+  },
+  {
+    "category": "block",
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ab"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:az"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:az"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockNukeCrate",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ay"
+  },
+  {
+    "category": "block",
+    "class": "BlockNukeCrate",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ax"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bi"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ar"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:am"
+  },
+  {
+    "category": "block",
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:am"
+  },
+  {
+    "category": "block",
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:am"
+  },
+  {
+    "category": "block",
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:am"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aj"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aq"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bz"
+  },
+  {
+    "category": "block",
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bz"
+  },
+  {
+    "category": "block",
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bz"
+  },
+  {
+    "category": "block",
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bz"
+  },
+  {
+    "category": "block",
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aa"
+  },
+  {
+    "category": "block",
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aa"
+  },
+  {
+    "category": "block",
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aa"
+  },
+  {
+    "category": "block",
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aa"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aw"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bo"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bo"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:al"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "block",
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ai"
+  },
+  {
+    "category": "block",
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ce"
+  },
+  {
+    "category": "block",
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ce"
+  },
+  {
+    "category": "block",
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ce"
+  },
+  {
+    "category": "block",
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ce"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cf"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cg"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cj"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ck"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cl"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cm"
+  },
+  {
+    "category": "block",
+    "class": "BlockOmegaObjective",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ba"
+  },
+  {
+    "category": "block",
+    "class": "BlockSigmaObjective",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bp"
+  },
+  {
+    "category": "block",
+    "class": "BlockLaptop",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dc"
+  },
+  {
+    "category": "block",
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ca"
+  },
+  {
+    "category": "block",
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cc"
+  },
+  {
+    "category": "block",
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:cb"
+  },
+  {
+    "category": "block",
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ca"
+  },
+  {
+    "category": "block",
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ca"
+  },
+  {
+    "category": "block",
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ca"
+  },
+  {
+    "category": "block",
+    "class": "BlockReactor",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bj"
+  },
+  {
+    "category": "block",
+    "class": "BlockReciever",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:dj"
+  },
+  {
+    "category": "block",
+    "class": "BlockForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:di"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesActivator",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ci"
+  },
+  {
+    "category": "block",
+    "class": "BlockRhodesActivator",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ch"
+  },
+  {
+    "category": "block",
+    "class": "BlockLoader",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:av"
+  },
+  {
+    "category": "item",
+    "class": "ItemTesla",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemTesla.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ax"
+  },
+  {
+    "category": "item",
+    "class": "ItemCuchillo",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemCuchillo.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ad"
+  },
+  {
+    "category": "item",
+    "class": "ItemPlasmaCannon",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemPlasmaCannon.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ao"
+  },
+  {
+    "category": "item",
+    "class": "ItemArmyShovel",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemArmyShovel.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aw"
+  },
+  {
+    "category": "item",
+    "class": "ItemHackM202",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemHackM202.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bg"
+  },
+  {
+    "category": "item",
+    "class": "ItemRoda",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemRoda.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:be"
+  },
+  {
+    "category": "item",
+    "class": "ItemAstroBlaster",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemAstroBlaster.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ab"
+  },
+  {
+    "category": "item",
+    "class": "ItemRPG",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemRPG.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:aq"
+  },
+  {
+    "category": "item",
+    "class": "ItemCamera",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemCamera.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bi"
+  },
+  {
+    "category": "item",
+    "class": "ItemBinoculars",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemBinoculars.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bb"
+  },
+  {
+    "category": "item",
+    "class": "ItemGasGrenade",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemGasGrenade.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ah"
+  },
+  {
+    "category": "item",
+    "class": "ItemRodDisk",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemRodDisk.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:as"
+  },
+  {
+    "category": "item",
+    "class": "ItemSeekM202",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemSeekM202.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:bh"
+  },
+  {
+    "category": "item",
+    "class": "ItemFlameThrower",
+    "file": "decompiled/assets/rivalrebels/common/item/weapon/ItemFlameThrower.java",
+    "receiver": "iconregister",
+    "method": "func_94245_a",
+    "icon": "RivalRebels:ae"
+  }
+]

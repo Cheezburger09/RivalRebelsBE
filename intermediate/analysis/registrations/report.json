@@ -1,0 +1,6801 @@
+{
+  "section": "registrations",
+  "java_files_scanned": 415,
+  "related_files": 105,
+  "term_counts": {
+    "register": 710,
+    "GameRegistry": 237,
+    "registerItem": 94,
+    "registerBlock": 80,
+    "RenderingRegistry": 57,
+    "EntityRegistry": 56,
+    "registerModEntity": 55,
+    "registerEntity": 54,
+    "registerEntityRenderingHandler": 54,
+    "registerMessage": 23,
+    "registerItemRenderer": 20,
+    "registerTileEntity": 20,
+    "registerGui": 3
+  },
+  "files": [
+    {
+      "file": "assets/rivalrebels/ClientProxy.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 153,
+          "terms": [
+            "RenderingRegistry"
+          ],
+          "text": "import cpw.mods.fml.client.registry.RenderingRegistry;"
+        },
+        {
+          "line": 166,
+          "terms": [
+            "register"
+          ],
+          "text": "public static void registerRenderInformation() {"
+        },
+        {
+          "line": 184,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityGasGrenade.class, new RenderGasGrenade());"
+        },
+        {
+          "line": 185,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityPropulsionFX.class, new RenderBullet(\"fire\"));"
+        },
+        {
+          "line": 186,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityPassiveFire.class, new RenderBullet(\"fire\"));"
+        },
+        {
+          "line": 187,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityCuchillo.class, new RenderCuchillo());"
+        },
+        {
+          "line": 188,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityFlameBall.class, new RenderFlame());"
+        },
+        {
+          "line": 189,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityFlameBall1.class, new RenderFlameRedBlue());"
+        },
+        {
+          "line": 190,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityFlameBall2.class, new RenderFlameBlue());"
+        },
+        {
+          "line": 191,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRocket.class, new RenderRocket());"
+        },
+        {
+          "line": 192,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityPlasmoid.class, new RenderPlasmoid());"
+        },
+        {
+          "line": 193,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityLightningLink.class, new RenderLightningLink());"
+        },
+        {
+          "line": 194,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityNuclearBlast.class, new RenderNuclearBlast());"
+        },
+        {
+          "line": 195,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityLightningBolt2.class, new RenderLightningBolt2());"
+        },
+        {
+          "line": 196,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityLaptop.class, new RenderLaptop());"
+        },
+        {
+          "line": 197,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRoddiskRegular.class, new RenderRoddiskRegular());"
+        },
+        {
+          "line": 198,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRoddiskRebel.class, new RenderRoddiskRebel());"
+        },
+        {
+          "line": 199,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRoddiskOfficer.class, new RenderRoddiskOfficer());"
+        },
+        {
+          "line": 200,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRoddiskLeader.class, new RenderRoddiskLeader());"
+        },
+        {
+          "line": 201,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityTsarBlast.class, new RenderTsarBlast());"
+        },
+        {
+          "line": 202,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityLaserLink.class, new RenderLaserLink());"
+        },
+        {
+          "line": 203,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityGore.class, new RenderGore());"
+        },
+        {
+          "line": 204,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityBlood.class, new RenderBlood());"
+        },
+        {
+          "line": 205,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityGoo.class, new RenderGoo());"
+        },
+        {
+          "line": 206,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityLaserBurst.class, new RenderLaserBurst());"
+        },
+        {
+          "line": 207,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityB83.class, new RenderB83());"
+        },
+        {
+          "line": 208,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityB2Spirit.class, new RenderB2Spirit());"
+        },
+        {
+          "line": 209,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityB2Frag.class, new RenderB2Frag());"
+        },
+        {
+          "line": 210,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityDebris.class, new RenderDebris());"
+        },
+        {
+          "line": 211,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityHackB83.class, new RenderHackB83());"
+        },
+        {
+          "line": 212,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntitySeekB83.class, new RenderSeeker());"
+        },
+        {
+          "line": 213,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodes.class, new RenderRhodes());"
+        },
+        {
+          "line": 214,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesHead.class, new RenderRhodesHead());"
+        },
+        {
+          "line": 215,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesTorso.class, new RenderRhodesTorso());"
+        },
+        {
+          "line": 216,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesLeftUpperArm.class, new RenderRhodesLeftUpperArm());"
+        },
+        {
+          "line": 217,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesRightUpperArm.class, new RenderRhodesRightUpperArm());"
+        },
+        {
+          "line": 218,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesLeftLowerArm.class, new RenderRhodesLeftLowerArm());"
+        },
+        {
+          "line": 219,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesRightLowerArm.class, new RenderRhodesRightLowerArm());"
+        },
+        {
+          "line": 220,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesLeftUpperLeg.class, new RenderRhodesLeftUpperLeg());"
+        },
+        {
+          "line": 221,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesRightUpperLeg.class, new RenderRhodesRightUpperLeg());"
+        },
+        {
+          "line": 222,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesLeftLowerLeg.class, new RenderRhodesLeftLowerLeg());"
+        },
+        {
+          "line": 223,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRhodesRightLowerLeg.class, new RenderRhodesRightLowerLeg());"
+        },
+        {
+          "line": 224,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityB83NoShroom.class, new RenderB83());"
+        },
+        {
+          "line": 225,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntitySphereBlast.class, new RenderSphereBlast());"
+        },
+        {
+          "line": 226,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityNuke.class, new RenderNuke());"
+        },
+        {
+          "line": 227,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityTsar.class, new RenderTsar());"
+        },
+        {
+          "line": 228,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityRoddiskRep.class, new RenderRoddiskRep());"
+        },
+        {
+          "line": 229,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityHotPotato.class, new RenderHotPotato());"
+        },
+        {
+          "line": 230,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityBomb.class, new RenderBomb());"
+        },
+        {
+          "line": 231,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityTheoreticalTsar.class, new RenderTheoreticalTsar());"
+        },
+        {
+          "line": 232,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityTheoreticalTsarBlast.class, new RenderTheoreticalTsarBlast());"
+        },
+        {
+          "line": 233,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityFlameBallGreen.class, new RenderFlameBallGreen());"
+        },
+        {
+          "line": 234,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityAntimatterBomb.class, new RenderAntimatterBomb());"
+        },
+        {
+          "line": 235,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityAntimatterBombBlast.class, new RenderAntimatterBombBlast());"
+        },
+        {
+          "line": 236,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityTachyonBomb.class, new RenderTachyonBomb());"
+        },
+        {
+          "line": 237,
+          "terms": [
+            "registerEntity",
+            "registerEntityRenderingHandler",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerEntityRenderingHandler(EntityTachyonBombBlast.class, new RenderTachyonBombBlast());"
+        },
+        {
+          "line": 238,
+          "terms": [
+            "registerBlock",
+            "register",
+            "RenderingRegistry"
+          ],
+          "text": "RenderingRegistry.registerBlockHandler(new SteelBlockRenderer());"
+        },
+        {
+          "line": 243,
+          "terms": [
+            "RenderingRegistry"
+          ],
+          "text": "return RenderingRegistry.addNewArmourRendererPrefix(armor);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/CommonProxy.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 18,
+          "terms": [
+            "register"
+          ],
+          "text": "public static void registerRenderInformation() {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/RivalRebels.java",
+      "important_file": true,
+      "occurrences": [
+        {
+          "line": 229,
+          "terms": [
+            "EntityRegistry"
+          ],
+          "text": "import cpw.mods.fml.common.registry.EntityRegistry;"
+        },
+        {
+          "line": 230,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "import cpw.mods.fml.common.registry.GameRegistry;"
+        },
+        {
+          "line": 706,
+          "terms": [
+            "register"
+          ],
+          "text": "this.registerTextures();"
+        },
+        {
+          "line": 707,
+          "terms": [
+            "register"
+          ],
+          "text": "this.registerEntities();"
+        },
+        {
+          "line": 708,
+          "terms": [
+            "registerBlock",
+            "register"
+          ],
+          "text": "this.registerBlocks();"
+        },
+        {
+          "line": 709,
+          "terms": [
+            "registerItem",
+            "register"
+          ],
+          "text": "this.registerItems();"
+        },
+        {
+          "line": 710,
+          "terms": [
+            "register"
+          ],
+          "text": "this.registerArmor();"
+        },
+        {
+          "line": 711,
+          "terms": [
+            "register"
+          ],
+          "text": "RivalRebelsRecipes.registerRecipes();"
+        },
+        {
+          "line": 712,
+          "terms": [
+            "registerGui",
+            "register"
+          ],
+          "text": "this.registerGuis();"
+        },
+        {
+          "line": 713,
+          "terms": [
+            "register"
+          ],
+          "text": "this.registerClientSide(event);"
+        },
+        {
+          "line": 714,
+          "terms": [
+            "register"
+          ],
+          "text": "RivalRebelsTranslations.registerLanguage();"
+        },
+        {
+          "line": 715,
+          "terms": [
+            "register"
+          ],
+          "text": "PacketDispatcher.registerPackets();"
+        },
+        {
+          "line": 716,
+          "terms": [
+            "register"
+          ],
+          "text": "FMLCommonHandler.instance().bus().register(round = new RivalRebelsRound(spawnradius, teleportDist, objectivedistance));"
+        },
+        {
+          "line": 855,
+          "terms": [
+            "register"
+          ],
+          "text": "private void registerTextures() {"
+        },
+        {
+          "line": 962,
+          "terms": [
+            "register"
+          ],
+          "text": "private void registerClientSide(FMLPreInitializationEvent event) {"
+        },
+        {
+          "line": 965,
+          "terms": [
+            "register"
+          ],
+          "text": "ClientProxy.registerRenderInformation();"
+        },
+        {
+          "line": 968,
+          "terms": [
+            "register"
+          ],
+          "text": "MinecraftForge.EVENT_BUS.register(new RivalRebelsSoundEventHandler());"
+        },
+        {
+          "line": 969,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(roddisk, new RodDiskRenderer());"
+        },
+        {
+          "line": 970,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(plasmacannon, new PlasmaCannonRenderer());"
+        },
+        {
+          "line": 971,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(einsten, new AstroBlasterRenderer());"
+        },
+        {
+          "line": 972,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(hydrod, new HydrogenRodRenderer());"
+        },
+        {
+          "line": 973,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(redrod, new RedstoneRodRenderer());"
+        },
+        {
+          "line": 974,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(nuclearelement, new NuclearRodRenderer());"
+        },
+        {
+          "line": 975,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(emptyrod, new EmptyRodRenderer());"
+        },
+        {
+          "line": 976,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(reactor.func_149650_a(1, null, 1), new ReactorRenderer());"
+        },
+        {
+          "line": 977,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(loader.func_149650_a(1, null, 1), new LoaderRenderer());"
+        },
+        {
+          "line": 978,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(controller.func_149650_a(1, null, 1), new LaptopRenderer());"
+        },
+        {
+          "line": 979,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(rpg, new RocketLauncherRenderer());"
+        },
+        {
+          "line": 980,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(binoculars, new BinocularsRenderer());"
+        },
+        {
+          "line": 981,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(tesla, new TeslaRenderer());"
+        },
+        {
+          "line": 982,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(battery, new BatteryRenderer());"
+        },
+        {
+          "line": 983,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(flamethrower, new FlamethrowerRenderer());"
+        },
+        {
+          "line": 984,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(fuel, new GasRenderer());"
+        },
+        {
+          "line": 985,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(roda, new RodaRenderer());"
+        },
+        {
+          "line": 986,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(hackm202, new HackRocketLauncherRenderer());"
+        },
+        {
+          "line": 987,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(seekm202, new SeekRocketLauncherRenderer());"
+        },
+        {
+          "line": 988,
+          "terms": [
+            "registerItem",
+            "registerItemRenderer",
+            "register"
+          ],
+          "text": "MinecraftForgeClient.registerItemRenderer(rocket, new RocketRenderer());"
+        },
+        {
+          "line": 992,
+          "terms": [
+            "register"
+          ],
+          "text": "MinecraftForge.EVENT_BUS.register(rrro);"
+        },
+        {
+          "line": 1018,
+          "terms": [
+            "registerBlock",
+            "register"
+          ],
+          "text": "private void registerBlocks() {"
+        },
+        {
+          "line": 1151,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(amario, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1152,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(aquicksand, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1153,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(barricade, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1154,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(tower, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1155,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(easteregg, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1156,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(bunker, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1157,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag1, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1158,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag2, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1159,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag3, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1160,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag4, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1161,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag5, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1162,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag6, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1163,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flag7, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1164,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flagbox1, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1165,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flagbox5, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1166,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flagbox6, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1167,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flagbox3, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1168,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flagbox4, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1169,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flagbox7, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1170,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(smartcamo, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1171,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(camo1, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1172,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(camo2, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1173,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(camo3, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1174,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(steel, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1175,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(sigmaarmor, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1176,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(omegaarmor, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1177,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(weapons, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1178,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(ammunition, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1179,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(explosives, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1180,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(supplies, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1181,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(mario, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1182,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(jump, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1183,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(quicksand, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1184,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(landmine, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1185,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(remotecharge, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1186,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(timedbomb, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1187,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(flare, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1188,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(light, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1189,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(cycle, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1190,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(light2, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1191,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(toxicgas, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1192,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(fshield, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1193,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(gamestart, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1194,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(breadbox, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1195,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(alandmine, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1196,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(nuclearBomb, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1197,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(nukeCrateTop, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1198,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(nukeCrateBottom, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1199,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(radioactivedirt, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1200,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(radioactivesand, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1201,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(plasmaexplosion, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1202,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(reactor, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1203,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(loader, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1204,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(omegaobj, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1205,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(sigmaobj, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1206,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(petrifiedwood, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1207,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(petrifiedstone1, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1208,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(petrifiedstone2, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1209,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(petrifiedstone3, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1210,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(petrifiedstone4, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1211,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(tsarbombablock, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1212,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(forcefieldnode, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1213,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(reactive, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1214,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(ffreciever, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1215,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(bastion, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1216,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(conduit, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1217,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(controller, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1218,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(mariotrap, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1219,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(minetrap, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1220,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(quicksandtrap, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1221,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(forcefield, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1222,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(meltdown, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1223,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(buildrhodes, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1224,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(rhodesactivator, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1225,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(theoreticaltsarbombablock, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1226,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(antimatterbombblock, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1227,
+          "terms": [
+            "registerBlock",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerBlock(tachyonbombblock, \"rivalrebelsblock\" + nextNum++);"
+        },
+        {
+          "line": 1230,
+          "terms": [
+            "registerItem",
+            "register"
+          ],
+          "text": "private void registerItems() {"
+        },
+        {
+          "line": 1265,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(rpg, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1266,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(flamethrower, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1267,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(tesla, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1268,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(rocket, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1269,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(fuel, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1270,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(battery, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1271,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(pliers, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1272,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(armyshovel, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1273,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(knife, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1274,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(gasgrenade, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1275,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(safepill, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1276,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(expill, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1277,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(remote, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1278,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(fuse, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1279,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(nuclearelement, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1280,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(hydrod, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1281,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(plasmacannon, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1282,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(roddisk, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1283,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(antenna, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1284,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(einsten, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1285,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(redrod, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1286,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(emptyrod, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1287,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(binoculars, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1288,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(core1, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1289,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(core2, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1290,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(core3, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1291,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(chip, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1292,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(roda, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1293,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(trollmask, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1294,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(hackm202, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1295,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(seekm202, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1296,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camera, \"rivalrebelsitem\" + nextNum++);"
+        },
+        {
+          "line": 1299,
+          "terms": [
+            "register"
+          ],
+          "text": "private void registerArmor() {"
+        },
+        {
+          "line": 1352,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(orebelhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1353,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(orebelchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1354,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(orebelpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1355,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(orebelboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1356,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(onukerhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1357,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(onukerchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1358,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(onukerpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1359,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(onukerboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1360,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ointelhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1361,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ointelchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1362,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ointelpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1363,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ointelboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1364,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ohackerhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1365,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ohackerchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1366,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ohackerpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1367,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(ohackerboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1368,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(srebelhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1369,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(srebelchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1370,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(srebelpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1371,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(srebelboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1372,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(snukerhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1373,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(snukerchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1374,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(snukerpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1375,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(snukerboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1376,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(sintelhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1377,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(sintelchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1378,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(sintelpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1379,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(sintelboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1380,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(shackerhelmet, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1381,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(shackerchest, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1382,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(shackerpants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1383,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(shackerboots, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1384,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camohat, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1385,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camoshirt, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1386,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camopants, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1387,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camoshoes, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1388,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camohat2, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1389,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camoshirt2, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1390,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camopants2, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1391,
+          "terms": [
+            "registerItem",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerItem(camoshoes2, \"rivalrebelsarmor\" + nextNum++);"
+        },
+        {
+          "line": 1394,
+          "terms": [
+            "register"
+          ],
+          "text": "private void registerEntities() {"
+        },
+        {
+          "line": 1396,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityNukeCrate.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1397,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityJumpBlock.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1398,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityNuclearBomb.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1399,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityPlasmaExplosion.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1400,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityReactor.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1401,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityLoader.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1402,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityOmegaObjective.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1403,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntitySigmaObjective.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1404,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityTsarBomba.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1405,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityForceFieldNode.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1406,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityGore.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1407,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityConduit.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1408,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityLaptop.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1409,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityReciever.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1410,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityReactive.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1411,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityMeltDown.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1412,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityRhodesActivator.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1413,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityTheoreticalTsarBomba.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1414,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityAntimatterBomb.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1415,
+          "terms": [
+            "registerTileEntity",
+            "register",
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.registerTileEntity(TileEntityTachyonBomb.class, \"rivalrebelstileentity\" + ++nextNum);"
+        },
+        {
+          "line": 1417,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityGasGrenade.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1418,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityCuchillo.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1419,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityPropulsionFX.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 9, true);"
+        },
+        {
+          "line": 1420,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityPassiveFire.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 9, true);"
+        },
+        {
+          "line": 1421,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRocket.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1422,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityPlasmoid.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 400, 1, true);"
+        },
+        {
+          "line": 1423,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRaytrace.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1424,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityLightningLink.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1425,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityNuclearBlast.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1426,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityFlameBall.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1427,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityFlameBall1.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1428,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityFlameBall2.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1429,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityLaptop.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1430,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRoddiskRegular.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1431,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRoddiskRebel.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1432,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRoddiskOfficer.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1433,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRoddiskLeader.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1434,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTsarBlast.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1435,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityLaserLink.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1436,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityGore.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1437,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityBlood.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 4, true);"
+        },
+        {
+          "line": 1438,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityGoo.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 4, true);"
+        },
+        {
+          "line": 1439,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityLaserBurst.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 400, 1, true);"
+        },
+        {
+          "line": 1440,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityB83.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1441,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityB2Spirit.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 400, 1, true);"
+        },
+        {
+          "line": 1442,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityB2Frag.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1443,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityDebris.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 3, true);"
+        },
+        {
+          "line": 1444,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityHackB83.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1445,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntitySeekB83.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1446,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodes.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 400, 1, true);"
+        },
+        {
+          "line": 1447,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesHead.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1448,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesTorso.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1449,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesLeftUpperArm.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1450,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesRightUpperArm.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1451,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesLeftLowerArm.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1452,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesRightLowerArm.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1453,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesLeftUpperLeg.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1454,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesRightUpperLeg.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1455,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesLeftLowerLeg.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1456,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRhodesRightLowerLeg.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1457,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTarget.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1458,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityB83NoShroom.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1459,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntitySphereBlast.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1460,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityNuke.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1461,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTsar.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1462,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityRoddiskRep.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1463,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityHotPotato.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1464,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityBomb.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1465,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTheoreticalTsar.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1466,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTheoreticalTsarBlast.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1467,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityFlameBallGreen.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1468,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityAntimatterBomb.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1469,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityAntimatterBombBlast.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1470,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTachyonBombBlast.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1471,
+          "terms": [
+            "registerModEntity",
+            "register",
+            "EntityRegistry"
+          ],
+          "text": "EntityRegistry.registerModEntity(EntityTachyonBomb.class, \"rivalrebelsentity\" + ++nextNum, nextNum, this, 250, 1, true);"
+        },
+        {
+          "line": 1474,
+          "terms": [
+            "registerGui",
+            "register"
+          ],
+          "text": "private void registerGuis() {"
+        },
+        {
+          "line": 1475,
+          "terms": [
+            "registerGui",
+            "register"
+          ],
+          "text": "NetworkRegistry.INSTANCE.registerGuiHandler(this, new RivalRebelsGuiHandler());"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockCamo1.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 33,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:as\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockCamo2.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 33,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:bn\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockCamo3.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 33,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:by\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockConduit.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:co\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:cp\");"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:cq\");"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:cr\");"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:cs\");"
+        },
+        {
+          "line": 88,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ct\");"
+        },
+        {
+          "line": 89,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon7 = iconregister.func_94245_a(\"RivalRebels:cu\");"
+        },
+        {
+          "line": 90,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon8 = iconregister.func_94245_a(\"RivalRebels:cv\");"
+        },
+        {
+          "line": 91,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon9 = iconregister.func_94245_a(\"RivalRebels:cw\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockCycle.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 49,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 50,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockForceShield.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 60,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 61,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ao\");"
+        },
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ap\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockGore.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 122,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 123,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:br\");"
+        },
+        {
+          "line": 124,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:bs\");"
+        },
+        {
+          "line": 125,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:bt\");"
+        },
+        {
+          "line": 126,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:bu\");"
+        },
+        {
+          "line": 127,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:bv\");"
+        },
+        {
+          "line": 128,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:bw\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockLight.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ad\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockMeltDown.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockPlasmaExplosion.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 51,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 52,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockReactive.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 50,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 51,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:cf\");"
+        },
+        {
+          "line": 52,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icontop = iconregister.func_94245_a(\"RivalRebels:cn\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockSmartCamo.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 59,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 60,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:bq\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/BlockSteel.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 64,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 65,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:bx\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:cz\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:da\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:cx\");"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:cx\");"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:cx\");"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:cx\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 122,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 123,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 124,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 125,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:bl\");"
+        },
+        {
+          "line": 126,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:bl\");"
+        },
+        {
+          "line": 127,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:bl\");"
+        },
+        {
+          "line": 128,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:bl\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 114,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 115,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 116,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 117,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 118,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 119,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 120,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:cz\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:da\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:db\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:db\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:db\");"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:db\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 60,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 61,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:dh\");"
+        },
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:dh\");"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:de\");"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:de\");"
+        },
+        {
+          "line": 65,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:de\");"
+        },
+        {
+          "line": 66,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:de\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 58,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 59,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:dh\");"
+        },
+        {
+          "line": 60,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:dh\");"
+        },
+        {
+          "line": 61,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:df\");"
+        },
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:df\");"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:df\");"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:df\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 60,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 61,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:dh\");"
+        },
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:dh\");"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:dg\");"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:dg\");"
+        },
+        {
+          "line": 65,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:dg\");"
+        },
+        {
+          "line": 66,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:dg\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 99,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 100,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 101,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 102,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:cy\");"
+        },
+        {
+          "line": 103,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:cy\");"
+        },
+        {
+          "line": 104,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:cy\");"
+        },
+        {
+          "line": 105,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:cy\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 50,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 51,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 52,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 53,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 54,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 55,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 56,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 493,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 494,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:cz\");"
+        },
+        {
+          "line": 495,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:da\");"
+        },
+        {
+          "line": 496,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:dk\");"
+        },
+        {
+          "line": 497,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:dk\");"
+        },
+        {
+          "line": 498,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:dk\");"
+        },
+        {
+          "line": 499,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:dk\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 171,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 172,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 173,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 174,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:aa\");"
+        },
+        {
+          "line": 175,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:aa\");"
+        },
+        {
+          "line": 176,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:aa\");"
+        },
+        {
+          "line": 177,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:aa\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockExplosives.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 106,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 107,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 108,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 109,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:am\");"
+        },
+        {
+          "line": 110,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:am\");"
+        },
+        {
+          "line": 111,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:am\");"
+        },
+        {
+          "line": 112,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:am\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlag.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 207,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 208,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(this.texpath);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:bi\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ar\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:aw\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:aq\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:al\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:aj\");"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 415,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 417,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ay\");"
+        },
+        {
+          "line": 421,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ax\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:az\");"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:az\");"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 81,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:bo\");"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:bo\");"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockSupplies.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 129,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 130,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 131,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 132,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:bz\");"
+        },
+        {
+          "line": 133,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:bz\");"
+        },
+        {
+          "line": 134,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:bz\");"
+        },
+        {
+          "line": 135,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:bz\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockWeapons.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 177,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 178,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 179,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        },
+        {
+          "line": 180,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ce\");"
+        },
+        {
+          "line": 181,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ce\");"
+        },
+        {
+          "line": 182,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ce\");"
+        },
+        {
+          "line": 183,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ce\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ca\");"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:cc\");"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:cb\");"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ca\");"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ca\");"
+        },
+        {
+          "line": 88,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ca\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockForceField.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 117,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 118,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:di\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 110,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 111,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:cf\");"
+        },
+        {
+          "line": 112,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:cg\");"
+        },
+        {
+          "line": 113,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icontop1 = iconregister.func_94245_a(\"RivalRebels:cj\");"
+        },
+        {
+          "line": 114,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icontop2 = iconregister.func_94245_a(\"RivalRebels:ck\");"
+        },
+        {
+          "line": 115,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icontop3 = iconregister.func_94245_a(\"RivalRebels:cl\");"
+        },
+        {
+          "line": 116,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icontop4 = iconregister.func_94245_a(\"RivalRebels:cm\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockLaptop.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 100,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 101,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:dc\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockLoader.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 134,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 135,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:av\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockOmegaObjective.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 76,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 77,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ba\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockReactor.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 106,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 107,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:bj\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockReciever.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 85,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:dj\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockRhodesActivator.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 43,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 44,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ci\");"
+        },
+        {
+          "line": 45,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icontop = iconregister.func_94245_a(\"RivalRebels:ch\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/machine/BlockSigmaObjective.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 76,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 77,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:bp\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 73,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 74,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockFlare.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 161,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 162,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:an\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockJump.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 74,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 75,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        },
+        {
+          "line": 76,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:au\");"
+        },
+        {
+          "line": 77,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:at\");"
+        },
+        {
+          "line": 78,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:at\");"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:at\");"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:at\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 185,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockMario.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 164,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockNuclearBomb.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 104,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 105,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 96,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 97,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:b\" + this.type);"
+        },
+        {
+          "line": 98,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:b\" + this.type);"
+        },
+        {
+          "line": 99,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:bb\");"
+        },
+        {
+          "line": 100,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:bb\");"
+        },
+        {
+          "line": 101,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:bb\");"
+        },
+        {
+          "line": 102,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:bb\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 94,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 95,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:bh\");"
+        },
+        {
+          "line": 96,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:bh\");"
+        },
+        {
+          "line": 97,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:bg\");"
+        },
+        {
+          "line": 98,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:bg\");"
+        },
+        {
+          "line": 99,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:bg\");"
+        },
+        {
+          "line": 100,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:bg\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockQuickSand.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 168,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 36,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 36,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 153,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 154,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ag\");"
+        },
+        {
+          "line": 155,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ag\");"
+        },
+        {
+          "line": 156,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:af\");"
+        },
+        {
+          "line": 157,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:af\");"
+        },
+        {
+          "line": 158,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:af\");"
+        },
+        {
+          "line": 159,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:af\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockTachyonBomb.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 73,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 74,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 73,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 74,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 100,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 101,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon1 = iconregister.func_94245_a(\"RivalRebels:ac\");"
+        },
+        {
+          "line": 102,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon2 = iconregister.func_94245_a(\"RivalRebels:ae\");"
+        },
+        {
+          "line": 103,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon3 = iconregister.func_94245_a(\"RivalRebels:ac\");"
+        },
+        {
+          "line": 104,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon4 = iconregister.func_94245_a(\"RivalRebels:ac\");"
+        },
+        {
+          "line": 105,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon5 = iconregister.func_94245_a(\"RivalRebels:ab\");"
+        },
+        {
+          "line": 106,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon6 = iconregister.func_94245_a(\"RivalRebels:ab\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockToxicGas.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 94,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 95,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/trap/BlockTsarBomba.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 73,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_149651_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 74,
+          "terms": [
+            "register"
+          ],
+          "text": "this.icon = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/core/RivalRebelsRecipes.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "import cpw.mods.fml.common.registry.GameRegistry;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "register"
+          ],
+          "text": "public static void registerRecipes() {"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 15,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 19,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 23,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 27,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.easteregg, 1), new Object[]{\"DD\", \"CC\", 'C', Blocks.field_150347_e, 'D', Blocks.field_150346_d});"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 46,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 64,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.flagbox1, 1), new Object[]{\"W\", \"P\", 'W', Blocks.field_150325_L, 'P', RivalRebels.pliers});"
+        },
+        {
+          "line": 65,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.flagbox3, 1), new Object[]{\"P\", \"W\", 'W', Blocks.field_150325_L, 'P', RivalRebels.pliers});"
+        },
+        {
+          "line": 66,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 70,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.amario, 16), new Object[]{\"SS\", \"GG\", 'S', Blocks.field_150354_m, 'G', Blocks.field_150351_n});"
+        },
+        {
+          "line": 71,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.aquicksand, 16), new Object[]{\"SS\", \"DD\", 'S', Blocks.field_150354_m, 'D', Blocks.field_150346_d});"
+        },
+        {
+          "line": 72,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.jump, 8), new Object[]{\"CC\", \"DD\", 'C', Blocks.field_150347_e, 'D', Blocks.field_150346_d});"
+        },
+        {
+          "line": 73,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.steel, 16), new Object[]{\"CC\", \"CC\", 'C', Blocks.field_150347_e});"
+        },
+        {
+          "line": 74,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 78,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.pliers, 1), new Object[]{\" C\", \"C \", 'C', Blocks.field_150347_e});"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 83,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.knife, 5), new Object[]{\"CG\", \"GC\", 'C', Blocks.field_150347_e, 'G', Blocks.field_150351_n});"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.trollmask, 8), new Object[]{\"SS\", 'S', Blocks.field_150354_m});"
+        },
+        {
+          "line": 85,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.cycle, 1), new Object[]{\"TT\", \"TT\", 'T', RivalRebels.trollmask});"
+        },
+        {
+          "line": 86,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.tower, 2), new Object[]{\"SS\", \"SJ\", 'S', RivalRebels.steel, 'J', RivalRebels.jump});"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 105,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 109,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 113,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 117,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 121,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 124,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.nukeCrateTop, 1), new Object[]{\" SS\", \"SP \", \" SS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers});"
+        },
+        {
+          "line": 125,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.nukeCrateBottom, 1), new Object[]{\"SS \", \"SP \", \"SS \", 'S', RivalRebels.steel, 'P', RivalRebels.pliers});"
+        },
+        {
+          "line": 126,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 129,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 133,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 137,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 140,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 144,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 148,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 151,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.hydrod, 1), new Object[]{\"W\", \"S\", 'S', RivalRebels.emptyrod, 'W', Items.field_151131_as});"
+        },
+        {
+          "line": 152,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.redrod, 1), new Object[]{\"W\", \"S\", 'S', RivalRebels.emptyrod, 'W', Items.field_151137_ax});"
+        },
+        {
+          "line": 153,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe(new ItemStack(RivalRebels.emptyrod, 4), new Object[]{\"SPS\", 'S', RivalRebels.steel, 'P', RivalRebels.pliers});"
+        },
+        {
+          "line": 154,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 176,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 180,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 184,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 187,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 191,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 211,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 215,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 219,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 223,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 245,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 265,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 285,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 288,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 308,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 328,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 331,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 335,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 339,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 342,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 346,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 352,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 358,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 362,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 366,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 369,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        },
+        {
+          "line": 375,
+          "terms": [
+            "GameRegistry"
+          ],
+          "text": "GameRegistry.addRecipe("
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/core/RivalRebelsTranslations.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 9,
+          "terms": [
+            "register"
+          ],
+          "text": "public static void registerLanguage() {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemAntenna.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:aa\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 48,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 59,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:\" + str + \"h\");"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:\" + str + \"v\");"
+        },
+        {
+          "line": 67,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:\" + str + \"p\");"
+        },
+        {
+          "line": 71,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:\" + str + \"b\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemBattery.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ac\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemChip.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 66,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 67,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:bd\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemClassArmor.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 110,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 137,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"rivalrebels:\" + str + \"h\");"
+        },
+        {
+          "line": 141,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"rivalrebels:\" + str + \"c\");"
+        },
+        {
+          "line": 145,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"rivalrebels:\" + str + \"p\");"
+        },
+        {
+          "line": 149,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"rivalrebels:\" + str + \"b\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemCoreCopper.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ay\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemCoreTitanium.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ba\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemCoreTungsten.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:az\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemExPill.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 79,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 80,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ai\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemFuel.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:af\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemFuse.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ag\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemLaptop.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 44,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 45,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:aj\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemPliers.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 97,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 98,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ap\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemRemote.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 58,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 59,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:am\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemRocket.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ar\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemRodEmpty.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 13,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:at\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemRodHydrogen.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 25,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:au\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemRodNuclear.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 32,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:av\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemRodRedstone.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 25,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:al\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemSafePill.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 46,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 47,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ak\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemTrollHelmet.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 26,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 27,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:bf\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemArmyShovel.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 28,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:aw\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemAstroBlaster.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 100,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 101,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ab\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemBinoculars.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 216,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 217,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:bb\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemCamera.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 65,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 66,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:bi\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemCuchillo.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ad\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 152,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 153,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ae\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemGasGrenade.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 74,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 75,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ah\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemHackM202.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 46,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 47,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:bg\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemPlasmaCannon.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 89,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 90,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ao\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemRPG.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 63,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:aq\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemRodDisk.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 82,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 83,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:as\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 417,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 418,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:be\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemSeekM202.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 61,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 62,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:bh\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemTesla.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 119,
+          "terms": [
+            "register"
+          ],
+          "text": "public void func_94581_a(IIconRegister iconregister) {"
+        },
+        {
+          "line": 120,
+          "terms": [
+            "register"
+          ],
+          "text": "this.field_77791_bV = iconregister.func_94245_a(\"RivalRebels:ax\");"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+      "important_file": false,
+      "occurrences": [
+        {
+          "line": 12,
+          "terms": [
+            "register"
+          ],
+          "text": "public static final void registerPackets() {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(EntityGorePacket.Handler.class, EntityGorePacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(EntityDebrisPacket.Handler.class, EntityDebrisPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ItemUpdate.Handler.class, ItemUpdate.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 17,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(RivalRebelsRound.Handler.class, RivalRebelsRound.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(RivalRebelsPlayerList.Handler.class, RivalRebelsPlayerList.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(GuiSpawnPacket.Handler.class, GuiSpawnPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(JoinTeamPacket.Handler.class, JoinTeamPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 21,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ResetPacket.Handler.class, ResetPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 22,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(TextPacket.Handler.class, TextPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 23,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(InspectPacket.Handler.class, InspectPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ModListPacket.Handler.class, ModListPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 25,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(VotePacket.Handler.class, VotePacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(LaptopButtonPacket.Handler.class, LaptopButtonPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 27,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(LaptopRefreshPacket.Handler.class, LaptopRefreshPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(LaptopEngagePacket.Handler.class, LaptopEngagePacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ReactorGUIPacket.Handler.class, ReactorGUIPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 30,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ReactorUpdatePacket.Handler.class, ReactorUpdatePacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 31,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ADSClosePacket.Handler.class, ADSClosePacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 32,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ADSWeaponPacket.Handler.class, ADSWeaponPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(ADSUpdatePacket.Handler.class, ADSUpdatePacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(RhodesPacket.Handler.class, RhodesPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 35,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(RhodesJumpPacket.Handler.class, RhodesJumpPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 36,
+          "terms": [
+            "registerMessage",
+            "register"
+          ],
+          "text": "packetsys.registerMessage(RhodesPiecePacket.Handler.class, RhodesPiecePacket.class, packetCount++, Side.CLIENT);"
+        }
+      ]
+    }
+  ]
+}

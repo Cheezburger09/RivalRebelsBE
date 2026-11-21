@@ -1,0 +1,107 @@
+decompiled/assets/rivalrebels/common/core/RivalRebelsTranslations.java:177:         {RivalRebels.steel, "Steel", "Acero", "Aço", "Сталь", "Acciaio", "Stahl", "Teräs", "Staal", "鋼架", "Teras", "Ocel", "Baja", "Acier", "صلب", "Stal"},
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:37:            RivalRebels.steel,
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:55:            RivalRebels.steel,
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:73:      GameRegistry.addRecipe(new ItemStack(RivalRebels.steel, 16), new Object[]{"CC", "CC", 'C', Blocks.field_150347_e});
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:76:         new Object[]{"SCS", "CPC", "SCS", 'C', Blocks.field_150347_e, 'S', RivalRebels.steel, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:86:      GameRegistry.addRecipe(new ItemStack(RivalRebels.tower, 2), new Object[]{"SS", "SJ", 'S', RivalRebels.steel, 'J', RivalRebels.jump});
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:124:      GameRegistry.addRecipe(new ItemStack(RivalRebels.nukeCrateTop, 1), new Object[]{" SS", "SP ", " SS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers});
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:125:      GameRegistry.addRecipe(new ItemStack(RivalRebels.nukeCrateBottom, 1), new Object[]{"SS ", "SP ", "SS ", 'S', RivalRebels.steel, 'P', RivalRebels.pliers});
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:127:         new ItemStack(RivalRebels.fuse, 1), new Object[]{"BP", "SP", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'B', RivalRebels.battery}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:131:         new Object[]{"RRR", "BP ", "SSS", 'S', RivalRebels.steel, 'R', RivalRebels.rocket, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:135:         new Object[]{"FFF", "BP ", "SSS", 'S', RivalRebels.steel, 'F', RivalRebels.fuel, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:138:         new ItemStack(RivalRebels.tesla, 1), new Object[]{"BBB", "BP ", "SSS", 'B', RivalRebels.battery, 'S', RivalRebels.steel, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:142:         new Object[]{"HHH", "BP ", "SSS", 'S', RivalRebels.steel, 'H', RivalRebels.hydrod, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:146:         new Object[]{"HHH", "BP ", "SSS", 'S', RivalRebels.steel, 'H', RivalRebels.redrod, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:153:      GameRegistry.addRecipe(new ItemStack(RivalRebels.emptyrod, 4), new Object[]{"SPS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers});
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:182:         new Object[]{" S", "GP", " B", 'G', Items.field_151014_N, 'S', RivalRebels.steel, 'B', Items.field_151131_as, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:185:         new ItemStack(RivalRebels.loader, 1), new Object[]{"SBS", "SPS", "SBS", 'S', RivalRebels.steel, 'B', RivalRebels.battery, 'P', RivalRebels.pliers}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:189:         new Object[]{"SFS", "FPF", "SFS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'F', RivalRebels.emptyrod}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:198:            RivalRebels.steel,
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:213:         new Object[]{"SFS", "GPG", "SFS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'F', RivalRebels.flare, 'G', RivalRebels.gasgrenade}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:217:         new Object[]{"SFS", "BPB", "SFS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'B', RivalRebels.ammunition, 'F', RivalRebels.battery}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:221:         new Object[]{"RB", "SP", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'B', RivalRebels.battery, 'R', RivalRebels.remote}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:252:            RivalRebels.steel,
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:295:            RivalRebels.steel,
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:315:            RivalRebels.steel,
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:337:         new Object[]{"CDC", "DBD", "CDC", 'S', RivalRebels.steel, 'H', RivalRebels.battery, 'D', RivalRebels.conduit, 'C', RivalRebels.smartcamo}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:340:         new ItemStack(RivalRebels.conduit, 16), new Object[]{"CEC", "EBE", "CEC", 'B', RivalRebels.redrod, 'E', RivalRebels.emptyrod, 'C', RivalRebels.steel}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:344:         new Object[]{" DS", "CPD", " DS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'C', RivalRebels.chip, 'D', RivalRebels.conduit}
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:349:            " DS", "CP1", " DS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'C', RivalRebels.chip, 'D', RivalRebels.conduit, '1', RivalRebels.core1
+decompiled/assets/rivalrebels/common/core/RivalRebelsRecipes.java:355:            " DS", "CP2", " DS", 'S', RivalRebels.steel, 'P', RivalRebels.pliers, 'C', RivalRebels.chip, 'D', RivalRebels.conduit, '2', RivalRebels.core2
+decompiled/assets/rivalrebels/common/entity/EntityFlameBall2.java:297:            this.field_70170_p.func_147449_b((int)this.field_70165_t, (int)this.field_70163_u, (int)this.field_70161_v, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/entity/EntityFlameBall2.java:298:         } else if (id == RivalRebels.steel && this.field_70170_p.field_73012_v.nextInt(40) == 0) {
+decompiled/assets/rivalrebels/common/item/weapon/ItemArmyShovel.java:62:      blocksEffectiveAgainst.add(RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:36:         world.func_147449_b(x - 1, y, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:37:         world.func_147449_b(x + 1, y, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:39:         world.func_147449_b(x - 1, y + 1, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:40:         world.func_147449_b(x + 1, y + 1, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:41:         world.func_147449_b(x, y + 2, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:42:         world.func_147449_b(x - 1, y + 2, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:43:         world.func_147449_b(x + 1, y + 2, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:47:            world.func_147449_b(x - 1, y - 1, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/item/ItemChip.java:48:            world.func_147449_b(x + 1, y - 1, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/round/RivalRebelsClass.java:82:         new ItemStack(RivalRebels.steel, 16),
+decompiled/assets/rivalrebels/common/round/RivalRebelsClass.java:109:         new ItemStack(RivalRebels.steel, 32),
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:196:         && this.field_145850_b.func_147439_a(x - 1, y, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:197:         && this.field_145850_b.func_147439_a(x + 1, y, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:198:         && this.field_145850_b.func_147439_a(x - 1, y + 1, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:199:         && this.field_145850_b.func_147439_a(x + 1, y + 1, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:200:         && this.field_145850_b.func_147439_a(x - 1, y + 3, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:201:         && this.field_145850_b.func_147439_a(x + 1, y + 3, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:202:         && this.field_145850_b.func_147439_a(x, y + 3, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:204:         && this.field_145850_b.func_147439_a(x - 1, y + 2, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:205:         && this.field_145850_b.func_147439_a(x + 1, y + 2, z) == RivalRebels.steel) {
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:219:         && this.field_145850_b.func_147439_a(x - 1, y, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:220:         && this.field_145850_b.func_147439_a(x + 1, y, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:221:         && this.field_145850_b.func_147439_a(x - 1, y + 1, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:222:         && this.field_145850_b.func_147439_a(x + 1, y + 1, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:223:         && this.field_145850_b.func_147439_a(x - 1, y + 2, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:224:         && this.field_145850_b.func_147439_a(x + 1, y + 2, z) == RivalRebels.steel
+decompiled/assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java:225:         && this.field_145850_b.func_147439_a(x, y + 2, z) == RivalRebels.steel) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:41:      this.placeBlockCarefully(par1World, x, y + 2, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:42:      this.placeBlockCarefully(par1World, x + 1, y + 2, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:43:      this.placeBlockCarefully(par1World, x, y + 2, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:44:      this.placeBlockCarefully(par1World, x - 1, y + 2, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:53:      this.placeBlockCarefully(par1World, x, y + 3, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:54:      this.placeBlockCarefully(par1World, x + 1, y + 3, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:55:      this.placeBlockCarefully(par1World, x, y + 3, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:56:      this.placeBlockCarefully(par1World, x - 1, y + 3, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:378:         world.func_147449_b(x + fx1, y + fy, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:416:         world.func_147449_b(x + fx1, y + fy, z - 3, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:419:         world.func_147449_b(x + fx1, y + fy, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:422:         world.func_147449_b(x + fx1, y + fy, z + 3, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:428:         world.func_147449_b(x + fx1, y + fy, z - 3, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:429:         world.func_147449_b(x + fx1, y + fy, z - 2, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:430:         world.func_147449_b(x + fx1, y + fy, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:431:         world.func_147449_b(x + fx1, y + fy, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:432:         world.func_147449_b(x + fx1, y + fy, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:433:         world.func_147449_b(x + fx1, y + fy, z + 2, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:434:         world.func_147449_b(x + fx1, y + fy, z + 3, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:440:         world.func_147449_b(x + fx1, y + fy, z - 3, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:442:         world.func_147449_b(x + fx1, y + fy, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:443:         world.func_147449_b(x + fx1, y + fy, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:444:         world.func_147449_b(x + fx1, y + fy, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:446:         world.func_147449_b(x + fx1, y + fy, z + 3, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:30:         this.placeBlockCarefully(world, x + 1, y + y1, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:31:         this.placeBlockCarefully(world, x - 1, y + y1, z, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:32:         this.placeBlockCarefully(world, x, y + y1, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:33:         this.placeBlockCarefully(world, x, y + y1, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:34:         this.placeBlockCarefully(world, x - 1, y + y1, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:35:         this.placeBlockCarefully(world, x + 1, y + y1, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:36:         this.placeBlockCarefully(world, x + 1, y + y1, z + 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:37:         this.placeBlockCarefully(world, x - 1, y + y1, z - 1, RivalRebels.steel);
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java:63:            new ChatComponentText("§a" + StatCollector.func_74838_a(RivalRebels.steel.func_149739_a() + ".name") + ". §9(Climbable and blast resistant.)")
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java:81:         EntityItem ei4 = new EntityItem(world, x + 0.5, y + 0.5, z + 0.5, new ItemStack(RivalRebels.steel, 32));
+decompiled/assets/rivalrebels/common/block/BlockSteel.java:13:public class BlockSteel extends Block {
+decompiled/assets/rivalrebels/common/block/BlockSteel.java:17:   public BlockSteel() {
+decompiled/assets/rivalrebels/client/model/ModelSteel.java:10:public class ModelSteel {
+decompiled/assets/rivalrebels/client/blockrenderer/SteelBlockRenderer.java:12:public class SteelBlockRenderer implements ISimpleBlockRenderingHandler {
+decompiled/assets/rivalrebels/client/blockrenderer/SteelBlockRenderer.java:73:      if (block != RivalRebels.steel) {
+decompiled/assets/rivalrebels/RivalRebels.java:37:import assets.rivalrebels.common.block.BlockSteel;
+decompiled/assets/rivalrebels/RivalRebels.java:345:   public static Block steel;
+decompiled/assets/rivalrebels/RivalRebels.java:585:   public static ResourceLocation btsteel;
+decompiled/assets/rivalrebels/RivalRebels.java:952:      btsteel = new ResourceLocation("rivalrebels:textures/blocks/bx.png");
+decompiled/assets/rivalrebels/RivalRebels.java:1030:      steel = new BlockSteel().func_149711_c(1.0F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c("rivalrebels.blocks." + nextNum++);
+decompiled/assets/rivalrebels/RivalRebels.java:1174:      GameRegistry.registerBlock(steel, "rivalrebelsblock" + nextNum++);
+decompiled/assets/rivalrebels/ClientProxy.java:3:import assets.rivalrebels.client.blockrenderer.SteelBlockRenderer;
+decompiled/assets/rivalrebels/ClientProxy.java:238:      RenderingRegistry.registerBlockHandler(new SteelBlockRenderer());

@@ -1,0 +1,135 @@
+{
+  "project": "Rival Rebels",
+  "source": "/data/data/com.termux/files/home/Projetos/RivalRebelsPort/source",
+  "total_files": 983,
+  "total_size_bytes": 11207630,
+  "java_decompiled_files": 415,
+  "extensions": {
+    ".class": 446,
+    ".png": 344,
+    ".ogg": 148,
+    ".obj": 41,
+    ".mf": 1,
+    ".mtl": 1,
+    ".json": 1,
+    ".info": 1
+  },
+  "directories": {
+    "assets/rivalrebels/textures/blocks": 89,
+    "assets/rivalrebels/textures/items": 73,
+    "assets/rivalrebels/textures/flags": 72,
+    "assets/rivalrebels/textures/entity": 67,
+    "assets/rivalrebels/common/entity": 61,
+    "assets/rivalrebels/client/renderentity": 53,
+    "assets/rivalrebels/common/packet": 44,
+    "assets/rivalrebels/client/model": 29,
+    "assets/rivalrebels/textures/gui": 28,
+    "assets/rivalrebels/models": 25,
+    "assets/rivalrebels/common/tileentity": 24,
+    "assets/rivalrebels/common/item": 23,
+    "assets/rivalrebels/client/itemrenders": 20,
+    "assets/rivalrebels/sounds/ba": 20,
+    "assets/rivalrebels/client/gui": 19,
+    "assets/rivalrebels/client/tileentityrender": 17,
+    "assets/rivalrebels/common/block/trap": 17,
+    "assets/rivalrebels/models/rhodes": 17,
+    "assets/rivalrebels/textures/armors": 15,
+    "assets/rivalrebels/common/block/crate": 14,
+    "assets/rivalrebels/common/item/weapon": 14,
+    "assets/rivalrebels/sounds/ae": 14,
+    "assets/rivalrebels/common/block": 13,
+    "assets/rivalrebels/common/command": 12,
+    "assets/rivalrebels/common/block/autobuilds": 11,
+    "assets/rivalrebels/client/guihelper": 10,
+    "assets/rivalrebels/common/block/machine": 10,
+    "assets/rivalrebels/common/container": 10,
+    "assets/rivalrebels/common/core": 9,
+    "assets/rivalrebels/common/round": 9,
+    "assets/rivalrebels/sounds/aa": 9,
+    "assets/rivalrebels/sounds/ai": 9,
+    "assets/rivalrebels/client/objfileloader": 7,
+    "assets/rivalrebels/sounds/ah": 7,
+    "assets/rivalrebels/sounds/av": 7,
+    "assets/rivalrebels": 6,
+    "assets/rivalrebels/sounds/ac": 6,
+    "assets/rivalrebels/sounds/af": 6,
+    "assets/rivalrebels/sounds/aw": 6,
+    "assets/rivalrebels/client/renderhelper": 5,
+    "assets/rivalrebels/common/explosion": 5,
+    "assets/rivalrebels/sounds/au": 5,
+    "assets/rivalrebels/sounds/ax": 5,
+    "assets/rivalrebels/common/noise": 4,
+    "assets/rivalrebels/sounds/ad": 4,
+    "assets/rivalrebels/sounds/af/a": 4,
+    "assets/rivalrebels/sounds/af/b": 4,
+    "assets/rivalrebels/sounds/ag": 4,
+    "assets/rivalrebels/sounds/an": 4,
+    "assets/rivalrebels/sounds/ap": 4,
+    "assets/rivalrebels/sounds/at": 4,
+    "assets/rivalrebels/sounds/ay": 4,
+    "assets/rivalrebels/sounds/ak": 3,
+    "assets/rivalrebels/sounds/ao": 3,
+    "assets/rivalrebels/sounds/ar": 3,
+    "assets/rivalrebels/sounds/ab": 2,
+    "assets/rivalrebels/sounds/aj": 2,
+    "assets/rivalrebels/sounds/al": 2,
+    "assets/rivalrebels/sounds/aq": 2,
+    "assets/rivalrebels/sounds/as": 2,
+    "assets/rivalrebels/sounds/az": 2,
+    "META-INF": 1,
+    "assets/rivalrebels/client/blockrenderer": 1,
+    "assets/rivalrebels/sounds/am": 1,
+    ".": 1
+  },
+  "size_by_extension": {
+    ".png": 4738455,
+    ".ogg": 3600488,
+    ".class": 1958561,
+    ".obj": 902091,
+    ".json": 7193,
+    ".info": 439,
+    ".mtl": 292,
+    ".mf": 111
+  },
+  "duplicate_files": [
+    [
+      "assets/rivalrebels/sounds/ba/f.ogg",
+      "assets/rivalrebels/sounds/ba/n.ogg"
+    ],
+    [
+      "assets/rivalrebels/textures/blocks/bb.png",
+      "assets/rivalrebels/textures/blocks/bg.png"
+    ],
+    [
+      "assets/rivalrebels/textures/blocks/bc.png",
+      "assets/rivalrebels/textures/blocks/be.png"
+    ],
+    [
+      "assets/rivalrebels/textures/blocks/bk.png",
+      "assets/rivalrebels/textures/blocks/ca.png"
+    ],
+    [
+      "assets/rivalrebels/textures/blocks/dd.png",
+      "assets/rivalrebels/textures/items/bf.png"
+    ]
+  ],
+  "mcmod_info": [
+    {
+      "modid": "rivalrebels",
+      "name": "Rival Rebels",
+      "description": "Rival Rebels is a PvP war mod with powerful weapons",
+      "version": "1.7.10Z1",
+      "mcversion": "1.7.10",
+      "url": "rivalrebels.com",
+      "updateUrl": "rivalrebels.com/download",
+      "authorList": [
+        "rodolphito"
+      ],
+      "credits": "rodolphito",
+      "logoFile": "assets/rivalrebels/textures/gui/h.png",
+      "screenshots": [],
+      "parent": "",
+      "dependencies": []
+    }
+  ]
+}

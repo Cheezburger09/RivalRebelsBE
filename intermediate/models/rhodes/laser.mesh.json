@@ -1,0 +1,256 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "laser.obj",
+  "vertices": [
+    [
+      0.660646,
+      0.633271,
+      2.208363
+    ],
+    [
+      0.660648,
+      0.63326,
+      70.070251
+    ],
+    [
+      0.660648,
+      0.110065,
+      70.070251
+    ],
+    [
+      0.660646,
+      0.110076,
+      2.208363
+    ],
+    [
+      -0.660643,
+      0.110065,
+      70.070251
+    ],
+    [
+      -0.660644,
+      0.633271,
+      2.208363
+    ],
+    [
+      -0.660643,
+      0.63326,
+      70.070251
+    ],
+    [
+      -0.660644,
+      0.110076,
+      2.208363
+    ]
+  ],
+  "uvs": [],
+  "normals": [
+    [
+      1.0,
+      0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      -0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": null,
+          "normal": 0
+        },
+        {
+          "vertex": 1,
+          "uv": null,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": null,
+          "normal": 0
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": null,
+          "normal": 1
+        },
+        {
+          "vertex": 2,
+          "uv": null,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": null,
+          "normal": 1
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": null,
+          "normal": 2
+        },
+        {
+          "vertex": 6,
+          "uv": null,
+          "normal": 2
+        },
+        {
+          "vertex": 1,
+          "uv": null,
+          "normal": 2
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": null,
+          "normal": 3
+        },
+        {
+          "vertex": 4,
+          "uv": null,
+          "normal": 3
+        },
+        {
+          "vertex": 6,
+          "uv": null,
+          "normal": 3
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": null,
+          "normal": 0
+        },
+        {
+          "vertex": 0,
+          "uv": null,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": null,
+          "normal": 0
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": null,
+          "normal": 1
+        },
+        {
+          "vertex": 3,
+          "uv": null,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": null,
+          "normal": 1
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": null,
+          "normal": 2
+        },
+        {
+          "vertex": 5,
+          "uv": null,
+          "normal": 2
+        },
+        {
+          "vertex": 1,
+          "uv": null,
+          "normal": 2
+        }
+      ],
+      "object": "laser",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": null,
+          "normal": 3
+        },
+        {
+          "vertex": 7,
+          "uv": null,
+          "normal": 3
+        },
+        {
+          "vertex": 6,
+          "uv": null,
+          "normal": 3
+        }
+      ],
+      "object": "laser",
+      "material": null
+    }
+  ],
+  "objects": [
+    "laser"
+  ],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -0.660644,
+      0.110065,
+      2.208363
+    ],
+    "max": [
+      0.660648,
+      0.633271,
+      70.070251
+    ]
+  }
+}

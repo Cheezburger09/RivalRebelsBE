@@ -1,0 +1,134 @@
+Compiled from "BlockSteel.java"
+public class assets.rivalrebels.common.block.BlockSteel extends net.minecraft.block.Block {
+  net.minecraft.util.IIcon icon;
+
+  public assets.rivalrebels.common.block.BlockSteel();
+    Code:
+       0: aload_0
+       1: getstatic     #19                 // Field net/minecraft/block/material/Material.field_151573_f:Lnet/minecraft/block/material/Material;
+       4: invokespecial #22                 // Method net/minecraft/block/Block."<init>":(Lnet/minecraft/block/material/Material;)V
+       7: return
+
+  public boolean func_149686_d();
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public int func_149645_b();
+    Code:
+       0: sipush        485
+       3: ireturn
+
+  public boolean func_149662_c();
+    Code:
+       0: iconst_0
+       1: ireturn
+
+  public net.minecraft.util.AxisAlignedBB func_149668_a(net.minecraft.world.World, int, int, int);
+    Code:
+       0: ldc           #32                 // float 0.0625f
+       2: fstore        5
+       4: iload_2
+       5: i2f
+       6: fload         5
+       8: fadd
+       9: f2d
+      10: iload_3
+      11: i2f
+      12: fload         5
+      14: fadd
+      15: f2d
+      16: iload         4
+      18: i2f
+      19: fload         5
+      21: fadd
+      22: f2d
+      23: iload_2
+      24: iconst_1
+      25: iadd
+      26: i2f
+      27: fload         5
+      29: fsub
+      30: f2d
+      31: iload_3
+      32: i2f
+      33: fconst_1
+      34: fadd
+      35: f2d
+      36: iload         4
+      38: iconst_1
+      39: iadd
+      40: i2f
+      41: fload         5
+      43: fsub
+      44: f2d
+      45: invokestatic  #38                 // Method net/minecraft/util/AxisAlignedBB.func_72330_a:(DDDDDD)Lnet/minecraft/util/AxisAlignedBB;
+      48: areturn
+
+  public void func_149670_a(net.minecraft.world.World, int, int, int, net.minecraft.entity.Entity);
+    Code:
+       0: aload         5
+       2: invokevirtual #53                 // Method net/minecraft/entity/Entity.func_70093_af:()Z
+       5: ifeq          33
+       8: aload         5
+      10: getfield      #57                 // Field net/minecraft/entity/Entity.field_70123_F:Z
+      13: ifne          33
+      16: aload         5
+      18: ldc2_w        #58                 // double 0.08d
+      21: putfield      #63                 // Field net/minecraft/entity/Entity.field_70181_x:D
+      24: aload         5
+      26: fconst_0
+      27: putfield      #66                 // Field net/minecraft/entity/Entity.field_70143_R:F
+      30: goto          108
+      33: aload         5
+      35: getfield      #57                 // Field net/minecraft/entity/Entity.field_70123_F:Z
+      38: ifeq          58
+      41: aload         5
+      43: ldc2_w        #67                 // double 0.25d
+      46: putfield      #63                 // Field net/minecraft/entity/Entity.field_70181_x:D
+      49: aload         5
+      51: fconst_0
+      52: putfield      #66                 // Field net/minecraft/entity/Entity.field_70143_R:F
+      55: goto          108
+      58: aload         5
+      60: getfield      #71                 // Field net/minecraft/entity/Entity.field_70122_E:Z
+      63: ifeq          69
+      66: goto          108
+      69: aload         5
+      71: getfield      #74                 // Field net/minecraft/entity/Entity.field_70124_G:Z
+      74: ifeq          94
+      77: aload         5
+      79: ldc2_w        #58                 // double 0.08d
+      82: putfield      #63                 // Field net/minecraft/entity/Entity.field_70181_x:D
+      85: aload         5
+      87: fconst_0
+      88: putfield      #66                 // Field net/minecraft/entity/Entity.field_70143_R:F
+      91: goto          108
+      94: aload         5
+      96: ldc2_w        #75                 // double -0.1d
+      99: putfield      #63                 // Field net/minecraft/entity/Entity.field_70181_x:D
+     102: aload         5
+     104: fconst_0
+     105: putfield      #66                 // Field net/minecraft/entity/Entity.field_70143_R:F
+     108: return
+
+  public boolean hasTileEntity(int);
+    Code:
+       0: iconst_1
+       1: ireturn
+
+  public final net.minecraft.util.IIcon func_149691_a(int, int);
+    Code:
+       0: aload_0
+       1: getfield      #85                 // Field icon:Lnet/minecraft/util/IIcon;
+       4: areturn
+
+  public void func_149651_a(net.minecraft.client.renderer.texture.IIconRegister);
+    Code:
+       0: aload_0
+       1: aload_1
+       2: ldc           #91                 // String RivalRebels:bx
+       4: invokeinterface #97,  2           // InterfaceMethod net/minecraft/client/renderer/texture/IIconRegister.func_94245_a:(Ljava/lang/String;)Lnet/minecraft/util/IIcon;
+       9: putfield      #85                 // Field icon:Lnet/minecraft/util/IIcon;
+      12: return
+}

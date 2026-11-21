@@ -1,0 +1,774 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "s.obj",
+  "vertices": [
+    [
+      -1.710061,
+      0.454429,
+      -1.736849
+    ],
+    [
+      -1.908492,
+      0.395667,
+      -1.736849
+    ],
+    [
+      -1.500604,
+      0.395667,
+      -1.736849
+    ],
+    [
+      -1.757537,
+      0.104894,
+      -2.07374
+    ],
+    [
+      -1.445844,
+      0.264357,
+      -1.928931
+    ],
+    [
+      -2.006753,
+      0.249504,
+      -1.893203
+    ],
+    [
+      1.91478,
+      0.395667,
+      -1.736849
+    ],
+    [
+      1.716348,
+      0.454429,
+      -1.736849
+    ],
+    [
+      1.506893,
+      0.395667,
+      -1.736849
+    ],
+    [
+      1.763825,
+      0.104894,
+      -2.07374
+    ],
+    [
+      1.452132,
+      0.264357,
+      -1.928931
+    ],
+    [
+      2.013042,
+      0.249504,
+      -1.893203
+    ],
+    [
+      -1.713435,
+      0.412229,
+      -3.088108
+    ],
+    [
+      -1.853583,
+      0.370727,
+      -3.088108
+    ],
+    [
+      -1.565499,
+      0.370727,
+      -3.088108
+    ],
+    [
+      -1.746966,
+      0.165359,
+      -3.326048
+    ],
+    [
+      -1.526823,
+      0.277984,
+      -3.223772
+    ],
+    [
+      -1.922983,
+      0.267494,
+      -3.198538
+    ],
+    [
+      1.859872,
+      0.370727,
+      -3.088108
+    ],
+    [
+      1.719722,
+      0.412229,
+      -3.088108
+    ],
+    [
+      1.571788,
+      0.370727,
+      -3.088108
+    ],
+    [
+      1.753255,
+      0.165359,
+      -3.326047
+    ],
+    [
+      1.533112,
+      0.277984,
+      -3.223772
+    ],
+    [
+      1.929272,
+      0.267494,
+      -3.198538
+    ]
+  ],
+  "uvs": [
+    [
+      0.625,
+      0.0
+    ],
+    [
+      0.75,
+      0.0
+    ],
+    [
+      0.75,
+      1.0
+    ],
+    [
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      -0.0,
+      1.0
+    ],
+    [
+      -0.0,
+      0.0
+    ],
+    [
+      0.1875,
+      0.0
+    ],
+    [
+      0.5,
+      1.0
+    ],
+    [
+      0.5,
+      0.0
+    ],
+    [
+      0.3125,
+      0.0
+    ],
+    [
+      0.1875,
+      1.0
+    ],
+    [
+      0.625,
+      1.0
+    ],
+    [
+      0.3125,
+      1.0
+    ]
+  ],
+  "normals": [
+    [
+      -0.893,
+      0.4472,
+      -0.0511
+    ],
+    [
+      0.4693,
+      -0.8822,
+      -0.0386
+    ],
+    [
+      0.5258,
+      -0.8494,
+      -0.0454
+    ],
+    [
+      -0.27,
+      0.9624,
+      -0.0307
+    ],
+    [
+      -0.8069,
+      0.5891,
+      -0.0437
+    ],
+    [
+      0.2838,
+      0.9584,
+      -0.0292
+    ],
+    [
+      0.8069,
+      0.5891,
+      -0.0437
+    ],
+    [
+      -0.2838,
+      0.9584,
+      -0.0292
+    ],
+    [
+      -0.5258,
+      -0.8494,
+      -0.0454
+    ],
+    [
+      0.893,
+      0.4472,
+      -0.0511
+    ],
+    [
+      -0.4693,
+      -0.8822,
+      -0.0386
+    ],
+    [
+      0.27,
+      0.9624,
+      -0.0307
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 22,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 10,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 15,
+          "uv": 4,
+          "normal": 1
+        },
+        {
+          "vertex": 16,
+          "uv": 1,
+          "normal": 1
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 2
+        },
+        {
+          "vertex": 21,
+          "uv": 6,
+          "normal": 2
+        },
+        {
+          "vertex": 23,
+          "uv": 7,
+          "normal": 2
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 8,
+          "normal": 3
+        },
+        {
+          "vertex": 19,
+          "uv": 9,
+          "normal": 3
+        },
+        {
+          "vertex": 20,
+          "uv": 0,
+          "normal": 3
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 10,
+          "normal": 4
+        },
+        {
+          "vertex": 17,
+          "uv": 7,
+          "normal": 4
+        },
+        {
+          "vertex": 5,
+          "uv": 11,
+          "normal": 4
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 10,
+          "normal": 5
+        },
+        {
+          "vertex": 19,
+          "uv": 9,
+          "normal": 5
+        },
+        {
+          "vertex": 7,
+          "uv": 8,
+          "normal": 5
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 6
+        },
+        {
+          "vertex": 23,
+          "uv": 7,
+          "normal": 6
+        },
+        {
+          "vertex": 18,
+          "uv": 10,
+          "normal": 6
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 8,
+          "normal": 7
+        },
+        {
+          "vertex": 12,
+          "uv": 9,
+          "normal": 7
+        },
+        {
+          "vertex": 13,
+          "uv": 10,
+          "normal": 7
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 7,
+          "normal": 8
+        },
+        {
+          "vertex": 15,
+          "uv": 6,
+          "normal": 8
+        },
+        {
+          "vertex": 3,
+          "uv": 5,
+          "normal": 8
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 2,
+          "normal": 9
+        },
+        {
+          "vertex": 16,
+          "uv": 1,
+          "normal": 9
+        },
+        {
+          "vertex": 14,
+          "uv": 0,
+          "normal": 9
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 1,
+          "normal": 10
+        },
+        {
+          "vertex": 21,
+          "uv": 4,
+          "normal": 10
+        },
+        {
+          "vertex": 9,
+          "uv": 3,
+          "normal": 10
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 0,
+          "normal": 11
+        },
+        {
+          "vertex": 12,
+          "uv": 9,
+          "normal": 11
+        },
+        {
+          "vertex": 0,
+          "uv": 8,
+          "normal": 11
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 12,
+          "normal": 0
+        },
+        {
+          "vertex": 20,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 10,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 2,
+          "normal": 1
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 16,
+          "uv": 1,
+          "normal": 1
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 2
+        },
+        {
+          "vertex": 9,
+          "uv": 5,
+          "normal": 2
+        },
+        {
+          "vertex": 23,
+          "uv": 7,
+          "normal": 2
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 12,
+          "normal": 3
+        },
+        {
+          "vertex": 7,
+          "uv": 8,
+          "normal": 3
+        },
+        {
+          "vertex": 20,
+          "uv": 0,
+          "normal": 3
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 13,
+          "normal": 4
+        },
+        {
+          "vertex": 13,
+          "uv": 10,
+          "normal": 4
+        },
+        {
+          "vertex": 5,
+          "uv": 11,
+          "normal": 4
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 13,
+          "normal": 5
+        },
+        {
+          "vertex": 18,
+          "uv": 10,
+          "normal": 5
+        },
+        {
+          "vertex": 7,
+          "uv": 8,
+          "normal": 5
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 13,
+          "normal": 6
+        },
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 6
+        },
+        {
+          "vertex": 18,
+          "uv": 10,
+          "normal": 6
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 13,
+          "normal": 7
+        },
+        {
+          "vertex": 0,
+          "uv": 8,
+          "normal": 7
+        },
+        {
+          "vertex": 13,
+          "uv": 10,
+          "normal": 7
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 11,
+          "normal": 8
+        },
+        {
+          "vertex": 17,
+          "uv": 7,
+          "normal": 8
+        },
+        {
+          "vertex": 3,
+          "uv": 5,
+          "normal": 8
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 12,
+          "normal": 9
+        },
+        {
+          "vertex": 4,
+          "uv": 2,
+          "normal": 9
+        },
+        {
+          "vertex": 14,
+          "uv": 0,
+          "normal": 9
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 2,
+          "normal": 10
+        },
+        {
+          "vertex": 22,
+          "uv": 1,
+          "normal": 10
+        },
+        {
+          "vertex": 9,
+          "uv": 3,
+          "normal": 10
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 12,
+          "normal": 11
+        },
+        {
+          "vertex": 14,
+          "uv": 0,
+          "normal": 11
+        },
+        {
+          "vertex": 0,
+          "uv": 8,
+          "normal": 11
+        }
+      ],
+      "object": "b2spirit.001",
+      "material": "None"
+    }
+  ],
+  "objects": [
+    "b2spirit.001"
+  ],
+  "materials": [
+    {
+      "library": "s.mtl"
+    },
+    "None"
+  ],
+  "bounds": {
+    "min": [
+      -2.006753,
+      0.104894,
+      -3.326048
+    ],
+    "max": [
+      2.013042,
+      0.454429,
+      -1.736849
+    ]
+  }
+}

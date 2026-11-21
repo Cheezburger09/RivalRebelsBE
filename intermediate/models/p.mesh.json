@@ -1,0 +1,2005 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "p.obj",
+  "vertices": [
+    [
+      0.438781,
+      0.0,
+      -1.536225
+    ],
+    [
+      0.438781,
+      0.107657,
+      -1.682003
+    ],
+    [
+      0.75,
+      0.0,
+      -0.625001
+    ],
+    [
+      -0.75,
+      0.1875,
+      -0.625001
+    ],
+    [
+      -0.75,
+      0.1875,
+      -0.40035
+    ],
+    [
+      -0.639409,
+      0.1875,
+      -0.312499
+    ],
+    [
+      0.514389,
+      0.238036,
+      -0.499035
+    ],
+    [
+      0.75,
+      0.1875,
+      -0.625001
+    ],
+    [
+      0.639409,
+      0.1875,
+      -0.312499
+    ],
+    [
+      0.463167,
+      0.288853,
+      -0.312499
+    ],
+    [
+      0.463167,
+      0.288853,
+      0.0
+    ],
+    [
+      -0.438781,
+      0.107657,
+      -1.682003
+    ],
+    [
+      -0.75,
+      0.0,
+      -0.625001
+    ],
+    [
+      -0.360585,
+      0.264244,
+      -0.408254
+    ],
+    [
+      -0.514389,
+      0.238036,
+      -0.499035
+    ],
+    [
+      -0.463167,
+      0.288853,
+      -0.312499
+    ],
+    [
+      0.360585,
+      0.264244,
+      -0.408254
+    ],
+    [
+      -0.639409,
+      0.0,
+      -0.0
+    ],
+    [
+      -0.639409,
+      0.1875,
+      0.0
+    ],
+    [
+      0.0,
+      0.107657,
+      -1.875
+    ],
+    [
+      0.360585,
+      0.476635,
+      -0.273075
+    ],
+    [
+      -0.75,
+      0.0,
+      -0.40035
+    ],
+    [
+      -0.639409,
+      0.0,
+      -0.312499
+    ],
+    [
+      -0.463167,
+      0.288853,
+      0.0
+    ],
+    [
+      0.360585,
+      0.476635,
+      0.0
+    ],
+    [
+      -0.360585,
+      0.476635,
+      -0.273075
+    ],
+    [
+      -0.438781,
+      0.0,
+      -1.536225
+    ],
+    [
+      0.75,
+      0.1875,
+      -0.40035
+    ],
+    [
+      0.0,
+      0.0,
+      -1.729223
+    ],
+    [
+      0.639409,
+      0.0,
+      -0.312499
+    ],
+    [
+      0.639409,
+      0.1875,
+      0.0
+    ],
+    [
+      -0.360585,
+      0.476635,
+      0.0
+    ],
+    [
+      0.75,
+      0.0,
+      -0.40035
+    ],
+    [
+      0.639409,
+      0.0,
+      -0.0
+    ]
+  ],
+  "uvs": [
+    [
+      0.593969,
+      0.739056
+    ],
+    [
+      0.541301,
+      0.768758
+    ],
+    [
+      0.704659,
+      0.437442
+    ],
+    [
+      0.143316,
+      0.415365
+    ],
+    [
+      0.116863,
+      0.345235
+    ],
+    [
+      0.141043,
+      0.304787
+    ],
+    [
+      0.566613,
+      0.371663
+    ],
+    [
+      0.646121,
+      0.415361
+    ],
+    [
+      0.689218,
+      0.30112
+    ],
+    [
+      0.625739,
+      0.277163
+    ],
+    [
+      0.662563,
+      0.179592
+    ],
+    [
+      0.248137,
+      0.768759
+    ],
+    [
+      0.084782,
+      0.437444
+    ],
+    [
+      0.58467,
+      0.281494
+    ],
+    [
+      0.648398,
+      0.304765
+    ],
+    [
+      0.585073,
+      0.348234
+    ],
+    [
+      0.246155,
+      0.304889
+    ],
+    [
+      0.204357,
+      0.34825
+    ],
+    [
+      0.204761,
+      0.281521
+    ],
+    [
+      0.543269,
+      0.304865
+    ],
+    [
+      0.004901,
+      0.225666
+    ],
+    [
+      0.063434,
+      0.203588
+    ],
+    [
+      0.100232,
+      0.301143
+    ],
+    [
+      0.51503,
+      0.34057
+    ],
+    [
+      0.394719,
+      0.832746
+    ],
+    [
+      0.274405,
+      0.340572
+    ],
+    [
+      0.544724,
+      0.220865
+    ],
+    [
+      0.222823,
+      0.371666
+    ],
+    [
+      0.05833,
+      0.367313
+    ],
+    [
+      0.041699,
+      0.323222
+    ],
+    [
+      0.126903,
+      0.179648
+    ],
+    [
+      0.1637,
+      0.277203
+    ],
+    [
+      0.595756,
+      0.154377
+    ],
+    [
+      0.244702,
+      0.220903
+    ],
+    [
+      0.195469,
+      0.739056
+    ],
+    [
+      0.67258,
+      0.345219
+    ],
+    [
+      0.353884,
+      0.877341
+    ],
+    [
+      0.207302,
+      0.813353
+    ],
+    [
+      0.74776,
+      0.323211
+    ],
+    [
+      0.72604,
+      0.203549
+    ],
+    [
+      0.515028,
+      0.165456
+    ],
+    [
+      0.515029,
+      0.256569
+    ],
+    [
+      0.274406,
+      0.25657
+    ],
+    [
+      0.193701,
+      0.154452
+    ],
+    [
+      0.225856,
+      0.2397
+    ],
+    [
+      0.20241,
+      0.476879
+    ],
+    [
+      0.230766,
+      0.454353
+    ],
+    [
+      0.20241,
+      0.534481
+    ],
+    [
+      0.582136,
+      0.813353
+    ],
+    [
+      0.240179,
+      0.102803
+    ],
+    [
+      0.181376,
+      0.068987
+    ],
+    [
+      0.181375,
+      0.006427
+    ],
+    [
+      0.563576,
+      0.239639
+    ],
+    [
+      0.784582,
+      0.225642
+    ],
+    [
+      0.274406,
+      0.165457
+    ],
+    [
+      0.73112,
+      0.367306
+    ],
+    [
+      0.507226,
+      0.768125
+    ],
+    [
+      0.587024,
+      0.534478
+    ],
+    [
+      0.394719,
+      0.817612
+    ],
+    [
+      0.282211,
+      0.768126
+    ],
+    [
+      0.558667,
+      0.454351
+    ],
+    [
+      0.230765,
+      0.374225
+    ],
+    [
+      0.558667,
+      0.374223
+    ],
+    [
+      0.435554,
+      0.877341
+    ],
+    [
+      0.587023,
+      0.476876
+    ],
+    [
+      0.608057,
+      0.068984
+    ],
+    [
+      0.549254,
+      0.102802
+    ],
+    [
+      0.608057,
+      0.006425
+    ]
+  ],
+  "normals": [
+    [
+      0.866936,
+      -0.400939,
+      -0.296093
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.147718,
+      0.982005,
+      -0.117671
+    ],
+    [
+      0.498522,
+      0.866877,
+      0.0
+    ],
+    [
+      -0.959283,
+      0.0,
+      -0.282447
+    ],
+    [
+      0.496084,
+      0.862637,
+      -0.098781
+    ],
+    [
+      -0.011066,
+      0.965545,
+      -0.26
+    ],
+    [
+      0.011066,
+      0.965545,
+      -0.26
+    ],
+    [
+      -0.496084,
+      0.862637,
+      -0.098781
+    ],
+    [
+      -1.0,
+      -1e-06,
+      0.0
+    ],
+    [
+      0.0,
+      0.99435,
+      -0.106155
+    ],
+    [
+      0.550069,
+      0.448405,
+      -0.704526
+    ],
+    [
+      -0.100324,
+      0.988248,
+      -0.11533
+    ],
+    [
+      -0.622007,
+      -0.0,
+      0.783012
+    ],
+    [
+      0.052206,
+      0.991558,
+      -0.118691
+    ],
+    [
+      -0.498522,
+      0.866877,
+      0.0
+    ],
+    [
+      -0.147718,
+      0.982005,
+      -0.117671
+    ],
+    [
+      0.100324,
+      0.988248,
+      -0.11533
+    ],
+    [
+      0.87759,
+      0.479412,
+      0.0
+    ],
+    [
+      0.959283,
+      0.0,
+      -0.282447
+    ],
+    [
+      -0.550069,
+      0.448405,
+      -0.704526
+    ],
+    [
+      -0.866936,
+      -0.400939,
+      -0.296093
+    ],
+    [
+      -0.052206,
+      0.991558,
+      -0.118691
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.252812,
+      -0.778286,
+      -0.574768
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.536935,
+      -0.843623
+    ],
+    [
+      0.622007,
+      0.0,
+      0.783012
+    ],
+    [
+      -0.254702,
+      0.96281,
+      0.090136
+    ],
+    [
+      -0.87759,
+      0.479412,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.252809,
+      -0.778288,
+      -0.574765
+    ],
+    [
+      0.254702,
+      0.96281,
+      0.090136
+    ],
+    [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    [
+      -0.252809,
+      -0.778288,
+      -0.574765
+    ],
+    [
+      1.0,
+      -1e-06,
+      0.0
+    ],
+    [
+      0.0,
+      0.536935,
+      -0.843624
+    ],
+    [
+      0.252812,
+      -0.778286,
+      -0.574768
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 1
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 2
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 2
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 2
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 3
+        },
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 3
+        },
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 3
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 4
+        },
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 4
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 4
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 13,
+          "normal": 5
+        },
+        {
+          "vertex": 8,
+          "uv": 14,
+          "normal": 5
+        },
+        {
+          "vertex": 6,
+          "uv": 15,
+          "normal": 5
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 16,
+          "normal": 6
+        },
+        {
+          "vertex": 14,
+          "uv": 17,
+          "normal": 6
+        },
+        {
+          "vertex": 15,
+          "uv": 18,
+          "normal": 6
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 13,
+          "normal": 7
+        },
+        {
+          "vertex": 6,
+          "uv": 15,
+          "normal": 7
+        },
+        {
+          "vertex": 16,
+          "uv": 19,
+          "normal": 7
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 15,
+          "uv": 18,
+          "normal": 8
+        },
+        {
+          "vertex": 14,
+          "uv": 17,
+          "normal": 8
+        },
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 8
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 20,
+          "normal": 9
+        },
+        {
+          "vertex": 18,
+          "uv": 21,
+          "normal": 9
+        },
+        {
+          "vertex": 5,
+          "uv": 22,
+          "normal": 9
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 23,
+          "normal": 10
+        },
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 10
+        },
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 10
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 13,
+          "normal": 11
+        },
+        {
+          "vertex": 16,
+          "uv": 19,
+          "normal": 11
+        },
+        {
+          "vertex": 20,
+          "uv": 26,
+          "normal": 11
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 12
+        },
+        {
+          "vertex": 14,
+          "uv": 27,
+          "normal": 12
+        },
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 12
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 13
+        },
+        {
+          "vertex": 21,
+          "uv": 28,
+          "normal": 13
+        },
+        {
+          "vertex": 22,
+          "uv": 29,
+          "normal": 13
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 23,
+          "normal": 14
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 14
+        },
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 14
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 30,
+          "normal": 15
+        },
+        {
+          "vertex": 15,
+          "uv": 31,
+          "normal": 15
+        },
+        {
+          "vertex": 5,
+          "uv": 22,
+          "normal": 15
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 16
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 16
+        },
+        {
+          "vertex": 14,
+          "uv": 27,
+          "normal": 16
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 23,
+          "normal": 17
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 17
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 17
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 32,
+          "normal": 18
+        },
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 18
+        },
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 18
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 19
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 19
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 19
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 16,
+          "normal": 20
+        },
+        {
+          "vertex": 15,
+          "uv": 18,
+          "normal": 20
+        },
+        {
+          "vertex": 25,
+          "uv": 33,
+          "normal": 20
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 21
+        },
+        {
+          "vertex": 26,
+          "uv": 34,
+          "normal": 21
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 21
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 22
+        },
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 22
+        },
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 22
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 23
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 23
+        },
+        {
+          "vertex": 21,
+          "uv": 28,
+          "normal": 23
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 14,
+          "normal": 1
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 1
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 1
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 24
+        },
+        {
+          "vertex": 28,
+          "uv": 36,
+          "normal": 24
+        },
+        {
+          "vertex": 26,
+          "uv": 37,
+          "normal": 24
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 38,
+          "normal": 25
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 25
+        },
+        {
+          "vertex": 30,
+          "uv": 39,
+          "normal": 25
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 40,
+          "normal": 1
+        },
+        {
+          "vertex": 20,
+          "uv": 41,
+          "normal": 1
+        },
+        {
+          "vertex": 25,
+          "uv": 42,
+          "normal": 1
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 42,
+          "normal": 26
+        },
+        {
+          "vertex": 20,
+          "uv": 41,
+          "normal": 26
+        },
+        {
+          "vertex": 16,
+          "uv": 23,
+          "normal": 26
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 27
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 27
+        },
+        {
+          "vertex": 29,
+          "uv": 38,
+          "normal": 27
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 17,
+          "normal": 28
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 28
+        },
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 28
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 43,
+          "normal": 29
+        },
+        {
+          "vertex": 25,
+          "uv": 44,
+          "normal": 29
+        },
+        {
+          "vertex": 15,
+          "uv": 31,
+          "normal": 29
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 45,
+          "normal": 30
+        },
+        {
+          "vertex": 29,
+          "uv": 46,
+          "normal": 30
+        },
+        {
+          "vertex": 2,
+          "uv": 47,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 31
+        },
+        {
+          "vertex": 0,
+          "uv": 48,
+          "normal": 31
+        },
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 31
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 15,
+          "normal": 32
+        },
+        {
+          "vertex": 8,
+          "uv": 14,
+          "normal": 32
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 32
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 25
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 25
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 25
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 49,
+          "normal": 33
+        },
+        {
+          "vertex": 18,
+          "uv": 50,
+          "normal": 33
+        },
+        {
+          "vertex": 17,
+          "uv": 51,
+          "normal": 33
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 39,
+          "normal": 3
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 3
+        },
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 3
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 29,
+          "normal": 23
+        },
+        {
+          "vertex": 17,
+          "uv": 20,
+          "normal": 23
+        },
+        {
+          "vertex": 5,
+          "uv": 22,
+          "normal": 23
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 22,
+          "normal": 13
+        },
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 13
+        },
+        {
+          "vertex": 22,
+          "uv": 29,
+          "normal": 13
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 21,
+          "normal": 15
+        },
+        {
+          "vertex": 23,
+          "uv": 30,
+          "normal": 15
+        },
+        {
+          "vertex": 5,
+          "uv": 22,
+          "normal": 15
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 52,
+          "normal": 18
+        },
+        {
+          "vertex": 24,
+          "uv": 32,
+          "normal": 18
+        },
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 18
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 23
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 23
+        },
+        {
+          "vertex": 21,
+          "uv": 28,
+          "normal": 23
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 34
+        },
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 34
+        },
+        {
+          "vertex": 26,
+          "uv": 37,
+          "normal": 34
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 33,
+          "uv": 53,
+          "normal": 35
+        },
+        {
+          "vertex": 29,
+          "uv": 38,
+          "normal": 35
+        },
+        {
+          "vertex": 30,
+          "uv": 39,
+          "normal": 35
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 54,
+          "normal": 1
+        },
+        {
+          "vertex": 24,
+          "uv": 40,
+          "normal": 1
+        },
+        {
+          "vertex": 25,
+          "uv": 42,
+          "normal": 1
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 36
+        },
+        {
+          "vertex": 25,
+          "uv": 42,
+          "normal": 36
+        },
+        {
+          "vertex": 16,
+          "uv": 23,
+          "normal": 36
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 55,
+          "normal": 27
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 27
+        },
+        {
+          "vertex": 29,
+          "uv": 38,
+          "normal": 27
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 30,
+          "normal": 29
+        },
+        {
+          "vertex": 31,
+          "uv": 43,
+          "normal": 29
+        },
+        {
+          "vertex": 15,
+          "uv": 31,
+          "normal": 29
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 56,
+          "normal": 30
+        },
+        {
+          "vertex": 2,
+          "uv": 47,
+          "normal": 30
+        },
+        {
+          "vertex": 12,
+          "uv": 57,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 28,
+          "uv": 58,
+          "normal": 30
+        },
+        {
+          "vertex": 0,
+          "uv": 59,
+          "normal": 30
+        },
+        {
+          "vertex": 26,
+          "uv": 56,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 47,
+          "normal": 30
+        },
+        {
+          "vertex": 22,
+          "uv": 60,
+          "normal": 30
+        },
+        {
+          "vertex": 12,
+          "uv": 57,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 46,
+          "normal": 30
+        },
+        {
+          "vertex": 33,
+          "uv": 61,
+          "normal": 30
+        },
+        {
+          "vertex": 17,
+          "uv": 62,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 56,
+          "normal": 30
+        },
+        {
+          "vertex": 0,
+          "uv": 59,
+          "normal": 30
+        },
+        {
+          "vertex": 2,
+          "uv": 47,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 24,
+          "normal": 37
+        },
+        {
+          "vertex": 0,
+          "uv": 48,
+          "normal": 37
+        },
+        {
+          "vertex": 28,
+          "uv": 63,
+          "normal": 37
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 62,
+          "normal": 30
+        },
+        {
+          "vertex": 22,
+          "uv": 60,
+          "normal": 30
+        },
+        {
+          "vertex": 29,
+          "uv": 46,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 55,
+          "normal": 25
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 25
+        },
+        {
+          "vertex": 27,
+          "uv": 35,
+          "normal": 25
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 60,
+          "normal": 30
+        },
+        {
+          "vertex": 21,
+          "uv": 64,
+          "normal": 30
+        },
+        {
+          "vertex": 12,
+          "uv": 57,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 46,
+          "normal": 30
+        },
+        {
+          "vertex": 22,
+          "uv": 60,
+          "normal": 30
+        },
+        {
+          "vertex": 2,
+          "uv": 47,
+          "normal": 30
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 65,
+          "normal": 33
+        },
+        {
+          "vertex": 10,
+          "uv": 66,
+          "normal": 33
+        },
+        {
+          "vertex": 33,
+          "uv": 67,
+          "normal": 33
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 66,
+          "normal": 33
+        },
+        {
+          "vertex": 24,
+          "uv": 40,
+          "normal": 33
+        },
+        {
+          "vertex": 31,
+          "uv": 54,
+          "normal": 33
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 66,
+          "normal": 33
+        },
+        {
+          "vertex": 31,
+          "uv": 54,
+          "normal": 33
+        },
+        {
+          "vertex": 23,
+          "uv": 49,
+          "normal": 33
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 66,
+          "normal": 33
+        },
+        {
+          "vertex": 23,
+          "uv": 49,
+          "normal": 33
+        },
+        {
+          "vertex": 17,
+          "uv": 51,
+          "normal": 33
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 66,
+          "normal": 33
+        },
+        {
+          "vertex": 17,
+          "uv": 51,
+          "normal": 33
+        },
+        {
+          "vertex": 33,
+          "uv": 67,
+          "normal": 33
+        }
+      ],
+      "object": "Tray",
+      "material": null
+    }
+  ],
+  "objects": [
+    "Tray"
+  ],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -0.75,
+      0.0,
+      -1.875
+    ],
+    "max": [
+      0.75,
+      0.476635,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,2014 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "h.obj",
+  "vertices": [
+    [
+      1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      1.0,
+      -0.999999
+    ],
+    [
+      0.999999,
+      1.0,
+      1.000001
+    ],
+    [
+      -1.0,
+      1.0,
+      1.0
+    ],
+    [
+      -1.0,
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      -0.462164,
+      -1.0
+    ],
+    [
+      1.0,
+      -0.462164,
+      1.0
+    ],
+    [
+      2.5,
+      -0.61727,
+      -0.543956
+    ],
+    [
+      2.5,
+      -0.61727,
+      0.543956
+    ],
+    [
+      2.5,
+      -0.355597,
+      -0.543956
+    ],
+    [
+      2.5,
+      -0.355597,
+      0.543957
+    ],
+    [
+      2.271756,
+      -0.355597,
+      -0.771978
+    ],
+    [
+      2.271755,
+      -0.355597,
+      0.771978
+    ],
+    [
+      2.271756,
+      -0.782994,
+      0.771978
+    ],
+    [
+      2.271756,
+      -0.782994,
+      -0.771978
+    ],
+    [
+      0.800741,
+      -0.052692,
+      -1.0
+    ],
+    [
+      0.800741,
+      0.573568,
+      -1.0
+    ],
+    [
+      0.800741,
+      -0.052692,
+      1.0
+    ],
+    [
+      0.80074,
+      0.573568,
+      1.0
+    ],
+    [
+      0.850621,
+      1.0,
+      0.333334
+    ],
+    [
+      0.850622,
+      1.0,
+      -0.333333
+    ],
+    [
+      0.850621,
+      -0.462164,
+      0.333334
+    ],
+    [
+      0.850621,
+      -0.462164,
+      -0.333333
+    ],
+    [
+      0.651363,
+      -0.052692,
+      -0.333333
+    ],
+    [
+      0.651362,
+      -0.052692,
+      0.333334
+    ],
+    [
+      0.651363,
+      0.573568,
+      -0.333333
+    ],
+    [
+      0.651362,
+      0.573568,
+      0.333334
+    ],
+    [
+      1.635878,
+      -0.462164,
+      -0.885989
+    ],
+    [
+      1.635877,
+      -0.462164,
+      0.885989
+    ],
+    [
+      1.953817,
+      -0.355597,
+      -0.828983
+    ],
+    [
+      1.953816,
+      -0.355597,
+      0.828984
+    ]
+  ],
+  "uvs": [
+    [
+      0.249566,
+      2.3e-05
+    ],
+    [
+      0.230933,
+      0.170335
+    ],
+    [
+      0.000101,
+      2.3e-05
+    ],
+    [
+      0.428744,
+      0.465517
+    ],
+    [
+      0.445738,
+      0.385494
+    ],
+    [
+      0.490649,
+      0.385494
+    ],
+    [
+      0.250458,
+      0.999696
+    ],
+    [
+      0.250434,
+      0.866293
+    ],
+    [
+      -1e-05,
+      0.999874
+    ],
+    [
+      0.750445,
+      0.000585
+    ],
+    [
+      0.99991,
+      0.000585
+    ],
+    [
+      0.99991,
+      0.499164
+    ],
+    [
+      0.250458,
+      0.866471
+    ],
+    [
+      0.250458,
+      0.999874
+    ],
+    [
+      0.521063,
+      0.655898
+    ],
+    [
+      0.456715,
+      0.652112
+    ],
+    [
+      0.453393,
+      0.480922
+    ],
+    [
+      0.428744,
+      0.035634
+    ],
+    [
+      0.507645,
+      0.035634
+    ],
+    [
+      0.490649,
+      0.115656
+    ],
+    [
+      0.445735,
+      0.385491
+    ],
+    [
+      0.400793,
+      0.442048
+    ],
+    [
+      0.445735,
+      0.115653
+    ],
+    [
+      0.445738,
+      0.115656
+    ],
+    [
+      0.86953,
+      0.548744
+    ],
+    [
+      0.900956,
+      0.605301
+    ],
+    [
+      0.825754,
+      0.534605
+    ],
+    [
+      0.331364,
+      0.866471
+    ],
+    [
+      0.331339,
+      0.866236
+    ],
+    [
+      0.60507,
+      0.656857
+    ],
+    [
+      0.607095,
+      0.486738
+    ],
+    [
+      0.671302,
+      0.479289
+    ],
+    [
+      0.518795,
+      0.487734
+    ],
+    [
+      0.671302,
+      0.992863
+    ],
+    [
+      0.608052,
+      0.986049
+    ],
+    [
+      0.60507,
+      0.817951
+    ],
+    [
+      0.667872,
+      0.821725
+    ],
+    [
+      0.519732,
+      0.98725
+    ],
+    [
+      0.521063,
+      0.81708
+    ],
+    [
+      0.453349,
+      0.994669
+    ],
+    [
+      0.456314,
+      0.820843
+    ],
+    [
+      0.779585,
+      0.520466
+    ],
+    [
+      0.668261,
+      0.653092
+    ],
+    [
+      0.688829,
+      0.487737
+    ],
+    [
+      0.825754,
+      0.945835
+    ],
+    [
+      0.000199,
+      0.498605
+    ],
+    [
+      0.000199,
+      0.002539
+    ],
+    [
+      0.245079,
+      0.002539
+    ],
+    [
+      0.400793,
+      0.059096
+    ],
+    [
+      0.245079,
+      0.498605
+    ],
+    [
+      0.230933,
+      0.332409
+    ],
+    [
+      0.000101,
+      0.498602
+    ],
+    [
+      -1e-05,
+      0.50381
+    ],
+    [
+      0.250458,
+      0.503811
+    ],
+    [
+      0.225504,
+      0.609579
+    ],
+    [
+      0.507645,
+      0.465517
+    ],
+    [
+      0.249566,
+      0.498602
+    ],
+    [
+      -0.0001,
+      0.50381
+    ],
+    [
+      0.225434,
+      0.753641
+    ],
+    [
+      0.225434,
+      0.609419
+    ],
+    [
+      0.750445,
+      0.499164
+    ],
+    [
+      0.250368,
+      0.503632
+    ],
+    [
+      0.225504,
+      0.753822
+    ],
+    [
+      0.900956,
+      0.875138
+    ],
+    [
+      0.412269,
+      0.840039
+    ],
+    [
+      0.412269,
+      0.999875
+    ],
+    [
+      0.371816,
+      0.840039
+    ],
+    [
+      0.86953,
+      0.931695
+    ],
+    [
+      0.412268,
+      0.999581
+    ],
+    [
+      0.371786,
+      0.839775
+    ],
+    [
+      0.412239,
+      0.839746
+    ],
+    [
+      0.779585,
+      0.959974
+    ],
+    [
+      0.688829,
+      0.983802
+    ],
+    [
+      0.668261,
+      0.818447
+    ]
+  ],
+  "normals": [
+    [
+      0.0,
+      1.0,
+      -0.0
+    ],
+    [
+      0.706761,
+      1e-06,
+      0.707452
+    ],
+    [
+      -0.0,
+      -0.0,
+      1.0
+    ],
+    [
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.887865,
+      -0.414872,
+      -0.198941
+    ],
+    [
+      0.706762,
+      0.0,
+      -0.707451
+    ],
+    [
+      0.587542,
+      -0.809194,
+      0.0
+    ],
+    [
+      1.0,
+      -2e-06,
+      1e-06
+    ],
+    [
+      0.0,
+      1.0,
+      1e-06
+    ],
+    [
+      0.176482,
+      0.0,
+      -0.984304
+    ],
+    [
+      0.176482,
+      -0.0,
+      0.984304
+    ],
+    [
+      0.881473,
+      0.428947,
+      -0.197509
+    ],
+    [
+      0.975804,
+      0.0,
+      -0.218646
+    ],
+    [
+      0.881473,
+      0.428947,
+      0.19751
+    ],
+    [
+      0.899186,
+      0.437566,
+      0.0
+    ],
+    [
+      0.975804,
+      -0.0,
+      0.218647
+    ],
+    [
+      1.0,
+      -0.0,
+      1e-06
+    ],
+    [
+      0.887864,
+      -0.414872,
+      0.198942
+    ],
+    [
+      0.905974,
+      -0.423334,
+      1e-06
+    ],
+    [
+      -0.317802,
+      0.948157,
+      -0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.168204,
+      -0.985752,
+      0.0
+    ],
+    [
+      0.587541,
+      -0.809195,
+      0.0
+    ],
+    [
+      0.706762,
+      0.0,
+      0.707451
+    ],
+    [
+      -1e-06,
+      -0.0,
+      1.0
+    ],
+    [
+      0.706763,
+      -1e-06,
+      -0.707451
+    ],
+    [
+      1.0,
+      2e-06,
+      0.0
+    ],
+    [
+      0.176483,
+      0.0,
+      -0.984304
+    ],
+    [
+      0.0,
+      1.0,
+      -1e-06
+    ],
+    [
+      0.176483,
+      -0.0,
+      0.984304
+    ],
+    [
+      0.881473,
+      0.428947,
+      -0.19751
+    ],
+    [
+      0.881473,
+      0.428946,
+      0.19751
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.905974,
+      -0.423334,
+      0.0
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 22,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 6,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 11,
+          "uv": 4,
+          "normal": 1
+        },
+        {
+          "vertex": 13,
+          "uv": 5,
+          "normal": 1
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 6,
+          "normal": 2
+        },
+        {
+          "vertex": 9,
+          "uv": 7,
+          "normal": 2
+        },
+        {
+          "vertex": 2,
+          "uv": 8,
+          "normal": 2
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 9,
+          "normal": 3
+        },
+        {
+          "vertex": 7,
+          "uv": 10,
+          "normal": 3
+        },
+        {
+          "vertex": 3,
+          "uv": 11,
+          "normal": 3
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 8,
+          "normal": 4
+        },
+        {
+          "vertex": 8,
+          "uv": 12,
+          "normal": 4
+        },
+        {
+          "vertex": 0,
+          "uv": 13,
+          "normal": 4
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 5
+        },
+        {
+          "vertex": 22,
+          "uv": 15,
+          "normal": 5
+        },
+        {
+          "vertex": 5,
+          "uv": 16,
+          "normal": 5
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 17,
+          "normal": 6
+        },
+        {
+          "vertex": 14,
+          "uv": 18,
+          "normal": 6
+        },
+        {
+          "vertex": 12,
+          "uv": 19,
+          "normal": 6
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 20,
+          "normal": 7
+        },
+        {
+          "vertex": 16,
+          "uv": 21,
+          "normal": 7
+        },
+        {
+          "vertex": 10,
+          "uv": 22,
+          "normal": 7
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 23,
+          "normal": 8
+        },
+        {
+          "vertex": 12,
+          "uv": 19,
+          "normal": 8
+        },
+        {
+          "vertex": 13,
+          "uv": 5,
+          "normal": 8
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 15,
+          "uv": 24,
+          "normal": 9
+        },
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 9
+        },
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 9
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 13,
+          "normal": 10
+        },
+        {
+          "vertex": 8,
+          "uv": 12,
+          "normal": 10
+        },
+        {
+          "vertex": 30,
+          "uv": 27,
+          "normal": 10
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 28,
+          "normal": 11
+        },
+        {
+          "vertex": 9,
+          "uv": 7,
+          "normal": 11
+        },
+        {
+          "vertex": 1,
+          "uv": 6,
+          "normal": 11
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 12
+        },
+        {
+          "vertex": 20,
+          "uv": 30,
+          "normal": 12
+        },
+        {
+          "vertex": 9,
+          "uv": 31,
+          "normal": 12
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 13
+        },
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 13
+        },
+        {
+          "vertex": 21,
+          "uv": 32,
+          "normal": 13
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 33,
+          "normal": 14
+        },
+        {
+          "vertex": 18,
+          "uv": 34,
+          "normal": 14
+        },
+        {
+          "vertex": 26,
+          "uv": 35,
+          "normal": 14
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 36,
+          "normal": 15
+        },
+        {
+          "vertex": 26,
+          "uv": 35,
+          "normal": 15
+        },
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 15
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 34,
+          "normal": 16
+        },
+        {
+          "vertex": 19,
+          "uv": 37,
+          "normal": 16
+        },
+        {
+          "vertex": 28,
+          "uv": 38,
+          "normal": 16
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 35,
+          "normal": 17
+        },
+        {
+          "vertex": 28,
+          "uv": 38,
+          "normal": 17
+        },
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 17
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 39,
+          "normal": 18
+        },
+        {
+          "vertex": 23,
+          "uv": 40,
+          "normal": 18
+        },
+        {
+          "vertex": 28,
+          "uv": 38,
+          "normal": 18
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 40,
+          "normal": 19
+        },
+        {
+          "vertex": 22,
+          "uv": 15,
+          "normal": 19
+        },
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 19
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 41,
+          "normal": 0
+        },
+        {
+          "vertex": 24,
+          "uv": 42,
+          "normal": 0
+        },
+        {
+          "vertex": 9,
+          "uv": 43,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 41,
+          "normal": 20
+        },
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 20
+        },
+        {
+          "vertex": 32,
+          "uv": 44,
+          "normal": 20
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 45,
+          "normal": 21
+        },
+        {
+          "vertex": 3,
+          "uv": 46,
+          "normal": 21
+        },
+        {
+          "vertex": 0,
+          "uv": 47,
+          "normal": 21
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 48,
+          "normal": 22
+        },
+        {
+          "vertex": 1,
+          "uv": 49,
+          "normal": 22
+        },
+        {
+          "vertex": 0,
+          "uv": 47,
+          "normal": 22
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 49,
+          "normal": 22
+        },
+        {
+          "vertex": 17,
+          "uv": 48,
+          "normal": 22
+        },
+        {
+          "vertex": 16,
+          "uv": 21,
+          "normal": 22
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 1,
+          "uv": 49,
+          "normal": 21
+        },
+        {
+          "vertex": 2,
+          "uv": 45,
+          "normal": 21
+        },
+        {
+          "vertex": 0,
+          "uv": 47,
+          "normal": 21
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 48,
+          "normal": 23
+        },
+        {
+          "vertex": 10,
+          "uv": 22,
+          "normal": 23
+        },
+        {
+          "vertex": 16,
+          "uv": 21,
+          "normal": 23
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 2,
+          "normal": 0
+        },
+        {
+          "vertex": 23,
+          "uv": 50,
+          "normal": 0
+        },
+        {
+          "vertex": 7,
+          "uv": 51,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 52,
+          "normal": 4
+        },
+        {
+          "vertex": 4,
+          "uv": 53,
+          "normal": 4
+        },
+        {
+          "vertex": 19,
+          "uv": 54,
+          "normal": 4
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 23,
+          "uv": 50,
+          "normal": 0
+        },
+        {
+          "vertex": 6,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 15,
+          "uv": 55,
+          "normal": 24
+        },
+        {
+          "vertex": 16,
+          "uv": 3,
+          "normal": 24
+        },
+        {
+          "vertex": 13,
+          "uv": 5,
+          "normal": 24
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 50,
+          "normal": 0
+        },
+        {
+          "vertex": 4,
+          "uv": 56,
+          "normal": 0
+        },
+        {
+          "vertex": 7,
+          "uv": 51,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 57,
+          "normal": 2
+        },
+        {
+          "vertex": 2,
+          "uv": 8,
+          "normal": 2
+        },
+        {
+          "vertex": 20,
+          "uv": 58,
+          "normal": 2
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 59,
+          "normal": 25
+        },
+        {
+          "vertex": 6,
+          "uv": 57,
+          "normal": 25
+        },
+        {
+          "vertex": 20,
+          "uv": 58,
+          "normal": 25
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 7,
+          "normal": 2
+        },
+        {
+          "vertex": 20,
+          "uv": 58,
+          "normal": 2
+        },
+        {
+          "vertex": 2,
+          "uv": 8,
+          "normal": 2
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 60,
+          "normal": 3
+        },
+        {
+          "vertex": 6,
+          "uv": 9,
+          "normal": 3
+        },
+        {
+          "vertex": 3,
+          "uv": 11,
+          "normal": 3
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 59,
+          "normal": 2
+        },
+        {
+          "vertex": 5,
+          "uv": 61,
+          "normal": 2
+        },
+        {
+          "vertex": 6,
+          "uv": 57,
+          "normal": 2
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 54,
+          "normal": 4
+        },
+        {
+          "vertex": 18,
+          "uv": 62,
+          "normal": 4
+        },
+        {
+          "vertex": 7,
+          "uv": 52,
+          "normal": 4
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 23,
+          "normal": 26
+        },
+        {
+          "vertex": 17,
+          "uv": 17,
+          "normal": 26
+        },
+        {
+          "vertex": 12,
+          "uv": 19,
+          "normal": 26
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 8,
+          "normal": 4
+        },
+        {
+          "vertex": 18,
+          "uv": 62,
+          "normal": 4
+        },
+        {
+          "vertex": 8,
+          "uv": 12,
+          "normal": 4
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 32,
+          "normal": 5
+        },
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 5
+        },
+        {
+          "vertex": 5,
+          "uv": 16,
+          "normal": 5
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 62,
+          "normal": 4
+        },
+        {
+          "vertex": 3,
+          "uv": 8,
+          "normal": 4
+        },
+        {
+          "vertex": 7,
+          "uv": 52,
+          "normal": 4
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 4,
+          "normal": 27
+        },
+        {
+          "vertex": 10,
+          "uv": 23,
+          "normal": 27
+        },
+        {
+          "vertex": 13,
+          "uv": 5,
+          "normal": 27
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 30,
+          "normal": 13
+        },
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 13
+        },
+        {
+          "vertex": 21,
+          "uv": 32,
+          "normal": 13
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 44,
+          "normal": 0
+        },
+        {
+          "vertex": 33,
+          "uv": 26,
+          "normal": 0
+        },
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 63,
+          "normal": 0
+        },
+        {
+          "vertex": 32,
+          "uv": 44,
+          "normal": 0
+        },
+        {
+          "vertex": 13,
+          "uv": 25,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 64,
+          "normal": 28
+        },
+        {
+          "vertex": 17,
+          "uv": 65,
+          "normal": 28
+        },
+        {
+          "vertex": 32,
+          "uv": 66,
+          "normal": 28
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 63,
+          "normal": 29
+        },
+        {
+          "vertex": 14,
+          "uv": 67,
+          "normal": 29
+        },
+        {
+          "vertex": 32,
+          "uv": 44,
+          "normal": 29
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 28,
+          "normal": 30
+        },
+        {
+          "vertex": 16,
+          "uv": 68,
+          "normal": 30
+        },
+        {
+          "vertex": 33,
+          "uv": 69,
+          "normal": 30
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 13,
+          "normal": 28
+        },
+        {
+          "vertex": 30,
+          "uv": 27,
+          "normal": 28
+        },
+        {
+          "vertex": 17,
+          "uv": 65,
+          "normal": 28
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 65,
+          "normal": 28
+        },
+        {
+          "vertex": 30,
+          "uv": 27,
+          "normal": 28
+        },
+        {
+          "vertex": 32,
+          "uv": 66,
+          "normal": 28
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 42,
+          "normal": 31
+        },
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 31
+        },
+        {
+          "vertex": 9,
+          "uv": 31,
+          "normal": 31
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 68,
+          "normal": 30
+        },
+        {
+          "vertex": 31,
+          "uv": 28,
+          "normal": 30
+        },
+        {
+          "vertex": 1,
+          "uv": 6,
+          "normal": 30
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 68,
+          "normal": 30
+        },
+        {
+          "vertex": 15,
+          "uv": 70,
+          "normal": 30
+        },
+        {
+          "vertex": 33,
+          "uv": 69,
+          "normal": 30
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 36,
+          "normal": 32
+        },
+        {
+          "vertex": 8,
+          "uv": 33,
+          "normal": 32
+        },
+        {
+          "vertex": 26,
+          "uv": 35,
+          "normal": 32
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 42,
+          "normal": 15
+        },
+        {
+          "vertex": 25,
+          "uv": 36,
+          "normal": 15
+        },
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 15
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 35,
+          "normal": 16
+        },
+        {
+          "vertex": 18,
+          "uv": 34,
+          "normal": 16
+        },
+        {
+          "vertex": 28,
+          "uv": 38,
+          "normal": 16
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 29,
+          "normal": 33
+        },
+        {
+          "vertex": 26,
+          "uv": 35,
+          "normal": 33
+        },
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 33
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 37,
+          "normal": 18
+        },
+        {
+          "vertex": 4,
+          "uv": 39,
+          "normal": 18
+        },
+        {
+          "vertex": 28,
+          "uv": 38,
+          "normal": 18
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 28,
+          "uv": 38,
+          "normal": 34
+        },
+        {
+          "vertex": 23,
+          "uv": 40,
+          "normal": 34
+        },
+        {
+          "vertex": 29,
+          "uv": 14,
+          "normal": 34
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 71,
+          "normal": 0
+        },
+        {
+          "vertex": 8,
+          "uv": 72,
+          "normal": 0
+        },
+        {
+          "vertex": 25,
+          "uv": 73,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 41,
+          "normal": 0
+        },
+        {
+          "vertex": 30,
+          "uv": 71,
+          "normal": 0
+        },
+        {
+          "vertex": 25,
+          "uv": 73,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 41,
+          "normal": 0
+        },
+        {
+          "vertex": 25,
+          "uv": 73,
+          "normal": 0
+        },
+        {
+          "vertex": 24,
+          "uv": 42,
+          "normal": 0
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 71,
+          "normal": 20
+        },
+        {
+          "vertex": 31,
+          "uv": 41,
+          "normal": 20
+        },
+        {
+          "vertex": 32,
+          "uv": 44,
+          "normal": 20
+        }
+      ],
+      "object": "Reciever",
+      "material": null
+    }
+  ],
+  "objects": [
+    "Reciever"
+  ],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -1.0,
+      -1.0,
+      -1.0
+    ],
+    "max": [
+      2.5,
+      1.0,
+      1.000001
+    ]
+  }
+}

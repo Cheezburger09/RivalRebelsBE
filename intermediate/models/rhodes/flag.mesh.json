@@ -1,0 +1,177 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "flag.obj",
+  "vertices": [
+    [
+      8.04,
+      3.404936,
+      1.425
+    ],
+    [
+      8.04,
+      3.404936,
+      -1.425
+    ],
+    [
+      8.04,
+      6.159936,
+      -1.425
+    ],
+    [
+      8.04,
+      6.159936,
+      1.425
+    ],
+    [
+      -8.04,
+      3.404936,
+      1.425
+    ],
+    [
+      -8.04,
+      6.159936,
+      -1.425
+    ],
+    [
+      -8.04,
+      3.404936,
+      -1.425
+    ],
+    [
+      -8.04,
+      6.159936,
+      1.425
+    ]
+  ],
+  "uvs": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "normals": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -1.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 0
+        },
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 4,
+          "uv": 1,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 6,
+          "uv": 0,
+          "normal": 1
+        }
+      ],
+      "object": null,
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 2,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 1,
+          "normal": 1
+        }
+      ],
+      "object": null,
+      "material": null
+    }
+  ],
+  "objects": [],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -8.04,
+      3.404936,
+      -1.425
+    ],
+    "max": [
+      8.04,
+      6.159936,
+      1.425
+    ]
+  }
+}

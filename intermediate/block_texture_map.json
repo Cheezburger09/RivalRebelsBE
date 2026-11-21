@@ -1,0 +1,42 @@
+[
+  {
+    "field": "btcrate",
+    "texture": "textures/blocks/ah.png"
+  },
+  {
+    "field": "btnuketop",
+    "texture": "textures/blocks/ay.png"
+  },
+  {
+    "field": "btnukebottom",
+    "texture": "textures/blocks/ax.png"
+  },
+  {
+    "field": "btsteel",
+    "texture": "textures/blocks/bx.png"
+  },
+  {
+    "field": "btsplash1",
+    "texture": "textures/blocks/br.png"
+  },
+  {
+    "field": "btsplash2",
+    "texture": "textures/blocks/bs.png"
+  },
+  {
+    "field": "btsplash3",
+    "texture": "textures/blocks/bt.png"
+  },
+  {
+    "field": "btsplash4",
+    "texture": "textures/blocks/bu.png"
+  },
+  {
+    "field": "btsplash5",
+    "texture": "textures/blocks/bv.png"
+  },
+  {
+    "field": "btsplash6",
+    "texture": "textures/blocks/bw.png"
+  }
+]

@@ -1,0 +1,1771 @@
+[
+  {
+    "class": "BlockAmmunition",
+    "file": "assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockAmmunition",
+      "ChatComponentText",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAntimatterBomb",
+    "file": "assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockAntimatterBomb",
+      "TileEntityAntimatterBomb",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoBarricade",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoBunker",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoEaster",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoForceField",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoMarioTrap",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoMineTrap",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoQuickSandTrap",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockAutoTower",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockBreadBox",
+    "file": "assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockBreadBox",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockCamo1",
+    "file": "assets/rivalrebels/common/block/BlockCamo1.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockCamo1",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149745_a",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockCamo2",
+    "file": "assets/rivalrebels/common/block/BlockCamo2.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockCamo2",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149745_a",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockCamo3",
+    "file": "assets/rivalrebels/common/block/BlockCamo3.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockCamo3",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149745_a",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockConduit",
+    "file": "assets/rivalrebels/common/block/BlockConduit.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockConduit",
+      "TileEntityConduit",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockCycle",
+    "file": "assets/rivalrebels/common/block/BlockCycle.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockCycle",
+      "func_149651_a",
+      "func_149674_a",
+      "func_149691_a",
+      "func_149720_d",
+      "func_149726_b",
+      "return",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockExplosives",
+    "file": "assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockExplosives",
+      "ChatComponentText",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlag",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlag.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlag",
+      "for",
+      "func_149645_b",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149660_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149683_g",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149695_a",
+      "func_149707_d",
+      "func_149719_a",
+      "func_149745_a",
+      "func_150093_a",
+      "func_150094_e",
+      "if",
+      "super",
+      "switch"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlagBox1",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlagBox1",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlagBox3",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlagBox3",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlagBox4",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlagBox4",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlagBox5",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlagBox5",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlagBox6",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlagBox6",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlagBox7",
+    "file": "assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlagBox7",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockFlare",
+    "file": "assets/rivalrebels/common/block/trap/BlockFlare.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockFlare",
+      "Explosion",
+      "canPlaceTorchOn",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149664_b",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149674_a",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149734_b",
+      "func_149742_c",
+      "func_149745_a",
+      "if",
+      "onBlockPlaced",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockForceField",
+    "file": "assets/rivalrebels/common/block/machine/BlockForceField.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockForceField",
+      "func_149633_g",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149683_g",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149719_a",
+      "func_149745_a",
+      "idDropped",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockForceFieldNode",
+    "file": "assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockForceFieldNode",
+      "TileEntityForceFieldNode",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockForceShield",
+    "file": "assets/rivalrebels/common/block/BlockForceShield.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockForceShield",
+      "func_149651_a",
+      "func_149656_h",
+      "func_149662_c",
+      "func_149681_a",
+      "func_149691_a",
+      "func_149745_a",
+      "func_149749_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockGameStart",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "func_149651_a",
+      "func_149691_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockJump",
+    "file": "assets/rivalrebels/common/block/trap/BlockJump.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockJump",
+      "func_149633_g",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149686_d",
+      "func_149691_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockLandMine",
+    "file": "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+    "superclass": "BlockFalling",
+    "interfaces": null,
+    "methods": [
+      "ItemStack",
+      "for",
+      "func_149633_g",
+      "func_149635_D",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149673_e",
+      "func_149674_a",
+      "func_149691_a",
+      "func_149720_d",
+      "func_149723_a",
+      "func_149726_b",
+      "func_149741_i",
+      "func_149745_a",
+      "getPickBlock",
+      "if",
+      "onFinishFalling"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockLaptop",
+    "file": "assets/rivalrebels/common/block/machine/BlockLaptop.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockLaptop",
+      "TileEntityLaptop",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149749_a",
+      "func_149915_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockLight",
+    "file": "assets/rivalrebels/common/block/BlockLight.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockLight",
+      "func_149633_g",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149674_a",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149726_b",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockLoader",
+    "file": "assets/rivalrebels/common/block/machine/BlockLoader.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockLoader",
+      "TileEntityLoader",
+      "for",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149749_a",
+      "func_149915_a",
+      "if",
+      "super",
+      "while"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockMario",
+    "file": "assets/rivalrebels/common/block/trap/BlockMario.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockMario",
+      "ItemStack",
+      "for",
+      "func_149633_g",
+      "func_149635_D",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149673_e",
+      "func_149691_a",
+      "func_149720_d",
+      "func_149726_b",
+      "func_149741_i",
+      "func_149745_a",
+      "getPickBlock",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockMeltDown",
+    "file": "assets/rivalrebels/common/block/BlockMeltDown.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockMeltDown",
+      "TileEntityMeltDown",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149674_a",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149726_b",
+      "func_149745_a",
+      "func_149915_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockNuclearBomb",
+    "file": "assets/rivalrebels/common/block/trap/BlockNuclearBomb.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockNuclearBomb",
+      "TileEntityNuclearBomb",
+      "determineOrientation",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockNukeCrate",
+    "file": "assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockNukeCrate",
+      "TextPacket",
+      "TileEntityNukeCrate",
+      "determineOrientation",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149695_a",
+      "func_149726_b",
+      "func_149727_a",
+      "func_149915_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockOmegaArmor",
+    "file": "assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockOmegaArmor",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockOmegaObjective",
+    "file": "assets/rivalrebels/common/block/machine/BlockOmegaObjective.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockOmegaObjective",
+      "TileEntityOmegaObjective",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149726_b",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149749_a",
+      "func_149915_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockPetrifiedStone",
+    "file": "assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockPetrifiedStone",
+      "func_149635_D",
+      "func_149651_a",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149720_d",
+      "func_149724_b",
+      "func_149727_a",
+      "func_149741_i",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockPetrifiedWood",
+    "file": "assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockPetrifiedWood",
+      "func_149635_D",
+      "func_149651_a",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149720_d",
+      "func_149724_b",
+      "func_149727_a",
+      "func_149741_i",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockPlasmaExplosion",
+    "file": "assets/rivalrebels/common/block/BlockPlasmaExplosion.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockPlasmaExplosion",
+      "TileEntityPlasmaExplosion",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149745_a",
+      "func_149915_a",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockQuickSand",
+    "file": "assets/rivalrebels/common/block/trap/BlockQuickSand.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockQuickSand",
+      "ItemStack",
+      "for",
+      "func_149635_D",
+      "func_149650_a",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149673_e",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149720_d",
+      "func_149726_b",
+      "func_149741_i",
+      "func_149745_a",
+      "getPickBlock",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockRadioactiveDirt",
+    "file": "assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockRadioactiveDirt",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149724_b",
+      "func_149734_b",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockRadioactiveSand",
+    "file": "assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockRadioactiveSand",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149724_b",
+      "func_149734_b",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockReactive",
+    "file": "assets/rivalrebels/common/block/BlockReactive.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockReactive",
+      "TileEntityReactive",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149716_u",
+      "func_149720_d",
+      "func_149745_a",
+      "func_149749_a",
+      "func_149915_a",
+      "if",
+      "return",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockReactor",
+    "file": "assets/rivalrebels/common/block/machine/BlockReactor.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockReactor",
+      "TileEntityReactor",
+      "for",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149749_a",
+      "func_149915_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockReciever",
+    "file": "assets/rivalrebels/common/block/machine/BlockReciever.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockReciever",
+      "TileEntityReciever",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockRemoteCharge",
+    "file": "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockRemoteCharge",
+      "explode",
+      "func_149633_g",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149664_b",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149674_a",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149719_a",
+      "func_149723_a",
+      "func_149726_b",
+      "func_149738_a",
+      "func_149745_a",
+      "if",
+      "onFinishFalling",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockRhodesActivator",
+    "file": "assets/rivalrebels/common/block/machine/BlockRhodesActivator.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockRhodesActivator",
+      "TileEntityRhodesActivator",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockRhodesScaffold",
+    "file": "assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "superclass": "BlockAutoTemplate",
+    "interfaces": null,
+    "methods": [
+      "build",
+      "for",
+      "func_149651_a",
+      "func_149691_a",
+      "if",
+      "place"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockSigmaArmor",
+    "file": "assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockSigmaArmor",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockSigmaObjective",
+    "file": "assets/rivalrebels/common/block/machine/BlockSigmaObjective.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockSigmaObjective",
+      "TileEntitySigmaObjective",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149726_b",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149749_a",
+      "func_149915_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockSmartCamo",
+    "file": "assets/rivalrebels/common/block/BlockSmartCamo.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockSmartCamo",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149726_b",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockSteel",
+    "file": "assets/rivalrebels/common/block/BlockSteel.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockSteel",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149686_d",
+      "func_149691_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockSupplies",
+    "file": "assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockSupplies",
+      "ChatComponentText",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockTachyonBomb",
+    "file": "assets/rivalrebels/common/block/trap/BlockTachyonBomb.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockTachyonBomb",
+      "TileEntityTachyonBomb",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockTheoreticalTsarBomba",
+    "file": "assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockTheoreticalTsarBomba",
+      "TileEntityTheoreticalTsarBomba",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockTimedBomb",
+    "file": "assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "superclass": "BlockFalling",
+    "interfaces": null,
+    "methods": [
+      "func_149651_a",
+      "func_149664_b",
+      "func_149674_a",
+      "func_149691_a",
+      "func_149723_a",
+      "func_149726_b",
+      "func_149745_a",
+      "if",
+      "onFinishFalling"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockToxicGas",
+    "file": "assets/rivalrebels/common/block/trap/BlockToxicGas.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockToxicGas",
+      "func_149633_g",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149668_a",
+      "func_149670_a",
+      "func_149674_a",
+      "func_149686_d",
+      "func_149691_a",
+      "func_149726_b",
+      "func_149734_b",
+      "func_149745_a",
+      "getFlammability",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockTsarBomba",
+    "file": "assets/rivalrebels/common/block/trap/BlockTsarBomba.java",
+    "superclass": "BlockContainer",
+    "interfaces": null,
+    "methods": [
+      "BlockTsarBomba",
+      "TileEntityTsarBomba",
+      "func_149645_b",
+      "func_149651_a",
+      "func_149662_c",
+      "func_149686_d",
+      "func_149689_a",
+      "func_149691_a",
+      "func_149727_a",
+      "func_149745_a",
+      "func_149915_a",
+      "hasTileEntity",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "BlockWeapons",
+    "file": "assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "superclass": "Block",
+    "interfaces": null,
+    "methods": [
+      "BlockWeapons",
+      "ChatComponentText",
+      "blockActivated",
+      "func_149651_a",
+      "func_149691_a",
+      "func_149699_a",
+      "func_149745_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemAntenna",
+    "file": "assets/rivalrebels/common/item/ItemAntenna.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemAntenna",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemArmorCamo",
+    "file": "assets/rivalrebels/common/item/ItemArmorCamo.java",
+    "superclass": "ItemArmor",
+    "interfaces": null,
+    "methods": [
+      "ItemArmorCamo",
+      "func_94581_a",
+      "getArmorTexture",
+      "getMaxDamageArray",
+      "if",
+      "super"
+    ],
+    "textures": [
+      "rivalrebels:textures/armors/a.png",
+      "rivalrebels:textures/armors/b.png",
+      "rivalrebels:textures/armors/c.png",
+      "rivalrebels:textures/armors/d.png"
+    ]
+  },
+  {
+    "class": "ItemArmyShovel",
+    "file": "assets/rivalrebels/common/item/weapon/ItemArmyShovel.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ItemArmyShovel",
+      "canHarvestBlock",
+      "func_77645_m",
+      "func_94581_a",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemAstroBlaster",
+    "file": "assets/rivalrebels/common/item/weapon/ItemAstroBlaster.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ItemAstroBlaster",
+      "for",
+      "func_77615_a",
+      "func_77619_b",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_94581_a",
+      "if",
+      "onUsingTick",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemBattery",
+    "file": "assets/rivalrebels/common/item/ItemBattery.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemBattery",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemBinoculars",
+    "file": "assets/rivalrebels/common/item/weapon/ItemBinoculars.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemBinoculars",
+      "add",
+      "for",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_77663_a",
+      "func_94581_a",
+      "if",
+      "isMousePressed",
+      "remove",
+      "return",
+      "while"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemCamera",
+    "file": "assets/rivalrebels/common/item/weapon/ItemCamera.java",
+    "superclass": "ItemArmor",
+    "interfaces": null,
+    "methods": [
+      "ItemCamera",
+      "func_94581_a",
+      "if",
+      "onArmorTick",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemChip",
+    "file": "assets/rivalrebels/common/item/ItemChip.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemChip",
+      "func_77624_a",
+      "func_77663_a",
+      "func_94581_a",
+      "if",
+      "onItemUseFirst"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemClassArmor",
+    "file": "assets/rivalrebels/common/item/ItemClassArmor.java",
+    "superclass": "ItemArmor",
+    "interfaces": null,
+    "methods": [
+      "ItemClassArmor",
+      "for",
+      "func_94581_a",
+      "getArmorTexture",
+      "getMaxDamageArray",
+      "if",
+      "super"
+    ],
+    "textures": [
+      "rivalrebels:textures/armors/e.png",
+      "rivalrebels:textures/armors/f.png",
+      "rivalrebels:textures/armors/g.png",
+      "rivalrebels:textures/armors/h.png",
+      "rivalrebels:textures/armors/i.png",
+      "rivalrebels:textures/armors/j.png",
+      "rivalrebels:textures/armors/k.png",
+      "rivalrebels:textures/armors/l.png",
+      "rivalrebels:textures/armors/m.png",
+      "rivalrebels:textures/armors/n.png"
+    ]
+  },
+  {
+    "class": "ItemCoreCopper",
+    "file": "assets/rivalrebels/common/item/ItemCoreCopper.java",
+    "superclass": "ItemCore",
+    "interfaces": null,
+    "methods": [
+      "ItemCoreCopper",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemCoreTitanium",
+    "file": "assets/rivalrebels/common/item/ItemCoreTitanium.java",
+    "superclass": "ItemCore",
+    "interfaces": null,
+    "methods": [
+      "ItemCoreTitanium",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemCoreTungsten",
+    "file": "assets/rivalrebels/common/item/ItemCoreTungsten.java",
+    "superclass": "ItemCore",
+    "interfaces": null,
+    "methods": [
+      "ItemCoreTungsten",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemCuchillo",
+    "file": "assets/rivalrebels/common/item/weapon/ItemCuchillo.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ItemCuchillo",
+      "func_77615_a",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_94581_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemExPill",
+    "file": "assets/rivalrebels/common/item/ItemExPill.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemExPill",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_94581_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemFlameThrower",
+    "file": "assets/rivalrebels/common/item/weapon/ItemFlameThrower.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ChatComponentText",
+      "ItemFlameThrower",
+      "for",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_77663_a",
+      "func_94581_a",
+      "getMode",
+      "if",
+      "onUsingTick",
+      "openGui",
+      "super",
+      "switch"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemFuel",
+    "file": "assets/rivalrebels/common/item/ItemFuel.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemFuel",
+      "func_77662_d",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemFuse",
+    "file": "assets/rivalrebels/common/item/ItemFuse.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemFuse",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemGasGrenade",
+    "file": "assets/rivalrebels/common/item/weapon/ItemGasGrenade.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemGasGrenade",
+      "func_77615_a",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_94581_a",
+      "if",
+      "onUsingTick"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemHackM202",
+    "file": "assets/rivalrebels/common/item/weapon/ItemHackM202.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "EntityHackB83",
+      "Explosion",
+      "ItemHackM202",
+      "func_77619_b",
+      "func_77659_a",
+      "func_77662_d",
+      "func_94581_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemPlasmaCannon",
+    "file": "assets/rivalrebels/common/item/weapon/ItemPlasmaCannon.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ItemPlasmaCannon",
+      "for",
+      "func_77615_a",
+      "func_77619_b",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_94581_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemPliers",
+    "file": "assets/rivalrebels/common/item/ItemPliers.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemPliers",
+      "TextPacket",
+      "func_94581_a",
+      "if",
+      "onItemUseFirst"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRPG",
+    "file": "assets/rivalrebels/common/item/weapon/ItemRPG.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ItemRPG",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_94581_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRemote",
+    "file": "assets/rivalrebels/common/item/ItemRemote.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemRemote",
+      "func_77659_a",
+      "func_94581_a",
+      "if",
+      "onItemUseFirst"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRocket",
+    "file": "assets/rivalrebels/common/item/ItemRocket.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemRocket",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRodDisk",
+    "file": "assets/rivalrebels/common/item/weapon/ItemRodDisk.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemRodDisk",
+      "func_77615_a",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_94581_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRodEmpty",
+    "file": "assets/rivalrebels/common/item/ItemRodEmpty.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemRodEmpty",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRodHydrogen",
+    "file": "assets/rivalrebels/common/item/ItemRodHydrogen.java",
+    "superclass": "ItemRod",
+    "interfaces": null,
+    "methods": [
+      "ItemRodHydrogen",
+      "func_77616_k",
+      "func_77645_m",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRodNuclear",
+    "file": "assets/rivalrebels/common/item/ItemRodNuclear.java",
+    "superclass": "ItemRod",
+    "interfaces": null,
+    "methods": [
+      "ItemRodNuclear",
+      "func_77663_a",
+      "func_94581_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRodRedstone",
+    "file": "assets/rivalrebels/common/item/ItemRodRedstone.java",
+    "superclass": "ItemRod",
+    "interfaces": null,
+    "methods": [
+      "ItemRodRedstone",
+      "func_77616_k",
+      "func_77645_m",
+      "func_94581_a"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemRoda",
+    "file": "assets/rivalrebels/common/item/weapon/ItemRoda.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemRoda",
+      "func_77659_a",
+      "func_77662_d",
+      "func_77663_a",
+      "func_94581_a",
+      "if",
+      "onLeftClickEntity",
+      "spawn",
+      "switch"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemSafePill",
+    "file": "assets/rivalrebels/common/item/ItemSafePill.java",
+    "superclass": "Item",
+    "interfaces": null,
+    "methods": [
+      "ItemSafePill",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_94581_a",
+      "if"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemSeekM202",
+    "file": "assets/rivalrebels/common/item/weapon/ItemSeekM202.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ItemSeekM202",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_94581_a",
+      "if",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemTesla",
+    "file": "assets/rivalrebels/common/item/weapon/ItemTesla.java",
+    "superclass": "ItemTool",
+    "interfaces": null,
+    "methods": [
+      "ChatComponentText",
+      "ItemTesla",
+      "for",
+      "func_77619_b",
+      "func_77626_a",
+      "func_77659_a",
+      "func_77661_b",
+      "func_77662_d",
+      "func_77663_a",
+      "func_94581_a",
+      "getDegree",
+      "if",
+      "onUsingTick",
+      "super"
+    ],
+    "textures": []
+  },
+  {
+    "class": "ItemTrollHelmet",
+    "file": "assets/rivalrebels/common/item/ItemTrollHelmet.java",
+    "superclass": "ItemArmor",
+    "interfaces": null,
+    "methods": [
+      "ItemTrollHelmet",
+      "func_77648_a",
+      "func_94581_a",
+      "getArmorTexture",
+      "if",
+      "super"
+    ],
+    "textures": [
+      "rivalrebels:textures/armors/o.png"
+    ]
+  }
+]

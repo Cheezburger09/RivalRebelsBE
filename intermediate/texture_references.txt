@@ -1,0 +1,524 @@
+1638-       6: invokeinterface #870,  1          // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+1639-      11: invokeinterface #876,  1          // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+1640-      16: pop
+1641-      17: new           #878                // class net/minecraft/util/ResourceLocation
+1642-      20: dup
+1643:      21: ldc_w         #880                // String rivalrebels:textures/gui/a.png
+1644-      24: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1645-      27: putstatic     #883                // Field guitbutton:Lnet/minecraft/util/ResourceLocation;
+1646-      30: new           #878                // class net/minecraft/util/ResourceLocation
+1647-      33: dup
+1648:      34: ldc_w         #885                // String rivalrebels:textures/gui/b.png
+1649-      37: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1650-      40: putstatic     #887                // Field guitspawn:Lnet/minecraft/util/ResourceLocation;
+1651-      43: new           #878                // class net/minecraft/util/ResourceLocation
+1652-      46: dup
+1653:      47: ldc_w         #889                // String rivalrebels:textures/gui/c.png
+1654-      50: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1655-      53: putstatic     #891                // Field guitclass:Lnet/minecraft/util/ResourceLocation;
+1656-      56: new           #878                // class net/minecraft/util/ResourceLocation
+1657-      59: dup
+1658:      60: ldc_w         #893                // String rivalrebels:textures/gui/d.png
+1659-      63: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1660-      66: putstatic     #895                // Field guitrebel:Lnet/minecraft/util/ResourceLocation;
+1661-      69: new           #878                // class net/minecraft/util/ResourceLocation
+1662-      72: dup
+1663:      73: ldc_w         #897                // String rivalrebels:textures/gui/e.png
+1664-      76: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1665-      79: putstatic     #899                // Field guitnuker:Lnet/minecraft/util/ResourceLocation;
+1666-      82: new           #878                // class net/minecraft/util/ResourceLocation
+1667-      85: dup
+1668:      86: ldc_w         #901                // String rivalrebels:textures/gui/f.png
+1669-      89: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1670-      92: putstatic     #903                // Field guitintel:Lnet/minecraft/util/ResourceLocation;
+1671-      95: new           #878                // class net/minecraft/util/ResourceLocation
+1672-      98: dup
+1673:      99: ldc_w         #905                // String rivalrebels:textures/gui/g.png
+1674-     102: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1675-     105: putstatic     #907                // Field guithacker:Lnet/minecraft/util/ResourceLocation;
+1676-     108: new           #878                // class net/minecraft/util/ResourceLocation
+1677-     111: dup
+1678:     112: ldc_w         #909                // String rivalrebels:textures/gui/h.png
+1679-     115: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1680-     118: putstatic     #911                // Field guitrivalrebels:Lnet/minecraft/util/ResourceLocation;
+1681-     121: new           #878                // class net/minecraft/util/ResourceLocation
+1682-     124: dup
+1683:     125: ldc_w         #913                // String rivalrebels:textures/gui/i.png
+1684-     128: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1685-     131: putstatic     #915                // Field guitloader:Lnet/minecraft/util/ResourceLocation;
+1686-     134: new           #878                // class net/minecraft/util/ResourceLocation
+1687-     137: dup
+1688:     138: ldc_w         #917                // String rivalrebels:textures/gui/j.png
+1689-     141: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1690-     144: putstatic     #919                // Field guitnuke:Lnet/minecraft/util/ResourceLocation;
+1691-     147: new           #878                // class net/minecraft/util/ResourceLocation
+1692-     150: dup
+1693:     151: ldc_w         #921                // String rivalrebels:textures/gui/k.png
+1694-     154: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1695-     157: putstatic     #923                // Field guittsar:Lnet/minecraft/util/ResourceLocation;
+1696-     160: new           #878                // class net/minecraft/util/ResourceLocation
+1697-     163: dup
+1698:     164: ldc_w         #925                // String rivalrebels:textures/gui/l.png
+1699-     167: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1700-     170: putstatic     #927                // Field guitwarning0:Lnet/minecraft/util/ResourceLocation;
+1701-     173: new           #878                // class net/minecraft/util/ResourceLocation
+1702-     176: dup
+1703:     177: ldc_w         #929                // String rivalrebels:textures/gui/m.png
+1704-     180: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1705-     183: putstatic     #931                // Field guitwarning1:Lnet/minecraft/util/ResourceLocation;
+1706-     186: new           #878                // class net/minecraft/util/ResourceLocation
+1707-     189: dup
+1708:     190: ldc_w         #933                // String rivalrebels:textures/gui/n.png
+1709-     193: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1710-     196: putstatic     #935                // Field guittokamak:Lnet/minecraft/util/ResourceLocation;
+1711-     199: new           #878                // class net/minecraft/util/ResourceLocation
+1712-     202: dup
+1713:     203: ldc_w         #937                // String rivalrebels:textures/gui/o.png
+1714-     206: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1715-     209: putstatic     #939                // Field guibinoculars:Lnet/minecraft/util/ResourceLocation;
+1716-     212: new           #878                // class net/minecraft/util/ResourceLocation
+1717-     215: dup
+1718:     216: ldc_w         #941                // String rivalrebels:textures/gui/p.png
+1719-     219: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1720-     222: putstatic     #943                // Field guibinocularsoverlay:Lnet/minecraft/util/ResourceLocation;
+1721-     225: new           #878                // class net/minecraft/util/ResourceLocation
+1722-     228: dup
+1723:     229: ldc_w         #945                // String rivalrebels:textures/gui/q.png
+1724-     232: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1725-     235: putstatic     #947                // Field guilaptopnuke:Lnet/minecraft/util/ResourceLocation;
+1726-     238: new           #878                // class net/minecraft/util/ResourceLocation
+1727-     241: dup
+1728:     242: ldc_w         #949                // String rivalrebels:textures/gui/r.png
+1729-     245: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1730-     248: putstatic     #951                // Field guitesla:Lnet/minecraft/util/ResourceLocation;
+1731-     251: new           #878                // class net/minecraft/util/ResourceLocation
+1732-     254: dup
+1733:     255: ldc_w         #953                // String rivalrebels:textures/gui/s.png
+1734-     258: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1735-     261: putstatic     #955                // Field guitray:Lnet/minecraft/util/ResourceLocation;
+1736-     264: new           #878                // class net/minecraft/util/ResourceLocation
+1737-     267: dup
+1738:     268: ldc_w         #957                // String rivalrebels:textures/gui/u.png
+1739-     271: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1740-     274: putstatic     #959                // Field guiflamethrower:Lnet/minecraft/util/ResourceLocation;
+1741-     277: new           #878                // class net/minecraft/util/ResourceLocation
+1742-     280: dup
+1743:     281: ldc_w         #961                // String rivalrebels:textures/gui/rhodes-gui_line.png
+1744-     284: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1745-     287: putstatic     #963                // Field guirhodesline:Lnet/minecraft/util/ResourceLocation;
+1746-     290: new           #878                // class net/minecraft/util/ResourceLocation
+1747-     293: dup
+1748:     294: ldc_w         #965                // String rivalrebels:textures/gui/rhodes-gui_out.png
+1749-     297: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1750-     300: putstatic     #967                // Field guirhodesout:Lnet/minecraft/util/ResourceLocation;
+1751-     303: new           #878                // class net/minecraft/util/ResourceLocation
+1752-     306: dup
+1753:     307: ldc_w         #969                // String rivalrebels:textures/gui/rhodes-gui_help.png
+1754-     310: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1755-     313: putstatic     #971                // Field guirhodeshelp:Lnet/minecraft/util/ResourceLocation;
+1756-     316: new           #878                // class net/minecraft/util/ResourceLocation
+1757-     319: dup
+1758:     320: ldc_w         #973                // String rivalrebels:textures/gui/v.png
+1759-     323: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1760-     326: putstatic     #975                // Field guicarpet:Lnet/minecraft/util/ResourceLocation;
+1761-     329: new           #878                // class net/minecraft/util/ResourceLocation
+1762-     332: dup
+1763:     333: ldc_w         #977                // String rivalrebels:textures/gui/w.png
+1764-     336: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1765-     339: putstatic     #979                // Field guitheoreticaltsar:Lnet/minecraft/util/ResourceLocation;
+1766-     342: new           #878                // class net/minecraft/util/ResourceLocation
+1767-     345: dup
+1768:     346: ldc_w         #981                // String rivalrebels:textures/gui/x.png
+1769-     349: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1770-     352: putstatic     #983                // Field guitantimatterbomb:Lnet/minecraft/util/ResourceLocation;
+1771-     355: new           #878                // class net/minecraft/util/ResourceLocation
+1772-     358: dup
+1773:     359: ldc_w         #985                // String rivalrebels:textures/gui/y.png
+1774-     362: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1775-     365: putstatic     #987                // Field guitachyonbomb:Lnet/minecraft/util/ResourceLocation;
+1776-     368: new           #878                // class net/minecraft/util/ResourceLocation
+1777-     371: dup
+1778:     372: ldc_w         #989                // String rivalrebels:textures/entity/ba.png
+1779-     375: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1780-     378: putstatic     #991                // Field etdisk0:Lnet/minecraft/util/ResourceLocation;
+1781-     381: new           #878                // class net/minecraft/util/ResourceLocation
+1782-     384: dup
+1783:     385: ldc_w         #993                // String rivalrebels:textures/entity/bb.png
+1784-     388: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1785-     391: putstatic     #995                // Field etdisk1:Lnet/minecraft/util/ResourceLocation;
+1786-     394: new           #878                // class net/minecraft/util/ResourceLocation
+1787-     397: dup
+1788:     398: ldc_w         #997                // String rivalrebels:textures/entity/bc.png
+1789-     401: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1790-     404: putstatic     #999                // Field etdisk2:Lnet/minecraft/util/ResourceLocation;
+1791-     407: new           #878                // class net/minecraft/util/ResourceLocation
+1792-     410: dup
+1793:     411: ldc_w         #1001               // String rivalrebels:textures/entity/bd.png
+1794-     414: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1795-     417: putstatic     #1003               // Field etdisk3:Lnet/minecraft/util/ResourceLocation;
+1796-     420: new           #878                // class net/minecraft/util/ResourceLocation
+1797-     423: dup
+1798:     424: ldc_w         #1005               // String rivalrebels:textures/entity/az.png
+1799-     427: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1800-     430: putstatic     #1007               // Field etrocket:Lnet/minecraft/util/ResourceLocation;
+1801-     433: new           #878                // class net/minecraft/util/ResourceLocation
+1802-     436: dup
+1803:     437: ldc_w         #1009               // String rivalrebels:textures/entity/ar.png
+1804-     440: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1805-     443: putstatic     #1011               // Field etfire:Lnet/minecraft/util/ResourceLocation;
+1806-     446: new           #878                // class net/minecraft/util/ResourceLocation
+1807-     449: dup
+1808:     450: ldc_w         #1013               // String rivalrebels:textures/entity/as.png
+1809-     453: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1810-     456: putstatic     #1015               // Field etflame:Lnet/minecraft/util/ResourceLocation;
+1811-     459: new           #878                // class net/minecraft/util/ResourceLocation
+1812-     462: dup
+1813:     463: ldc_w         #1017               // String rivalrebels:textures/entity/bf.png
+1814-     466: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1815-     469: putstatic     #1019               // Field etgasgrenade:Lnet/minecraft/util/ResourceLocation;
+1816-     472: new           #878                // class net/minecraft/util/ResourceLocation
+1817-     475: dup
+1818:     476: ldc_w         #1021               // String rivalrebels:textures/entity/be.png
+1819-     479: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1820-     482: putstatic     #1023               // Field etknife:Lnet/minecraft/util/ResourceLocation;
+1821-     485: new           #878                // class net/minecraft/util/ResourceLocation
+1822-     488: dup
+1823:     489: ldc_w         #1025               // String rivalrebels:textures/entity/ac.png
+1824-     492: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1825-     495: putstatic     #1027               // Field etloader:Lnet/minecraft/util/ResourceLocation;
+1826-     498: new           #878                // class net/minecraft/util/ResourceLocation
+1827-     501: dup
+1828:     502: ldc_w         #1029               // String rivalrebels:textures/entity/aa.png
+1829-     505: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1830-     508: putstatic     #1031               // Field etomegaobj:Lnet/minecraft/util/ResourceLocation;
+1831-     511: new           #878                // class net/minecraft/util/ResourceLocation
+1832-     514: dup
+1833:     515: ldc_w         #1033               // String rivalrebels:textures/entity/ab.png
+1834-     518: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1835-     521: putstatic     #1035               // Field etsigmaobj:Lnet/minecraft/util/ResourceLocation;
+1836-     524: new           #878                // class net/minecraft/util/ResourceLocation
+1837-     527: dup
+1838:     528: ldc_w         #1037               // String rivalrebels:textures/entity/ay.png
+1839-     531: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1840-     534: putstatic     #1039               // Field etplasmacannon:Lnet/minecraft/util/ResourceLocation;
+1841-     537: new           #878                // class net/minecraft/util/ResourceLocation
+1842-     540: dup
+1843:     541: ldc_w         #1041               // String rivalrebels:textures/entity/ao.png
+1844-     544: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1845-     547: putstatic     #1043               // Field ethydrod:Lnet/minecraft/util/ResourceLocation;
+1846-     550: new           #878                // class net/minecraft/util/ResourceLocation
+1847-     553: dup
+1848:     554: ldc_w         #1045               // String rivalrebels:textures/entity/an.png
+1849-     557: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1850-     560: putstatic     #1047               // Field etradrod:Lnet/minecraft/util/ResourceLocation;
+1851-     563: new           #878                // class net/minecraft/util/ResourceLocation
+1852-     566: dup
+1853:     567: ldc_w         #1049               // String rivalrebels:textures/entity/ap.png
+1854-     570: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1855-     573: putstatic     #1051               // Field etredrod:Lnet/minecraft/util/ResourceLocation;
+1856-     576: new           #878                // class net/minecraft/util/ResourceLocation
+1857-     579: dup
+1858:     580: ldc_w         #1053               // String rivalrebels:textures/entity/aq.png
+1859-     583: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1860-     586: putstatic     #1055               // Field etemptyrod:Lnet/minecraft/util/ResourceLocation;
+1861-     589: new           #878                // class net/minecraft/util/ResourceLocation
+1862-     592: dup
+1863:     593: ldc_w         #1057               // String rivalrebels:textures/entity/am.png
+1864-     596: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1865-     599: putstatic     #1059               // Field ettroll:Lnet/minecraft/util/ResourceLocation;
+1866-     602: new           #878                // class net/minecraft/util/ResourceLocation
+1867-     605: dup
+1868:     606: ldc_w         #1061               // String rivalrebels:textures/entity/ad.png
+1869-     609: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1870-     612: putstatic     #1063               // Field etreactor:Lnet/minecraft/util/ResourceLocation;
+1871-     615: new           #878                // class net/minecraft/util/ResourceLocation
+1872-     618: dup
+1873:     619: ldc_w         #1065               // String rivalrebels:textures/entity/ah.png
+1874-     622: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1875-     625: putstatic     #1067               // Field etlaptop:Lnet/minecraft/util/ResourceLocation;
+1876-     628: new           #878                // class net/minecraft/util/ResourceLocation
+1877-     631: dup
+1878:     632: ldc_w         #1069               // String rivalrebels:textures/entity/aj.png
+1879-     635: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1880-     638: putstatic     #1071               // Field etubuntu:Lnet/minecraft/util/ResourceLocation;
+1881-     641: new           #878                // class net/minecraft/util/ResourceLocation
+1882-     644: dup
+1883:     645: ldc_w         #1073               // String rivalrebels:textures/entity/ai.png
+1884-     648: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1885-     651: putstatic     #1075               // Field etscreen:Lnet/minecraft/util/ResourceLocation;
+1886-     654: new           #878                // class net/minecraft/util/ResourceLocation
+1887-     657: dup
+1888:     658: ldc_w         #1077               // String rivalrebels:textures/entity/af.png
+1889-     661: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1890-     664: putstatic     #1079               // Field ettsarshell:Lnet/minecraft/util/ResourceLocation;
+1891-     667: new           #878                // class net/minecraft/util/ResourceLocation
+1892-     670: dup
+1893:     671: ldc_w         #1081               // String rivalrebels:textures/entity/ag.png
+1894-     674: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1895-     677: putstatic     #1083               // Field ettsarfins:Lnet/minecraft/util/ResourceLocation;
+1896-     680: new           #878                // class net/minecraft/util/ResourceLocation
+1897-     683: dup
+1898:     684: ldc_w         #1085               // String rivalrebels:textures/entity/al.png
+1899-     687: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1900-     690: putstatic     #1087               // Field ettsarflame:Lnet/minecraft/util/ResourceLocation;
+1901-     693: new           #878                // class net/minecraft/util/ResourceLocation
+1902-     696: dup
+1903:     697: ldc_w         #1089               // String rivalrebels:textures/entity/ae.png
+1904-     700: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1905-     703: putstatic     #1091               // Field etnuke:Lnet/minecraft/util/ResourceLocation;
+1906-     706: new           #878                // class net/minecraft/util/ResourceLocation
+1907-     709: dup
+1908:     710: ldc_w         #1093               // String rivalrebels:textures/entity/ak.png
+1909-     713: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1910-     716: putstatic     #1095               // Field etradiation:Lnet/minecraft/util/ResourceLocation;
+1911-     719: new           #878                // class net/minecraft/util/ResourceLocation
+1912-     722: dup
+1913:     723: ldc_w         #1097               // String rivalrebels:textures/entity/av.png
+1914-     726: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1915-     729: putstatic     #1099               // Field eteinstenbarrel:Lnet/minecraft/util/ResourceLocation;
+1916-     732: new           #878                // class net/minecraft/util/ResourceLocation
+1917-     735: dup
+1918:     736: ldc_w         #1101               // String rivalrebels:textures/entity/aw.png
+1919-     739: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1920-     742: putstatic     #1103               // Field eteinstenback:Lnet/minecraft/util/ResourceLocation;
+1921-     745: new           #878                // class net/minecraft/util/ResourceLocation
+1922-     748: dup
+1923:     749: ldc_w         #1105               // String rivalrebels:textures/entity/ax.png
+1924-     752: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1925-     755: putstatic     #1107               // Field eteinstenhandle:Lnet/minecraft/util/ResourceLocation;
+1926-     758: new           #878                // class net/minecraft/util/ResourceLocation
+1927-     761: dup
+1928:     762: ldc_w         #1109               // String rivalrebels:textures/entity/at.png
+1929-     765: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1930-     768: putstatic     #1111               // Field etblood:Lnet/minecraft/util/ResourceLocation;
+1931-     771: new           #878                // class net/minecraft/util/ResourceLocation
+1932-     774: dup
+1933:     775: ldc_w         #1113               // String rivalrebels:textures/entity/au.png
+1934-     778: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1935-     781: putstatic     #1115               // Field etgoo:Lnet/minecraft/util/ResourceLocation;
+1936-     784: new           #878                // class net/minecraft/util/ResourceLocation
+1937-     787: dup
+1938:     788: ldc_w         #1117               // String rivalrebels:textures/entity/bh.png
+1939-     791: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1940-     794: putstatic     #1119               // Field etrocketlauncherbody:Lnet/minecraft/util/ResourceLocation;
+1941-     797: new           #878                // class net/minecraft/util/ResourceLocation
+1942-     800: dup
+1943:     801: ldc_w         #1121               // String rivalrebels:textures/entity/bg.png
+1944-     804: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1945-     807: putstatic     #1123               // Field etrocketlauncherhandle:Lnet/minecraft/util/ResourceLocation;
+1946-     810: new           #878                // class net/minecraft/util/ResourceLocation
+1947-     813: dup
+1948:     814: ldc_w         #1125               // String rivalrebels:textures/entity/bi.png
+1949-     817: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1950-     820: putstatic     #1127               // Field etrocketlaunchertube:Lnet/minecraft/util/ResourceLocation;
+1951-     823: new           #878                // class net/minecraft/util/ResourceLocation
+1952-     826: dup
+1953:     827: ldc_w         #1129               // String rivalrebels:textures/entity/bj.png
+1954-     830: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1955-     833: putstatic     #1131               // Field etbinoculars:Lnet/minecraft/util/ResourceLocation;
+1956-     836: new           #878                // class net/minecraft/util/ResourceLocation
+1957-     839: dup
+1958:     840: ldc_w         #1133               // String rivalrebels:textures/entity/bk.png
+1959-     843: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1960-     846: putstatic     #1135               // Field etelectrode:Lnet/minecraft/util/ResourceLocation;
+1961-     849: new           #878                // class net/minecraft/util/ResourceLocation
+1962-     852: dup
+1963:     853: ldc_w         #1137               // String rivalrebels:textures/entity/bl.png
+1964-     856: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1965-     859: putstatic     #1139               // Field etb83:Lnet/minecraft/util/ResourceLocation;
+1966-     862: new           #878                // class net/minecraft/util/ResourceLocation
+1967-     865: dup
+1968:     866: ldc_w         #1141               // String rivalrebels:textures/entity/bm.png
+1969-     869: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1970-     872: putstatic     #1143               // Field etb2spirit:Lnet/minecraft/util/ResourceLocation;
+1971-     875: new           #878                // class net/minecraft/util/ResourceLocation
+1972-     878: dup
+1973:     879: ldc_w         #1145               // String rivalrebels:textures/entity/bn.png
+1974-     882: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1975-     885: putstatic     #1147               // Field etrust:Lnet/minecraft/util/ResourceLocation;
+1976-     888: new           #878                // class net/minecraft/util/ResourceLocation
+1977-     891: dup
+1978:     892: ldc_w         #1149               // String rivalrebels:textures/entity/bo.png
+1979-     895: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1980-     898: putstatic     #1151               // Field etreciever:Lnet/minecraft/util/ResourceLocation;
+1981-     901: new           #878                // class net/minecraft/util/ResourceLocation
+1982-     904: dup
+1983:     905: ldc_w         #1153               // String rivalrebels:textures/entity/bp.png
+1984-     908: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1985-     911: putstatic     #1155               // Field ettesla:Lnet/minecraft/util/ResourceLocation;
+1986-     914: new           #878                // class net/minecraft/util/ResourceLocation
+1987-     917: dup
+1988:     918: ldc_w         #1157               // String rivalrebels:textures/entity/bq.png
+1989-     921: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1990-     924: putstatic     #1159               // Field etbattery:Lnet/minecraft/util/ResourceLocation;
+1991-     927: new           #878                // class net/minecraft/util/ResourceLocation
+1992-     930: dup
+1993:     931: ldc_w         #1161               // String rivalrebels:textures/entity/br.png
+1994-     934: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+1995-     937: putstatic     #1163               // Field ettube:Lnet/minecraft/util/ResourceLocation;
+1996-     940: new           #878                // class net/minecraft/util/ResourceLocation
+1997-     943: dup
+1998:     944: ldc_w         #1165               // String rivalrebels:textures/entity/bs.png
+1999-     947: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2000-     950: putstatic     #1167               // Field etadsdragon:Lnet/minecraft/util/ResourceLocation;
+2001-     953: new           #878                // class net/minecraft/util/ResourceLocation
+2002-     956: dup
+2003:     957: ldc_w         #1169               // String rivalrebels:textures/entity/bt.png
+2004-     960: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2005-     963: putstatic     #1171               // Field etflamethrower:Lnet/minecraft/util/ResourceLocation;
+2006-     966: new           #878                // class net/minecraft/util/ResourceLocation
+2007-     969: dup
+2008:     970: ldc_w         #1173               // String rivalrebels:textures/entity/bu.png
+2009-     973: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2010-     976: putstatic     #1175               // Field etflamecone:Lnet/minecraft/util/ResourceLocation;
+2011-     979: new           #878                // class net/minecraft/util/ResourceLocation
+2012-     982: dup
+2013:     983: ldc_w         #1177               // String rivalrebels:textures/entity/bv.png
+2014-     986: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2015-     989: putstatic     #1179               // Field etflameball:Lnet/minecraft/util/ResourceLocation;
+2016-     992: new           #878                // class net/minecraft/util/ResourceLocation
+2017-     995: dup
+2018:     996: ldc_w         #1181               // String rivalrebels:textures/entity/bw.png
+2019-     999: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2020-    1002: putstatic     #1183               // Field etflameblue:Lnet/minecraft/util/ResourceLocation;
+2021-    1005: new           #878                // class net/minecraft/util/ResourceLocation
+2022-    1008: dup
+2023:    1009: ldc_w         #1185               // String rivalrebels:textures/entity/bx.png
+2024-    1012: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2025-    1015: putstatic     #1187               // Field etflamebluered:Lnet/minecraft/util/ResourceLocation;
+2026-    1018: new           #878                // class net/minecraft/util/ResourceLocation
+2027-    1021: dup
+2028:    1022: ldc_w         #1189               // String rivalrebels:textures/entity/by.png
+2029-    1025: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2030-    1028: putstatic     #1191               // Field ethack202:Lnet/minecraft/util/ResourceLocation;
+2031-    1031: new           #878                // class net/minecraft/util/ResourceLocation
+2032-    1034: dup
+2033:    1035: ldc_w         #1193               // String rivalrebels:textures/entity/bz.png
+2034-    1038: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2035-    1041: putstatic     #1195               // Field etseek202:Lnet/minecraft/util/ResourceLocation;
+2036-    1044: new           #878                // class net/minecraft/util/ResourceLocation
+2037-    1047: dup
+2038:    1048: ldc_w         #1197               // String rivalrebels:textures/entity/ca.png
+2039-    1051: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2040-    1054: putstatic     #1199               // Field etrocketseek202:Lnet/minecraft/util/ResourceLocation;
+2041-    1057: new           #878                // class net/minecraft/util/ResourceLocation
+2042-    1060: dup
+2043:    1061: ldc_w         #1201               // String rivalrebels:textures/entity/cb.png
+2044-    1064: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2045-    1067: putstatic     #1203               // Field etrocketseekhandle202:Lnet/minecraft/util/ResourceLocation;
+2046-    1070: new           #878                // class net/minecraft/util/ResourceLocation
+2047-    1073: dup
+2048:    1074: ldc_w         #1205               // String rivalrebels:textures/entity/cc.png
+2049-    1077: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2050-    1080: putstatic     #1207               // Field etrocketseektube202:Lnet/minecraft/util/ResourceLocation;
+2051-    1083: new           #878                // class net/minecraft/util/ResourceLocation
+2052-    1086: dup
+2053:    1087: ldc_w         #1209               // String rivalrebels:textures/entity/cd.png
+2054-    1090: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2055-    1093: putstatic     #1211               // Field ettheoreticaltsarshell1:Lnet/minecraft/util/ResourceLocation;
+2056-    1096: new           #878                // class net/minecraft/util/ResourceLocation
+2057-    1099: dup
+2058:    1100: ldc_w         #1213               // String rivalrebels:textures/entity/ce.png
+2059-    1103: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2060-    1106: putstatic     #1215               // Field ettheoreticaltsarshell2:Lnet/minecraft/util/ResourceLocation;
+2061-    1109: new           #878                // class net/minecraft/util/ResourceLocation
+2062-    1112: dup
+2063:    1113: ldc_w         #1217               // String rivalrebels:textures/entity/cf.png
+2064-    1116: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2065-    1119: putstatic     #1219               // Field etblacktsar:Lnet/minecraft/util/ResourceLocation;
+2066-    1122: new           #878                // class net/minecraft/util/ResourceLocation
+2067-    1125: dup
+2068:    1126: ldc_w         #1221               // String rivalrebels:textures/entity/cg.png
+2069-    1129: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2070-    1132: putstatic     #1223               // Field etwacknuke:Lnet/minecraft/util/ResourceLocation;
+2071-    1135: new           #878                // class net/minecraft/util/ResourceLocation
+2072-    1138: dup
+2073:    1139: ldc_w         #1225               // String rivalrebels:textures/entity/ch.png
+2074-    1142: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2075-    1145: putstatic     #1227               // Field etflameballgreen:Lnet/minecraft/util/ResourceLocation;
+2076-    1148: new           #878                // class net/minecraft/util/ResourceLocation
+2077-    1151: dup
+2078:    1152: ldc_w         #1229               // String rivalrebels:textures/entity/ci.png
+2079-    1155: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2080-    1158: putstatic     #1231               // Field etantimatterbomb:Lnet/minecraft/util/ResourceLocation;
+2081-    1161: new           #878                // class net/minecraft/util/ResourceLocation
+2082-    1164: dup
+2083:    1165: ldc_w         #1233               // String rivalrebels:textures/entity/tupolev.png
+2084-    1168: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2085-    1171: putstatic     #1235               // Field ettupolev:Lnet/minecraft/util/ResourceLocation;
+2086-    1174: new           #878                // class net/minecraft/util/ResourceLocation
+2087-    1177: dup
+2088:    1178: ldc_w         #1237               // String rivalrebels:textures/entity/booster.png
+2089-    1181: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2090-    1184: putstatic     #1239               // Field etbooster:Lnet/minecraft/util/ResourceLocation;
+2091-    1187: new           #878                // class net/minecraft/util/ResourceLocation
+2092-    1190: dup
+2093:    1191: ldc_w         #1241               // String rivalrebels:textures/entity/cj.png
+2094-    1194: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2095-    1197: putstatic     #1243               // Field etantimatterblast:Lnet/minecraft/util/ResourceLocation;
+2096-    1200: new           #878                // class net/minecraft/util/ResourceLocation
+2097-    1203: dup
+2098:    1204: ldc_w         #1245               // String rivalrebels:textures/entity/ck.png
+2099-    1207: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2100-    1210: putstatic     #1247               // Field ettachyonbomb:Lnet/minecraft/util/ResourceLocation;
+2101-    1213: new           #878                // class net/minecraft/util/ResourceLocation
+2102-    1216: dup
+2103:    1217: ldc_w         #1249               // String rivalrebels:textures/blocks/ah.png
+2104-    1220: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2105-    1223: putstatic     #1251               // Field btcrate:Lnet/minecraft/util/ResourceLocation;
+2106-    1226: new           #878                // class net/minecraft/util/ResourceLocation
+2107-    1229: dup
+2108:    1230: ldc_w         #1253               // String rivalrebels:textures/blocks/ay.png
+2109-    1233: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2110-    1236: putstatic     #1255               // Field btnuketop:Lnet/minecraft/util/ResourceLocation;
+2111-    1239: new           #878                // class net/minecraft/util/ResourceLocation
+2112-    1242: dup
+2113:    1243: ldc_w         #1257               // String rivalrebels:textures/blocks/ax.png
+2114-    1246: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2115-    1249: putstatic     #1259               // Field btnukebottom:Lnet/minecraft/util/ResourceLocation;
+2116-    1252: new           #878                // class net/minecraft/util/ResourceLocation
+2117-    1255: dup
+2118:    1256: ldc_w         #1261               // String rivalrebels:textures/blocks/bx.png
+2119-    1259: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2120-    1262: putstatic     #1263               // Field btsteel:Lnet/minecraft/util/ResourceLocation;
+2121-    1265: new           #878                // class net/minecraft/util/ResourceLocation
+2122-    1268: dup
+2123:    1269: ldc_w         #1265               // String rivalrebels:textures/blocks/br.png
+2124-    1272: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2125-    1275: putstatic     #1267               // Field btsplash1:Lnet/minecraft/util/ResourceLocation;
+2126-    1278: new           #878                // class net/minecraft/util/ResourceLocation
+2127-    1281: dup
+2128:    1282: ldc_w         #1269               // String rivalrebels:textures/blocks/bs.png
+2129-    1285: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2130-    1288: putstatic     #1271               // Field btsplash2:Lnet/minecraft/util/ResourceLocation;
+2131-    1291: new           #878                // class net/minecraft/util/ResourceLocation
+2132-    1294: dup
+2133:    1295: ldc_w         #1273               // String rivalrebels:textures/blocks/bt.png
+2134-    1298: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2135-    1301: putstatic     #1275               // Field btsplash3:Lnet/minecraft/util/ResourceLocation;
+2136-    1304: new           #878                // class net/minecraft/util/ResourceLocation
+2137-    1307: dup
+2138:    1308: ldc_w         #1277               // String rivalrebels:textures/blocks/bu.png
+2139-    1311: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2140-    1314: putstatic     #1279               // Field btsplash4:Lnet/minecraft/util/ResourceLocation;
+2141-    1317: new           #878                // class net/minecraft/util/ResourceLocation
+2142-    1320: dup
+2143:    1321: ldc_w         #1281               // String rivalrebels:textures/blocks/bv.png
+2144-    1324: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2145-    1327: putstatic     #1283               // Field btsplash5:Lnet/minecraft/util/ResourceLocation;
+2146-    1330: new           #878                // class net/minecraft/util/ResourceLocation
+2147-    1333: dup
+2148:    1334: ldc_w         #1285               // String rivalrebels:textures/blocks/bw.png
+2149-    1337: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2150-    1340: putstatic     #1287               // Field btsplash6:Lnet/minecraft/util/ResourceLocation;
+2151-    1343: new           #878                // class net/minecraft/util/ResourceLocation
+2152-    1346: dup
+2153:    1347: ldc_w         #1289               // String rivalrebels:textures/items/bc.png
+2154-    1350: invokespecial #881                // Method net/minecraft/util/ResourceLocation."<init>":(Ljava/lang/String;)V
+2155-    1353: putstatic     #1291               // Field ittaskb83:Lnet/minecraft/util/ResourceLocation;
+2156-    1356: return
+2157-
+2158-  private void registerClientSide(cpw.mods.fml.common.event.FMLPreInitializationEvent);
+2159-    Code:
+2160-       0: aload_1
+2161-       1: invokevirtual #1295               // Method cpw/mods/fml/common/event/FMLPreInitializationEvent.getSide:()Lcpw/mods/fml/relauncher/Side;

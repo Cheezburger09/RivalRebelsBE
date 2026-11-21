@@ -1,0 +1,688 @@
+Compiled from "ClientProxy.java"
+public class assets.rivalrebels.ClientProxy extends assets.rivalrebels.CommonProxy {
+  boolean prevc;
+    descriptor: Z
+
+  boolean prevx;
+    descriptor: Z
+
+  public assets.rivalrebels.ClientProxy();
+    descriptor: ()V
+    Code:
+       0: aload_0
+       1: invokespecial #12                 // Method assets/rivalrebels/CommonProxy."<init>":()V
+       4: aload_0
+       5: iconst_0
+       6: putfield      #14                 // Field prevc:Z
+       9: aload_0
+      10: iconst_0
+      11: putfield      #16                 // Field prevx:Z
+      14: return
+
+  public static void registerRenderInformation();
+    descriptor: ()V
+    Code:
+       0: ldc           #25                 // class assets/rivalrebels/common/tileentity/TileEntityNukeCrate
+       2: new           #27                 // class assets/rivalrebels/client/tileentityrender/TileEntityNukeCrateRenderer
+       5: dup
+       6: invokespecial #28                 // Method assets/rivalrebels/client/tileentityrender/TileEntityNukeCrateRenderer."<init>":()V
+       9: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      12: ldc           #36                 // class assets/rivalrebels/common/tileentity/TileEntityNuclearBomb
+      14: new           #38                 // class assets/rivalrebels/client/tileentityrender/TileEntityNuclearBombRenderer
+      17: dup
+      18: invokespecial #39                 // Method assets/rivalrebels/client/tileentityrender/TileEntityNuclearBombRenderer."<init>":()V
+      21: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      24: ldc           #41                 // class assets/rivalrebels/common/tileentity/TileEntityPlasmaExplosion
+      26: new           #43                 // class assets/rivalrebels/client/tileentityrender/TileEntityPlasmaExplosionRenderer
+      29: dup
+      30: invokespecial #44                 // Method assets/rivalrebels/client/tileentityrender/TileEntityPlasmaExplosionRenderer."<init>":()V
+      33: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      36: ldc           #46                 // class assets/rivalrebels/common/tileentity/TileEntityReactor
+      38: new           #48                 // class assets/rivalrebels/client/tileentityrender/TileEntityReactorRenderer
+      41: dup
+      42: invokespecial #49                 // Method assets/rivalrebels/client/tileentityrender/TileEntityReactorRenderer."<init>":()V
+      45: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      48: ldc           #51                 // class assets/rivalrebels/common/tileentity/TileEntityJumpBlock
+      50: new           #53                 // class assets/rivalrebels/client/tileentityrender/TileEntityJumpBlockRenderer
+      53: dup
+      54: invokespecial #54                 // Method assets/rivalrebels/client/tileentityrender/TileEntityJumpBlockRenderer."<init>":()V
+      57: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      60: ldc           #56                 // class assets/rivalrebels/common/tileentity/TileEntityLoader
+      62: new           #58                 // class assets/rivalrebels/client/tileentityrender/TileEntityLoaderRenderer
+      65: dup
+      66: invokespecial #59                 // Method assets/rivalrebels/client/tileentityrender/TileEntityLoaderRenderer."<init>":()V
+      69: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      72: ldc           #61                 // class assets/rivalrebels/common/tileentity/TileEntityOmegaObjective
+      74: new           #63                 // class assets/rivalrebels/client/tileentityrender/TileEntityOmegaObjectiveRenderer
+      77: dup
+      78: invokespecial #64                 // Method assets/rivalrebels/client/tileentityrender/TileEntityOmegaObjectiveRenderer."<init>":()V
+      81: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      84: ldc           #66                 // class assets/rivalrebels/common/tileentity/TileEntitySigmaObjective
+      86: new           #68                 // class assets/rivalrebels/client/tileentityrender/TileEntitySigmaObjectiveRenderer
+      89: dup
+      90: invokespecial #69                 // Method assets/rivalrebels/client/tileentityrender/TileEntitySigmaObjectiveRenderer."<init>":()V
+      93: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+      96: ldc           #71                 // class assets/rivalrebels/common/tileentity/TileEntityTsarBomba
+      98: new           #73                 // class assets/rivalrebels/client/tileentityrender/TileEntityTsarBombaRenderer
+     101: dup
+     102: invokespecial #74                 // Method assets/rivalrebels/client/tileentityrender/TileEntityTsarBombaRenderer."<init>":()V
+     105: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     108: ldc           #76                 // class assets/rivalrebels/common/tileentity/TileEntityForceFieldNode
+     110: new           #78                 // class assets/rivalrebels/client/tileentityrender/TileEntityForceFieldNodeRenderer
+     113: dup
+     114: invokespecial #79                 // Method assets/rivalrebels/client/tileentityrender/TileEntityForceFieldNodeRenderer."<init>":()V
+     117: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     120: ldc           #81                 // class assets/rivalrebels/common/tileentity/TileEntityGore
+     122: new           #83                 // class assets/rivalrebels/client/tileentityrender/TileEntityGoreRenderer
+     125: dup
+     126: invokespecial #84                 // Method assets/rivalrebels/client/tileentityrender/TileEntityGoreRenderer."<init>":()V
+     129: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     132: ldc           #86                 // class assets/rivalrebels/common/tileentity/TileEntityLaptop
+     134: new           #88                 // class assets/rivalrebels/client/tileentityrender/TileEntityLaptopRenderer
+     137: dup
+     138: invokespecial #89                 // Method assets/rivalrebels/client/tileentityrender/TileEntityLaptopRenderer."<init>":()V
+     141: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     144: ldc           #91                 // class assets/rivalrebels/common/tileentity/TileEntityReciever
+     146: new           #93                 // class assets/rivalrebels/client/tileentityrender/TileEntityRecieverRenderer
+     149: dup
+     150: invokespecial #94                 // Method assets/rivalrebels/client/tileentityrender/TileEntityRecieverRenderer."<init>":()V
+     153: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     156: ldc           #96                 // class assets/rivalrebels/common/tileentity/TileEntityMeltDown
+     158: new           #98                 // class assets/rivalrebels/client/tileentityrender/TileEntityMeltdownRenderer
+     161: dup
+     162: invokespecial #99                 // Method assets/rivalrebels/client/tileentityrender/TileEntityMeltdownRenderer."<init>":()V
+     165: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     168: ldc           #101                // class assets/rivalrebels/common/tileentity/TileEntityTheoreticalTsarBomba
+     170: new           #103                // class assets/rivalrebels/client/tileentityrender/TileEntityTheoreticalTsarBombaRenderer
+     173: dup
+     174: invokespecial #104                // Method assets/rivalrebels/client/tileentityrender/TileEntityTheoreticalTsarBombaRenderer."<init>":()V
+     177: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     180: ldc           #106                // class assets/rivalrebels/common/tileentity/TileEntityAntimatterBomb
+     182: new           #108                // class assets/rivalrebels/client/tileentityrender/TileEntityAntimatterBombRenderer
+     185: dup
+     186: invokespecial #109                // Method assets/rivalrebels/client/tileentityrender/TileEntityAntimatterBombRenderer."<init>":()V
+     189: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     192: ldc           #111                // class assets/rivalrebels/common/tileentity/TileEntityTachyonBomb
+     194: new           #113                // class assets/rivalrebels/client/tileentityrender/TileEntityTachyonBombRenderer
+     197: dup
+     198: invokespecial #114                // Method assets/rivalrebels/client/tileentityrender/TileEntityTachyonBombRenderer."<init>":()V
+     201: invokestatic  #34                 // Method cpw/mods/fml/client/registry/ClientRegistry.bindTileEntitySpecialRenderer:(Ljava/lang/Class;Lnet/minecraft/client/renderer/tileentity/TileEntitySpecialRenderer;)V
+     204: ldc           #116                // class assets/rivalrebels/common/entity/EntityGasGrenade
+     206: new           #118                // class assets/rivalrebels/client/renderentity/RenderGasGrenade
+     209: dup
+     210: invokespecial #119                // Method assets/rivalrebels/client/renderentity/RenderGasGrenade."<init>":()V
+     213: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     216: ldc           #127                // class assets/rivalrebels/common/entity/EntityPropulsionFX
+     218: new           #129                // class assets/rivalrebels/client/renderentity/RenderBullet
+     221: dup
+     222: ldc           #131                // String fire
+     224: invokespecial #134                // Method assets/rivalrebels/client/renderentity/RenderBullet."<init>":(Ljava/lang/String;)V
+     227: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     230: ldc           #136                // class assets/rivalrebels/common/entity/EntityPassiveFire
+     232: new           #129                // class assets/rivalrebels/client/renderentity/RenderBullet
+     235: dup
+     236: ldc           #131                // String fire
+     238: invokespecial #134                // Method assets/rivalrebels/client/renderentity/RenderBullet."<init>":(Ljava/lang/String;)V
+     241: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     244: ldc           #138                // class assets/rivalrebels/common/entity/EntityCuchillo
+     246: new           #140                // class assets/rivalrebels/client/renderentity/RenderCuchillo
+     249: dup
+     250: invokespecial #141                // Method assets/rivalrebels/client/renderentity/RenderCuchillo."<init>":()V
+     253: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     256: ldc           #143                // class assets/rivalrebels/common/entity/EntityFlameBall
+     258: new           #145                // class assets/rivalrebels/client/renderentity/RenderFlame
+     261: dup
+     262: invokespecial #146                // Method assets/rivalrebels/client/renderentity/RenderFlame."<init>":()V
+     265: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     268: ldc           #148                // class assets/rivalrebels/common/entity/EntityFlameBall1
+     270: new           #150                // class assets/rivalrebels/client/renderentity/RenderFlameRedBlue
+     273: dup
+     274: invokespecial #151                // Method assets/rivalrebels/client/renderentity/RenderFlameRedBlue."<init>":()V
+     277: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     280: ldc           #153                // class assets/rivalrebels/common/entity/EntityFlameBall2
+     282: new           #155                // class assets/rivalrebels/client/renderentity/RenderFlameBlue
+     285: dup
+     286: invokespecial #156                // Method assets/rivalrebels/client/renderentity/RenderFlameBlue."<init>":()V
+     289: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     292: ldc           #158                // class assets/rivalrebels/common/entity/EntityRocket
+     294: new           #160                // class assets/rivalrebels/client/renderentity/RenderRocket
+     297: dup
+     298: invokespecial #161                // Method assets/rivalrebels/client/renderentity/RenderRocket."<init>":()V
+     301: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     304: ldc           #163                // class assets/rivalrebels/common/entity/EntityPlasmoid
+     306: new           #165                // class assets/rivalrebels/client/renderentity/RenderPlasmoid
+     309: dup
+     310: invokespecial #166                // Method assets/rivalrebels/client/renderentity/RenderPlasmoid."<init>":()V
+     313: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     316: ldc           #168                // class assets/rivalrebels/common/entity/EntityLightningLink
+     318: new           #170                // class assets/rivalrebels/client/renderentity/RenderLightningLink
+     321: dup
+     322: invokespecial #171                // Method assets/rivalrebels/client/renderentity/RenderLightningLink."<init>":()V
+     325: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     328: ldc           #173                // class assets/rivalrebels/common/entity/EntityNuclearBlast
+     330: new           #175                // class assets/rivalrebels/client/renderentity/RenderNuclearBlast
+     333: dup
+     334: invokespecial #176                // Method assets/rivalrebels/client/renderentity/RenderNuclearBlast."<init>":()V
+     337: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     340: ldc           #178                // class assets/rivalrebels/common/entity/EntityLightningBolt2
+     342: new           #180                // class assets/rivalrebels/client/renderentity/RenderLightningBolt2
+     345: dup
+     346: invokespecial #181                // Method assets/rivalrebels/client/renderentity/RenderLightningBolt2."<init>":()V
+     349: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     352: ldc           #183                // class assets/rivalrebels/common/entity/EntityLaptop
+     354: new           #185                // class assets/rivalrebels/client/renderentity/RenderLaptop
+     357: dup
+     358: invokespecial #186                // Method assets/rivalrebels/client/renderentity/RenderLaptop."<init>":()V
+     361: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     364: ldc           #188                // class assets/rivalrebels/common/entity/EntityRoddiskRegular
+     366: new           #190                // class assets/rivalrebels/client/renderentity/RenderRoddiskRegular
+     369: dup
+     370: invokespecial #191                // Method assets/rivalrebels/client/renderentity/RenderRoddiskRegular."<init>":()V
+     373: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     376: ldc           #193                // class assets/rivalrebels/common/entity/EntityRoddiskRebel
+     378: new           #195                // class assets/rivalrebels/client/renderentity/RenderRoddiskRebel
+     381: dup
+     382: invokespecial #196                // Method assets/rivalrebels/client/renderentity/RenderRoddiskRebel."<init>":()V
+     385: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     388: ldc           #198                // class assets/rivalrebels/common/entity/EntityRoddiskOfficer
+     390: new           #200                // class assets/rivalrebels/client/renderentity/RenderRoddiskOfficer
+     393: dup
+     394: invokespecial #201                // Method assets/rivalrebels/client/renderentity/RenderRoddiskOfficer."<init>":()V
+     397: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     400: ldc           #203                // class assets/rivalrebels/common/entity/EntityRoddiskLeader
+     402: new           #205                // class assets/rivalrebels/client/renderentity/RenderRoddiskLeader
+     405: dup
+     406: invokespecial #206                // Method assets/rivalrebels/client/renderentity/RenderRoddiskLeader."<init>":()V
+     409: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     412: ldc           #208                // class assets/rivalrebels/common/entity/EntityTsarBlast
+     414: new           #210                // class assets/rivalrebels/client/renderentity/RenderTsarBlast
+     417: dup
+     418: invokespecial #211                // Method assets/rivalrebels/client/renderentity/RenderTsarBlast."<init>":()V
+     421: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     424: ldc           #213                // class assets/rivalrebels/common/entity/EntityLaserLink
+     426: new           #215                // class assets/rivalrebels/client/renderentity/RenderLaserLink
+     429: dup
+     430: invokespecial #216                // Method assets/rivalrebels/client/renderentity/RenderLaserLink."<init>":()V
+     433: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     436: ldc           #218                // class assets/rivalrebels/common/entity/EntityGore
+     438: new           #220                // class assets/rivalrebels/client/renderentity/RenderGore
+     441: dup
+     442: invokespecial #221                // Method assets/rivalrebels/client/renderentity/RenderGore."<init>":()V
+     445: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     448: ldc           #223                // class assets/rivalrebels/common/entity/EntityBlood
+     450: new           #225                // class assets/rivalrebels/client/renderentity/RenderBlood
+     453: dup
+     454: invokespecial #226                // Method assets/rivalrebels/client/renderentity/RenderBlood."<init>":()V
+     457: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     460: ldc           #228                // class assets/rivalrebels/common/entity/EntityGoo
+     462: new           #230                // class assets/rivalrebels/client/renderentity/RenderGoo
+     465: dup
+     466: invokespecial #231                // Method assets/rivalrebels/client/renderentity/RenderGoo."<init>":()V
+     469: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     472: ldc           #233                // class assets/rivalrebels/common/entity/EntityLaserBurst
+     474: new           #235                // class assets/rivalrebels/client/renderentity/RenderLaserBurst
+     477: dup
+     478: invokespecial #236                // Method assets/rivalrebels/client/renderentity/RenderLaserBurst."<init>":()V
+     481: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     484: ldc           #238                // class assets/rivalrebels/common/entity/EntityB83
+     486: new           #240                // class assets/rivalrebels/client/renderentity/RenderB83
+     489: dup
+     490: invokespecial #241                // Method assets/rivalrebels/client/renderentity/RenderB83."<init>":()V
+     493: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     496: ldc           #243                // class assets/rivalrebels/common/entity/EntityB2Spirit
+     498: new           #245                // class assets/rivalrebels/client/renderentity/RenderB2Spirit
+     501: dup
+     502: invokespecial #246                // Method assets/rivalrebels/client/renderentity/RenderB2Spirit."<init>":()V
+     505: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     508: ldc           #248                // class assets/rivalrebels/common/entity/EntityB2Frag
+     510: new           #250                // class assets/rivalrebels/client/renderentity/RenderB2Frag
+     513: dup
+     514: invokespecial #251                // Method assets/rivalrebels/client/renderentity/RenderB2Frag."<init>":()V
+     517: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     520: ldc           #253                // class assets/rivalrebels/common/entity/EntityDebris
+     522: new           #255                // class assets/rivalrebels/client/renderentity/RenderDebris
+     525: dup
+     526: invokespecial #256                // Method assets/rivalrebels/client/renderentity/RenderDebris."<init>":()V
+     529: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     532: ldc_w         #258                // class assets/rivalrebels/common/entity/EntityHackB83
+     535: new           #260                // class assets/rivalrebels/client/renderentity/RenderHackB83
+     538: dup
+     539: invokespecial #261                // Method assets/rivalrebels/client/renderentity/RenderHackB83."<init>":()V
+     542: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     545: ldc_w         #263                // class assets/rivalrebels/common/entity/EntitySeekB83
+     548: new           #265                // class assets/rivalrebels/client/renderentity/RenderSeeker
+     551: dup
+     552: invokespecial #266                // Method assets/rivalrebels/client/renderentity/RenderSeeker."<init>":()V
+     555: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     558: ldc_w         #268                // class assets/rivalrebels/common/entity/EntityRhodes
+     561: new           #270                // class assets/rivalrebels/client/renderentity/RenderRhodes
+     564: dup
+     565: invokespecial #271                // Method assets/rivalrebels/client/renderentity/RenderRhodes."<init>":()V
+     568: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     571: ldc_w         #273                // class assets/rivalrebels/common/entity/EntityRhodesHead
+     574: new           #275                // class assets/rivalrebels/client/renderentity/RenderRhodesHead
+     577: dup
+     578: invokespecial #276                // Method assets/rivalrebels/client/renderentity/RenderRhodesHead."<init>":()V
+     581: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     584: ldc_w         #278                // class assets/rivalrebels/common/entity/EntityRhodesTorso
+     587: new           #280                // class assets/rivalrebels/client/renderentity/RenderRhodesTorso
+     590: dup
+     591: invokespecial #281                // Method assets/rivalrebels/client/renderentity/RenderRhodesTorso."<init>":()V
+     594: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     597: ldc_w         #283                // class assets/rivalrebels/common/entity/EntityRhodesLeftUpperArm
+     600: new           #285                // class assets/rivalrebels/client/renderentity/RenderRhodesLeftUpperArm
+     603: dup
+     604: invokespecial #286                // Method assets/rivalrebels/client/renderentity/RenderRhodesLeftUpperArm."<init>":()V
+     607: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     610: ldc_w         #288                // class assets/rivalrebels/common/entity/EntityRhodesRightUpperArm
+     613: new           #290                // class assets/rivalrebels/client/renderentity/RenderRhodesRightUpperArm
+     616: dup
+     617: invokespecial #291                // Method assets/rivalrebels/client/renderentity/RenderRhodesRightUpperArm."<init>":()V
+     620: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     623: ldc_w         #293                // class assets/rivalrebels/common/entity/EntityRhodesLeftLowerArm
+     626: new           #295                // class assets/rivalrebels/client/renderentity/RenderRhodesLeftLowerArm
+     629: dup
+     630: invokespecial #296                // Method assets/rivalrebels/client/renderentity/RenderRhodesLeftLowerArm."<init>":()V
+     633: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     636: ldc_w         #298                // class assets/rivalrebels/common/entity/EntityRhodesRightLowerArm
+     639: new           #300                // class assets/rivalrebels/client/renderentity/RenderRhodesRightLowerArm
+     642: dup
+     643: invokespecial #301                // Method assets/rivalrebels/client/renderentity/RenderRhodesRightLowerArm."<init>":()V
+     646: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     649: ldc_w         #303                // class assets/rivalrebels/common/entity/EntityRhodesLeftUpperLeg
+     652: new           #305                // class assets/rivalrebels/client/renderentity/RenderRhodesLeftUpperLeg
+     655: dup
+     656: invokespecial #306                // Method assets/rivalrebels/client/renderentity/RenderRhodesLeftUpperLeg."<init>":()V
+     659: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     662: ldc_w         #308                // class assets/rivalrebels/common/entity/EntityRhodesRightUpperLeg
+     665: new           #310                // class assets/rivalrebels/client/renderentity/RenderRhodesRightUpperLeg
+     668: dup
+     669: invokespecial #311                // Method assets/rivalrebels/client/renderentity/RenderRhodesRightUpperLeg."<init>":()V
+     672: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     675: ldc_w         #313                // class assets/rivalrebels/common/entity/EntityRhodesLeftLowerLeg
+     678: new           #315                // class assets/rivalrebels/client/renderentity/RenderRhodesLeftLowerLeg
+     681: dup
+     682: invokespecial #316                // Method assets/rivalrebels/client/renderentity/RenderRhodesLeftLowerLeg."<init>":()V
+     685: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     688: ldc_w         #318                // class assets/rivalrebels/common/entity/EntityRhodesRightLowerLeg
+     691: new           #320                // class assets/rivalrebels/client/renderentity/RenderRhodesRightLowerLeg
+     694: dup
+     695: invokespecial #321                // Method assets/rivalrebels/client/renderentity/RenderRhodesRightLowerLeg."<init>":()V
+     698: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     701: ldc_w         #323                // class assets/rivalrebels/common/entity/EntityB83NoShroom
+     704: new           #240                // class assets/rivalrebels/client/renderentity/RenderB83
+     707: dup
+     708: invokespecial #241                // Method assets/rivalrebels/client/renderentity/RenderB83."<init>":()V
+     711: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     714: ldc_w         #325                // class assets/rivalrebels/common/entity/EntitySphereBlast
+     717: new           #327                // class assets/rivalrebels/client/renderentity/RenderSphereBlast
+     720: dup
+     721: invokespecial #328                // Method assets/rivalrebels/client/renderentity/RenderSphereBlast."<init>":()V
+     724: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     727: ldc_w         #330                // class assets/rivalrebels/common/entity/EntityNuke
+     730: new           #332                // class assets/rivalrebels/client/renderentity/RenderNuke
+     733: dup
+     734: invokespecial #333                // Method assets/rivalrebels/client/renderentity/RenderNuke."<init>":()V
+     737: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     740: ldc_w         #335                // class assets/rivalrebels/common/entity/EntityTsar
+     743: new           #337                // class assets/rivalrebels/client/renderentity/RenderTsar
+     746: dup
+     747: invokespecial #338                // Method assets/rivalrebels/client/renderentity/RenderTsar."<init>":()V
+     750: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     753: ldc_w         #340                // class assets/rivalrebels/common/entity/EntityRoddiskRep
+     756: new           #342                // class assets/rivalrebels/client/renderentity/RenderRoddiskRep
+     759: dup
+     760: invokespecial #343                // Method assets/rivalrebels/client/renderentity/RenderRoddiskRep."<init>":()V
+     763: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     766: ldc_w         #345                // class assets/rivalrebels/common/entity/EntityHotPotato
+     769: new           #347                // class assets/rivalrebels/client/renderentity/RenderHotPotato
+     772: dup
+     773: invokespecial #348                // Method assets/rivalrebels/client/renderentity/RenderHotPotato."<init>":()V
+     776: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     779: ldc_w         #350                // class assets/rivalrebels/common/entity/EntityBomb
+     782: new           #352                // class assets/rivalrebels/client/renderentity/RenderBomb
+     785: dup
+     786: invokespecial #353                // Method assets/rivalrebels/client/renderentity/RenderBomb."<init>":()V
+     789: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     792: ldc_w         #355                // class assets/rivalrebels/common/entity/EntityTheoreticalTsar
+     795: new           #357                // class assets/rivalrebels/client/renderentity/RenderTheoreticalTsar
+     798: dup
+     799: invokespecial #358                // Method assets/rivalrebels/client/renderentity/RenderTheoreticalTsar."<init>":()V
+     802: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     805: ldc_w         #360                // class assets/rivalrebels/common/entity/EntityTheoreticalTsarBlast
+     808: new           #362                // class assets/rivalrebels/client/renderentity/RenderTheoreticalTsarBlast
+     811: dup
+     812: invokespecial #363                // Method assets/rivalrebels/client/renderentity/RenderTheoreticalTsarBlast."<init>":()V
+     815: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     818: ldc_w         #365                // class assets/rivalrebels/common/entity/EntityFlameBallGreen
+     821: new           #367                // class assets/rivalrebels/client/renderentity/RenderFlameBallGreen
+     824: dup
+     825: invokespecial #368                // Method assets/rivalrebels/client/renderentity/RenderFlameBallGreen."<init>":()V
+     828: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     831: ldc_w         #370                // class assets/rivalrebels/common/entity/EntityAntimatterBomb
+     834: new           #372                // class assets/rivalrebels/client/renderentity/RenderAntimatterBomb
+     837: dup
+     838: invokespecial #373                // Method assets/rivalrebels/client/renderentity/RenderAntimatterBomb."<init>":()V
+     841: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     844: ldc_w         #375                // class assets/rivalrebels/common/entity/EntityAntimatterBombBlast
+     847: new           #377                // class assets/rivalrebels/client/renderentity/RenderAntimatterBombBlast
+     850: dup
+     851: invokespecial #378                // Method assets/rivalrebels/client/renderentity/RenderAntimatterBombBlast."<init>":()V
+     854: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     857: ldc_w         #380                // class assets/rivalrebels/common/entity/EntityTachyonBomb
+     860: new           #382                // class assets/rivalrebels/client/renderentity/RenderTachyonBomb
+     863: dup
+     864: invokespecial #383                // Method assets/rivalrebels/client/renderentity/RenderTachyonBomb."<init>":()V
+     867: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     870: ldc_w         #385                // class assets/rivalrebels/common/entity/EntityTachyonBombBlast
+     873: new           #387                // class assets/rivalrebels/client/renderentity/RenderTachyonBombBlast
+     876: dup
+     877: invokespecial #388                // Method assets/rivalrebels/client/renderentity/RenderTachyonBombBlast."<init>":()V
+     880: invokestatic  #125                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerEntityRenderingHandler:(Ljava/lang/Class;Lnet/minecraft/client/renderer/entity/Render;)V
+     883: new           #390                // class assets/rivalrebels/client/blockrenderer/SteelBlockRenderer
+     886: dup
+     887: invokespecial #391                // Method assets/rivalrebels/client/blockrenderer/SteelBlockRenderer."<init>":()V
+     890: invokestatic  #395                // Method cpw/mods/fml/client/registry/RenderingRegistry.registerBlockHandler:(Lcpw/mods/fml/client/registry/ISimpleBlockRenderingHandler;)V
+     893: return
+
+  public int addArmor(java.lang.String);
+    descriptor: (Ljava/lang/String;)I
+    Code:
+       0: aload_1
+       1: invokestatic  #400                // Method cpw/mods/fml/client/registry/RenderingRegistry.addNewArmourRendererPrefix:(Ljava/lang/String;)I
+       4: ireturn
+
+  public void closeGui();
+    descriptor: ()V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: aconst_null
+       4: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+       7: return
+
+  public void nextBattle();
+    descriptor: ()V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: new           #416                // class assets/rivalrebels/client/gui/GuiNextBattle
+       6: dup
+       7: invokespecial #417                // Method assets/rivalrebels/client/gui/GuiNextBattle."<init>":()V
+      10: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+      13: return
+
+  public void teamWin(boolean);
+    descriptor: (Z)V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: iload_1
+       4: ifeq          17
+       7: new           #421                // class assets/rivalrebels/client/gui/GuiOmegaWin
+      10: dup
+      11: invokespecial #422                // Method assets/rivalrebels/client/gui/GuiOmegaWin."<init>":()V
+      14: goto          24
+      17: new           #424                // class assets/rivalrebels/client/gui/GuiSigmaWin
+      20: dup
+      21: invokespecial #425                // Method assets/rivalrebels/client/gui/GuiSigmaWin."<init>":()V
+      24: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+      27: return
+
+  public void guiClass();
+    descriptor: ()V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: new           #431                // class assets/rivalrebels/client/gui/GuiClass
+       6: dup
+       7: getstatic     #437                // Field assets/rivalrebels/RivalRebels.round:Lassets/rivalrebels/common/round/RivalRebelsRound;
+      10: getfield      #443                // Field assets/rivalrebels/common/round/RivalRebelsRound.rrplayerlist:Lassets/rivalrebels/common/round/RivalRebelsPlayerList;
+      13: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      16: getfield      #447                // Field net/minecraft/client/Minecraft.field_71439_g:Lnet/minecraft/client/entity/EntityClientPlayerMP;
+      19: invokevirtual #453                // Method net/minecraft/client/entity/EntityClientPlayerMP.func_70005_c_:()Ljava/lang/String;
+      22: invokevirtual #459                // Method assets/rivalrebels/common/round/RivalRebelsPlayerList.getForName:(Ljava/lang/String;)Lassets/rivalrebels/common/round/RivalRebelsPlayer;
+      25: getfield      #465                // Field assets/rivalrebels/common/round/RivalRebelsPlayer.rrclass:Lassets/rivalrebels/common/round/RivalRebelsClass;
+      28: invokespecial #468                // Method assets/rivalrebels/client/gui/GuiClass."<init>":(Lassets/rivalrebels/common/round/RivalRebelsClass;)V
+      31: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+      34: return
+
+  public void guiSpawn();
+    descriptor: ()V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: new           #471                // class assets/rivalrebels/client/gui/GuiSpawn
+       6: dup
+       7: getstatic     #437                // Field assets/rivalrebels/RivalRebels.round:Lassets/rivalrebels/common/round/RivalRebelsRound;
+      10: getfield      #443                // Field assets/rivalrebels/common/round/RivalRebelsRound.rrplayerlist:Lassets/rivalrebels/common/round/RivalRebelsPlayerList;
+      13: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      16: getfield      #447                // Field net/minecraft/client/Minecraft.field_71439_g:Lnet/minecraft/client/entity/EntityClientPlayerMP;
+      19: invokevirtual #453                // Method net/minecraft/client/entity/EntityClientPlayerMP.func_70005_c_:()Ljava/lang/String;
+      22: invokevirtual #459                // Method assets/rivalrebels/common/round/RivalRebelsPlayerList.getForName:(Ljava/lang/String;)Lassets/rivalrebels/common/round/RivalRebelsPlayer;
+      25: getfield      #465                // Field assets/rivalrebels/common/round/RivalRebelsPlayer.rrclass:Lassets/rivalrebels/common/round/RivalRebelsClass;
+      28: invokespecial #472                // Method assets/rivalrebels/client/gui/GuiSpawn."<init>":(Lassets/rivalrebels/common/round/RivalRebelsClass;)V
+      31: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+      34: return
+
+  public void flamethrowerGui(int);
+    descriptor: (I)V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: new           #476                // class assets/rivalrebels/client/gui/GuiFlameThrower
+       6: dup
+       7: iload_1
+       8: invokespecial #478                // Method assets/rivalrebels/client/gui/GuiFlameThrower."<init>":(I)V
+      11: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+      14: return
+
+  public void teslaGui(int);
+    descriptor: (I)V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: new           #483                // class assets/rivalrebels/client/gui/GuiTesla
+       6: dup
+       7: iload_1
+       8: invokespecial #484                // Method assets/rivalrebels/client/gui/GuiTesla."<init>":(I)V
+      11: invokevirtual #413                // Method net/minecraft/client/Minecraft.func_147108_a:(Lnet/minecraft/client/gui/GuiScreen;)V
+      14: return
+
+  public void spawnGore(net.minecraft.world.World, assets.rivalrebels.common.entity.EntityGore, boolean);
+    descriptor: (Lnet/minecraft/world/World;Lassets/rivalrebels/common/entity/EntityGore;Z)V
+    Code:
+       0: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       3: getfield      #490                // Field net/minecraft/client/Minecraft.field_71452_i:Lnet/minecraft/client/particle/EffectRenderer;
+       6: new           #492                // class assets/rivalrebels/common/entity/EntityBloodFX
+       9: dup
+      10: aload_1
+      11: aload_2
+      12: iload_3
+      13: ifne          20
+      16: iconst_1
+      17: goto          21
+      20: iconst_0
+      21: invokespecial #498                // Method assets/rivalrebels/common/entity/EntityBloodFX."<init>":(Lnet/minecraft/world/World;Lassets/rivalrebels/common/entity/EntityGore;Z)V
+      24: invokevirtual #502                // Method net/minecraft/client/particle/EffectRenderer.func_78873_a:(Lnet/minecraft/client/particle/EntityFX;)V
+      27: return
+
+  public boolean spacebar();
+    descriptor: ()Z
+    Code:
+       0: bipush        57
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean w();
+    descriptor: ()Z
+    Code:
+       0: bipush        17
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean a();
+    descriptor: ()Z
+    Code:
+       0: bipush        30
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean s();
+    descriptor: ()Z
+    Code:
+       0: bipush        45
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean d();
+    descriptor: ()Z
+    Code:
+       0: bipush        32
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean f();
+    descriptor: ()Z
+    Code:
+       0: bipush        33
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean c();
+    descriptor: ()Z
+    Code:
+       0: bipush        46
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: istore_1
+      23: aload_0
+      24: getfield      #14                 // Field prevc:Z
+      27: ifne          39
+      30: iload_1
+      31: iconst_1
+      32: if_icmpne     39
+      35: iconst_1
+      36: goto          40
+      39: iconst_0
+      40: istore_2
+      41: aload_0
+      42: iload_1
+      43: putfield      #14                 // Field prevc:Z
+      46: iload_2
+      47: ireturn
+
+  public boolean x();
+    descriptor: ()Z
+    Code:
+       0: bipush        31
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: istore_1
+      23: aload_0
+      24: getfield      #16                 // Field prevx:Z
+      27: ifne          39
+      30: iload_1
+      31: iconst_1
+      32: if_icmpne     39
+      35: iconst_1
+      36: goto          40
+      39: iconst_0
+      40: istore_2
+      41: aload_0
+      42: iload_1
+      43: putfield      #16                 // Field prevx:Z
+      46: iload_2
+      47: ireturn
+
+  public boolean z();
+    descriptor: ()Z
+    Code:
+       0: bipush        44
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public boolean g();
+    descriptor: ()Z
+    Code:
+       0: bipush        34
+       2: invokestatic  #515                // Method org/lwjgl/input/Keyboard.isKeyDown:(I)Z
+       5: ifeq          21
+       8: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+      11: getfield      #519                // Field net/minecraft/client/Minecraft.field_71462_r:Lnet/minecraft/client/gui/GuiScreen;
+      14: ifnonnull     21
+      17: iconst_1
+      18: goto          22
+      21: iconst_0
+      22: ireturn
+
+  public void setOverlay(assets.rivalrebels.common.entity.EntityRhodes);
+    descriptor: (Lassets/rivalrebels/common/entity/EntityRhodes;)V
+    Code:
+       0: aload_1
+       1: getfield      #534                // Field assets/rivalrebels/common/entity/EntityRhodes.rider:Lnet/minecraft/entity/player/EntityPlayer;
+       4: invokestatic  #409                // Method net/minecraft/client/Minecraft.func_71410_x:()Lnet/minecraft/client/Minecraft;
+       7: getfield      #447                // Field net/minecraft/client/Minecraft.field_71439_g:Lnet/minecraft/client/entity/EntityClientPlayerMP;
+      10: if_acmpne     29
+      13: getstatic     #538                // Field assets/rivalrebels/RivalRebels.rrro:Lassets/rivalrebels/client/gui/RivalRebelsRenderOverlay;
+      16: ldc2_w        #539                // long 10l
+      19: putfield      #546                // Field assets/rivalrebels/client/gui/RivalRebelsRenderOverlay.counter:J
+      22: getstatic     #538                // Field assets/rivalrebels/RivalRebels.rrro:Lassets/rivalrebels/client/gui/RivalRebelsRenderOverlay;
+      25: aload_1
+      26: putfield      #550                // Field assets/rivalrebels/client/gui/RivalRebelsRenderOverlay.rhodes:Lassets/rivalrebels/common/entity/EntityRhodes;
+      29: return
+}

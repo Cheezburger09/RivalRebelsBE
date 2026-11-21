@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Rival Rebels RP",
+    "description": "Resource Pack - Rival Rebels Port",
+    "uuid": "6c71f4b2-8d35-49a0-b621-3e9f7c2d5104",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "8d42b6e1-3c97-4a50-9f21-6b5e8d0c7132",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "2f85e3a1-42a7-4c65-8b12-91e3b9d5a701",
+      "version": [1, 0, 0]
+    }
+  ]
+}

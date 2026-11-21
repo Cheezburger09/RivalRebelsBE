@@ -1,0 +1,2347 @@
+{
+  "format": "J2B-MESH",
+  "version": 1,
+  "source": "a.obj",
+  "vertices": [
+    [
+      0.667684,
+      -0.395686,
+      0.485097
+    ],
+    [
+      0.900964,
+      0.020007,
+      0.292231
+    ],
+    [
+      0.556342,
+      0.020007,
+      0.766556
+    ],
+    [
+      -0.25503,
+      -0.395686,
+      0.784906
+    ],
+    [
+      0.000482,
+      0.020007,
+      0.947167
+    ],
+    [
+      -0.557123,
+      0.020007,
+      0.76599
+    ],
+    [
+      -0.825305,
+      -0.395686,
+      -0.0
+    ],
+    [
+      -0.900666,
+      0.020007,
+      0.293148
+    ],
+    [
+      -0.900666,
+      0.020007,
+      -0.293148
+    ],
+    [
+      -0.25503,
+      -0.395686,
+      -0.784906
+    ],
+    [
+      -0.557123,
+      0.020007,
+      -0.76599
+    ],
+    [
+      0.000482,
+      0.020007,
+      -0.947167
+    ],
+    [
+      0.667684,
+      -0.395686,
+      -0.485097
+    ],
+    [
+      0.556342,
+      0.020007,
+      -0.766556
+    ],
+    [
+      0.900964,
+      0.020007,
+      -0.292231
+    ],
+    [
+      0.65668,
+      0.515692,
+      0.477103
+    ],
+    [
+      -0.250831,
+      0.515692,
+      0.771969
+    ],
+    [
+      -0.811702,
+      0.515692,
+      0.0
+    ],
+    [
+      -0.250831,
+      0.515692,
+      -0.771968
+    ],
+    [
+      0.65668,
+      0.515692,
+      -0.477103
+    ],
+    [
+      0.155019,
+      0.823208,
+      0.477103
+    ],
+    [
+      0.50166,
+      0.823208,
+      0.0
+    ],
+    [
+      -0.405851,
+      0.823208,
+      0.294865
+    ],
+    [
+      -0.405851,
+      0.823208,
+      -0.294865
+    ],
+    [
+      0.155019,
+      0.823208,
+      -0.477103
+    ],
+    [
+      -0.510971,
+      -5.95872,
+      -2e-06
+    ],
+    [
+      -0.23218,
+      -0.697388,
+      -0.0
+    ],
+    [
+      -0.071746,
+      -0.697388,
+      -0.220815
+    ],
+    [
+      -0.157895,
+      -5.95872,
+      -0.485959
+    ],
+    [
+      0.413381,
+      -5.95872,
+      0.300333
+    ],
+    [
+      0.413381,
+      -5.95872,
+      -0.300338
+    ],
+    [
+      0.187837,
+      -0.697388,
+      -0.13647
+    ],
+    [
+      0.187837,
+      -0.697388,
+      0.13647
+    ],
+    [
+      -0.157895,
+      -5.95872,
+      0.485955
+    ],
+    [
+      -0.071746,
+      -0.697388,
+      0.220815
+    ],
+    [
+      -0.178401,
+      -0.69267,
+      0.549067
+    ],
+    [
+      -0.577328,
+      -0.69267,
+      -0.0
+    ],
+    [
+      -0.178401,
+      -0.69267,
+      -0.549067
+    ],
+    [
+      0.467067,
+      -0.69267,
+      0.33934
+    ],
+    [
+      0.467067,
+      -0.69267,
+      -0.339341
+    ]
+  ],
+  "uvs": [
+    [
+      0.872802,
+      0.406019
+    ],
+    [
+      0.95179,
+      0.307582
+    ],
+    [
+      0.992542,
+      0.454499
+    ],
+    [
+      0.857352,
+      0.638675
+    ],
+    [
+      0.980667,
+      0.605745
+    ],
+    [
+      0.925816,
+      0.749901
+    ],
+    [
+      0.70571,
+      0.820654
+    ],
+    [
+      0.825368,
+      0.866572
+    ],
+    [
+      0.696789,
+      0.949217
+    ],
+    [
+      0.521474,
+      0.125757
+    ],
+    [
+      0.462783,
+      0.006637
+    ],
+    [
+      0.612519,
+      0.029087
+    ],
+    [
+      0.74724,
+      0.212302
+    ],
+    [
+      0.753188,
+      0.083805
+    ],
+    [
+      0.87279,
+      0.180166
+    ],
+    [
+      0.100804,
+      0.221363
+    ],
+    [
+      0.273208,
+      0.1438
+    ],
+    [
+      0.223703,
+      0.270258
+    ],
+    [
+      0.029253,
+      0.569245
+    ],
+    [
+      0.0078,
+      0.383541
+    ],
+    [
+      0.114146,
+      0.461315
+    ],
+    [
+      0.342624,
+      0.7438
+    ],
+    [
+      0.156892,
+      0.706594
+    ],
+    [
+      0.264505,
+      0.623107
+    ],
+    [
+      0.6078,
+      0.503697
+    ],
+    [
+      0.514527,
+      0.666442
+    ],
+    [
+      0.467007,
+      0.531985
+    ],
+    [
+      0.458305,
+      0.180857
+    ],
+    [
+      0.586359,
+      0.31858
+    ],
+    [
+      0.44176,
+      0.313914
+    ],
+    [
+      0.352937,
+      0.5251
+    ],
+    [
+      0.232967,
+      0.501072
+    ],
+    [
+      0.413198,
+      0.419977
+    ],
+    [
+      0.330479,
+      0.330999
+    ],
+    [
+      0.219111,
+      0.381099
+    ],
+    [
+      0.011797,
+      0.898449
+    ],
+    [
+      0.442714,
+      0.899291
+    ],
+    [
+      0.442714,
+      0.853748
+    ],
+    [
+      0.011353,
+      0.810728
+    ],
+    [
+      0.442253,
+      0.808206
+    ],
+    [
+      0.441329,
+      0.762667
+    ],
+    [
+      0.011352,
+      0.94231
+    ],
+    [
+      0.442252,
+      0.944833
+    ],
+    [
+      0.010463,
+      0.986167
+    ],
+    [
+      0.780714,
+      0.430307
+    ],
+    [
+      0.689234,
+      0.285223
+    ],
+    [
+      0.087704,
+      0.065198
+    ],
+    [
+      0.06795,
+      0.112843
+    ],
+    [
+      0.053635,
+      0.009569
+    ],
+    [
+      0.462783,
+      0.87909
+    ],
+    [
+      0.478357,
+      0.777783
+    ],
+    [
+      0.653266,
+      0.736142
+    ],
+    [
+      0.181499,
+      0.019672
+    ],
+    [
+      0.767745,
+      0.60308
+    ],
+    [
+      0.011798,
+      0.854588
+    ],
+    [
+      0.010464,
+      0.766871
+    ],
+    [
+      0.441328,
+      0.990372
+    ],
+    [
+      0.546488,
+      0.991944
+    ],
+    [
+      0.004516,
+      0.128054
+    ],
+    [
+      0.102024,
+      0.211382
+    ],
+    [
+      0.107161,
+      0.146353
+    ],
+    [
+      0.151146,
+      0.119416
+    ],
+    [
+      0.13912,
+      0.069262
+    ],
+    [
+      0.211405,
+      0.144398
+    ],
+    [
+      0.524843,
+      0.227985
+    ]
+  ],
+  "normals": [
+    [
+      0.796037,
+      -0.178384,
+      0.578363
+    ],
+    [
+      -0.304061,
+      -0.178384,
+      0.935802
+    ],
+    [
+      -0.983961,
+      -0.178382,
+      -0.0
+    ],
+    [
+      -0.304061,
+      -0.178384,
+      -0.935802
+    ],
+    [
+      0.796037,
+      -0.178384,
+      -0.578363
+    ],
+    [
+      0.79629,
+      0.176652,
+      0.578546
+    ],
+    [
+      -0.304157,
+      0.176652,
+      0.936099
+    ],
+    [
+      -0.984273,
+      0.176654,
+      0.0
+    ],
+    [
+      -0.304157,
+      0.176655,
+      -0.936099
+    ],
+    [
+      0.79629,
+      0.176653,
+      -0.578547
+    ],
+    [
+      0.488583,
+      0.797041,
+      0.354982
+    ],
+    [
+      -0.186624,
+      0.79704,
+      0.574368
+    ],
+    [
+      -0.603924,
+      0.797042,
+      0.0
+    ],
+    [
+      -0.186624,
+      0.79704,
+      -0.574368
+    ],
+    [
+      0.488583,
+      0.797041,
+      -0.354982
+    ],
+    [
+      -0.80827,
+      0.042829,
+      -0.587252
+    ],
+    [
+      0.999083,
+      0.042829,
+      0.0
+    ],
+    [
+      0.308738,
+      0.042829,
+      -0.950182
+    ],
+    [
+      -0.80827,
+      0.042829,
+      0.587252
+    ],
+    [
+      0.308738,
+      0.042828,
+      0.950182
+    ],
+    [
+      0.828651,
+      -0.559766,
+      -0.0
+    ],
+    [
+      0.271938,
+      0.443621,
+      -0.853962
+    ],
+    [
+      -0.721947,
+      0.443623,
+      -0.531029
+    ],
+    [
+      -0.013667,
+      -0.999857,
+      -0.009931
+    ],
+    [
+      -0.670388,
+      -0.559768,
+      -0.487073
+    ],
+    [
+      0.005221,
+      -0.999857,
+      -0.016067
+    ],
+    [
+      0.256069,
+      -0.559767,
+      0.788092
+    ],
+    [
+      -0.728131,
+      0.443621,
+      0.522518
+    ],
+    [
+      0.281938,
+      0.443623,
+      0.850711
+    ],
+    [
+      -0.670388,
+      -0.559768,
+      0.487073
+    ],
+    [
+      0.896197,
+      0.443625,
+      -0.005254
+    ],
+    [
+      0.269485,
+      -0.489384,
+      -0.829386
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -0.808269,
+      0.042829,
+      -0.587254
+    ],
+    [
+      0.999082,
+      0.042829,
+      0.0
+    ],
+    [
+      0.308737,
+      0.042829,
+      -0.950183
+    ],
+    [
+      -0.808269,
+      0.042829,
+      0.587254
+    ],
+    [
+      0.872066,
+      -0.489389,
+      -0.0
+    ],
+    [
+      0.281936,
+      0.443624,
+      -0.850711
+    ],
+    [
+      -0.724431,
+      0.445164,
+      -0.526335
+    ],
+    [
+      -0.72813,
+      0.443622,
+      -0.522519
+    ],
+    [
+      0.276711,
+      0.445163,
+      -0.851623
+    ],
+    [
+      -0.705514,
+      -0.489386,
+      -0.512592
+    ],
+    [
+      -0.013668,
+      -0.999857,
+      0.00993
+    ],
+    [
+      -0.013668,
+      -0.999857,
+      -0.009931
+    ],
+    [
+      -0.705516,
+      -0.489385,
+      -0.512592
+    ],
+    [
+      0.269485,
+      -0.489384,
+      0.829386
+    ],
+    [
+      -0.67039,
+      -0.559765,
+      -0.487073
+    ],
+    [
+      0.005221,
+      -0.999857,
+      0.016067
+    ],
+    [
+      0.016894,
+      -0.999857,
+      0.0
+    ],
+    [
+      0.005221,
+      -0.999857,
+      -0.016068
+    ],
+    [
+      0.269485,
+      -0.489385,
+      0.829386
+    ],
+    [
+      0.256068,
+      -0.559765,
+      0.788094
+    ],
+    [
+      -0.721947,
+      0.443623,
+      0.531029
+    ],
+    [
+      -0.724431,
+      0.445163,
+      0.526335
+    ],
+    [
+      0.256068,
+      -0.559765,
+      -0.788094
+    ],
+    [
+      -0.705516,
+      -0.489384,
+      0.512592
+    ],
+    [
+      0.276711,
+      0.445162,
+      0.851623
+    ],
+    [
+      0.271937,
+      0.443621,
+      0.853962
+    ],
+    [
+      -0.67039,
+      -0.559765,
+      0.487073
+    ],
+    [
+      0.256068,
+      -0.559764,
+      -0.788094
+    ],
+    [
+      -0.705514,
+      -0.489387,
+      0.512592
+    ],
+    [
+      0.895449,
+      0.445164,
+      0.0
+    ],
+    [
+      0.896197,
+      0.443624,
+      0.005254
+    ],
+    [
+      0.269485,
+      -0.489383,
+      -0.829386
+    ]
+  ],
+  "faces": [
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 0
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 0
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 0
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 1
+        },
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 1
+        },
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 1
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 2
+        },
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 2
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 2
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 3
+        },
+        {
+          "vertex": 10,
+          "uv": 10,
+          "normal": 3
+        },
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 3
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 4
+        },
+        {
+          "vertex": 13,
+          "uv": 13,
+          "normal": 4
+        },
+        {
+          "vertex": 14,
+          "uv": 14,
+          "normal": 4
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 15,
+          "normal": 5
+        },
+        {
+          "vertex": 1,
+          "uv": 16,
+          "normal": 5
+        },
+        {
+          "vertex": 15,
+          "uv": 17,
+          "normal": 5
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 5,
+          "uv": 18,
+          "normal": 6
+        },
+        {
+          "vertex": 4,
+          "uv": 19,
+          "normal": 6
+        },
+        {
+          "vertex": 16,
+          "uv": 20,
+          "normal": 6
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 21,
+          "normal": 7
+        },
+        {
+          "vertex": 7,
+          "uv": 22,
+          "normal": 7
+        },
+        {
+          "vertex": 17,
+          "uv": 23,
+          "normal": 7
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 11,
+          "uv": 24,
+          "normal": 8
+        },
+        {
+          "vertex": 10,
+          "uv": 25,
+          "normal": 8
+        },
+        {
+          "vertex": 18,
+          "uv": 26,
+          "normal": 8
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 27,
+          "normal": 9
+        },
+        {
+          "vertex": 13,
+          "uv": 28,
+          "normal": 9
+        },
+        {
+          "vertex": 19,
+          "uv": 29,
+          "normal": 9
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 30,
+          "normal": 10
+        },
+        {
+          "vertex": 15,
+          "uv": 23,
+          "normal": 10
+        },
+        {
+          "vertex": 21,
+          "uv": 31,
+          "normal": 10
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 32,
+          "normal": 11
+        },
+        {
+          "vertex": 16,
+          "uv": 26,
+          "normal": 11
+        },
+        {
+          "vertex": 20,
+          "uv": 30,
+          "normal": 11
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 33,
+          "normal": 12
+        },
+        {
+          "vertex": 17,
+          "uv": 29,
+          "normal": 12
+        },
+        {
+          "vertex": 22,
+          "uv": 32,
+          "normal": 12
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 34,
+          "normal": 13
+        },
+        {
+          "vertex": 18,
+          "uv": 17,
+          "normal": 13
+        },
+        {
+          "vertex": 23,
+          "uv": 33,
+          "normal": 13
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 31,
+          "normal": 14
+        },
+        {
+          "vertex": 19,
+          "uv": 20,
+          "normal": 14
+        },
+        {
+          "vertex": 24,
+          "uv": 34,
+          "normal": 14
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 35,
+          "normal": 15
+        },
+        {
+          "vertex": 26,
+          "uv": 36,
+          "normal": 15
+        },
+        {
+          "vertex": 27,
+          "uv": 37,
+          "normal": 15
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 30,
+          "uv": 38,
+          "normal": 16
+        },
+        {
+          "vertex": 31,
+          "uv": 39,
+          "normal": 16
+        },
+        {
+          "vertex": 32,
+          "uv": 40,
+          "normal": 16
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 37,
+          "normal": 17
+        },
+        {
+          "vertex": 31,
+          "uv": 39,
+          "normal": 17
+        },
+        {
+          "vertex": 30,
+          "uv": 38,
+          "normal": 17
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 33,
+          "uv": 41,
+          "normal": 18
+        },
+        {
+          "vertex": 34,
+          "uv": 42,
+          "normal": 18
+        },
+        {
+          "vertex": 26,
+          "uv": 36,
+          "normal": 18
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 34,
+          "uv": 42,
+          "normal": 19
+        },
+        {
+          "vertex": 33,
+          "uv": 41,
+          "normal": 19
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 19
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 20
+        },
+        {
+          "vertex": 38,
+          "uv": 44,
+          "normal": 20
+        },
+        {
+          "vertex": 39,
+          "uv": 45,
+          "normal": 20
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 19,
+          "uv": 29,
+          "normal": 21
+        },
+        {
+          "vertex": 13,
+          "uv": 28,
+          "normal": 21
+        },
+        {
+          "vertex": 24,
+          "uv": 32,
+          "normal": 21
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 8,
+          "uv": 21,
+          "normal": 22
+        },
+        {
+          "vertex": 17,
+          "uv": 23,
+          "normal": 22
+        },
+        {
+          "vertex": 23,
+          "uv": 30,
+          "normal": 22
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 27,
+          "uv": 46,
+          "normal": 23
+        },
+        {
+          "vertex": 26,
+          "uv": 47,
+          "normal": 23
+        },
+        {
+          "vertex": 37,
+          "uv": 48,
+          "normal": 23
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 49,
+          "normal": 24
+        },
+        {
+          "vertex": 37,
+          "uv": 50,
+          "normal": 24
+        },
+        {
+          "vertex": 36,
+          "uv": 51,
+          "normal": 24
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 39,
+          "uv": 52,
+          "normal": 25
+        },
+        {
+          "vertex": 27,
+          "uv": 46,
+          "normal": 25
+        },
+        {
+          "vertex": 37,
+          "uv": 48,
+          "normal": 25
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 38,
+          "uv": 44,
+          "normal": 26
+        },
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 26
+        },
+        {
+          "vertex": 35,
+          "uv": 53,
+          "normal": 26
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 16,
+          "uv": 20,
+          "normal": 27
+        },
+        {
+          "vertex": 22,
+          "uv": 31,
+          "normal": 27
+        },
+        {
+          "vertex": 5,
+          "uv": 18,
+          "normal": 27
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 20,
+          "uv": 34,
+          "normal": 28
+        },
+        {
+          "vertex": 16,
+          "uv": 20,
+          "normal": 28
+        },
+        {
+          "vertex": 4,
+          "uv": 19,
+          "normal": 28
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 36,
+          "uv": 51,
+          "normal": 29
+        },
+        {
+          "vertex": 35,
+          "uv": 53,
+          "normal": 29
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 29
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 33,
+          "normal": 30
+        },
+        {
+          "vertex": 15,
+          "uv": 17,
+          "normal": 30
+        },
+        {
+          "vertex": 1,
+          "uv": 16,
+          "normal": 30
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 31
+        },
+        {
+          "vertex": 11,
+          "uv": 11,
+          "normal": 31
+        },
+        {
+          "vertex": 13,
+          "uv": 13,
+          "normal": 31
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 21,
+          "uv": 31,
+          "normal": 32
+        },
+        {
+          "vertex": 24,
+          "uv": 34,
+          "normal": 32
+        },
+        {
+          "vertex": 20,
+          "uv": 30,
+          "normal": 32
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 28,
+          "uv": 54,
+          "normal": 33
+        },
+        {
+          "vertex": 25,
+          "uv": 35,
+          "normal": 33
+        },
+        {
+          "vertex": 27,
+          "uv": 37,
+          "normal": 33
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 29,
+          "uv": 55,
+          "normal": 34
+        },
+        {
+          "vertex": 30,
+          "uv": 38,
+          "normal": 34
+        },
+        {
+          "vertex": 32,
+          "uv": 40,
+          "normal": 34
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 28,
+          "uv": 54,
+          "normal": 35
+        },
+        {
+          "vertex": 27,
+          "uv": 37,
+          "normal": 35
+        },
+        {
+          "vertex": 30,
+          "uv": 38,
+          "normal": 35
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 25,
+          "uv": 35,
+          "normal": 36
+        },
+        {
+          "vertex": 33,
+          "uv": 41,
+          "normal": 36
+        },
+        {
+          "vertex": 26,
+          "uv": 36,
+          "normal": 36
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 56,
+          "normal": 19
+        },
+        {
+          "vertex": 34,
+          "uv": 42,
+          "normal": 19
+        },
+        {
+          "vertex": 29,
+          "uv": 43,
+          "normal": 19
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 14,
+          "normal": 37
+        },
+        {
+          "vertex": 1,
+          "uv": 1,
+          "normal": 37
+        },
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 37
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 37
+        },
+        {
+          "vertex": 14,
+          "uv": 14,
+          "normal": 37
+        },
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 37
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 20
+        },
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 20
+        },
+        {
+          "vertex": 38,
+          "uv": 44,
+          "normal": 20
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 18,
+          "uv": 26,
+          "normal": 38
+        },
+        {
+          "vertex": 24,
+          "uv": 32,
+          "normal": 38
+        },
+        {
+          "vertex": 11,
+          "uv": 24,
+          "normal": 38
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 25,
+          "normal": 39
+        },
+        {
+          "vertex": 8,
+          "uv": 21,
+          "normal": 39
+        },
+        {
+          "vertex": 23,
+          "uv": 30,
+          "normal": 39
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 30,
+          "normal": 40
+        },
+        {
+          "vertex": 18,
+          "uv": 26,
+          "normal": 40
+        },
+        {
+          "vertex": 10,
+          "uv": 25,
+          "normal": 40
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 32,
+          "normal": 41
+        },
+        {
+          "vertex": 13,
+          "uv": 28,
+          "normal": 41
+        },
+        {
+          "vertex": 11,
+          "uv": 24,
+          "normal": 41
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 10,
+          "uv": 57,
+          "normal": 42
+        },
+        {
+          "vertex": 9,
+          "uv": 49,
+          "normal": 42
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 42
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 36,
+          "uv": 58,
+          "normal": 43
+        },
+        {
+          "vertex": 26,
+          "uv": 47,
+          "normal": 43
+        },
+        {
+          "vertex": 35,
+          "uv": 59,
+          "normal": 43
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 47,
+          "normal": 44
+        },
+        {
+          "vertex": 36,
+          "uv": 58,
+          "normal": 44
+        },
+        {
+          "vertex": 37,
+          "uv": 48,
+          "normal": 44
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 45
+        },
+        {
+          "vertex": 8,
+          "uv": 8,
+          "normal": 45
+        },
+        {
+          "vertex": 10,
+          "uv": 57,
+          "normal": 45
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 26,
+          "uv": 47,
+          "normal": 43
+        },
+        {
+          "vertex": 34,
+          "uv": 60,
+          "normal": 43
+        },
+        {
+          "vertex": 35,
+          "uv": 59,
+          "normal": 43
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 46
+        },
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 46
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 46
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 49,
+          "normal": 47
+        },
+        {
+          "vertex": 36,
+          "uv": 51,
+          "normal": 47
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 47
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 34,
+          "uv": 60,
+          "normal": 48
+        },
+        {
+          "vertex": 32,
+          "uv": 61,
+          "normal": 48
+        },
+        {
+          "vertex": 35,
+          "uv": 59,
+          "normal": 48
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 61,
+          "normal": 49
+        },
+        {
+          "vertex": 31,
+          "uv": 62,
+          "normal": 49
+        },
+        {
+          "vertex": 38,
+          "uv": 63,
+          "normal": 49
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 32,
+          "uv": 61,
+          "normal": 48
+        },
+        {
+          "vertex": 38,
+          "uv": 63,
+          "normal": 48
+        },
+        {
+          "vertex": 35,
+          "uv": 59,
+          "normal": 48
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 39,
+          "uv": 52,
+          "normal": 50
+        },
+        {
+          "vertex": 31,
+          "uv": 62,
+          "normal": 50
+        },
+        {
+          "vertex": 27,
+          "uv": 46,
+          "normal": 50
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 2,
+          "normal": 51
+        },
+        {
+          "vertex": 4,
+          "uv": 4,
+          "normal": 51
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 51
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 31,
+          "uv": 62,
+          "normal": 49
+        },
+        {
+          "vertex": 39,
+          "uv": 52,
+          "normal": 49
+        },
+        {
+          "vertex": 38,
+          "uv": 63,
+          "normal": 49
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 0,
+          "uv": 0,
+          "normal": 52
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 52
+        },
+        {
+          "vertex": 35,
+          "uv": 53,
+          "normal": 52
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 17,
+          "uv": 23,
+          "normal": 53
+        },
+        {
+          "vertex": 7,
+          "uv": 22,
+          "normal": 53
+        },
+        {
+          "vertex": 22,
+          "uv": 31,
+          "normal": 53
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 22,
+          "uv": 31,
+          "normal": 54
+        },
+        {
+          "vertex": 7,
+          "uv": 22,
+          "normal": 54
+        },
+        {
+          "vertex": 5,
+          "uv": 18,
+          "normal": 54
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 37,
+          "uv": 64,
+          "normal": 55
+        },
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 55
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 55
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 7,
+          "uv": 7,
+          "normal": 56
+        },
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 56
+        },
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 56
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 15,
+          "normal": 57
+        },
+        {
+          "vertex": 20,
+          "uv": 34,
+          "normal": 57
+        },
+        {
+          "vertex": 4,
+          "uv": 19,
+          "normal": 57
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 2,
+          "uv": 15,
+          "normal": 58
+        },
+        {
+          "vertex": 15,
+          "uv": 17,
+          "normal": 58
+        },
+        {
+          "vertex": 20,
+          "uv": 34,
+          "normal": 58
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 59
+        },
+        {
+          "vertex": 36,
+          "uv": 51,
+          "normal": 59
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 59
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 60
+        },
+        {
+          "vertex": 39,
+          "uv": 45,
+          "normal": 60
+        },
+        {
+          "vertex": 37,
+          "uv": 64,
+          "normal": 60
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 6,
+          "uv": 6,
+          "normal": 61
+        },
+        {
+          "vertex": 3,
+          "uv": 3,
+          "normal": 61
+        },
+        {
+          "vertex": 5,
+          "uv": 5,
+          "normal": 61
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 27,
+          "normal": 62
+        },
+        {
+          "vertex": 21,
+          "uv": 33,
+          "normal": 62
+        },
+        {
+          "vertex": 1,
+          "uv": 16,
+          "normal": 62
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 14,
+          "uv": 27,
+          "normal": 63
+        },
+        {
+          "vertex": 19,
+          "uv": 29,
+          "normal": 63
+        },
+        {
+          "vertex": 21,
+          "uv": 33,
+          "normal": 63
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 24,
+          "uv": 34,
+          "normal": 32
+        },
+        {
+          "vertex": 22,
+          "uv": 32,
+          "normal": 32
+        },
+        {
+          "vertex": 20,
+          "uv": 30,
+          "normal": 32
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 9,
+          "uv": 9,
+          "normal": 64
+        },
+        {
+          "vertex": 13,
+          "uv": 13,
+          "normal": 64
+        },
+        {
+          "vertex": 12,
+          "uv": 12,
+          "normal": 64
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    },
+    {
+      "corners": [
+        {
+          "vertex": 23,
+          "uv": 33,
+          "normal": 32
+        },
+        {
+          "vertex": 22,
+          "uv": 32,
+          "normal": 32
+        },
+        {
+          "vertex": 24,
+          "uv": 34,
+          "normal": 32
+        }
+      ],
+      "object": "electrode",
+      "material": null
+    }
+  ],
+  "objects": [
+    "electrode"
+  ],
+  "materials": [],
+  "bounds": {
+    "min": [
+      -0.900666,
+      -5.95872,
+      -0.947167
+    ],
+    "max": [
+      0.900964,
+      0.823208,
+      0.947167
+    ]
+  }
+}

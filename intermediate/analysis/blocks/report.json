@@ -1,0 +1,1359 @@
+{
+  "section": "blocks",
+  "java_files_found": 65,
+  "classes_analyzed": 65,
+  "superclasses": {
+    "Block": 33,
+    "BlockContainer": 19,
+    "BlockAutoTemplate": 10,
+    "BlockFalling": 3
+  },
+  "classes": [
+    {
+      "class": "BlockCamo1",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockCamo1.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149650_a",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockCamo2",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockCamo2.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149650_a",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockCamo3",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockCamo3.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149650_a",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockConduit",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockConduit.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockCycle",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockCycle.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149674_a",
+        "func_149691_a",
+        "func_149720_d",
+        "func_149726_b"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockForceShield",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockForceShield.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149656_h",
+        "func_149662_c",
+        "func_149681_a",
+        "func_149691_a",
+        "func_149745_a",
+        "func_149749_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockGore",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockGore.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149674_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149734_b",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockLight",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockLight.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149674_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149726_b",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockMeltDown",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockMeltDown.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149674_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149726_b",
+        "func_149745_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockPlasmaExplosion",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockPlasmaExplosion.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149745_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockReactive",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockReactive.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149691_a",
+        "func_149716_u",
+        "func_149720_d",
+        "func_149745_a",
+        "func_149749_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockSmartCamo",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockSmartCamo.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149691_a",
+        "func_149726_b"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockSteel",
+      "package": "assets.rivalrebels.common.block",
+      "file": "assets/rivalrebels/common/block/BlockSteel.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149686_d",
+        "func_149691_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoBarricade",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoBunker",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoEaster",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoForceField",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoMarioTrap",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoMineTrap",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoQuickSandTrap",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAutoTemplate",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoTemplate.java",
+      "superclass": "BlockFalling",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149699_a",
+        "func_149828_a",
+        "placeBlockCarefully"
+      ],
+      "references": [
+        "assets/rivalrebels/common/item/ItemPliers.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+        "assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java"
+      ],
+      "reference_count": 11
+    },
+    {
+      "class": "BlockAutoTower",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockGameStart",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockRhodesScaffold",
+      "package": "assets.rivalrebels.common.block.autobuilds",
+      "file": "assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+      "superclass": "BlockAutoTemplate",
+      "interfaces": [],
+      "methods": [
+        "build",
+        "func_149651_a",
+        "func_149691_a",
+        "place"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/tileentity/TileEntityRhodesActivator.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "BlockAmmunition",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockExplosives",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockExplosives.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlag",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlag.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149650_a",
+        "func_149651_a",
+        "func_149660_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149683_g",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149695_a",
+        "func_149707_d",
+        "func_149719_a",
+        "func_149745_a",
+        "func_150093_a",
+        "func_150094_e"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlagBox1",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlagBox3",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlagBox4",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlagBox5",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlagBox6",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlagBox7",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockNukeCrate",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "determineOrientation",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149695_a",
+        "func_149726_b",
+        "func_149727_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "BlockOmegaArmor",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockSigmaArmor",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockSupplies",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockSupplies.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockWeapons",
+      "package": "assets.rivalrebels.common.block.crate",
+      "file": "assets/rivalrebels/common/block/crate/BlockWeapons.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerReciever.java"
+      ],
+      "reference_count": 2
+    },
+    {
+      "class": "BlockBreadBox",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "blockActivated",
+        "func_149651_a",
+        "func_149691_a",
+        "func_149699_a",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockForceField",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockForceField.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149683_g",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149719_a",
+        "func_149745_a",
+        "idDropped"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockForceFieldNode",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockLaptop",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockLaptop.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149749_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockLoader",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockLoader.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149749_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockOmegaObjective",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockOmegaObjective.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149726_b",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149749_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockReactor",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockReactor.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149749_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockReciever",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockReciever.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockRhodesActivator",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockRhodesActivator.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockSigmaObjective",
+      "package": "assets.rivalrebels.common.block.machine",
+      "file": "assets/rivalrebels/common/block/machine/BlockSigmaObjective.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149726_b",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149749_a",
+        "func_149915_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockAntimatterBomb",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockFlare",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockFlare.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "canPlaceTorchOn",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149664_b",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149674_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149734_b",
+        "func_149742_c",
+        "func_149745_a",
+        "onBlockPlaced"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockJump",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockJump.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149686_d",
+        "func_149691_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockLandMine",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockLandMine.java",
+      "superclass": "BlockFalling",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149635_D",
+        "func_149650_a",
+        "func_149651_a",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149673_e",
+        "func_149674_a",
+        "func_149691_a",
+        "func_149720_d",
+        "func_149723_a",
+        "func_149726_b",
+        "func_149741_i",
+        "func_149745_a",
+        "getPickBlock",
+        "onFinishFalling"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockMario",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockMario.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149635_D",
+        "func_149650_a",
+        "func_149651_a",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149673_e",
+        "func_149691_a",
+        "func_149720_d",
+        "func_149726_b",
+        "func_149741_i",
+        "func_149745_a",
+        "getPickBlock"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockNuclearBomb",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockNuclearBomb.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "determineOrientation",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockPetrifiedStone",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149635_D",
+        "func_149651_a",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149720_d",
+        "func_149724_b",
+        "func_149727_a",
+        "func_149741_i",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockPetrifiedWood",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149635_D",
+        "func_149651_a",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149720_d",
+        "func_149724_b",
+        "func_149727_a",
+        "func_149741_i",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockQuickSand",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockQuickSand.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149635_D",
+        "func_149650_a",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149673_e",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149720_d",
+        "func_149726_b",
+        "func_149741_i",
+        "func_149745_a",
+        "getPickBlock"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockRadioactiveDirt",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149691_a",
+        "func_149724_b",
+        "func_149734_b",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockRadioactiveSand",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149691_a",
+        "func_149724_b",
+        "func_149734_b",
+        "func_149745_a"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockRemoteCharge",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "explode",
+        "func_149633_g",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149664_b",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149674_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149719_a",
+        "func_149723_a",
+        "func_149726_b",
+        "func_149738_a",
+        "func_149745_a",
+        "onFinishFalling"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerLaptop.java",
+        "assets/rivalrebels/common/item/ItemRemote.java"
+      ],
+      "reference_count": 3
+    },
+    {
+      "class": "BlockTachyonBomb",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockTachyonBomb.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockTheoreticalTsarBomba",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockTimedBomb",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+      "superclass": "BlockFalling",
+      "interfaces": [],
+      "methods": [
+        "func_149651_a",
+        "func_149664_b",
+        "func_149674_a",
+        "func_149691_a",
+        "func_149723_a",
+        "func_149726_b",
+        "func_149745_a",
+        "onFinishFalling"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java",
+        "assets/rivalrebels/common/container/ContainerAntimatterBomb.java",
+        "assets/rivalrebels/common/container/ContainerTachyonBomb.java",
+        "assets/rivalrebels/common/container/ContainerNuclearBomb.java",
+        "assets/rivalrebels/common/container/ContainerTheoreticalTsar.java",
+        "assets/rivalrebels/common/container/ContainerTsar.java"
+      ],
+      "reference_count": 6
+    },
+    {
+      "class": "BlockToxicGas",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockToxicGas.java",
+      "superclass": "Block",
+      "interfaces": [],
+      "methods": [
+        "func_149633_g",
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149668_a",
+        "func_149670_a",
+        "func_149674_a",
+        "func_149686_d",
+        "func_149691_a",
+        "func_149726_b",
+        "func_149734_b",
+        "func_149745_a",
+        "getFlammability"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    },
+    {
+      "class": "BlockTsarBomba",
+      "package": "assets.rivalrebels.common.block.trap",
+      "file": "assets/rivalrebels/common/block/trap/BlockTsarBomba.java",
+      "superclass": "BlockContainer",
+      "interfaces": [],
+      "methods": [
+        "func_149645_b",
+        "func_149651_a",
+        "func_149662_c",
+        "func_149686_d",
+        "func_149689_a",
+        "func_149691_a",
+        "func_149727_a",
+        "func_149745_a",
+        "func_149915_a",
+        "hasTileEntity"
+      ],
+      "references": [
+        "assets/rivalrebels/RivalRebels.java"
+      ],
+      "reference_count": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "resource_pack_name": "Rival Rebels RP",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "camo1": {
+      "textures": "textures/blocks/camo1"
+    },
+    "camo2": {
+      "textures": "textures/blocks/camo2"
+    },
+    "camo3": {
+      "textures": "textures/blocks/camo3"
+    }
+  }
+}

@@ -1,0 +1,4266 @@
+{
+  "section": "packets",
+  "java_files_scanned": 415,
+  "related_files": 55,
+  "path_related_files": 22,
+  "name_related_files": 21,
+  "term_counts": {
+    "Packet": 273,
+    "IMessage": 115,
+    "ByteBuf": 83,
+    "sendTo": 75,
+    "sendToAll": 48,
+    "IMessageHandler": 46,
+    "registerMessage": 23,
+    "sendToServer": 14,
+    "SimpleNetworkWrapper": 2
+  },
+  "files": [
+    {
+      "file": "assets/rivalrebels/RivalRebels.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RivalRebels",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 195,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 715,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.registerPackets();"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiFlameThrower.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiFlameThrower",
+          "extends": "GuiScreen",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 62,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new ItemUpdate(this.field_146297_k.field_71439_g.field_71071_by.field_70461_c, this.knob.getDegree()));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiLaptop.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiLaptop",
+          "extends": "GuiContainer",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.LaptopButtonPacket;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 102,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new LaptopButtonPacket(this.lt.field_145851_c, this.lt.field_145848_d, this.lt.field_145849_e));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiNextBattle.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiNextBattle",
+          "extends": "GuiScreen",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.VotePacket;"
+        },
+        {
+          "line": 84,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new VotePacket(true));"
+        },
+        {
+          "line": 89,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new VotePacket(false));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiReactor.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiReactor",
+          "extends": "GuiContainer",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 12,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ReactorGUIPacket;"
+        },
+        {
+          "line": 227,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new ReactorGUIPacket(this.ter.field_145851_c, this.ter.field_145848_d, this.ter.field_145849_e, (byte)0));"
+        },
+        {
+          "line": 231,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new ReactorGUIPacket(this.ter.field_145851_c, this.ter.field_145848_d, this.ter.field_145849_e, (byte)1));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiSpawn.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiSpawn",
+          "extends": "GuiScreen",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.JoinTeamPacket;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ResetPacket;"
+        },
+        {
+          "line": 157,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new ResetPacket());"
+        },
+        {
+          "line": 161,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new JoinTeamPacket(RivalRebelsTeam.OMEGA, this.rrclass));"
+        },
+        {
+          "line": 166,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new JoinTeamPacket(RivalRebelsTeam.SIGMA, this.rrclass));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiTesla.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiTesla",
+          "extends": "GuiScreen",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 57,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new ItemUpdate(this.field_146297_k.field_71439_g.field_71071_by.field_70461_c, this.knob.getDegree()));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/gui/GuiTray.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiTray",
+          "extends": "GuiContainer",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 11,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ADSClosePacket;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ADSWeaponPacket;"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 87,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 88,
+          "terms": [
+            "sendToServer",
+            "sendTo"
+          ],
+          "text": ".sendToServer("
+        },
+        {
+          "line": 89,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new ADSClosePacket("
+        },
+        {
+          "line": 105,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new ADSWeaponPacket(this.r.field_145851_c, this.r.field_145848_d, this.r.field_145849_e, 1));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/model/ModelFast3D.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ModelFast3D",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import java.nio.ByteBuffer;"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "ByteBuffer byteBuffer = GLAllocation.func_74524_c(120);"
+        },
+        {
+          "line": 40,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "ByteBuffer indicesBuffer = GLAllocation.func_74524_c(this.indicesCount);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/objfileloader/ObjModel.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ObjModel",
+          "extends": null,
+          "implements": null
+        },
+        {
+          "kind": "class",
+          "name": "Vector3",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import java.nio.ByteBuffer;"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "ByteBuffer buf = null;"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "buf = ByteBuffer.wrap(data);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/renderentity/RenderRhodes.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RenderRhodes",
+          "extends": "Render",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 138,
+          "terms": [
+            "Packet"
+          ],
+          "text": "float ptt = Math.min((rhodes.ticksSinceLastPacket + tt) / 5.0F, 1.0F);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/client/tileentityrender/TileEntityForceFieldNodeRenderer.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityForceFieldNodeRenderer",
+          "extends": "TileEntitySpecialRenderer",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 12,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import java.nio.ByteBuffer;"
+        },
+        {
+          "line": 90,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "ByteBuffer bb = BufferUtils.createByteBuffer(size);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "BlockNukeCrate",
+          "extends": "BlockContainer",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 378,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 379,
+          "terms": [
+            "sendTo"
+          ],
+          "text": ".sendTo("
+        },
+        {
+          "line": 380,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket(\"RivalRebels.Orders RivalRebels.message.use \" + RivalRebels.pliers.func_77658_a() + \".name\"),"
+        },
+        {
+          "line": 385,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 386,
+          "terms": [
+            "sendTo"
+          ],
+          "text": ".sendTo("
+        },
+        {
+          "line": 387,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket(\"RivalRebels.Orders RivalRebels.message.use \" + RivalRebels.pliers.func_77658_a() + \".name\"), (EntityPlayerMP)par5EntityPlayer"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/command/CommandInspect.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "CommandInspect",
+          "extends": "CommandBase",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 3,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.InspectPacket;"
+        },
+        {
+          "line": 4,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ModListPacket;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "Packet"
+          ],
+          "text": "ModListPacket.asker = func_71521_c(sender);"
+        },
+        {
+          "line": 30,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new InspectPacket(), func_82359_c(sender, array[0]));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/command/CommandPassword.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "CommandPassword",
+          "extends": "CommandBase",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 66,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(RivalRebels.round.rrplayerlist);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/command/CommandResetGame.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "CommandResetGame",
+          "extends": "CommandBase",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(RivalRebels.round.rrplayerlist);"
+        },
+        {
+          "line": 38,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(RivalRebels.round.rrplayerlist);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/entity/EntityDebris.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "EntityDebris",
+          "extends": "EntityInanimate",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 3,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.EntityDebrisPacket;"
+        },
+        {
+          "line": 4,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new EntityDebrisPacket(this));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/entity/EntityGore.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "EntityGore",
+          "extends": "EntityInanimate",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.EntityGorePacket;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 299,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new EntityGorePacket(this));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/entity/EntityRhodes.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "EntityRhodes",
+          "extends": "Entity",
+          "implements": null
+        },
+        {
+          "kind": "class",
+          "name": "RhodesAction",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.RhodesJumpPacket;"
+        },
+        {
+          "line": 9,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.RhodesPacket;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 107,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public int ticksSinceLastPacket = 0;"
+        },
+        {
+          "line": 214,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING \" + this.getName() + \" RivalRebels.tsar.armed\"));"
+        },
+        {
+          "line": 248,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new RhodesPacket(this));"
+        },
+        {
+          "line": 259,
+          "terms": [
+            "Packet"
+          ],
+          "text": "this.ticksSinceLastPacket++;"
+        },
+        {
+          "line": 285,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 286,
+          "terms": [
+            "sendToServer",
+            "sendTo"
+          ],
+          "text": ".sendToServer("
+        },
+        {
+          "line": 287,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new RhodesJumpPacket("
+        },
+        {
+          "line": 338,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 339,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 340,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket("
+        },
+        {
+          "line": 347,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new RhodesPacket(this));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/entity/EntityRhodesPiece.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "EntityRhodesPiece",
+          "extends": "Entity",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.RhodesPiecePacket;"
+        },
+        {
+          "line": 59,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new RhodesPiecePacket(this));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/ItemPliers.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ItemPliers",
+          "extends": "Item",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new TextPacket(\"Hot Potato drop point set. Use /rrhotpotato to start a round.\"), (EntityPlayerMP)player);"
+        },
+        {
+          "line": 40,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new TextPacket(\"RivalRebels.Defuse \" + Integer.toString(this.i * 100 / t) + \"§7'/.\"), (EntityPlayerMP)player);"
+        },
+        {
+          "line": 53,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new TextPacket(\"RivalRebels.Defuse \" + Integer.toString(this.i * 100 / t) + \"§7'/.\"), (EntityPlayerMP)player);"
+        },
+        {
+          "line": 67,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 68,
+          "terms": [
+            "sendTo"
+          ],
+          "text": ".sendTo("
+        },
+        {
+          "line": 69,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket(\"RivalRebels.Status RivalRebels.building \" + Integer.toString(this.i * 100 / block.time) + \"§7'/.\"), (EntityPlayerMP)player"
+        },
+        {
+          "line": 81,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "sendTo"
+          ],
+          "text": ".sendTo("
+        },
+        {
+          "line": 83,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket(\"RivalRebels.Status RivalRebels.building ToKaMaK \" + Integer.toString(this.i * 100 / 15) + \"§7'/.\"), (EntityPlayerMP)player"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/item/weapon/ItemBinoculars.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ItemBinoculars",
+          "extends": "Item",
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.LaptopEngagePacket;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 189,
+          "terms": [
+            "sendToServer",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToServer(new LaptopEngagePacket(tx, ty, tz, lx, ly, lz, c));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ADSClosePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ADSClosePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ADSClosePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ADSClosePacket implements IMessage {"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ADSClosePacket() {"
+        },
+        {
+          "line": 22,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ADSClosePacket(int X, int Y, int Z, boolean m, boolean c, boolean p, int r) {"
+        },
+        {
+          "line": 32,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 42,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 52,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ADSClosePacket, IMessage> {"
+        },
+        {
+          "line": 53,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ADSClosePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ADSUpdatePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ADSUpdatePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ADSUpdatePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ADSUpdatePacket implements IMessage {"
+        },
+        {
+          "line": 22,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ADSUpdatePacket() {"
+        },
+        {
+          "line": 25,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ADSUpdatePacket(int X, int Y, int Z, int r, boolean m, boolean c, boolean p, boolean h, String u) {"
+        },
+        {
+          "line": 37,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 56,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 71,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ADSUpdatePacket, IMessage> {"
+        },
+        {
+          "line": 72,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ADSUpdatePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ADSWeaponPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ADSWeaponPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ADSWeaponPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ADSWeaponPacket implements IMessage {"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ADSWeaponPacket() {"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ADSWeaponPacket(int X, int Y, int Z, int w) {"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 40,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ADSWeaponPacket, IMessage> {"
+        },
+        {
+          "line": 41,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ADSWeaponPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/EntityDebrisPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "EntityDebrisPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<EntityDebrisPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class EntityDebrisPacket implements IMessage {"
+        },
+        {
+          "line": 17,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public EntityDebrisPacket() {"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public EntityDebrisPacket(EntityDebris ed) {"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 32,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 38,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<EntityDebrisPacket, IMessage> {"
+        },
+        {
+          "line": 39,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(EntityDebrisPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/EntityGorePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "EntityGorePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<EntityGorePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class EntityGorePacket implements IMessage {"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public EntityGorePacket() {"
+        },
+        {
+          "line": 23,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public EntityGorePacket(EntityGore eg) {"
+        },
+        {
+          "line": 32,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 48,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<EntityGorePacket, IMessage> {"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(EntityGorePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/GuiSpawnPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "GuiSpawnPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<GuiSpawnPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class GuiSpawnPacket implements IMessage {"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 17,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<GuiSpawnPacket, IMessage> {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(GuiSpawnPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/InspectPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "InspectPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<InspectPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class InspectPacket implements IMessage {"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<InspectPacket, IMessage> {"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(InspectPacket m, MessageContext ctx) {"
+        },
+        {
+          "line": 46,
+          "terms": [
+            "Packet"
+          ],
+          "text": "return new ModListPacket(s);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ItemUpdate.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ItemUpdate",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ItemUpdate, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "public class ItemUpdate implements IMessage {"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ItemUpdate, IMessage> {"
+        },
+        {
+          "line": 35,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "public IMessage onMessage(ItemUpdate message, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/JoinTeamPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "JoinTeamPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<JoinTeamPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class JoinTeamPacket implements IMessage {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public JoinTeamPacket() {"
+        },
+        {
+          "line": 21,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public JoinTeamPacket(RivalRebelsTeam rrt, RivalRebelsClass rrc) {"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 31,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 36,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<JoinTeamPacket, IMessage> {"
+        },
+        {
+          "line": 37,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(JoinTeamPacket m, MessageContext ctx) {"
+        },
+        {
+          "line": 124,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(RivalRebels.round.rrplayerlist);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/LaptopButtonPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "LaptopButtonPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<LaptopButtonPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class LaptopButtonPacket implements IMessage {"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public LaptopButtonPacket() {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public LaptopButtonPacket(int X, int Y, int Z) {"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 30,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 36,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<LaptopButtonPacket, IMessage> {"
+        },
+        {
+          "line": 37,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(LaptopButtonPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/LaptopEngagePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "LaptopEngagePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<LaptopEngagePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class LaptopEngagePacket implements IMessage {"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public LaptopEngagePacket() {"
+        },
+        {
+          "line": 27,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public LaptopEngagePacket(int tX, int tY, int tZ, int lX, int lY, int lZ, boolean carpet) {"
+        },
+        {
+          "line": 37,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 47,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 57,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<LaptopEngagePacket, IMessage> {"
+        },
+        {
+          "line": 58,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(LaptopEngagePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/LaptopRefreshPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "LaptopRefreshPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<LaptopRefreshPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class LaptopRefreshPacket implements IMessage {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public LaptopRefreshPacket() {"
+        },
+        {
+          "line": 21,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public LaptopRefreshPacket(int X, int Y, int Z, int T, int C) {"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 37,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 45,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<LaptopRefreshPacket, IMessage> {"
+        },
+        {
+          "line": 46,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(LaptopRefreshPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ModListPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ModListPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ModListPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ModListPacket implements IMessage {"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ModListPacket() {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ModListPacket(String t) {"
+        },
+        {
+          "line": 22,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ModListPacket, IMessage> {"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ModListPacket m, MessageContext ctx) {"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "Packet"
+          ],
+          "text": "if (ModListPacket.asker != null) {"
+        },
+        {
+          "line": 64,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new TextPacket(s), ModListPacket.asker);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/PacketDispatcher.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "PacketDispatcher",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "SimpleNetworkWrapper"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.SimpleNetworkWrapper;"
+        },
+        {
+          "line": 9,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public class PacketDispatcher {"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "SimpleNetworkWrapper"
+          ],
+          "text": "public static final SimpleNetworkWrapper packetsys = NetworkRegistry.INSTANCE.newSimpleChannel(\"rivalrebels\");"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public static final void registerPackets() {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(EntityGorePacket.Handler.class, EntityGorePacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(EntityDebrisPacket.Handler.class, EntityDebrisPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "registerMessage"
+          ],
+          "text": "packetsys.registerMessage(ItemUpdate.Handler.class, ItemUpdate.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 17,
+          "terms": [
+            "registerMessage"
+          ],
+          "text": "packetsys.registerMessage(RivalRebelsRound.Handler.class, RivalRebelsRound.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "registerMessage"
+          ],
+          "text": "packetsys.registerMessage(RivalRebelsPlayerList.Handler.class, RivalRebelsPlayerList.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(GuiSpawnPacket.Handler.class, GuiSpawnPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(JoinTeamPacket.Handler.class, JoinTeamPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 21,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ResetPacket.Handler.class, ResetPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 22,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(TextPacket.Handler.class, TextPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 23,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(InspectPacket.Handler.class, InspectPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ModListPacket.Handler.class, ModListPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 25,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(VotePacket.Handler.class, VotePacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(LaptopButtonPacket.Handler.class, LaptopButtonPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 27,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(LaptopRefreshPacket.Handler.class, LaptopRefreshPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(LaptopEngagePacket.Handler.class, LaptopEngagePacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ReactorGUIPacket.Handler.class, ReactorGUIPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 30,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ReactorUpdatePacket.Handler.class, ReactorUpdatePacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 31,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ADSClosePacket.Handler.class, ADSClosePacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 32,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ADSWeaponPacket.Handler.class, ADSWeaponPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(ADSUpdatePacket.Handler.class, ADSUpdatePacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(RhodesPacket.Handler.class, RhodesPacket.class, packetCount++, Side.CLIENT);"
+        },
+        {
+          "line": 35,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(RhodesJumpPacket.Handler.class, RhodesJumpPacket.class, packetCount++, Side.SERVER);"
+        },
+        {
+          "line": 36,
+          "terms": [
+            "registerMessage",
+            "Packet"
+          ],
+          "text": "packetsys.registerMessage(RhodesPiecePacket.Handler.class, RhodesPiecePacket.class, packetCount++, Side.CLIENT);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ReactorGUIPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ReactorGUIPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ReactorGUIPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ReactorGUIPacket implements IMessage {"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ReactorGUIPacket() {"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ReactorGUIPacket(int X, int Y, int Z, byte b) {"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 40,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ReactorGUIPacket, IMessage> {"
+        },
+        {
+          "line": 41,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ReactorGUIPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ReactorUpdatePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ReactorUpdatePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ReactorUpdatePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ReactorUpdatePacket implements IMessage {"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "ByteBuf bbuf;"
+        },
+        {
+          "line": 26,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ReactorUpdatePacket() {"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public ReactorUpdatePacket(int X, int Y, int Z, float cons, float last, boolean mt, boolean ej, boolean o, TileEntityList mach) {"
+        },
+        {
+          "line": 41,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 45,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 68,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ReactorUpdatePacket, IMessage> {"
+        },
+        {
+          "line": 69,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ReactorUpdatePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/ResetPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "ResetPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<ResetPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class ResetPacket implements IMessage {"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 14,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 17,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<ResetPacket, IMessage> {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(ResetPacket m, MessageContext ctx) {"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(RivalRebels.round.rrplayerlist);"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/RhodesJumpPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RhodesJumpPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<RhodesJumpPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class RhodesJumpPacket implements IMessage {"
+        },
+        {
+          "line": 25,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public RhodesJumpPacket() {"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public RhodesJumpPacket(EntityRhodes er, boolean j, boolean r, boolean l, boolean f, boolean p, boolean c, boolean n, boolean s, boolean z, boolean g) {"
+        },
+        {
+          "line": 42,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 56,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 70,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<RhodesJumpPacket, IMessage> {"
+        },
+        {
+          "line": 71,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(RhodesJumpPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/RhodesPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RhodesPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<RhodesPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class RhodesPacket implements IMessage {"
+        },
+        {
+          "line": 44,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public RhodesPacket() {"
+        },
+        {
+          "line": 47,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public RhodesPacket(EntityRhodes er) {"
+        },
+        {
+          "line": 79,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 119,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 155,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<RhodesPacket, IMessage> {"
+        },
+        {
+          "line": 156,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(RhodesPacket m, MessageContext ctx) {"
+        },
+        {
+          "line": 201,
+          "terms": [
+            "Packet"
+          ],
+          "text": "er.ticksSinceLastPacket = 0;"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/RhodesPiecePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RhodesPiecePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<RhodesPiecePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 11,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class RhodesPiecePacket implements IMessage {"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public RhodesPiecePacket() {"
+        },
+        {
+          "line": 19,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public RhodesPiecePacket(EntityRhodesPiece piece) {"
+        },
+        {
+          "line": 25,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 31,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 37,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<RhodesPiecePacket, IMessage> {"
+        },
+        {
+          "line": 38,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(RhodesPiecePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/TextPacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TextPacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<TextPacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class TextPacket implements IMessage {"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public TextPacket() {"
+        },
+        {
+          "line": 18,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public TextPacket(String t) {"
+        },
+        {
+          "line": 22,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 33,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<TextPacket, IMessage> {"
+        },
+        {
+          "line": 34,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(TextPacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/packet/VotePacket.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "VotePacket",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<VotePacket, IMessage>"
+        }
+      ],
+      "path_related": true,
+      "name_related": true,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public class VotePacket implements IMessage {"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public VotePacket() {"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public VotePacket(boolean vote) {"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 28,
+          "terms": [
+            "IMessage",
+            "IMessageHandler",
+            "Packet"
+          ],
+          "text": "public static class Handler implements IMessageHandler<VotePacket, IMessage> {"
+        },
+        {
+          "line": 29,
+          "terms": [
+            "IMessage",
+            "Packet"
+          ],
+          "text": "public IMessage onMessage(VotePacket m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/round/RivalRebelsPlayer.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RivalRebelsPlayer",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 24,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public RivalRebelsPlayer(ByteBuf buf) {"
+        },
+        {
+          "line": 53,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 63,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/round/RivalRebelsPlayerList.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RivalRebelsPlayerList",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<RivalRebelsPlayerList, IMessage>"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 4,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 5,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 10,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "public class RivalRebelsPlayerList implements IMessage {"
+        },
+        {
+          "line": 73,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 94,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "public static class Handler implements IMessageHandler<RivalRebelsPlayerList, IMessage> {"
+        },
+        {
+          "line": 95,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "public IMessage onMessage(RivalRebelsPlayerList m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/round/RivalRebelsRound.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "RivalRebelsRound",
+          "extends": null,
+          "implements": "IMessage"
+        },
+        {
+          "kind": "class",
+          "name": "and",
+          "extends": null,
+          "implements": null
+        },
+        {
+          "kind": "class",
+          "name": "Handler",
+          "extends": null,
+          "implements": "IMessageHandler<RivalRebelsRound, IMessage>"
+        },
+        {
+          "kind": "class",
+          "name": "PlayerInvisibility",
+          "extends": null,
+          "implements": null
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.GuiSpawnPacket;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.InspectPacket;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 15,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessage;"
+        },
+        {
+          "line": 16,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;"
+        },
+        {
+          "line": 20,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "import io.netty.buffer.ByteBuf;"
+        },
+        {
+          "line": 40,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "public class RivalRebelsRound implements IMessage {"
+        },
+        {
+          "line": 82,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void fromBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 103,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "public void toBytes(ByteBuf buf) {"
+        },
+        {
+          "line": 169,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 191,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 243,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 320,
+          "terms": [
+            "ByteBuf"
+          ],
+          "text": "ByteBuf data = Unpooled.buffer();"
+        },
+        {
+          "line": 327,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new InspectPacket(), (EntityPlayerMP)event.player);"
+        },
+        {
+          "line": 334,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(this.rrplayerlist, (EntityPlayerMP)event.player);"
+        },
+        {
+          "line": 336,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new GuiSpawnPacket(), (EntityPlayerMP)event.player);"
+        },
+        {
+          "line": 345,
+          "terms": [
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendTo(new GuiSpawnPacket(), (EntityPlayerMP)event.player);"
+        },
+        {
+          "line": 473,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 500,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 511,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 560,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(this);"
+        },
+        {
+          "line": 589,
+          "terms": [
+            "IMessage",
+            "IMessageHandler"
+          ],
+          "text": "public static class Handler implements IMessageHandler<RivalRebelsRound, IMessage> {"
+        },
+        {
+          "line": 590,
+          "terms": [
+            "IMessage"
+          ],
+          "text": "public IMessage onMessage(RivalRebelsRound m, MessageContext ctx) {"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityAntimatterBomb.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityAntimatterBomb",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 205,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING \" + this.username));"
+        },
+        {
+          "line": 206,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 207,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 208,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket("
+        },
+        {
+          "line": 227,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning1\"));"
+        },
+        {
+          "line": 228,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning2\"));"
+        },
+        {
+          "line": 229,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning3\"));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityLaptop.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityLaptop",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.LaptopRefreshPacket;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 237,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 238,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": ".sendToAll(new LaptopRefreshPacket(this.field_145851_c, this.field_145848_d, this.field_145849_e, this.b2spirit, this.b2carpet));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityNuclearBomb.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityNuclearBomb",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 5,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 186,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING \" + this.username));"
+        },
+        {
+          "line": 187,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 188,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 189,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket("
+        },
+        {
+          "line": 205,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning1\"));"
+        },
+        {
+          "line": 206,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning2\"));"
+        },
+        {
+          "line": 207,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning3\"));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityReactor.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityReactor",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 11,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 12,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ReactorUpdatePacket;"
+        },
+        {
+          "line": 13,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 44,
+          "terms": [
+            "Packet"
+          ],
+          "text": "public long lastPacket = System.currentTimeMillis();"
+        },
+        {
+          "line": 188,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.meltdown\"));"
+        },
+        {
+          "line": 307,
+          "terms": [
+            "Packet"
+          ],
+          "text": "if (System.currentTimeMillis() - this.lastPacket > 1000L) {"
+        },
+        {
+          "line": 308,
+          "terms": [
+            "Packet"
+          ],
+          "text": "this.lastPacket = System.currentTimeMillis();"
+        },
+        {
+          "line": 309,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 310,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 311,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new ReactorUpdatePacket("
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityReciever.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityReciever",
+          "extends": "TileEntityMachineBase",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.ADSUpdatePacket;"
+        },
+        {
+          "line": 8,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 186,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 187,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 188,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new ADSUpdatePacket("
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityTachyonBomb.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityTachyonBomb",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 205,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING \" + this.username));"
+        },
+        {
+          "line": 206,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 207,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 208,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket("
+        },
+        {
+          "line": 227,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning1\"));"
+        },
+        {
+          "line": 228,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning2\"));"
+        },
+        {
+          "line": 229,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning3\"));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityTheoreticalTsarBomba.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityTheoreticalTsarBomba",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 197,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING \" + this.username));"
+        },
+        {
+          "line": 198,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 199,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 200,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket("
+        },
+        {
+          "line": 219,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning1\"));"
+        },
+        {
+          "line": 220,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning2\"));"
+        },
+        {
+          "line": 221,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning3\"));"
+        }
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/common/tileentity/TileEntityTsarBomba.java",
+      "declarations": [
+        {
+          "kind": "class",
+          "name": "TileEntityTsarBomba",
+          "extends": "TileEntity",
+          "implements": "IInventory"
+        }
+      ],
+      "path_related": false,
+      "name_related": false,
+      "occurrences": [
+        {
+          "line": 6,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.PacketDispatcher;"
+        },
+        {
+          "line": 7,
+          "terms": [
+            "Packet"
+          ],
+          "text": "import assets.rivalrebels.common.packet.TextPacket;"
+        },
+        {
+          "line": 204,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING \" + this.username));"
+        },
+        {
+          "line": 205,
+          "terms": [
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys"
+        },
+        {
+          "line": 206,
+          "terms": [
+            "sendToAll",
+            "sendTo"
+          ],
+          "text": ".sendToAll("
+        },
+        {
+          "line": 207,
+          "terms": [
+            "Packet"
+          ],
+          "text": "new TextPacket("
+        },
+        {
+          "line": 226,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning1\"));"
+        },
+        {
+          "line": 227,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning2\"));"
+        },
+        {
+          "line": 228,
+          "terms": [
+            "sendToAll",
+            "sendTo",
+            "Packet"
+          ],
+          "text": "PacketDispatcher.packetsys.sendToAll(new TextPacket(\"RivalRebels.WARNING RivalRebels.warning3\"));"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1045 @@
+[
+  {
+    "name": "alandmine",
+    "registration": "registerBlock",
+    "class": "BlockLandMine",
+    "expression": "alandmine = new BlockLandMine().func_149647_a(rralltab).func_149752_b(1.0F).func_149711_c(0.6F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1070
+  },
+  {
+    "name": "amario",
+    "registration": "registerBlock",
+    "class": "BlockMario",
+    "expression": "amario = new BlockMario().func_149647_a(rralltab).func_149711_c(1.5F).func_149752_b(10.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1020
+  },
+  {
+    "name": "ammunition",
+    "registration": "registerBlock",
+    "class": "BlockAmmunition",
+    "expression": "ammunition = new BlockAmmunition().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1047
+  },
+  {
+    "name": "antimatterbombblock",
+    "registration": "registerBlock",
+    "class": "BlockAntimatterBomb",
+    "expression": "antimatterbombblock = new BlockAntimatterBomb().func_149711_c(5.0F).func_149715_a(0.4F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1148
+  },
+  {
+    "name": "aquicksand",
+    "registration": "registerBlock",
+    "class": "BlockQuickSand",
+    "expression": "aquicksand = new BlockQuickSand().func_149647_a(rralltab).func_149711_c(0.5F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1021
+  },
+  {
+    "name": "barricade",
+    "registration": "registerBlock",
+    "class": "BlockAutoBarricade",
+    "expression": "barricade = new BlockAutoBarricade().func_149711_c(0.7F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1022
+  },
+  {
+    "name": "bastion",
+    "registration": "registerBlock",
+    "class": "BlockAutoForceField",
+    "expression": "bastion = new BlockAutoForceField().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1120
+  },
+  {
+    "name": "breadbox",
+    "registration": "registerBlock",
+    "class": "BlockBreadBox",
+    "expression": "breadbox = new BlockBreadBox().func_149647_a(rralltab).func_149722_s().func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1069
+  },
+  {
+    "name": "buildrhodes",
+    "registration": "registerBlock",
+    "class": "BlockRhodesScaffold",
+    "expression": "buildrhodes = new BlockRhodesScaffold()\n         .func_149711_c(2.0F)\n         .func_149752_b(100.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1137
+  },
+  {
+    "name": "bunker",
+    "registration": "registerBlock",
+    "class": "BlockAutoBunker",
+    "expression": "bunker = new BlockAutoBunker().func_149711_c(0.5F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1025
+  },
+  {
+    "name": "camo1",
+    "registration": "registerBlock",
+    "class": "BlockCamo1",
+    "expression": "camo1 = new BlockCamo1().func_149711_c(2.0F).func_149752_b(25.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1027
+  },
+  {
+    "name": "camo2",
+    "registration": "registerBlock",
+    "class": "BlockCamo2",
+    "expression": "camo2 = new BlockCamo2().func_149711_c(2.0F).func_149752_b(25.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1028
+  },
+  {
+    "name": "camo3",
+    "registration": "registerBlock",
+    "class": "BlockCamo3",
+    "expression": "camo3 = new BlockCamo3().func_149711_c(2.0F).func_149752_b(25.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1029
+  },
+  {
+    "name": "conduit",
+    "registration": "registerBlock",
+    "class": "BlockConduit",
+    "expression": "conduit = new BlockConduit().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1121
+  },
+  {
+    "name": "controller",
+    "registration": "registerBlock",
+    "class": "BlockLaptop",
+    "expression": "controller = new BlockLaptop().func_149711_c(0.3F).func_149752_b(1.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1122
+  },
+  {
+    "name": "cycle",
+    "registration": "registerBlock",
+    "class": "BlockCycle",
+    "expression": "cycle = new BlockCycle().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1059
+  },
+  {
+    "name": "easteregg",
+    "registration": "registerBlock",
+    "class": "BlockAutoEaster",
+    "expression": "easteregg = new BlockAutoEaster().func_149711_c(0.5F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1024
+  },
+  {
+    "name": "explosives",
+    "registration": "registerBlock",
+    "class": "BlockExplosives",
+    "expression": "explosives = new BlockExplosives().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1048
+  },
+  {
+    "name": "ffreciever",
+    "registration": "registerBlock",
+    "class": "BlockReciever",
+    "expression": "ffreciever = new BlockReciever().func_149711_c(2.0F).func_149752_b(100.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1136
+  },
+  {
+    "name": "flag1",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag1 = new BlockFlag(\"bi\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1031
+  },
+  {
+    "name": "flag2",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag2 = new BlockFlag(\"dd\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1032
+  },
+  {
+    "name": "flag3",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag3 = new BlockFlag(\"ar\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1033
+  },
+  {
+    "name": "flag4",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag4 = new BlockFlag(\"aw\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1034
+  },
+  {
+    "name": "flag5",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag5 = new BlockFlag(\"aq\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1035
+  },
+  {
+    "name": "flag6",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag6 = new BlockFlag(\"al\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1036
+  },
+  {
+    "name": "flag7",
+    "registration": "registerBlock",
+    "class": "BlockFlag",
+    "expression": "flag7 = new BlockFlag(\"aj\").func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1037
+  },
+  {
+    "name": "flagbox1",
+    "registration": "registerBlock",
+    "class": "BlockFlagBox1",
+    "expression": "flagbox1 = new BlockFlagBox1().func_149722_s().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1038
+  },
+  {
+    "name": "flagbox3",
+    "registration": "registerBlock",
+    "class": "BlockFlagBox3",
+    "expression": "flagbox3 = new BlockFlagBox3().func_149722_s().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1041
+  },
+  {
+    "name": "flagbox4",
+    "registration": "registerBlock",
+    "class": "BlockFlagBox4",
+    "expression": "flagbox4 = new BlockFlagBox4().func_149722_s().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1042
+  },
+  {
+    "name": "flagbox5",
+    "registration": "registerBlock",
+    "class": "BlockFlagBox5",
+    "expression": "flagbox5 = new BlockFlagBox5().func_149722_s().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1039
+  },
+  {
+    "name": "flagbox6",
+    "registration": "registerBlock",
+    "class": "BlockFlagBox6",
+    "expression": "flagbox6 = new BlockFlagBox6().func_149722_s().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1040
+  },
+  {
+    "name": "flagbox7",
+    "registration": "registerBlock",
+    "class": "BlockFlagBox7",
+    "expression": "flagbox7 = new BlockFlagBox7().func_149722_s().func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1043
+  },
+  {
+    "name": "flare",
+    "registration": "registerBlock",
+    "class": "BlockFlare",
+    "expression": "flare = new BlockFlare().func_149715_a(0.5F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1056
+  },
+  {
+    "name": "forcefield",
+    "registration": "registerBlock",
+    "class": "BlockForceField",
+    "expression": "forcefield = new BlockForceField()\n         .func_149711_c(1000000.0F)\n         .func_149752_b(1000000.0F)\n         .func_149715_a(0.5F)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1130
+  },
+  {
+    "name": "forcefieldnode",
+    "registration": "registerBlock",
+    "class": "BlockForceFieldNode",
+    "expression": "forcefieldnode = new BlockForceFieldNode().func_149711_c(5.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1117
+  },
+  {
+    "name": "fshield",
+    "registration": "registerBlock",
+    "class": "BlockForceShield",
+    "expression": "fshield = new BlockForceShield()\n         .func_149711_c(0.2F)\n         .func_149752_b(10.0F)\n         .func_149713_g(0)\n         .func_149715_a(0.25F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1061
+  },
+  {
+    "name": "gamestart",
+    "registration": "registerBlock",
+    "class": "BlockGameStart",
+    "expression": "gamestart = new BlockGameStart().func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1068
+  },
+  {
+    "name": "jump",
+    "registration": "registerBlock",
+    "class": "BlockJump",
+    "expression": "jump = new BlockJump().func_149711_c(2.0F).func_149752_b(5.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1051
+  },
+  {
+    "name": "landmine",
+    "registration": "registerBlock",
+    "class": "BlockLandMine",
+    "expression": "landmine = new BlockLandMine().func_149752_b(1.0F).func_149711_c(0.6F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1053
+  },
+  {
+    "name": "light",
+    "registration": "registerBlock",
+    "class": "BlockLight",
+    "expression": "light = new BlockLight(23).func_149715_a(1.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1057
+  },
+  {
+    "name": "light2",
+    "registration": "registerBlock",
+    "class": "BlockLight",
+    "expression": "light2 = new BlockLight(-1).func_149715_a(1.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1058
+  },
+  {
+    "name": "loader",
+    "registration": "registerBlock",
+    "class": "BlockLoader",
+    "expression": "loader = new BlockLoader().func_149711_c(2.0F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1078
+  },
+  {
+    "name": "mario",
+    "registration": "registerBlock",
+    "class": "BlockMario",
+    "expression": "mario = new BlockMario().func_149711_c(1.5F).func_149752_b(10.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1050
+  },
+  {
+    "name": "mariotrap",
+    "registration": "registerBlock",
+    "class": "BlockAutoMarioTrap",
+    "expression": "mariotrap = new BlockAutoMarioTrap().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1123
+  },
+  {
+    "name": "meltdown",
+    "registration": "registerBlock",
+    "class": "BlockMeltDown",
+    "expression": "meltdown = new BlockMeltDown().func_149711_c(0.5F).func_149752_b(10.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1135
+  },
+  {
+    "name": "minetrap",
+    "registration": "registerBlock",
+    "class": "BlockAutoMineTrap",
+    "expression": "minetrap = new BlockAutoMineTrap().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1124
+  },
+  {
+    "name": "nuclearBomb",
+    "registration": "registerBlock",
+    "class": "BlockNuclearBomb",
+    "expression": "nuclearBomb = new BlockNuclearBomb().func_149711_c(5.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1071
+  },
+  {
+    "name": "nukeCrateBottom",
+    "registration": "registerBlock",
+    "class": "BlockNukeCrate",
+    "expression": "nukeCrateBottom = new BlockNukeCrate().func_149647_a(rralltab).func_149711_c(0.5F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1073
+  },
+  {
+    "name": "nukeCrateTop",
+    "registration": "registerBlock",
+    "class": "BlockNukeCrate",
+    "expression": "nukeCrateTop = new BlockNukeCrate().func_149647_a(rralltab).func_149711_c(0.5F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1072
+  },
+  {
+    "name": "omegaarmor",
+    "registration": "registerBlock",
+    "class": "BlockOmegaArmor",
+    "expression": "omegaarmor = new BlockOmegaArmor().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1045
+  },
+  {
+    "name": "omegaobj",
+    "registration": "registerBlock",
+    "class": "BlockOmegaObjective",
+    "expression": "omegaobj = new BlockOmegaObjective()\n         .func_149715_a(1.0F)\n         .func_149711_c(1.0F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1079
+  },
+  {
+    "name": "petrifiedstone1",
+    "registration": "registerBlock",
+    "class": "BlockPetrifiedStone",
+    "expression": "petrifiedstone1 = new BlockPetrifiedStone(\"c\")\n         .func_149711_c(1.5F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1096
+  },
+  {
+    "name": "petrifiedstone2",
+    "registration": "registerBlock",
+    "class": "BlockPetrifiedStone",
+    "expression": "petrifiedstone2 = new BlockPetrifiedStone(\"d\")\n         .func_149711_c(1.5F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1101
+  },
+  {
+    "name": "petrifiedstone3",
+    "registration": "registerBlock",
+    "class": "BlockPetrifiedStone",
+    "expression": "petrifiedstone3 = new BlockPetrifiedStone(\"e\")\n         .func_149711_c(1.5F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1106
+  },
+  {
+    "name": "petrifiedstone4",
+    "registration": "registerBlock",
+    "class": "BlockPetrifiedStone",
+    "expression": "petrifiedstone4 = new BlockPetrifiedStone(\"f\")\n         .func_149711_c(1.5F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1111
+  },
+  {
+    "name": "petrifiedwood",
+    "registration": "registerBlock",
+    "class": "BlockPetrifiedWood",
+    "expression": "petrifiedwood = new BlockPetrifiedWood()\n         .func_149711_c(1.25F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1091
+  },
+  {
+    "name": "plasmaexplosion",
+    "registration": "registerBlock",
+    "class": "BlockPlasmaExplosion",
+    "expression": "plasmaexplosion = new BlockPlasmaExplosion().func_149715_a(1.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1076
+  },
+  {
+    "name": "quicksand",
+    "registration": "registerBlock",
+    "class": "BlockQuickSand",
+    "expression": "quicksand = new BlockQuickSand().func_149711_c(0.5F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1052
+  },
+  {
+    "name": "quicksandtrap",
+    "registration": "registerBlock",
+    "class": "BlockAutoQuickSandTrap",
+    "expression": "quicksandtrap = new BlockAutoQuickSandTrap()\n         .func_149711_c(0.5F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1125
+  },
+  {
+    "name": "radioactivedirt",
+    "registration": "registerBlock",
+    "class": "BlockRadioactiveDirt",
+    "expression": "radioactivedirt = new BlockRadioactiveDirt().func_149647_a(rralltab).func_149711_c(0.5F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1074
+  },
+  {
+    "name": "radioactivesand",
+    "registration": "registerBlock",
+    "class": "BlockRadioactiveSand",
+    "expression": "radioactivesand = new BlockRadioactiveSand().func_149647_a(rralltab).func_149711_c(0.5F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1075
+  },
+  {
+    "name": "reactive",
+    "registration": "registerBlock",
+    "class": "BlockReactive",
+    "expression": "reactive = new BlockReactive().func_149711_c(2.0F).func_149752_b(100.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1119
+  },
+  {
+    "name": "reactor",
+    "registration": "registerBlock",
+    "class": "BlockReactor",
+    "expression": "reactor = new BlockReactor().func_149711_c(1.0F).func_149752_b(10.0F).func_149715_a(1.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1077
+  },
+  {
+    "name": "remotecharge",
+    "registration": "registerBlock",
+    "class": "BlockRemoteCharge",
+    "expression": "remotecharge = new BlockRemoteCharge().func_149711_c(0.5F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1054
+  },
+  {
+    "name": "rhodesactivator",
+    "registration": "registerBlock",
+    "class": "BlockRhodesActivator",
+    "expression": "rhodesactivator = new BlockRhodesActivator()\n         .func_149711_c(0.1F)\n         .func_149752_b(100.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1142
+  },
+  {
+    "name": "sigmaarmor",
+    "registration": "registerBlock",
+    "class": "BlockSigmaArmor",
+    "expression": "sigmaarmor = new BlockSigmaArmor().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rrarmortab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1044
+  },
+  {
+    "name": "sigmaobj",
+    "registration": "registerBlock",
+    "class": "BlockSigmaObjective",
+    "expression": "sigmaobj = new BlockSigmaObjective()\n         .func_149715_a(1.0F)\n         .func_149711_c(1.0F)\n         .func_149752_b(10.0F)\n         .func_149647_a(rralltab)\n         .func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1085
+  },
+  {
+    "name": "smartcamo",
+    "registration": "registerBlock",
+    "class": "BlockSmartCamo",
+    "expression": "smartcamo = new BlockSmartCamo().func_149647_a(rralltab).func_149663_c(\"rivalrebels.block.\" + nextNum++);",
+    "line": 1026
+  },
+  {
+    "name": "steel",
+    "registration": "registerBlock",
+    "class": "BlockSteel",
+    "expression": "steel = new BlockSteel().func_149711_c(1.0F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1030
+  },
+  {
+    "name": "supplies",
+    "registration": "registerBlock",
+    "class": "BlockSupplies",
+    "expression": "supplies = new BlockSupplies().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1049
+  },
+  {
+    "name": "tachyonbombblock",
+    "registration": "registerBlock",
+    "class": "BlockTachyonBomb",
+    "expression": "tachyonbombblock = new BlockTachyonBomb().func_149711_c(5.0F).func_149715_a(0.4F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1149
+  },
+  {
+    "name": "theoreticaltsarbombablock",
+    "registration": "registerBlock",
+    "class": "BlockTheoreticalTsarBomba",
+    "expression": "theoreticaltsarbombablock = new BlockTheoreticalTsarBomba().func_149711_c(5.0F).func_149715_a(0.4F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1147
+  },
+  {
+    "name": "timedbomb",
+    "registration": "registerBlock",
+    "class": "BlockTimedBomb",
+    "expression": "timedbomb = new BlockTimedBomb().func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1055
+  },
+  {
+    "name": "tower",
+    "registration": "registerBlock",
+    "class": "BlockAutoTower",
+    "expression": "tower = new BlockAutoTower().func_149711_c(0.7F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1023
+  },
+  {
+    "name": "toxicgas",
+    "registration": "registerBlock",
+    "class": "BlockToxicGas",
+    "expression": "toxicgas = new BlockToxicGas().func_149722_s().func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1060
+  },
+  {
+    "name": "tsarbombablock",
+    "registration": "registerBlock",
+    "class": "BlockTsarBomba",
+    "expression": "tsarbombablock = new BlockTsarBomba().func_149711_c(5.0F).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1116
+  },
+  {
+    "name": "weapons",
+    "registration": "registerBlock",
+    "class": "BlockWeapons",
+    "expression": "weapons = new BlockWeapons().func_149711_c(0.5F).func_149752_b(10.0F).func_149647_a(rralltab).func_149663_c(\"rivalrebels.blocks.\" + nextNum++);",
+    "line": 1046
+  },
+  {
+    "name": "antenna",
+    "registration": "registerItem",
+    "class": "ItemAntenna",
+    "expression": "antenna = new ItemAntenna().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1250
+  },
+  {
+    "name": "armyshovel",
+    "registration": "registerItem",
+    "class": "ItemArmyShovel",
+    "expression": "armyshovel = new ItemArmyShovel().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1239
+  },
+  {
+    "name": "battery",
+    "registration": "registerItem",
+    "class": "ItemBattery",
+    "expression": "battery = new ItemBattery().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1237
+  },
+  {
+    "name": "binoculars",
+    "registration": "registerItem",
+    "class": "ItemBinoculars",
+    "expression": "binoculars = new ItemBinoculars().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1257
+  },
+  {
+    "name": "camera",
+    "registration": "registerItem",
+    "class": "ItemCamera",
+    "expression": "camera = new ItemCamera().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1263
+  },
+  {
+    "name": "camohat",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camohat = new ItemArmorCamo(armorCamo, rendererCamo, 0, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1343
+  },
+  {
+    "name": "camohat2",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camohat2 = new ItemArmorCamo(armorCamo2, rendererCamo2, 0, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1347
+  },
+  {
+    "name": "camopants",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camopants = new ItemArmorCamo(armorCamo, rendererCamo, 2, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1345
+  },
+  {
+    "name": "camopants2",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camopants2 = new ItemArmorCamo(armorCamo2, rendererCamo2, 2, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1349
+  },
+  {
+    "name": "camoshirt",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camoshirt = new ItemArmorCamo(armorCamo, rendererCamo, 1, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1344
+  },
+  {
+    "name": "camoshirt2",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camoshirt2 = new ItemArmorCamo(armorCamo2, rendererCamo2, 1, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1348
+  },
+  {
+    "name": "camoshoes",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camoshoes = new ItemArmorCamo(armorCamo, rendererCamo, 3, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1346
+  },
+  {
+    "name": "camoshoes2",
+    "registration": "registerItem",
+    "class": "ItemArmorCamo",
+    "expression": "camoshoes2 = new ItemArmorCamo(armorCamo2, rendererCamo2, 3, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1350
+  },
+  {
+    "name": "chip",
+    "registration": "registerItem",
+    "class": "ItemChip",
+    "expression": "chip = new ItemChip().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1258
+  },
+  {
+    "name": "core1",
+    "registration": "registerItem",
+    "class": "ItemCoreCopper",
+    "expression": "core1 = new ItemCoreCopper().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1254
+  },
+  {
+    "name": "core2",
+    "registration": "registerItem",
+    "class": "ItemCoreTungsten",
+    "expression": "core2 = new ItemCoreTungsten().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1255
+  },
+  {
+    "name": "core3",
+    "registration": "registerItem",
+    "class": "ItemCoreTitanium",
+    "expression": "core3 = new ItemCoreTitanium().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1256
+  },
+  {
+    "name": "einsten",
+    "registration": "registerItem",
+    "class": "ItemAstroBlaster",
+    "expression": "einsten = new ItemAstroBlaster().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1251
+  },
+  {
+    "name": "emptyrod",
+    "registration": "registerItem",
+    "class": "ItemRodEmpty",
+    "expression": "emptyrod = new ItemRodEmpty().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1253
+  },
+  {
+    "name": "expill",
+    "registration": "registerItem",
+    "class": "ItemExPill",
+    "expression": "expill = new ItemExPill().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1243
+  },
+  {
+    "name": "flamethrower",
+    "registration": "registerItem",
+    "class": "ItemFlameThrower",
+    "expression": "flamethrower = new ItemFlameThrower().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1233
+  },
+  {
+    "name": "fuel",
+    "registration": "registerItem",
+    "class": "ItemFuel",
+    "expression": "fuel = new ItemFuel().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1236
+  },
+  {
+    "name": "fuse",
+    "registration": "registerItem",
+    "class": "ItemFuse",
+    "expression": "fuse = new ItemFuse().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1245
+  },
+  {
+    "name": "gasgrenade",
+    "registration": "registerItem",
+    "class": "ItemGasGrenade",
+    "expression": "gasgrenade = new ItemGasGrenade().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1241
+  },
+  {
+    "name": "hackm202",
+    "registration": "registerItem",
+    "class": "ItemHackM202",
+    "expression": "hackm202 = new ItemHackM202().func_77655_b(\"rivalrebelsitems\" + nextNum++);",
+    "line": 1261
+  },
+  {
+    "name": "hydrod",
+    "registration": "registerItem",
+    "class": "ItemRodHydrogen",
+    "expression": "hydrod = new ItemRodHydrogen().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1247
+  },
+  {
+    "name": "knife",
+    "registration": "registerItem",
+    "class": "ItemCuchillo",
+    "expression": "knife = new ItemCuchillo().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1240
+  },
+  {
+    "name": "nuclearelement",
+    "registration": "registerItem",
+    "class": "ItemRodNuclear",
+    "expression": "nuclearelement = new ItemRodNuclear().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1246
+  },
+  {
+    "name": "ohackerboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ohackerboots = new ItemClassArmor(ohackerarmor, ohackerarmorrenderer, 3, 0, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1324
+  },
+  {
+    "name": "ohackerchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ohackerchest = new ItemClassArmor(ohackerarmor, ohackerarmorrenderer, 1, 0, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1322
+  },
+  {
+    "name": "ohackerhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ohackerhelmet = new ItemClassArmor(ohackerarmor, ohackerarmorrenderer, 0, 0, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1321
+  },
+  {
+    "name": "ohackerpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ohackerpants = new ItemClassArmor(ohackerarmor, ohackerarmorrenderer, 2, 0, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1323
+  },
+  {
+    "name": "ointelboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ointelboots = new ItemClassArmor(ointelarmor, ointelarmorrenderer, 3, 0, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1320
+  },
+  {
+    "name": "ointelchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ointelchest = new ItemClassArmor(ointelarmor, ointelarmorrenderer, 1, 0, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1318
+  },
+  {
+    "name": "ointelhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ointelhelmet = new ItemClassArmor(ointelarmor, ointelarmorrenderer, 0, 0, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1317
+  },
+  {
+    "name": "ointelpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "ointelpants = new ItemClassArmor(ointelarmor, ointelarmorrenderer, 2, 0, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1319
+  },
+  {
+    "name": "onukerboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "onukerboots = new ItemClassArmor(onukerarmor, onukerarmorrenderer, 3, 0, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1316
+  },
+  {
+    "name": "onukerchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "onukerchest = new ItemClassArmor(onukerarmor, onukerarmorrenderer, 1, 0, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1314
+  },
+  {
+    "name": "onukerhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "onukerhelmet = new ItemClassArmor(onukerarmor, onukerarmorrenderer, 0, 0, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1313
+  },
+  {
+    "name": "onukerpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "onukerpants = new ItemClassArmor(onukerarmor, onukerarmorrenderer, 2, 0, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1315
+  },
+  {
+    "name": "orebelboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "orebelboots = new ItemClassArmor(orebelarmor, orebelarmorrenderer, 3, 0, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1312
+  },
+  {
+    "name": "orebelchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "orebelchest = new ItemClassArmor(orebelarmor, orebelarmorrenderer, 1, 0, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1310
+  },
+  {
+    "name": "orebelhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "orebelhelmet = new ItemClassArmor(orebelarmor, orebelarmorrenderer, 0, 0, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1309
+  },
+  {
+    "name": "orebelpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "orebelpants = new ItemClassArmor(orebelarmor, orebelarmorrenderer, 2, 0, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1311
+  },
+  {
+    "name": "plasmacannon",
+    "registration": "registerItem",
+    "class": "ItemPlasmaCannon",
+    "expression": "plasmacannon = new ItemPlasmaCannon().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1248
+  },
+  {
+    "name": "pliers",
+    "registration": "registerItem",
+    "class": "ItemPliers",
+    "expression": "pliers = new ItemPliers().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1238
+  },
+  {
+    "name": "redrod",
+    "registration": "registerItem",
+    "class": "ItemRodRedstone",
+    "expression": "redrod = new ItemRodRedstone().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1252
+  },
+  {
+    "name": "remote",
+    "registration": "registerItem",
+    "class": "ItemRemote",
+    "expression": "remote = new ItemRemote().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1244
+  },
+  {
+    "name": "rocket",
+    "registration": "registerItem",
+    "class": "ItemRocket",
+    "expression": "rocket = new ItemRocket().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1235
+  },
+  {
+    "name": "roda",
+    "registration": "registerItem",
+    "class": "ItemRoda",
+    "expression": "roda = new ItemRoda().func_77655_b(\"rivalrebelsitems\" + nextNum++);",
+    "line": 1259
+  },
+  {
+    "name": "roddisk",
+    "registration": "registerItem",
+    "class": "ItemRodDisk",
+    "expression": "roddisk = new ItemRodDisk().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1249
+  },
+  {
+    "name": "rpg",
+    "registration": "registerItem",
+    "class": "ItemRPG",
+    "expression": "rpg = new ItemRPG().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1232
+  },
+  {
+    "name": "safepill",
+    "registration": "registerItem",
+    "class": "ItemSafePill",
+    "expression": "safepill = new ItemSafePill().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1242
+  },
+  {
+    "name": "seekm202",
+    "registration": "registerItem",
+    "class": "ItemSeekM202",
+    "expression": "seekm202 = new ItemSeekM202().func_77655_b(\"rivalrebelsitems\" + nextNum++);",
+    "line": 1262
+  },
+  {
+    "name": "shackerboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "shackerboots = new ItemClassArmor(shackerarmor, shackerarmorrenderer, 3, 1, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1340
+  },
+  {
+    "name": "shackerchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "shackerchest = new ItemClassArmor(shackerarmor, shackerarmorrenderer, 1, 1, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1338
+  },
+  {
+    "name": "shackerhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "shackerhelmet = new ItemClassArmor(shackerarmor, shackerarmorrenderer, 0, 1, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1337
+  },
+  {
+    "name": "shackerpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "shackerpants = new ItemClassArmor(shackerarmor, shackerarmorrenderer, 2, 1, 3).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1339
+  },
+  {
+    "name": "sintelboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "sintelboots = new ItemClassArmor(sintelarmor, sintelarmorrenderer, 3, 1, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1336
+  },
+  {
+    "name": "sintelchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "sintelchest = new ItemClassArmor(sintelarmor, sintelarmorrenderer, 1, 1, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1334
+  },
+  {
+    "name": "sintelhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "sintelhelmet = new ItemClassArmor(sintelarmor, sintelarmorrenderer, 0, 1, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1333
+  },
+  {
+    "name": "sintelpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "sintelpants = new ItemClassArmor(sintelarmor, sintelarmorrenderer, 2, 1, 2).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1335
+  },
+  {
+    "name": "snukerboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "snukerboots = new ItemClassArmor(snukerarmor, snukerarmorrenderer, 3, 1, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1332
+  },
+  {
+    "name": "snukerchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "snukerchest = new ItemClassArmor(snukerarmor, snukerarmorrenderer, 1, 1, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1330
+  },
+  {
+    "name": "snukerhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "snukerhelmet = new ItemClassArmor(snukerarmor, snukerarmorrenderer, 0, 1, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1329
+  },
+  {
+    "name": "snukerpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "snukerpants = new ItemClassArmor(snukerarmor, snukerarmorrenderer, 2, 1, 1).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1331
+  },
+  {
+    "name": "srebelboots",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "srebelboots = new ItemClassArmor(srebelarmor, srebelarmorrenderer, 3, 1, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1328
+  },
+  {
+    "name": "srebelchest",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "srebelchest = new ItemClassArmor(srebelarmor, srebelarmorrenderer, 1, 1, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1326
+  },
+  {
+    "name": "srebelhelmet",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "srebelhelmet = new ItemClassArmor(srebelarmor, srebelarmorrenderer, 0, 1, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1325
+  },
+  {
+    "name": "srebelpants",
+    "registration": "registerItem",
+    "class": "ItemClassArmor",
+    "expression": "srebelpants = new ItemClassArmor(srebelarmor, srebelarmorrenderer, 2, 1, 0).func_77655_b(\"rivalrebelsarmor\" + nextNum++);",
+    "line": 1327
+  },
+  {
+    "name": "tesla",
+    "registration": "registerItem",
+    "class": "ItemTesla",
+    "expression": "tesla = new ItemTesla().func_77655_b(\"rivalrebelsitem\" + nextNum++);",
+    "line": 1234
+  },
+  {
+    "name": "trollmask",
+    "registration": "registerItem",
+    "class": "ItemTrollHelmet",
+    "expression": "trollmask = new ItemTrollHelmet().func_77655_b(\"rivalrebelsitems\" + nextNum++);",
+    "line": 1260
+  }
+]

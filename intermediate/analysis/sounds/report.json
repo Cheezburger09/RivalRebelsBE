@@ -1,0 +1,2098 @@
+{
+  "section": "sounds",
+  "files_found": 148,
+  "valid_ogg_files": 148,
+  "invalid_ogg_files": 0,
+  "total_size_bytes": 3600488,
+  "codecs": {
+    "Vorbis": 148
+  },
+  "sample_rates": {
+    "44100": 104,
+    "48000": 17,
+    "22050": 16,
+    "11025": 9,
+    "33100": 1,
+    "31250": 1
+  },
+  "duplicate_groups": [
+    [
+      "assets/rivalrebels/sounds/ba/f.ogg",
+      "assets/rivalrebels/sounds/ba/n.ogg"
+    ]
+  ],
+  "sounds": [
+    {
+      "file": "assets/rivalrebels/sounds/aa/a1.ogg",
+      "size_bytes": 46028,
+      "sha256": "46d4dc72a09ac1fa9980831f1b6975eeae9065e80a7968270129d776e67feb2f",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 13,
+      "duration_seconds_estimate": 3.445,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/a2.ogg",
+      "size_bytes": 46625,
+      "sha256": "e71d4702cbe5252d44ab28d0e7c876eb94477afa2a11dbd2ddcfedcaceab1c50",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 13,
+      "duration_seconds_estimate": 3.077,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/b1.ogg",
+      "size_bytes": 12982,
+      "sha256": "615a548e17a2a921ac4d17ef03fdac3f6a1143037f83f23f3295b4a766988b43",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.779,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/b2.ogg",
+      "size_bytes": 13510,
+      "sha256": "17af6a428b3ccbb620a574da5bdc608d5cb8c825717d1c7f7223c3fe30736073",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.779,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/b3.ogg",
+      "size_bytes": 13724,
+      "sha256": "5bbca9724006d1837690a1fd6b7f0451fccc1f052b865d25b83d2d0fd6b14ef3",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.776,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/c.ogg",
+      "size_bytes": 60497,
+      "sha256": "9359c8fbfae97b9ce85a51f0a023bcfd9c9e12e229ad265737f165c883a6130f",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 33100,
+      "channels": 2,
+      "pages": 17,
+      "duration_seconds_estimate": 3.657,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/d1.ogg",
+      "size_bytes": 23591,
+      "sha256": "dc2c143dfee1a86720db71db0c78a07b46585397090b06abdb3ed11f665852a2",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.541,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/d2.ogg",
+      "size_bytes": 26722,
+      "sha256": "aae4b972eb5940ff4682e0872072bb5080501686303ba8c91b06be8d36882c78",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 9,
+      "duration_seconds_estimate": 1.933,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aa/d3.ogg",
+      "size_bytes": 24080,
+      "sha256": "32c6c74d3c4200918c69abb4c841308db39237d33b260d1a7d2f59b02e2b4a4b",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.672,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ab/a1.ogg",
+      "size_bytes": 18245,
+      "sha256": "b12c7d1c95c9df7a6f5f66884dcd152b28098296d51ed080bc6307947b4eb830",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.501,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ab/a2.ogg",
+      "size_bytes": 19437,
+      "sha256": "e2e1cfbcef406fc63d61856c62560275e93c50315e3a8c0be4e361fd94dc2ead",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.412,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ac/a.ogg",
+      "size_bytes": 20591,
+      "sha256": "32d40ee313787163c8cebd0094c28e310bea48110ee08585eb6b28a58c72400c",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.277,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ac/b1.ogg",
+      "size_bytes": 13183,
+      "sha256": "4b687ea29aab588e8b08d2898dd6c4e8b1426d75f46296b875c69c37405192f2",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 5,
+      "duration_seconds_estimate": 0.623,
+      "serials": [
+        191907660
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ac/b2.ogg",
+      "size_bytes": 13796,
+      "sha256": "eeb33ee7805eb938653ea01b74ed9becf3e93986d2f4947e3f49d42ea0467a80",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 5,
+      "duration_seconds_estimate": 0.636,
+      "serials": [
+        1711210406
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ac/b3.ogg",
+      "size_bytes": 11382,
+      "sha256": "513053b15c708cab6482f98c91941e9df6ff7f5afd4f6a4bb37ae1fe0bd33680",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 4,
+      "duration_seconds_estimate": 0.623,
+      "serials": [
+        39502420
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ac/c.ogg",
+      "size_bytes": 25118,
+      "sha256": "938f9cf76fd70afb9508e3ddf214b31cb886d260aa946059a9adfac889642cbc",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 0.634,
+      "serials": [
+        690008062
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ac/d.ogg",
+      "size_bytes": 14712,
+      "sha256": "c0bfb29213ea089e313b08a314c26baaaee9c5e5de01f1f5f2182166d71260ce",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.477,
+      "serials": [
+        1211316886
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ad/a1.ogg",
+      "size_bytes": 6874,
+      "sha256": "4df65918dc198d2f9d186ef7aaf550c443e5bfcee2bee1a831871b4c4b635cf5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.326,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ad/a2.ogg",
+      "size_bytes": 8023,
+      "sha256": "1f30abf006845ac503adfef8df335753ed0ebafd1f58e4dac5cd198204dfb930",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.579,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ad/a3.ogg",
+      "size_bytes": 13795,
+      "sha256": "69891ee97bc0a3e2fcc7d851ecb71882ef34d2894f24839df244250194770f57",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 1.057,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ad/a4.ogg",
+      "size_bytes": 7805,
+      "sha256": "951880d61d3bbf905f6f2f2fef655754308bcdd8e7adda1d446787a545314ed5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.607,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/a1.ogg",
+      "size_bytes": 12918,
+      "sha256": "fce8de3a0828fdddbce64867eeafa452a266ce34901c9661cd395296ca84a2d3",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.728,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/a2.ogg",
+      "size_bytes": 16876,
+      "sha256": "3d890893e53ac80982e509019a6eb94fe6342540720a4ba1ef35f261be70d465",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.741,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/a3.ogg",
+      "size_bytes": 14291,
+      "sha256": "1905de7f2f480a37f88a08122fe0aa7fedb0eeb23f8061feb4317b2157b6706b",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.709,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/b1.ogg",
+      "size_bytes": 12057,
+      "sha256": "a329d4e94a8d540403dacc6faa43e31e6709562b73ede361a1fcf92878e14726",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 1.231,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/b2.ogg",
+      "size_bytes": 9358,
+      "sha256": "83589b46900db3bb7de186f7cfaf9abd89197e71cb538caeda54f0dac9a9237b",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.597,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/b3.ogg",
+      "size_bytes": 10862,
+      "sha256": "ff7da49d882fca40c070fd2b3ce1a223a8fd9b1db824090297e634df272a6417",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.761,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/b4.ogg",
+      "size_bytes": 10558,
+      "sha256": "3d25c077ff11c8ae93fb23a5c96a245e7fcea3c5b8ef5ab81646776630365474",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.824,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/c1.ogg",
+      "size_bytes": 5412,
+      "sha256": "964d63026b91d6a204cdb76feb5bf865ef40c6408251b8efc723fc738c4908a0",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.229,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/c2.ogg",
+      "size_bytes": 5744,
+      "sha256": "cc566c19e8c5a8ed0fd57fe78ee6492e840f1352fbba606440ae2a106cccafb3",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.27,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/c3.ogg",
+      "size_bytes": 5851,
+      "sha256": "89a3b32ee1e0a9e930472cde188be4d6f90c3eeebc48a9519a3144bfbb8744fb",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.323,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/d1.ogg",
+      "size_bytes": 10235,
+      "sha256": "f9a22a78c414442f06bd3b33ded2e3c5c73410729ac7b834e4fea88376dd2dbb",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.516,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/d2.ogg",
+      "size_bytes": 17259,
+      "sha256": "e871c9d683b09a9455ff00056fb13fcc823c0ff625d04628bd310ee8e59193bf",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.173,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/d3.ogg",
+      "size_bytes": 14633,
+      "sha256": "ef710215a6c296aba3cfd9f6558ee7a073389c89ac8f3640bcc5b295a400d253",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.965,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ae/e.ogg",
+      "size_bytes": 8189,
+      "sha256": "98cf091c19309dfb901296930ba19346a4add545add808bce040349689d82220",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.682,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/a/a.ogg",
+      "size_bytes": 18406,
+      "sha256": "8145d63cb01e8321bb79cf9f901994fdd1909efb02dd506d13b173c576e54beb",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 3.0,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/a/b.ogg",
+      "size_bytes": 26452,
+      "sha256": "5bf2bd8453336bbfa931b23d5f6bcaa60b7b7dbcaca5d80b4fd6435ac5e54258",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 9,
+      "duration_seconds_estimate": 1.535,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/a/c.ogg",
+      "size_bytes": 20793,
+      "sha256": "9ee4287f371084d065b291a70f3a4b43842706879b9d13aade3282a2a5a2faff",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.067,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/a/d.ogg",
+      "size_bytes": 14239,
+      "sha256": "21915ce78e132d3bdf3453cb584565875a41c5251110f07d823ab9f3bfa48193",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.634,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/a.ogg",
+      "size_bytes": 21974,
+      "sha256": "f4462cf5400214868ddfd34ecc05b357e506c2701d995b5b956d85824d1e649d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.785,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b/a.ogg",
+      "size_bytes": 34593,
+      "sha256": "47d8c6123a6d16c8ff2683db3bca1b8cf77ce91568973f531b147caae506dee3",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 11,
+      "duration_seconds_estimate": 1.56,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b/b.ogg",
+      "size_bytes": 21843,
+      "sha256": "60e6faa6fe62c57536d7bedf0322aefb7e87263fbaa0bf25240ccd69c6912424",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 0.793,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b/c.ogg",
+      "size_bytes": 10777,
+      "sha256": "c2a2249509b24b0c66a85dcb492736c4c7e13aaee3024637ae16d97be7f61756",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.302,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b/d.ogg",
+      "size_bytes": 15643,
+      "sha256": "62337ad9d1f9ff1a222dddadfbbbad6a4566da29f56755d3d4326e4e9c7b37a1",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.691,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b1.ogg",
+      "size_bytes": 10984,
+      "sha256": "2141233e8862d379a391978c789bf14c203a3bf13b78dc4a85d63f18b3e59071",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.56,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b2.ogg",
+      "size_bytes": 10388,
+      "sha256": "7b1dc1e6e519c4e13ac616e8449db85dc98d26082532fe7c4d0876b9fc41124d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.502,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b3.ogg",
+      "size_bytes": 10831,
+      "sha256": "b9b61950b439005897c307af736aba786d0392bb50a32f916e6d53676c10234b",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.468,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/b4.ogg",
+      "size_bytes": 8478,
+      "sha256": "d12e317a9a3cdfbc8a6f629f3e8b371b0732c88ead00cc0527a2e3fa9e0add06",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.305,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/af/c.ogg",
+      "size_bytes": 15483,
+      "sha256": "64fe8877ab1c42c64f10ceb24f377e3a45bf76627fecb79facd2ed94fff4f45f",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.704,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ag/a1.ogg",
+      "size_bytes": 41158,
+      "sha256": "43b293678a3265e242bf01d32ac95a88be5c46b3facfc7bd17b382d2b5ddbca4",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 12,
+      "duration_seconds_estimate": 3.646,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ag/a2.ogg",
+      "size_bytes": 43823,
+      "sha256": "546acc0159297310a3d9c44bec9d021270953a5680ee28063b8302e791f940f5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 13,
+      "duration_seconds_estimate": 3.773,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ag/b.ogg",
+      "size_bytes": 21749,
+      "sha256": "62e15f4372f4a223b0b3d314f9c27031769dfb5c8b79bf79092a299584239858",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.449,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ag/c.ogg",
+      "size_bytes": 17215,
+      "sha256": "b9cdfd84a6e8c9c731ccea48b65c8cb4fb6cff86996062ce744924278e14fce5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 2.544,
+      "serials": [
+        1876685748
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/a1.ogg",
+      "size_bytes": 5909,
+      "sha256": "da64b057e00ba5519955d35320272bd367c82115337b6a3349a42594ccec323e",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.104,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/a2.ogg",
+      "size_bytes": 6189,
+      "sha256": "d3496c045db33f1a196caa6270446d0d0436d446b0b7956542cf2b36901d87f6",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.139,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/b.ogg",
+      "size_bytes": 63354,
+      "sha256": "90e499888b56b37374a6f936bc50f5871121c4e3363b17b22092ac2c7df202b8",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 17,
+      "duration_seconds_estimate": 4.999,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/c.ogg",
+      "size_bytes": 12331,
+      "sha256": "9867c5948777107b3672cb78df223a37dc3d7ec5aa0f93b83e3ede296e2e5772",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.544,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/d1.ogg",
+      "size_bytes": 11117,
+      "sha256": "9966350777fdc5b918cf8df12099ea97c76ed4f7ce2d5f8555d49c47f56fb8ee",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.608,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/d2.ogg",
+      "size_bytes": 12583,
+      "sha256": "6b8ab8a7621b1af497df2bc8c7afc5759de755133108bacbc50a4285228199f1",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.812,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ah/d3.ogg",
+      "size_bytes": 12883,
+      "sha256": "bd3e2a18d876c80fe6bc6e577dc6d0b90cef8088855c443ae40296a36ca249d6",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.825,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/a.ogg",
+      "size_bytes": 8075,
+      "sha256": "de60ffc1c290a2de12a32ce8f45e6579d2ee226dee18adaab66a5aecf50a8ea0",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.183,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/b.ogg",
+      "size_bytes": 8068,
+      "sha256": "0695ddcb7ad6ba846617f9c6990d03d52e4232fdc3118711ef9a94240a3b4111",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.224,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/c.ogg",
+      "size_bytes": 10594,
+      "sha256": "6ea18a02bdece6f52b5db1431540966b7ef6bf6178283614fb520429cea38f7d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.715,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/d.ogg",
+      "size_bytes": 8434,
+      "sha256": "e16e0e61517a42ae36183b917e0a48c669b500cd1c0330a4a4ea2b5ea877d3ab",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.231,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/e.ogg",
+      "size_bytes": 11457,
+      "sha256": "104b5a81e07894635530b93a7289bd35c39bfc4354dc7a08a57c84f23aa52f6b",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.66,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/f.ogg",
+      "size_bytes": 28252,
+      "sha256": "c3183cb45bc978756b83f9145915e83ae418d3332e71a461c9289b0b9777e772",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 9,
+      "duration_seconds_estimate": 0.993,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/g.ogg",
+      "size_bytes": 6562,
+      "sha256": "22e549f605c5887b9a03f0e48bebe23e55bf83e9ec9cadfbd25b9ca4ef491912",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.287,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/h.ogg",
+      "size_bytes": 17701,
+      "sha256": "2751db2e4f21e368f6e153667f62b709ca6c84fb271ff2ba562bc06e886131f1",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.001,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ai/i.ogg",
+      "size_bytes": 27065,
+      "sha256": "56b909097791dd24fb22dfd3434e9e1cbfcd2c43073af5123a3362c24a8d3019",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 0.922,
+      "serials": [
+        588880986
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aj/a.ogg",
+      "size_bytes": 15678,
+      "sha256": "d476318506789f9ec00a56bda7b83482e80cb3e60267b5d213a834e40d6d162c",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 1.877,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aj/b.ogg",
+      "size_bytes": 23778,
+      "sha256": "2017ad2811585fb44987f37ffeab2c0ccf5a157fc20b9997f9b41dc7573f744d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.896,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ak/a.ogg",
+      "size_bytes": 12678,
+      "sha256": "232d4862d8aa1e72a2c3f146dae4c62bb0d5f678385ec4d59ed6899a0548bcc5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.886,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ak/b.ogg",
+      "size_bytes": 34657,
+      "sha256": "bfc6f380ed533e6069222211177b85c0f1074ce8a55f32b4568a555baf0b5888",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 11,
+      "duration_seconds_estimate": 2.5,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ak/c.ogg",
+      "size_bytes": 77038,
+      "sha256": "eacb89e756cb6065b91ad3c653cd0185c8488082dacd3d74a77323a58a77dbd4",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 21,
+      "duration_seconds_estimate": 3.586,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/al/a.ogg",
+      "size_bytes": 147579,
+      "sha256": "fc7e128e58364709ef5282ce551966118df52fc9b96a68cbd1f00d10f052e4ec",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 37,
+      "duration_seconds_estimate": 16.532,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/al/b.ogg",
+      "size_bytes": 21991,
+      "sha256": "c2cc1a1f92f62c7f8cf743b04c891e1e19504a4e1b583d87ec0d68f2b0561400",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.373,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/am/a.ogg",
+      "size_bytes": 17414,
+      "sha256": "01a4fd6a10eca396ab23b0bceb8c5925e4d3644fdde2402d23a44b6969e7bd94",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 2.0,
+      "serials": [
+        990975740
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/an/a1.ogg",
+      "size_bytes": 23066,
+      "sha256": "7ab60f9298f9ba9726cac18f729f3f6ebddc2915360ec40acccbf8f3f21efec6",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.461,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/an/a2.ogg",
+      "size_bytes": 7076,
+      "sha256": "5a286d6bdbf21da41eeb720f985151589c485b7341cd7578279d67cde80474a7",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.801,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/an/b1.ogg",
+      "size_bytes": 32148,
+      "sha256": "bc6f8e4aa13906eaa2988b2d1faf11f1df3406042b16513224798f3e50f47476",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 10,
+      "duration_seconds_estimate": 1.959,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/an/b2.ogg",
+      "size_bytes": 9213,
+      "sha256": "fa3847b7103dfe24497a17eab1c55c2165ea524d626600cf1dfbe188be7fe84c",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 1.184,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ao/a.ogg",
+      "size_bytes": 30723,
+      "sha256": "b1035cb62cb52441fcbf0f6e66a6231399b837f407adf2c48f3f3ae0fbc711be",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 10,
+      "duration_seconds_estimate": 1.842,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ao/b.ogg",
+      "size_bytes": 17108,
+      "sha256": "dcfc930e2218a80cfe991cbacc09966e24f2c530d1f69f02eb8af487864b3231",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.043,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ao/c.ogg",
+      "size_bytes": 41680,
+      "sha256": "e953528f04a59ff9c7c5bafd650edd800902a0259639d3f8ef8188a4d8acae73",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 12,
+      "duration_seconds_estimate": 3.5,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ap/a1.ogg",
+      "size_bytes": 16746,
+      "sha256": "6eb69f3a826d1470133c40c920831b79345543afbf37ba09341b8d9bebef7921",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.813,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ap/a2.ogg",
+      "size_bytes": 12486,
+      "sha256": "78690e8f2883f43c6e8213dc23e43a5a9dbd36536408974193d997902ad9da3b",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.758,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ap/a3.ogg",
+      "size_bytes": 13852,
+      "sha256": "ca582db0ec2d2d3e8ca3187819b68287c8488c4d00d0df24e0a77a3848217b53",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.522,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ap/a4.ogg",
+      "size_bytes": 12050,
+      "sha256": "435007d82e271ca422e1c5e638edc1cc0f4d147b51b83c2a3be269ff382c1132",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.47,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aq/a.ogg",
+      "size_bytes": 36258,
+      "sha256": "63d4892c5453fa9b1fee2233fbf74f113210fc31971405bf4b9679d35bd3bdb7",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 11,
+      "duration_seconds_estimate": 2.255,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aq/b.ogg",
+      "size_bytes": 71693,
+      "sha256": "51fd78bed60f92b13a8b01efd08d925925504039cd9ffc1e956864b6f4d1601f",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 31250,
+      "channels": 2,
+      "pages": 19,
+      "duration_seconds_estimate": 4.74,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ar/a.ogg",
+      "size_bytes": 45714,
+      "sha256": "90dd01f6a545b0e5c5f243fa02e98ce7e6e9b13f09e460919768155cb1193443",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 13,
+      "duration_seconds_estimate": 2.45,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ar/b.ogg",
+      "size_bytes": 20181,
+      "sha256": "303802b1721a2d93face5eee897d4a3e1816e19dd90b123c74a0c891a8037ccb",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.269,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ar/c.ogg",
+      "size_bytes": 18654,
+      "sha256": "8a9d3db0dd64b6487bc7943f6e19faecd23b5f149b7a21b788f52d9c60231369",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 0.896,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/as/a1.ogg",
+      "size_bytes": 7231,
+      "sha256": "fb2e4cc7286fb206851d397b34c8f29c9d0cff02236a248c9745b407edc14b62",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 0.83,
+      "serials": [
+        1602372487
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/as/a2.ogg",
+      "size_bytes": 5235,
+      "sha256": "6afd493720e01d63388dd7a7386f1638191096ffee39ebb29c2d097bd511cff8",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.448,
+      "serials": [
+        1602372487
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/at/a.ogg",
+      "size_bytes": 53953,
+      "sha256": "2b425ee989212fce61487f806264195c207920ee0014b22567c291c94356ffd9",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 15,
+      "duration_seconds_estimate": 4.224,
+      "serials": [
+        2076618442
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/at/b.ogg",
+      "size_bytes": 8024,
+      "sha256": "565c657ff918740c058ea33400dfce114b5cdb8e7f88ff0688bcfaaee4a537bd",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 1.004,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/at/c.ogg",
+      "size_bytes": 17905,
+      "sha256": "69b0ff4d330327e762166575a8dd915a2af8782d467b24a6f96a7af9cc18d31f",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.501,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/at/d.ogg",
+      "size_bytes": 20719,
+      "sha256": "a69615429f31e96ee8de3c36cb41756781d8d86fcc399f48cf95cea80500af53",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.588,
+      "serials": [
+        2076719284
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/au/a.ogg",
+      "size_bytes": 24787,
+      "sha256": "54c2e89c1856417e546a30b79df3bddc0f745b4d230918ddfb6bf27dc3b0535d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 22050,
+      "channels": 1,
+      "pages": 8,
+      "duration_seconds_estimate": 2.862,
+      "serials": [
+        660765863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/au/b1.ogg",
+      "size_bytes": 20093,
+      "sha256": "018c405a101815de62d5b1de0c10301f13f923cab2d98d74f8e0034ac1524584",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.054,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/au/b2.ogg",
+      "size_bytes": 24732,
+      "sha256": "431e64bbc11b7371bdd25c0580d7d4b40ba7751504f6c676b4ced514964c19a5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.102,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/au/c.ogg",
+      "size_bytes": 12031,
+      "sha256": "a3974999668077304cf9a6a18807a630c6ba5f4353e73a60ac39c27057bcc159",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.614,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/au/d.ogg",
+      "size_bytes": 14939,
+      "sha256": "5079c5ff9d59da108f71a4525ac3b084c13ec4f21404c8cb243d8c99c4962942",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.797,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/a1.ogg",
+      "size_bytes": 45301,
+      "sha256": "3df93873ec47fa1c5ffe75915b004bfd7bff559bb7432308d39b4f45411161f9",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 12,
+      "duration_seconds_estimate": 2.866,
+      "serials": [
+        1700973250
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/a2.ogg",
+      "size_bytes": 47558,
+      "sha256": "f2a4f3972fae71eea837af6eb74f4f780f25baf0de3be082a9f0a9dccec5c870",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 13,
+      "duration_seconds_estimate": 3.505,
+      "serials": [
+        2106207902
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/b.ogg",
+      "size_bytes": 17251,
+      "sha256": "86048e4d64136a7b0f7bc703872bc71df4cb1bbfd688835c1174c46371fb9f34",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.36,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/c1.ogg",
+      "size_bytes": 25499,
+      "sha256": "0b051d30991f4ec65ecce0381bd4e8301310fece89cf1fd840134f29d32684c5",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 8,
+      "duration_seconds_estimate": 1.958,
+      "serials": [
+        465993808
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/c2.ogg",
+      "size_bytes": 27140,
+      "sha256": "4e5df12eb3187f9186f1f39f555a9b5c76e96e9495363e618efd74c50e4bac1c",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 8,
+      "duration_seconds_estimate": 1.981,
+      "serials": [
+        1929193110
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/d.ogg",
+      "size_bytes": 22358,
+      "sha256": "163fad7ed769d725cce0c2fa20ac336fb0753c0a17fdbfedecb8d1194b95ae69",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 7,
+      "duration_seconds_estimate": 1.624,
+      "serials": [
+        1406864484
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/av/e.ogg",
+      "size_bytes": 45221,
+      "sha256": "d46fa65df172ade3fc743a1de3eb16f385bc673a26da1a388cce76329dbc94fc",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 13,
+      "duration_seconds_estimate": 3.843,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aw/a.ogg",
+      "size_bytes": 32600,
+      "sha256": "db6739ea2f907740969674c52915a7fddc89df6e086c1fee2c243e4ce01bd687",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 10,
+      "duration_seconds_estimate": 2.461,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aw/b.ogg",
+      "size_bytes": 6024,
+      "sha256": "4b181aa6f483ae85258261bc6c53d43ecd39c759680ad77c03ca48a11147b9a0",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.606,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aw/c.ogg",
+      "size_bytes": 9452,
+      "sha256": "c82001579a0a67063db01b74fba122e22e9f7a2dda97c29114eba08aa35e1602",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 4,
+      "duration_seconds_estimate": 1.315,
+      "serials": [
+        2076668863
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aw/d1.ogg",
+      "size_bytes": 28536,
+      "sha256": "158aef5ee61255b8dd0157193da56cb1a0a03bb788eb1d1614dfa3eeb43a9ec6",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 9,
+      "duration_seconds_estimate": 1.37,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aw/d2.ogg",
+      "size_bytes": 27033,
+      "sha256": "623a34d4fc4664d323e8ef00a2efd504b9b108ba11a9b15efc041fbcc6f97e5c",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 9,
+      "duration_seconds_estimate": 1.204,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/aw/e.ogg",
+      "size_bytes": 6607,
+      "sha256": "6492ad41602927d437ef1728b2a771a5a94f587cbfa67c9748ee0c3a38acdf71",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 11025,
+      "channels": 2,
+      "pages": 3,
+      "duration_seconds_estimate": 0.718,
+      "serials": [
+        2076702477
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ax/a.ogg",
+      "size_bytes": 17179,
+      "sha256": "a042f7a9096d38af28b49fc8496fa8ac6f961284c2b72c797b8e2a775d12fe4d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.407,
+      "serials": [
+        2076652056
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ax/b1.ogg",
+      "size_bytes": 59518,
+      "sha256": "6649489e2dcd86129d9925682b2a36e25ac100c22f83e89cc6d22797560c70bc",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 16,
+      "duration_seconds_estimate": 1.244,
+      "serials": [
+        566041822
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ax/b2.ogg",
+      "size_bytes": 56475,
+      "sha256": "0461a2c72607a190ccab63c7fa0d6d253449797df55d40c16046119b249eaa6c",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 15,
+      "duration_seconds_estimate": 1.363,
+      "serials": [
+        145958016
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ax/b3.ogg",
+      "size_bytes": 113467,
+      "sha256": "9cc3af82ab463274b69aecbe14553890e576b8d59ba782028f7f1bd4abfe3ccf",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 27,
+      "duration_seconds_estimate": 2.75,
+      "serials": [
+        1969854565
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ax/b4.ogg",
+      "size_bytes": 117853,
+      "sha256": "54ab2c65647bda68bc321258c344c1bd2acf9423db7aefb184c04b49d9058709",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 29,
+      "duration_seconds_estimate": 2.271,
+      "serials": [
+        513132773
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ay/a1.ogg",
+      "size_bytes": 43797,
+      "sha256": "92e3ab44ff7bf23a4a36827dec81d4060f222514744297f1a81059984162364e",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 12,
+      "duration_seconds_estimate": 2.956,
+      "serials": [
+        478512474
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ay/a2.ogg",
+      "size_bytes": 99674,
+      "sha256": "3199c3efb8a80fcbcc4e4be9118cb5a96f1c9b139b38ceb3001ec3aa9317a331",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 1,
+      "pages": 25,
+      "duration_seconds_estimate": 6.584,
+      "serials": [
+        43335470
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ay/b.ogg",
+      "size_bytes": 11971,
+      "sha256": "60546524e38daba2dc45d63dd52397ea1452249571127a269a9248978d0fa6a9",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.614,
+      "serials": [
+        2076685670
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ay/c.ogg",
+      "size_bytes": 32795,
+      "sha256": "ec20507203a6e81b3dea0c44cae7d936cefe89e4ce1ffb3b6f6f97dd652606db",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 10,
+      "duration_seconds_estimate": 1.974,
+      "serials": [
+        2076736091
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/az/a1.ogg",
+      "size_bytes": 9422,
+      "sha256": "c31805cd0fe0001641965ccf166a0208908a85f5e0c2aa92f5f494e0207a54a2",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 5,
+      "duration_seconds_estimate": 0.405,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/az/a2.ogg",
+      "size_bytes": 24262,
+      "sha256": "13adb2c0b62dd5f27ea216f312f3c8996c30f925f843f11c30d238b436f63dce",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.55,
+      "serials": [
+        2076635249
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/a1.ogg",
+      "size_bytes": 45356,
+      "sha256": "8d7eb8870b4c5dd367b84d0fec85110dce3bf54836af6c1ea43cbafc02cb3232",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 12,
+      "duration_seconds_estimate": 1.813,
+      "serials": [
+        1632856506
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/a2.ogg",
+      "size_bytes": 40068,
+      "sha256": "34c78d94a4bc80552171135d6da77965c471af1b0dfb21a4606bbcc0492ffae2",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 11,
+      "duration_seconds_estimate": 1.81,
+      "serials": [
+        2125936566
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/b.ogg",
+      "size_bytes": 18716,
+      "sha256": "4ead6ca2442efe5ca2bab9e87cbb6516173cf21a4b57b752a0f1604ca0e36a9d",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.489,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/c.ogg",
+      "size_bytes": 16257,
+      "sha256": "9e651813b463bd536944a7ee33dd98632ac92952ea5dd31899a48a59a2c929b2",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 1.228,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/d.ogg",
+      "size_bytes": 18987,
+      "sha256": "8ddba493bdb0b73bac92833c235d640a2e86f0765ea9c03f5898383241a504b9",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.489,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/e.ogg",
+      "size_bytes": 21058,
+      "sha256": "548ad8ef0807bf6c010861224514396d38419e79af27ce983044fc023c8806ee",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.646,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/f.ogg",
+      "size_bytes": 14050,
+      "sha256": "cfe78fbd8af6220a52317886e12da1656094ab1d17fa815b81f6a762b5d5ebe1",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.917,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/g.ogg",
+      "size_bytes": 16671,
+      "sha256": "6568e1f4382258252e2c4ad9c78c94e45752501a79243044151ed05c3dddb8da",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 1.358,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/h.ogg",
+      "size_bytes": 22323,
+      "sha256": "6be7ab626ce65b3e3d46da260ac1ea8c7a4131f45715af9b6c430f3e37a3489f",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 1.907,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/i.ogg",
+      "size_bytes": 45537,
+      "sha256": "1224ab6a44e17e00603292d8909367a83a96cb6c0eb8d766cd669f2b1a323d39",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 13,
+      "duration_seconds_estimate": 4.258,
+      "serials": [
+        62179007
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/j.ogg",
+      "size_bytes": 47918,
+      "sha256": "74f01de86829ec59b9873d1223900c0d8603a95d9719d30e3b1a4184878f5a2e",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 14,
+      "duration_seconds_estimate": 4.598,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/k.ogg",
+      "size_bytes": 22039,
+      "sha256": "e87babccbfedf2d72739588147057ef707cc8aefaa5aa8306e3e7dbc11e374db",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 8,
+      "duration_seconds_estimate": 2.011,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/l.ogg",
+      "size_bytes": 16146,
+      "sha256": "127d2e8e23b83a74b168f332b7e08d6a2edffb1a9a8a77beab84c0231c2ac6ca",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 1.149,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/m.ogg",
+      "size_bytes": 20327,
+      "sha256": "3407127020fde86891d47f136f6f91476627c7033865b0cf32948a9c82b4d5db",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.776,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/n.ogg",
+      "size_bytes": 14050,
+      "sha256": "cfe78fbd8af6220a52317886e12da1656094ab1d17fa815b81f6a762b5d5ebe1",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 0.917,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/o.ogg",
+      "size_bytes": 16495,
+      "sha256": "d41f036e7ce528bd5af0a07faad934713d72802d6255438f779211b94b700ead",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 6,
+      "duration_seconds_estimate": 1.28,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/p.ogg",
+      "size_bytes": 18835,
+      "sha256": "533426cf240122adf1dd2e6fee4471475646dce74d3e71d9e8accae2939a2933",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.489,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/q.ogg",
+      "size_bytes": 20315,
+      "sha256": "e8875d423c9a8170daee2d172eba0888d064dc0cce4fb8e373b73277ee82a2c1",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 7,
+      "duration_seconds_estimate": 1.698,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/r.ogg",
+      "size_bytes": 26551,
+      "sha256": "495f0a83079c0a576783895c2481aec6a644854401867d20b051feef842a7f71",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 44100,
+      "channels": 2,
+      "pages": 9,
+      "duration_seconds_estimate": 2.142,
+      "serials": [
+        62195814
+      ]
+    },
+    {
+      "file": "assets/rivalrebels/sounds/ba/s.ogg",
+      "size_bytes": 32320,
+      "sha256": "d3d26507f4c40df95ba20e6b281b65b8a545df8496f19901ba8dba1909b1d4f2",
+      "valid_ogg": true,
+      "codec": "Vorbis",
+      "sample_rate": 48000,
+      "channels": 2,
+      "pages": 10,
+      "duration_seconds_estimate": 3.547,
+      "serials": [
+        1704811512
+      ]
+    }
+  ]
+}
