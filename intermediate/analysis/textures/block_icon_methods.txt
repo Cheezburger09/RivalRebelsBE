@@ -1,0 +1,133 @@
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java:41:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java:58:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java:62:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java:79:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java:33:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java:50:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:64:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:81:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:82:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:99:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java:43:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java:60:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java:105:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java:122:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java:97:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java:114:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:476:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:493:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java:43:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java:60:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java:78:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java:64:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java:81:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java:78:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java:78:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java:64:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java:81:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java:112:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java:129:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java:154:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java:171:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java:89:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java:106:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java:203:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java:207:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java:78:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java:78:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java:78:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java:411:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java:415:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java:160:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java:177:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockReactive.java:46:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockReactive.java:50:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java:56:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java:60:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java:58:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java:62:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java:29:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java:33:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java:60:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java:82:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java:113:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java:117:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java:130:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java:134:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java:81:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java:85:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java:72:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java:76:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java:96:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java:110:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java:65:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java:82:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java:96:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java:100:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java:39:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java:43:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java:72:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java:76:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java:102:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java:106:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java:47:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java:51:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockLight.java:59:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockLight.java:63:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java:29:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java:33:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockSteel.java:60:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockSteel.java:64:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java:106:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java:122:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java:73:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java:90:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java:94:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java:164:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java:165:      return this == RivalRebels.aquicksand ? Blocks.field_150354_m.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java:168:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java:157:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java:161:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java:77:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java:94:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java:57:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java:74:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java:73:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java:32:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java:33:      return Blocks.field_150354_m.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java:36:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java:73:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java:136:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java:153:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java:79:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java:96:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java:83:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java:100:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java:32:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java:33:      return Blocks.field_150346_d.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java:36:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java:181:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java:182:      return Blocks.field_150349_c.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java:185:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java:160:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java:161:      return this == RivalRebels.amario ? Blocks.field_150351_n.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java:164:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java:73:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java:100:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java:104:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java:29:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java:33:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCycle.java:45:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCycle.java:49:   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java:55:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java:59:   public void func_149651_a(IIconRegister iconregister) {

@@ -1,0 +1,2433 @@
+[
+  {
+    "class": "BlockCamo1",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCamo1.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:as\"",
+        "literal_texture": "RivalRebels:as",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockCamo2",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCamo2.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:bn\"",
+        "literal_texture": "RivalRebels:bn",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockCamo3",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCamo3.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:by\"",
+        "literal_texture": "RivalRebels:by",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockConduit",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockConduit.java",
+    "classification": "metadata",
+    "selection_method": "if (meta == 1) {\n         return this.icon1;\n      } else if (meta == 2) {\n         return this.icon2;\n      } else if (meta == 3) {\n         return this.icon3;\n      } else if (meta == 4) {\n         return this.icon4;\n      } else if (meta == 5) {\n         return this.icon5;\n      } else if (meta == 6) {\n         return this.icon6;\n      } else if (meta == 7) {\n         return this.icon7;\n      } else if (meta == 8) {\n         return this.icon8;\n      } else {\n         return meta == 9 ? this.icon9 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "this.icon6",
+      "this.icon7",
+      "this.icon8",
+      "meta == 9 ? this.icon9 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6",
+      "icon7",
+      "icon8",
+      "icon9"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:co\"",
+        "literal_texture": "RivalRebels:co",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:cp\"",
+        "literal_texture": "RivalRebels:cp",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:cq\"",
+        "literal_texture": "RivalRebels:cq",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:cr\"",
+        "literal_texture": "RivalRebels:cr",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:cs\"",
+        "literal_texture": "RivalRebels:cs",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ct\"",
+        "literal_texture": "RivalRebels:ct",
+        "dynamic": false
+      },
+      "icon7": {
+        "expression": "\"RivalRebels:cu\"",
+        "literal_texture": "RivalRebels:cu",
+        "dynamic": false
+      },
+      "icon8": {
+        "expression": "\"RivalRebels:cv\"",
+        "literal_texture": "RivalRebels:cv",
+        "dynamic": false
+      },
+      "icon9": {
+        "expression": "\"RivalRebels:cw\"",
+        "literal_texture": "RivalRebels:cw",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockCycle",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockCycle.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockForceShield",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockForceShield.java",
+    "classification": "side",
+    "selection_method": "return side != 0 && side != 1 ? this.icon1 : this.icon2;",
+    "returns": [
+      "side != 0 && side != 1 ? this.icon1 : this.icon2"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ao\"",
+        "literal_texture": "RivalRebels:ao",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ap\"",
+        "literal_texture": "RivalRebels:ap",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockGore",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockGore.java",
+    "classification": "metadata",
+    "selection_method": "if (meta == 0) {\n         return this.icon;\n      } else if (meta == 1) {\n         return this.icon2;\n      } else if (meta == 2) {\n         return this.icon3;\n      } else if (meta == 3) {\n         return this.icon4;\n      } else if (meta == 4) {\n         return this.icon5;\n      } else {\n         return meta == 5 ? this.icon6 : this.icon;\n      }",
+    "returns": [
+      "this.icon",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "meta == 5 ? this.icon6 : this.icon"
+    ],
+    "used_icon_fields": [
+      "icon",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:br\"",
+        "literal_texture": "RivalRebels:br",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:bs\"",
+        "literal_texture": "RivalRebels:bs",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:bt\"",
+        "literal_texture": "RivalRebels:bt",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:bu\"",
+        "literal_texture": "RivalRebels:bu",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:bv\"",
+        "literal_texture": "RivalRebels:bv",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:bw\"",
+        "literal_texture": "RivalRebels:bw",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockLight",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockLight.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ad\"",
+        "literal_texture": "RivalRebels:ad",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockMeltDown",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockMeltDown.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockPlasmaExplosion",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockReactive",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockReactive.java",
+    "classification": "side",
+    "selection_method": "return side != 0 && side != 1 ? this.icon : this.icontop;",
+    "returns": [
+      "side != 0 && side != 1 ? this.icon : this.icontop"
+    ],
+    "used_icon_fields": [
+      "icon",
+      "icontop"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:cf\"",
+        "literal_texture": "RivalRebels:cf",
+        "dynamic": false
+      },
+      "icontop": {
+        "expression": "\"RivalRebels:cn\"",
+        "literal_texture": "RivalRebels:cn",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockSmartCamo",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:bq\"",
+        "literal_texture": "RivalRebels:bq",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockSteel",
+    "file": "decompiled/assets/rivalrebels/common/block/BlockSteel.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:bx\"",
+        "literal_texture": "RivalRebels:bx",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoBarricade",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:cz\"",
+        "literal_texture": "RivalRebels:cz",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:da\"",
+        "literal_texture": "RivalRebels:da",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:cx\"",
+        "literal_texture": "RivalRebels:cx",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:cx\"",
+        "literal_texture": "RivalRebels:cx",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:cx\"",
+        "literal_texture": "RivalRebels:cx",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:cx\"",
+        "literal_texture": "RivalRebels:cx",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoBunker",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:bl\"",
+        "literal_texture": "RivalRebels:bl",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:bl\"",
+        "literal_texture": "RivalRebels:bl",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:bl\"",
+        "literal_texture": "RivalRebels:bl",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:bl\"",
+        "literal_texture": "RivalRebels:bl",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoEaster",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:cz\"",
+        "literal_texture": "RivalRebels:cz",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:da\"",
+        "literal_texture": "RivalRebels:da",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:db\"",
+        "literal_texture": "RivalRebels:db",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:db\"",
+        "literal_texture": "RivalRebels:db",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:db\"",
+        "literal_texture": "RivalRebels:db",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:db\"",
+        "literal_texture": "RivalRebels:db",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoMarioTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:dh\"",
+        "literal_texture": "RivalRebels:dh",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:dh\"",
+        "literal_texture": "RivalRebels:dh",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:de\"",
+        "literal_texture": "RivalRebels:de",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:de\"",
+        "literal_texture": "RivalRebels:de",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:de\"",
+        "literal_texture": "RivalRebels:de",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:de\"",
+        "literal_texture": "RivalRebels:de",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoMineTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:dh\"",
+        "literal_texture": "RivalRebels:dh",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:dh\"",
+        "literal_texture": "RivalRebels:dh",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:df\"",
+        "literal_texture": "RivalRebels:df",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:df\"",
+        "literal_texture": "RivalRebels:df",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:df\"",
+        "literal_texture": "RivalRebels:df",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:df\"",
+        "literal_texture": "RivalRebels:df",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoQuickSandTrap",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:dh\"",
+        "literal_texture": "RivalRebels:dh",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:dh\"",
+        "literal_texture": "RivalRebels:dh",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:dg\"",
+        "literal_texture": "RivalRebels:dg",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:dg\"",
+        "literal_texture": "RivalRebels:dg",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:dg\"",
+        "literal_texture": "RivalRebels:dg",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:dg\"",
+        "literal_texture": "RivalRebels:dg",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAutoTower",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:cy\"",
+        "literal_texture": "RivalRebels:cy",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:cy\"",
+        "literal_texture": "RivalRebels:cy",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:cy\"",
+        "literal_texture": "RivalRebels:cy",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:cy\"",
+        "literal_texture": "RivalRebels:cy",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockGameStart",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockRhodesScaffold",
+    "file": "decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:cz\"",
+        "literal_texture": "RivalRebels:cz",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:da\"",
+        "literal_texture": "RivalRebels:da",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:dk\"",
+        "literal_texture": "RivalRebels:dk",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:dk\"",
+        "literal_texture": "RivalRebels:dk",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:dk\"",
+        "literal_texture": "RivalRebels:dk",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:dk\"",
+        "literal_texture": "RivalRebels:dk",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAmmunition",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:aa\"",
+        "literal_texture": "RivalRebels:aa",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:aa\"",
+        "literal_texture": "RivalRebels:aa",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:aa\"",
+        "literal_texture": "RivalRebels:aa",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:aa\"",
+        "literal_texture": "RivalRebels:aa",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockExplosives",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:am\"",
+        "literal_texture": "RivalRebels:am",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:am\"",
+        "literal_texture": "RivalRebels:am",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:am\"",
+        "literal_texture": "RivalRebels:am",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:am\"",
+        "literal_texture": "RivalRebels:am",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlag",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "this.texpath",
+        "literal_texture": null,
+        "dynamic": true
+      }
+    },
+    "dynamic_icon_fields": [
+      "icon"
+    ],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlagBox1",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:bi\"",
+        "literal_texture": "RivalRebels:bi",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlagBox3",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ar\"",
+        "literal_texture": "RivalRebels:ar",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlagBox4",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:aw\"",
+        "literal_texture": "RivalRebels:aw",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlagBox5",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:aq\"",
+        "literal_texture": "RivalRebels:aq",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlagBox6",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:al\"",
+        "literal_texture": "RivalRebels:al",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlagBox7",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:aj\"",
+        "literal_texture": "RivalRebels:aj",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockNukeCrate",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ax\"",
+        "literal_texture": "RivalRebels:ax",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockOmegaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:az\"",
+        "literal_texture": "RivalRebels:az",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:az\"",
+        "literal_texture": "RivalRebels:az",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockSigmaArmor",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:bo\"",
+        "literal_texture": "RivalRebels:bo",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:bo\"",
+        "literal_texture": "RivalRebels:bo",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockSupplies",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:bz\"",
+        "literal_texture": "RivalRebels:bz",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:bz\"",
+        "literal_texture": "RivalRebels:bz",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:bz\"",
+        "literal_texture": "RivalRebels:bz",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:bz\"",
+        "literal_texture": "RivalRebels:bz",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockWeapons",
+    "file": "decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ai\"",
+        "literal_texture": "RivalRebels:ai",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ce\"",
+        "literal_texture": "RivalRebels:ce",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ce\"",
+        "literal_texture": "RivalRebels:ce",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ce\"",
+        "literal_texture": "RivalRebels:ce",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ce\"",
+        "literal_texture": "RivalRebels:ce",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockBreadBox",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ca\"",
+        "literal_texture": "RivalRebels:ca",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:cc\"",
+        "literal_texture": "RivalRebels:cc",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:cb\"",
+        "literal_texture": "RivalRebels:cb",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ca\"",
+        "literal_texture": "RivalRebels:ca",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ca\"",
+        "literal_texture": "RivalRebels:ca",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ca\"",
+        "literal_texture": "RivalRebels:ca",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockForceField",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:di\"",
+        "literal_texture": "RivalRebels:di",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockForceFieldNode",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java",
+    "classification": "metadata_and_side",
+    "selection_method": "if (meta == 0) {\n         if (side == 0 || side == 1) {\n            return this.icontop2;\n         } else {\n            return side == 4 ? this.icon2 : this.icon;\n         }\n      } else if (side != 0 && side != 1) {\n         return side == meta ? this.icon2 : this.icon;\n      } else {\n         return meta == 3 ? this.icontop1 : (meta == 4 ? this.icontop2 : (meta == 2 ? this.icontop3 : this.icontop4));\n      }",
+    "returns": [
+      "this.icontop2",
+      "side == 4 ? this.icon2 : this.icon",
+      "side == meta ? this.icon2 : this.icon",
+      "meta == 3 ? this.icontop1 : (meta == 4 ? this.icontop2 : (meta == 2 ? this.icontop3 : this.icontop4))"
+    ],
+    "used_icon_fields": [
+      "icon",
+      "icon2",
+      "icontop1",
+      "icontop2",
+      "icontop3",
+      "icontop4"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:cf\"",
+        "literal_texture": "RivalRebels:cf",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:cg\"",
+        "literal_texture": "RivalRebels:cg",
+        "dynamic": false
+      },
+      "icontop1": {
+        "expression": "\"RivalRebels:cj\"",
+        "literal_texture": "RivalRebels:cj",
+        "dynamic": false
+      },
+      "icontop2": {
+        "expression": "\"RivalRebels:ck\"",
+        "literal_texture": "RivalRebels:ck",
+        "dynamic": false
+      },
+      "icontop3": {
+        "expression": "\"RivalRebels:cl\"",
+        "literal_texture": "RivalRebels:cl",
+        "dynamic": false
+      },
+      "icontop4": {
+        "expression": "\"RivalRebels:cm\"",
+        "literal_texture": "RivalRebels:cm",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockLaptop",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:dc\"",
+        "literal_texture": "RivalRebels:dc",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockLoader",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:av\"",
+        "literal_texture": "RivalRebels:av",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockOmegaObjective",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ba\"",
+        "literal_texture": "RivalRebels:ba",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockReactor",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:bj\"",
+        "literal_texture": "RivalRebels:bj",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockReciever",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:dj\"",
+        "literal_texture": "RivalRebels:dj",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockRhodesActivator",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java",
+    "classification": "side",
+    "selection_method": "return side != 0 && side != 1 ? this.icon : this.icontop;",
+    "returns": [
+      "side != 0 && side != 1 ? this.icon : this.icontop"
+    ],
+    "used_icon_fields": [
+      "icon",
+      "icontop"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ci\"",
+        "literal_texture": "RivalRebels:ci",
+        "dynamic": false
+      },
+      "icontop": {
+        "expression": "\"RivalRebels:ch\"",
+        "literal_texture": "RivalRebels:ch",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockSigmaObjective",
+    "file": "decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:bp\"",
+        "literal_texture": "RivalRebels:bp",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockAntimatterBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockFlare",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:an\"",
+        "literal_texture": "RivalRebels:an",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockJump",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockJump.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ah\"",
+        "literal_texture": "RivalRebels:ah",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:au\"",
+        "literal_texture": "RivalRebels:au",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:at\"",
+        "literal_texture": "RivalRebels:at",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:at\"",
+        "literal_texture": "RivalRebels:at",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:at\"",
+        "literal_texture": "RivalRebels:at",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:at\"",
+        "literal_texture": "RivalRebels:at",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockLandMine",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java",
+    "classification": "other",
+    "selection_method": "return Blocks.field_150349_c.func_149691_a(side, meta);",
+    "returns": [
+      "Blocks.field_150349_c.func_149691_a(side, meta)"
+    ],
+    "used_icon_fields": [],
+    "registered_textures": {},
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockMario",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockMario.java",
+    "classification": "other",
+    "selection_method": "return this == RivalRebels.amario ? Blocks.field_150351_n.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta);",
+    "returns": [
+      "this == RivalRebels.amario ? Blocks.field_150351_n.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta)"
+    ],
+    "used_icon_fields": [],
+    "registered_textures": {},
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockNuclearBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockPetrifiedStone",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:b\" + this.type",
+        "literal_texture": null,
+        "dynamic": true
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:b\" + this.type",
+        "literal_texture": null,
+        "dynamic": true
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:bb\"",
+        "literal_texture": "RivalRebels:bb",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:bb\"",
+        "literal_texture": "RivalRebels:bb",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:bb\"",
+        "literal_texture": "RivalRebels:bb",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:bb\"",
+        "literal_texture": "RivalRebels:bb",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [
+      "icon1",
+      "icon2"
+    ],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockPetrifiedWood",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:bh\"",
+        "literal_texture": "RivalRebels:bh",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:bh\"",
+        "literal_texture": "RivalRebels:bh",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:bg\"",
+        "literal_texture": "RivalRebels:bg",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:bg\"",
+        "literal_texture": "RivalRebels:bg",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:bg\"",
+        "literal_texture": "RivalRebels:bg",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:bg\"",
+        "literal_texture": "RivalRebels:bg",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockQuickSand",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java",
+    "classification": "other",
+    "selection_method": "return this == RivalRebels.aquicksand ? Blocks.field_150354_m.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta);",
+    "returns": [
+      "this == RivalRebels.aquicksand ? Blocks.field_150354_m.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta)"
+    ],
+    "used_icon_fields": [],
+    "registered_textures": {},
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockRadioactiveDirt",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java",
+    "classification": "other",
+    "selection_method": "return Blocks.field_150346_d.func_149691_a(side, meta);",
+    "returns": [
+      "Blocks.field_150346_d.func_149691_a(side, meta)"
+    ],
+    "used_icon_fields": [],
+    "registered_textures": {},
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockRadioactiveSand",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java",
+    "classification": "other",
+    "selection_method": "return Blocks.field_150354_m.func_149691_a(side, meta);",
+    "returns": [
+      "Blocks.field_150354_m.func_149691_a(side, meta)"
+    ],
+    "used_icon_fields": [],
+    "registered_textures": {},
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockRemoteCharge",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ag\"",
+        "literal_texture": "RivalRebels:ag",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ag\"",
+        "literal_texture": "RivalRebels:ag",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:af\"",
+        "literal_texture": "RivalRebels:af",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:af\"",
+        "literal_texture": "RivalRebels:af",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:af\"",
+        "literal_texture": "RivalRebels:af",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:af\"",
+        "literal_texture": "RivalRebels:af",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockTachyonBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockTheoreticalTsarBomba",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockTimedBomb",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java",
+    "classification": "side",
+    "selection_method": "if (side == 0) {\n         return this.icon1;\n      } else if (side == 1) {\n         return this.icon2;\n      } else if (side == 2) {\n         return this.icon3;\n      } else if (side == 3) {\n         return this.icon4;\n      } else if (side == 4) {\n         return this.icon5;\n      } else {\n         return side == 5 ? this.icon6 : this.icon1;\n      }",
+    "returns": [
+      "this.icon1",
+      "this.icon2",
+      "this.icon3",
+      "this.icon4",
+      "this.icon5",
+      "side == 5 ? this.icon6 : this.icon1"
+    ],
+    "used_icon_fields": [
+      "icon1",
+      "icon2",
+      "icon3",
+      "icon4",
+      "icon5",
+      "icon6"
+    ],
+    "registered_textures": {
+      "icon1": {
+        "expression": "\"RivalRebels:ac\"",
+        "literal_texture": "RivalRebels:ac",
+        "dynamic": false
+      },
+      "icon2": {
+        "expression": "\"RivalRebels:ae\"",
+        "literal_texture": "RivalRebels:ae",
+        "dynamic": false
+      },
+      "icon3": {
+        "expression": "\"RivalRebels:ac\"",
+        "literal_texture": "RivalRebels:ac",
+        "dynamic": false
+      },
+      "icon4": {
+        "expression": "\"RivalRebels:ac\"",
+        "literal_texture": "RivalRebels:ac",
+        "dynamic": false
+      },
+      "icon5": {
+        "expression": "\"RivalRebels:ab\"",
+        "literal_texture": "RivalRebels:ab",
+        "dynamic": false
+      },
+      "icon6": {
+        "expression": "\"RivalRebels:ab\"",
+        "literal_texture": "RivalRebels:ab",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockToxicGas",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  },
+  {
+    "class": "BlockTsarBomba",
+    "file": "decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java",
+    "classification": "fixed_or_conditional",
+    "selection_method": "return this.icon;",
+    "returns": [
+      "this.icon"
+    ],
+    "used_icon_fields": [
+      "icon"
+    ],
+    "registered_textures": {
+      "icon": {
+        "expression": "\"RivalRebels:ak\"",
+        "literal_texture": "RivalRebels:ak",
+        "dynamic": false
+      }
+    },
+    "dynamic_icon_fields": [],
+    "unresolved_icon_fields": []
+  }
+]

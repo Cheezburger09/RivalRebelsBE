@@ -1,0 +1,1167 @@
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java:41:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-42-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-43-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-44-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-45-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-46-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-47-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-48-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-49-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-50-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-51-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-52-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-53-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-54-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-55-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-56-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-57-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-58-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-59-      this.icon1 = iconregister.func_94245_a("RivalRebels:dh");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-60-      this.icon2 = iconregister.func_94245_a("RivalRebels:dh");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-61-      this.icon3 = iconregister.func_94245_a("RivalRebels:df");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-62-      this.icon4 = iconregister.func_94245_a("RivalRebels:df");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-63-      this.icon5 = iconregister.func_94245_a("RivalRebels:df");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-64-      this.icon6 = iconregister.func_94245_a("RivalRebels:df");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-65-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMineTrap.java-66-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java:62:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-63-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-64-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-65-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-66-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-67-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-68-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-69-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-70-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-71-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-72-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-73-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-74-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-75-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-76-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-77-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-78-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-79-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-80-      this.icon1 = iconregister.func_94245_a("RivalRebels:cz");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-81-      this.icon2 = iconregister.func_94245_a("RivalRebels:da");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-82-      this.icon3 = iconregister.func_94245_a("RivalRebels:db");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-83-      this.icon4 = iconregister.func_94245_a("RivalRebels:db");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-84-      this.icon5 = iconregister.func_94245_a("RivalRebels:db");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-85-      this.icon6 = iconregister.func_94245_a("RivalRebels:db");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-86-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoForceField.java-87-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java:33:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-34-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-35-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-36-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-37-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-38-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-39-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-40-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-41-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-42-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-43-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-44-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-45-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-46-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-47-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-48-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-49-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-50-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-51-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-52-      this.icon2 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-53-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-54-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-55-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-56-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-57-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockGameStart.java-58-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java:64:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-65-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-66-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-67-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-68-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-69-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-70-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-71-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-72-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-73-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-74-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-75-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-76-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-77-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-78-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-79-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-80-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-81-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-82-      this.icon1 = iconregister.func_94245_a("RivalRebels:cz");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-83-      this.icon2 = iconregister.func_94245_a("RivalRebels:da");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-84-      this.icon3 = iconregister.func_94245_a("RivalRebels:cx");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-85-      this.icon4 = iconregister.func_94245_a("RivalRebels:cx");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-86-      this.icon5 = iconregister.func_94245_a("RivalRebels:cx");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-87-      this.icon6 = iconregister.func_94245_a("RivalRebels:cx");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-88-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBarricade.java-89-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java:82:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-83-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-84-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-85-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-86-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-87-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-88-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-89-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-90-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-91-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-92-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-93-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-94-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-95-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-96-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-97-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-98-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-99-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-100-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-101-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-102-      this.icon3 = iconregister.func_94245_a("RivalRebels:cy");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-103-      this.icon4 = iconregister.func_94245_a("RivalRebels:cy");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-104-      this.icon5 = iconregister.func_94245_a("RivalRebels:cy");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-105-      this.icon6 = iconregister.func_94245_a("RivalRebels:cy");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-106-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoTower.java-107-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java:43:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-44-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-45-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-46-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-47-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-48-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-49-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-50-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-51-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-52-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-53-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-54-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-55-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-56-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-57-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-58-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-59-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-60-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-61-      this.icon1 = iconregister.func_94245_a("RivalRebels:dh");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-62-      this.icon2 = iconregister.func_94245_a("RivalRebels:dh");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-63-      this.icon3 = iconregister.func_94245_a("RivalRebels:de");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-64-      this.icon4 = iconregister.func_94245_a("RivalRebels:de");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-65-      this.icon5 = iconregister.func_94245_a("RivalRebels:de");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-66-      this.icon6 = iconregister.func_94245_a("RivalRebels:de");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-67-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoMarioTrap.java-68-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java:105:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-106-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-107-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-108-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-109-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-110-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-111-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-112-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-113-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-114-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-115-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-116-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-117-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-118-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-119-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-120-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-121-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-122-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-123-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-124-      this.icon2 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-125-      this.icon3 = iconregister.func_94245_a("RivalRebels:bl");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-126-      this.icon4 = iconregister.func_94245_a("RivalRebels:bl");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-127-      this.icon5 = iconregister.func_94245_a("RivalRebels:bl");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-128-      this.icon6 = iconregister.func_94245_a("RivalRebels:bl");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-129-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoBunker.java-130-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java:97:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-98-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-99-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-100-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-101-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-102-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-103-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-104-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-105-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-106-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-107-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-108-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-109-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-110-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-111-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-112-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-113-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-114-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-115-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-116-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-117-      this.icon3 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-118-      this.icon4 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-119-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-120-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-121-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoEaster.java-122-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java:476:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-477-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-478-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-479-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-480-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-481-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-482-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-483-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-484-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-485-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-486-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-487-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-488-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-489-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-490-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-491-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-492-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-493-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-494-      this.icon1 = iconregister.func_94245_a("RivalRebels:cz");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-495-      this.icon2 = iconregister.func_94245_a("RivalRebels:da");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-496-      this.icon3 = iconregister.func_94245_a("RivalRebels:dk");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-497-      this.icon4 = iconregister.func_94245_a("RivalRebels:dk");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-498-      this.icon5 = iconregister.func_94245_a("RivalRebels:dk");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-499-      this.icon6 = iconregister.func_94245_a("RivalRebels:dk");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-500-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockRhodesScaffold.java-501-}
+--
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java:43:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-44-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-45-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-46-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-47-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-48-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-49-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-50-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-51-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-52-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-53-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-54-      } else {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-55-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-56-      }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-57-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-58-
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-59-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-60-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-61-      this.icon1 = iconregister.func_94245_a("RivalRebels:dh");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-62-      this.icon2 = iconregister.func_94245_a("RivalRebels:dh");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-63-      this.icon3 = iconregister.func_94245_a("RivalRebels:dg");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-64-      this.icon4 = iconregister.func_94245_a("RivalRebels:dg");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-65-      this.icon5 = iconregister.func_94245_a("RivalRebels:dg");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-66-      this.icon6 = iconregister.func_94245_a("RivalRebels:dg");
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-67-   }
+decompiled/assets/rivalrebels/common/block/autobuilds/BlockAutoQuickSandTrap.java-68-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-62-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-63-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-64-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-65-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-66-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-67-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-68-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-69-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-70-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-71-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-72-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-73-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-74-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-75-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-76-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-77-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-78-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-79-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-80-      this.icon2 = iconregister.func_94245_a("RivalRebels:bi");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-81-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-82-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-83-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-84-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-85-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox1.java-86-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java:64:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-65-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-66-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-67-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-68-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-69-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-70-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-71-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-72-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-73-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-74-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-75-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-76-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-77-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-78-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-79-
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-80-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-81-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-82-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-83-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-84-      this.icon3 = iconregister.func_94245_a("RivalRebels:az");
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-85-      this.icon4 = iconregister.func_94245_a("RivalRebels:az");
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-86-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-87-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-88-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockOmegaArmor.java-89-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-62-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-63-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-64-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-65-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-66-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-67-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-68-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-69-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-70-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-71-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-72-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-73-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-74-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-75-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-76-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-77-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-78-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-79-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-80-      this.icon2 = iconregister.func_94245_a("RivalRebels:aq");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-81-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-82-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-83-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-84-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-85-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox5.java-86-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-62-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-63-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-64-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-65-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-66-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-67-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-68-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-69-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-70-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-71-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-72-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-73-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-74-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-75-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-76-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-77-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-78-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-79-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-80-      this.icon2 = iconregister.func_94245_a("RivalRebels:aw");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-81-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-82-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-83-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-84-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-85-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox4.java-86-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java:64:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-65-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-66-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-67-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-68-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-69-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-70-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-71-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-72-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-73-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-74-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-75-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-76-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-77-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-78-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-79-
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-80-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-81-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-82-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-83-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-84-      this.icon3 = iconregister.func_94245_a("RivalRebels:bo");
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-85-      this.icon4 = iconregister.func_94245_a("RivalRebels:bo");
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-86-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-87-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-88-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockSigmaArmor.java-89-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java:112:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-113-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-114-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-115-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-116-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-117-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-118-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-119-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-120-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-121-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-122-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-123-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-124-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-125-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-126-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-127-
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-128-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-129-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-130-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-131-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-132-      this.icon3 = iconregister.func_94245_a("RivalRebels:bz");
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-133-      this.icon4 = iconregister.func_94245_a("RivalRebels:bz");
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-134-      this.icon5 = iconregister.func_94245_a("RivalRebels:bz");
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-135-      this.icon6 = iconregister.func_94245_a("RivalRebels:bz");
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-136-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockSupplies.java-137-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java:154:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-155-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-156-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-157-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-158-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-159-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-160-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-161-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-162-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-163-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-164-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-165-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-166-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-167-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-168-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-169-
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-170-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-171-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-172-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-173-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-174-      this.icon3 = iconregister.func_94245_a("RivalRebels:aa");
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-175-      this.icon4 = iconregister.func_94245_a("RivalRebels:aa");
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-176-      this.icon5 = iconregister.func_94245_a("RivalRebels:aa");
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-177-      this.icon6 = iconregister.func_94245_a("RivalRebels:aa");
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-178-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockAmmunition.java-179-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java:89:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-90-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-91-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-92-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-93-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-94-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-95-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-96-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-97-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-98-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-99-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-100-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-101-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-102-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-103-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-104-
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-105-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-106-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-107-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-108-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-109-      this.icon3 = iconregister.func_94245_a("RivalRebels:am");
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-110-      this.icon4 = iconregister.func_94245_a("RivalRebels:am");
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-111-      this.icon5 = iconregister.func_94245_a("RivalRebels:am");
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-112-      this.icon6 = iconregister.func_94245_a("RivalRebels:am");
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-113-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockExplosives.java-114-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java:203:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-204-      return this.icon;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-205-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-206-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-207-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-208-      this.icon = iconregister.func_94245_a(this.texpath);
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-209-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlag.java-210-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-62-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-63-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-64-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-65-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-66-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-67-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-68-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-69-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-70-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-71-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-72-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-73-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-74-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-75-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-76-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-77-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-78-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-79-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-80-      this.icon2 = iconregister.func_94245_a("RivalRebels:ar");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-81-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-82-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-83-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-84-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-85-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox3.java-86-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-62-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-63-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-64-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-65-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-66-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-67-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-68-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-69-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-70-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-71-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-72-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-73-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-74-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-75-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-76-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-77-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-78-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-79-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-80-      this.icon2 = iconregister.func_94245_a("RivalRebels:al");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-81-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-82-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-83-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-84-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-85-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox6.java-86-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java:61:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-62-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-63-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-64-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-65-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-66-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-67-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-68-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-69-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-70-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-71-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-72-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-73-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-74-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-75-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-76-
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-77-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-78-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-79-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-80-      this.icon2 = iconregister.func_94245_a("RivalRebels:aj");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-81-      this.icon3 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-82-      this.icon4 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-83-      this.icon5 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-84-      this.icon6 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-85-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockFlagBox7.java-86-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java:411:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-412-      return this.icon;
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-413-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-414-
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-415-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-416-      if (this == RivalRebels.nukeCrateTop) {
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-417-         this.icon = iconregister.func_94245_a("RivalRebels:ay");
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-418-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-419-
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-420-      if (this == RivalRebels.nukeCrateBottom) {
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-421-         this.icon = iconregister.func_94245_a("RivalRebels:ax");
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-422-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-423-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockNukeCrate.java-424-}
+--
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java:160:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-161-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-162-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-163-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-164-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-165-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-166-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-167-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-168-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-169-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-170-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-171-      } else {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-172-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-173-      }
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-174-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-175-
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-176-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-177-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-178-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-179-      this.icon2 = iconregister.func_94245_a("RivalRebels:ai");
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-180-      this.icon3 = iconregister.func_94245_a("RivalRebels:ce");
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-181-      this.icon4 = iconregister.func_94245_a("RivalRebels:ce");
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-182-      this.icon5 = iconregister.func_94245_a("RivalRebels:ce");
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-183-      this.icon6 = iconregister.func_94245_a("RivalRebels:ce");
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-184-   }
+decompiled/assets/rivalrebels/common/block/crate/BlockWeapons.java-185-}
+--
+decompiled/assets/rivalrebels/common/block/BlockReactive.java:46:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-47-      return side != 0 && side != 1 ? this.icon : this.icontop;
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-48-   }
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-49-
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-50-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-51-      this.icon = iconregister.func_94245_a("RivalRebels:cf");
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-52-      this.icontop = iconregister.func_94245_a("RivalRebels:cn");
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-53-   }
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-54-
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-55-   public TileEntity func_149915_a(World world, int var) {
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-56-      return new TileEntityReactive();
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-57-   }
+decompiled/assets/rivalrebels/common/block/BlockReactive.java-58-}
+--
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java:56:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-57-      return side != 0 && side != 1 ? this.icon1 : this.icon2;
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-58-   }
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-59-
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-60-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-61-      this.icon1 = iconregister.func_94245_a("RivalRebels:ao");
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-62-      this.icon2 = iconregister.func_94245_a("RivalRebels:ap");
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-63-   }
+decompiled/assets/rivalrebels/common/block/BlockForceShield.java-64-}
+--
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java:58:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-59-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-60-   }
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-61-
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-62-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-63-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-64-   }
+decompiled/assets/rivalrebels/common/block/BlockMeltDown.java-65-}
+--
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java:29:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-30-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-31-   }
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-32-
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-33-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-34-      this.icon = iconregister.func_94245_a("RivalRebels:bn");
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-35-   }
+decompiled/assets/rivalrebels/common/block/BlockCamo2.java-36-}
+--
+decompiled/assets/rivalrebels/common/block/BlockConduit.java:60:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-61-      if (meta == 1) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-62-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-63-      } else if (meta == 2) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-64-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-65-      } else if (meta == 3) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-66-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-67-      } else if (meta == 4) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-68-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-69-      } else if (meta == 5) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-70-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-71-      } else if (meta == 6) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-72-         return this.icon6;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-73-      } else if (meta == 7) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-74-         return this.icon7;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-75-      } else if (meta == 8) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-76-         return this.icon8;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-77-      } else {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-78-         return meta == 9 ? this.icon9 : this.icon1;
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-79-      }
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-80-   }
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-81-
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-82-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-83-      this.icon1 = iconregister.func_94245_a("RivalRebels:co");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-84-      this.icon2 = iconregister.func_94245_a("RivalRebels:cp");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-85-      this.icon3 = iconregister.func_94245_a("RivalRebels:cq");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-86-      this.icon4 = iconregister.func_94245_a("RivalRebels:cr");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-87-      this.icon5 = iconregister.func_94245_a("RivalRebels:cs");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-88-      this.icon6 = iconregister.func_94245_a("RivalRebels:ct");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-89-      this.icon7 = iconregister.func_94245_a("RivalRebels:cu");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-90-      this.icon8 = iconregister.func_94245_a("RivalRebels:cv");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-91-      this.icon9 = iconregister.func_94245_a("RivalRebels:cw");
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-92-   }
+decompiled/assets/rivalrebels/common/block/BlockConduit.java-93-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java:113:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-114-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-115-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-116-
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-117-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-118-      this.icon = iconregister.func_94245_a("RivalRebels:di");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-119-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockForceField.java-120-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java:130:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-131-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-132-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-133-
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-134-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-135-      this.icon = iconregister.func_94245_a("RivalRebels:av");
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-136-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockLoader.java-137-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java:81:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-82-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-83-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-84-
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-85-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-86-      this.icon = iconregister.func_94245_a("RivalRebels:dj");
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-87-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockReciever.java-88-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java:72:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-73-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-74-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-75-
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-76-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-77-      this.icon = iconregister.func_94245_a("RivalRebels:ba");
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-78-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockOmegaObjective.java-79-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java:96:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-97-      if (meta == 0) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-98-         if (side == 0 || side == 1) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-99-            return this.icontop2;
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-100-         } else {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-101-            return side == 4 ? this.icon2 : this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-102-         }
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-103-      } else if (side != 0 && side != 1) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-104-         return side == meta ? this.icon2 : this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-105-      } else {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-106-         return meta == 3 ? this.icontop1 : (meta == 4 ? this.icontop2 : (meta == 2 ? this.icontop3 : this.icontop4));
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-107-      }
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-108-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-109-
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-110-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-111-      this.icon = iconregister.func_94245_a("RivalRebels:cf");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-112-      this.icon2 = iconregister.func_94245_a("RivalRebels:cg");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-113-      this.icontop1 = iconregister.func_94245_a("RivalRebels:cj");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-114-      this.icontop2 = iconregister.func_94245_a("RivalRebels:ck");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-115-      this.icontop3 = iconregister.func_94245_a("RivalRebels:cl");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-116-      this.icontop4 = iconregister.func_94245_a("RivalRebels:cm");
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-117-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockForceFieldNode.java-118-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java:65:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-66-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-67-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-68-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-69-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-70-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-71-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-72-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-73-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-74-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-75-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-76-      } else {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-77-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-78-      }
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-79-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-80-
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-81-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-82-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-83-      this.icon1 = iconregister.func_94245_a("RivalRebels:ca");
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-84-      this.icon2 = iconregister.func_94245_a("RivalRebels:cc");
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-85-      this.icon3 = iconregister.func_94245_a("RivalRebels:cb");
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-86-      this.icon4 = iconregister.func_94245_a("RivalRebels:ca");
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-87-      this.icon5 = iconregister.func_94245_a("RivalRebels:ca");
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-88-      this.icon6 = iconregister.func_94245_a("RivalRebels:ca");
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-89-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockBreadBox.java-90-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java:96:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-97-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-98-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-99-
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-100-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-101-      this.icon = iconregister.func_94245_a("RivalRebels:dc");
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-102-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockLaptop.java-103-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java:39:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-40-      return side != 0 && side != 1 ? this.icon : this.icontop;
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-41-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-42-
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-43-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-44-      this.icon = iconregister.func_94245_a("RivalRebels:ci");
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-45-      this.icontop = iconregister.func_94245_a("RivalRebels:ch");
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-46-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockRhodesActivator.java-47-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java:72:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-73-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-74-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-75-
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-76-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-77-      this.icon = iconregister.func_94245_a("RivalRebels:bp");
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-78-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockSigmaObjective.java-79-}
+--
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java:102:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-103-      return this.icon;
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-104-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-105-
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-106-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-107-      this.icon = iconregister.func_94245_a("RivalRebels:bj");
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-108-   }
+decompiled/assets/rivalrebels/common/block/machine/BlockReactor.java-109-}
+--
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java:47:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-48-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-49-   }
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-50-
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-51-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-52-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-53-   }
+decompiled/assets/rivalrebels/common/block/BlockPlasmaExplosion.java-54-}
+--
+decompiled/assets/rivalrebels/common/block/BlockLight.java:59:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockLight.java-60-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockLight.java-61-   }
+decompiled/assets/rivalrebels/common/block/BlockLight.java-62-
+decompiled/assets/rivalrebels/common/block/BlockLight.java-63-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockLight.java-64-      this.icon = iconregister.func_94245_a("RivalRebels:ad");
+decompiled/assets/rivalrebels/common/block/BlockLight.java-65-   }
+decompiled/assets/rivalrebels/common/block/BlockLight.java-66-}
+--
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java:29:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-30-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-31-   }
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-32-
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-33-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-34-      this.icon = iconregister.func_94245_a("RivalRebels:as");
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-35-   }
+decompiled/assets/rivalrebels/common/block/BlockCamo1.java-36-}
+--
+decompiled/assets/rivalrebels/common/block/BlockSteel.java:60:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-61-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-62-   }
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-63-
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-64-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-65-      this.icon = iconregister.func_94245_a("RivalRebels:bx");
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-66-   }
+decompiled/assets/rivalrebels/common/block/BlockSteel.java-67-}
+--
+decompiled/assets/rivalrebels/common/block/BlockGore.java:106:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-107-      if (meta == 0) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-108-         return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockGore.java-109-      } else if (meta == 1) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-110-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/BlockGore.java-111-      } else if (meta == 2) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-112-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/BlockGore.java-113-      } else if (meta == 3) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-114-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/BlockGore.java-115-      } else if (meta == 4) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-116-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/BlockGore.java-117-      } else {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-118-         return meta == 5 ? this.icon6 : this.icon;
+decompiled/assets/rivalrebels/common/block/BlockGore.java-119-      }
+decompiled/assets/rivalrebels/common/block/BlockGore.java-120-   }
+decompiled/assets/rivalrebels/common/block/BlockGore.java-121-
+decompiled/assets/rivalrebels/common/block/BlockGore.java-122-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockGore.java-123-      this.icon = iconregister.func_94245_a("RivalRebels:br");
+decompiled/assets/rivalrebels/common/block/BlockGore.java-124-      this.icon2 = iconregister.func_94245_a("RivalRebels:bs");
+decompiled/assets/rivalrebels/common/block/BlockGore.java-125-      this.icon3 = iconregister.func_94245_a("RivalRebels:bt");
+decompiled/assets/rivalrebels/common/block/BlockGore.java-126-      this.icon4 = iconregister.func_94245_a("RivalRebels:bu");
+decompiled/assets/rivalrebels/common/block/BlockGore.java-127-      this.icon5 = iconregister.func_94245_a("RivalRebels:bv");
+decompiled/assets/rivalrebels/common/block/BlockGore.java-128-      this.icon6 = iconregister.func_94245_a("RivalRebels:bw");
+decompiled/assets/rivalrebels/common/block/BlockGore.java-129-   }
+decompiled/assets/rivalrebels/common/block/BlockGore.java-130-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-70-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-71-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-72-
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-73-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-74-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-75-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockAntimatterBomb.java-76-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java:90:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-91-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-92-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-93-
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-94-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-95-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-96-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockToxicGas.java-97-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java:164:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java-165-      return this == RivalRebels.aquicksand ? Blocks.field_150354_m.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java-166-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java-167-
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java-168-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java-169-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockQuickSand.java-170-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java:157:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-158-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-159-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-160-
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-161-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-162-      this.icon = iconregister.func_94245_a("RivalRebels:an");
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-163-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockFlare.java-164-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java:77:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-78-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-79-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-80-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-81-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-82-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-83-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-84-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-85-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-86-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-87-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-88-      } else {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-89-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-90-      }
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-91-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-92-
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-93-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-94-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-95-      this.icon1 = iconregister.func_94245_a("RivalRebels:bh");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-96-      this.icon2 = iconregister.func_94245_a("RivalRebels:bh");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-97-      this.icon3 = iconregister.func_94245_a("RivalRebels:bg");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-98-      this.icon4 = iconregister.func_94245_a("RivalRebels:bg");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-99-      this.icon5 = iconregister.func_94245_a("RivalRebels:bg");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-100-      this.icon6 = iconregister.func_94245_a("RivalRebels:bg");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-101-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedWood.java-102-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java:57:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-58-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-59-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-60-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-61-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-62-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-63-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-64-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-65-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-66-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-67-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-68-      } else {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-69-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-70-      }
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-71-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-72-
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-73-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-74-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-75-      this.icon1 = iconregister.func_94245_a("RivalRebels:ah");
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-76-      this.icon2 = iconregister.func_94245_a("RivalRebels:au");
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-77-      this.icon3 = iconregister.func_94245_a("RivalRebels:at");
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-78-      this.icon4 = iconregister.func_94245_a("RivalRebels:at");
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-79-      this.icon5 = iconregister.func_94245_a("RivalRebels:at");
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-80-      this.icon6 = iconregister.func_94245_a("RivalRebels:at");
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-81-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockJump.java-82-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-70-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-71-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-72-
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-73-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-74-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-75-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTachyonBomb.java-76-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java:32:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java-33-      return Blocks.field_150354_m.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java-34-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java-35-
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java-36-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java-37-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveSand.java-38-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-70-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-71-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-72-
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-73-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-74-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-75-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTsarBomba.java-76-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java:136:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-137-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-138-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-139-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-140-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-141-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-142-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-143-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-144-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-145-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-146-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-147-      } else {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-148-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-149-      }
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-150-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-151-
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-152-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-153-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-154-      this.icon1 = iconregister.func_94245_a("RivalRebels:ag");
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-155-      this.icon2 = iconregister.func_94245_a("RivalRebels:ag");
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-156-      this.icon3 = iconregister.func_94245_a("RivalRebels:af");
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-157-      this.icon4 = iconregister.func_94245_a("RivalRebels:af");
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-158-      this.icon5 = iconregister.func_94245_a("RivalRebels:af");
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-159-      this.icon6 = iconregister.func_94245_a("RivalRebels:af");
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-160-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-161-
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-162-   public void onFinishFalling(World par1World, int par2, int par3, int par4, int par5) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-163-      explode(par1World, par2, par3, par4);
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-164-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRemoteCharge.java-165-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java:79:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-80-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-81-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-82-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-83-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-84-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-85-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-86-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-87-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-88-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-89-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-90-      } else {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-91-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-92-      }
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-93-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-94-
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-95-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-96-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-97-      this.icon1 = iconregister.func_94245_a("RivalRebels:b" + this.type);
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-98-      this.icon2 = iconregister.func_94245_a("RivalRebels:b" + this.type);
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-99-      this.icon3 = iconregister.func_94245_a("RivalRebels:bb");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-100-      this.icon4 = iconregister.func_94245_a("RivalRebels:bb");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-101-      this.icon5 = iconregister.func_94245_a("RivalRebels:bb");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-102-      this.icon6 = iconregister.func_94245_a("RivalRebels:bb");
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-103-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockPetrifiedStone.java-104-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java:83:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-84-      if (side == 0) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-85-         return this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-86-      } else if (side == 1) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-87-         return this.icon2;
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-88-      } else if (side == 2) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-89-         return this.icon3;
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-90-      } else if (side == 3) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-91-         return this.icon4;
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-92-      } else if (side == 4) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-93-         return this.icon5;
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-94-      } else {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-95-         return side == 5 ? this.icon6 : this.icon1;
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-96-      }
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-97-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-98-
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-99-   @SideOnly(Side.CLIENT)
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-100-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-101-      this.icon1 = iconregister.func_94245_a("RivalRebels:ac");
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-102-      this.icon2 = iconregister.func_94245_a("RivalRebels:ae");
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-103-      this.icon3 = iconregister.func_94245_a("RivalRebels:ac");
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-104-      this.icon4 = iconregister.func_94245_a("RivalRebels:ac");
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-105-      this.icon5 = iconregister.func_94245_a("RivalRebels:ab");
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-106-      this.icon6 = iconregister.func_94245_a("RivalRebels:ab");
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-107-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-108-
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-109-   public void onFinishFalling(World par1World, int par2, int par3, int par4, int par5) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-110-      par1World.func_147449_b(par2, par3, par4, Blocks.field_150350_a);
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-111-      new assets.rivalrebels.common.explosion.Explosion(
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-112-         par1World, par2 + 0.5F, par3 + 0.5F, par4 + 0.5F, RivalRebels.timedbombExplodeSize, false, true, RivalRebelsDamageSource.timebomb
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-113-      );
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-114-      RivalRebelsSoundPlayer.playSound(par1World, 26, 0, par2 + 0.5F, par3 + 0.5F, par4 + 0.5F, 2.0F, 0.3F);
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-115-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTimedBomb.java-116-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java:32:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java-33-      return Blocks.field_150346_d.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java-34-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java-35-
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java-36-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java-37-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockRadioactiveDirt.java-38-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java:181:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-182-      return Blocks.field_150349_c.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-183-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-184-
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-185-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-186-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-187-
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-188-   public ItemStack getPickBlock(MovingObjectPosition target, World world, int x, int y, int z, EntityPlayer player) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-189-      return new ItemStack(RivalRebels.alandmine);
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-190-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-191-
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-192-   public void onFinishFalling(World par1World, int x, int y, int z, int par5) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-193-      if (!par1World.field_72995_K) {
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-194-         par1World.func_72876_a(null, x, y + 2.5F, z, RivalRebels.landmineExplodeSize, true);
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-195-      }
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-196-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockLandMine.java-197-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java:160:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java-161-      return this == RivalRebels.amario ? Blocks.field_150351_n.func_149691_a(side, meta) : Blocks.field_150349_c.func_149691_a(side, meta);
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java-162-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java-163-
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java-164-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java-165-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockMario.java-166-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java:69:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-70-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-71-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-72-
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-73-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-74-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-75-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockTheoreticalTsarBomba.java-76-}
+--
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java:100:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-101-      return this.icon;
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-102-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-103-
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-104-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-105-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-106-   }
+decompiled/assets/rivalrebels/common/block/trap/BlockNuclearBomb.java-107-}
+--
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java:29:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-30-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-31-   }
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-32-
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-33-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-34-      this.icon = iconregister.func_94245_a("RivalRebels:by");
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-35-   }
+decompiled/assets/rivalrebels/common/block/BlockCamo3.java-36-}
+--
+decompiled/assets/rivalrebels/common/block/BlockCycle.java:45:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-46-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-47-   }
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-48-
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-49-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-50-      this.icon = iconregister.func_94245_a("RivalRebels:ak");
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-51-   }
+decompiled/assets/rivalrebels/common/block/BlockCycle.java-52-}
+--
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java:55:   public final IIcon func_149691_a(int side, int meta) {
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-56-      return this.icon;
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-57-   }
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-58-
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-59-   public void func_149651_a(IIconRegister iconregister) {
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-60-      this.icon = iconregister.func_94245_a("RivalRebels:bq");
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-61-   }
+decompiled/assets/rivalrebels/common/block/BlockSmartCamo.java-62-}
